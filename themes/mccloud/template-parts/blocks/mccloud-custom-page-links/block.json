@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Page Links",
+  "title": "McCloud Custom Page Links",
+  "description": "A custom McCloud Page Links block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["links", "custom page links"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

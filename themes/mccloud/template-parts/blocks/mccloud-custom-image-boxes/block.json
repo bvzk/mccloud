@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Image Boxes",
+  "title": "McCloud Custom Image Boxes",
+  "description": "A custom McCloud Image Boxes block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["image", "custom image boxes"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

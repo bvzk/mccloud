@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Paragraph",
+  "title": "McCloud Custom Paragraph",
+  "description": "A custom McCloud Paragraph block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["paragraph", "custom paragraph"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Services List",
+  "title": "McCloud Custom Services List",
+  "description": "A custom McCloud Services List block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["services", "custom services list"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

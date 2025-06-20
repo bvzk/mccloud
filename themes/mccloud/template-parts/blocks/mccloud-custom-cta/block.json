@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom CTA",
+  "title": "McCloud Custom CTA",
+  "description": "A custom McCloud CTA block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["cta", "custom cta"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

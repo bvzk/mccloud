@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Notice",
+  "title": "McCloud Custom Notice",
+  "description": "A custom McCloud Notice block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["notice", "custom notice"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

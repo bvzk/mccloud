@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Pricing",
+  "title": "McCloud Custom Pricing",
+  "description": "A custom McCloud Pricing block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["pricing", "custom pricing"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

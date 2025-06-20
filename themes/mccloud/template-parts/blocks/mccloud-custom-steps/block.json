@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Steps",
+  "title": "McCloud Custom Steps",
+  "description": "A custom McCloud Steps block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["steps", "custom steps"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

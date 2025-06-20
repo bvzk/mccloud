@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Icon Boxes",
+  "title": "McCloud Custom Icon Boxes",
+  "description": "A custom McCloud Icon Boxes block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["icon", "custom icon boxes"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

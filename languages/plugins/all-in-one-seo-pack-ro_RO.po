@@ -1,0 +1,6258 @@
+# Translation of Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-11 14:45:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - All in One SEO – Powerful SEO Plugin to Boost SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: app/Common/Standalone/BuddyPress/Tags.php:228
+msgctxt "BuddyPress"
+msgid "The group description."
+msgstr "Descrierea grupului."
+
+#: app/Common/Standalone/BuddyPress/Tags.php:227
+msgctxt "BuddyPress"
+msgid "Group Description"
+msgstr "Descriere grup"
+
+#: app/Common/Standalone/BuddyPress/Tags.php:222
+msgctxt "BuddyPress"
+msgid "The group name."
+msgstr "Numele grupului."
+
+#: app/Common/Standalone/BuddyPress/Tags.php:221
+msgctxt "BuddyPress"
+msgid "Group Name"
+msgstr "Nume grup"
+
+#. Translators: 1 - The hard coded string 'BuddyPress'.
+#: app/Common/Standalone/BuddyPress/BuddyPress.php:294
+msgctxt "BuddyPress"
+msgid "Groups (%1$s)"
+msgstr "Grupuri (%1$s)"
+
+#. Translators: 1 - The hard coded string 'BuddyPress'.
+#: app/Common/Standalone/BuddyPress/BuddyPress.php:263
+msgctxt "BuddyPress"
+msgid "Activities (%1$s)"
+msgstr "Activități (%1$s)"
+
+#: languages/aioseo-lite.php:8511
+msgid "View in Google"
+msgstr "Vezi în Google"
+
+#: languages/aioseo-lite.php:9140
+msgid "Your Content"
+msgstr "Conținutul tău"
+
+#: languages/aioseo-lite.php:6846
+msgid "Sort By"
+msgstr "Sortează după"
+
+#: languages/aioseo-lite.php:6346
+msgid "See All"
+msgstr "Vezi tot"
+
+#: languages/aioseo-lite.php:6070
+msgid "Reports"
+msgstr "Rapoarte"
+
+#: languages/aioseo-lite.php:4695
+msgid "Moderate"
+msgstr "Moderează"
+
+#: languages/aioseo-lite.php:3836
+msgid "Importance"
+msgstr "Importanță"
+
+#: languages/aioseo-lite.php:3178
+msgid "Generating Report..."
+msgstr "Generez raportul..."
+
+#: languages/aioseo-lite.php:3175
+msgid "Generating Report For"
+msgstr "Generez raportul pentru"
+
+#: languages/aioseo-lite.php:3168
+msgid "Generate Report"
+msgstr "Generează raportul"
+
+#: languages/aioseo-lite.php:3157
+msgid "Generate a Report"
+msgstr "Generează un raport"
+
+#: languages/aioseo-lite.php:2179
+msgid "Default Region"
+msgstr "Regiune implicită"
+
+#: languages/aioseo-lite.php:2160
+msgid "Default Language"
+msgstr "Limbă implicită"
+
+#: languages/aioseo-lite.php:1969
+msgid "Create a Free Account"
+msgstr "Creează un cont gratuit"
+
+#: languages/aioseo-lite.php:1686
+msgid "Click to Sort..."
+msgstr "Dă clic pentru a sorta..."
+
+#: app/Common/WritingAssistant/SeoBoost/Service.php:36
+msgid "Missing parameters"
+msgstr "Lipsesc parametrii"
+
+#: app/Common/Api/WritingAssistant.php:35
+msgid "Missing data to generate a report"
+msgstr "Lipsesc datele pentru a genera un raport"
+
+#: languages/aioseo-lite.php:6568
+msgid "SEO Title/Description"
+msgstr "Titlu/descriere SEO"
+
+#: languages/aioseo-lite.php:2818
+msgid "Export Content"
+msgstr "Exportă conținutul"
+
+#: languages/aioseo-lite.php:2812
+msgid "Export As"
+msgstr "Exportă ca"
+
+#: languages/aioseo-lite.php:2809
+msgid "Export All Taxonomies"
+msgstr "Exportă toate taxonomiile"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Lite/Main/Filters.php:40
+msgid "Rate %1$s"
+msgstr "Evaluează %1$s"
+
+#: app/Common/Views/report/summary.php:871
+msgid "Issues"
+msgstr "Probleme"
+
+#: app/Common/Views/report/summary.php:746
+msgid "Posts to Optimize"
+msgstr "Articole de optimizat"
+
+#: app/Common/Views/report/summary.php:594
+msgid "Content Summary"
+msgstr "Rezumat conținut"
+
+#: app/Common/Views/report/summary.php:128
+msgid "SEO Report"
+msgstr "Raport SEO"
+
+#: app/Common/EmailReports/Summary/Summary.php:250
+msgid "See All Resources"
+msgstr "Vezi toate resursele"
+
+#: app/Common/EmailReports/Summary/Content.php:435
+msgid "Create New Post"
+msgstr "Creează un articol nou"
+
+#: app/Common/Tools/BadBotBlocker.php:226
+msgid "Unknown User Agent"
+msgstr "Agent utilizator necunoscut"
+
+#: languages/aioseo-lite.php:790
+msgid "All Keywords"
+msgstr "Toate cuvintele cheie"
+
+#: languages/aioseo-lite.php:1991
+msgid "CSV"
+msgstr "CSV"
+
+#: languages/aioseo-lite.php:580
+msgid "Add Keywords"
+msgstr "Adaugă cuvinte cheie"
+
+#: languages/aioseo-lite.php:604
+msgid "Add to Group"
+msgstr "Adaugă în grup"
+
+#: app/Lite/Views/taxonomy-upsell.php:876
+msgid "Bonus:"
+msgstr "Bonus:"
+
+#: app/Common/Standalone/AdminBarNoindexWarning.php:78
+#: languages/aioseo-lite.php:6278
+msgid "Search Engines Blocked!"
+msgstr "Motoarele de căutare sunt blocate!"
+
+#: languages/aioseo-lite.php:3024
+msgid "Follow on X (Twitter)"
+msgstr "Urmărește pe X (Twitter)"
+
+#: languages/aioseo-lite.php:8911
+msgid "Yearly"
+msgstr "Anual"
+
+#: languages/aioseo-lite.php:8691
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: languages/aioseo-lite.php:5135
+msgid "Number of Employees"
+msgstr "Număr de angajați"
+
+#: languages/aioseo-lite.php:4716
+msgid "Monthly"
+msgstr "Lunar"
+
+#: languages/aioseo-lite.php:2067
+msgid "Daily"
+msgstr "Zilnic"
+
+#: languages/aioseo-lite.php:3718
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: languages/aioseo-lite.php:2958
+msgid "Fix Errors"
+msgstr "Corectează erorile"
+
+#: app/Common/SearchStatistics/Notices.php:151
+msgid "Your sitemap has errors."
+msgstr "Harta ta site are erori."
+
+#: app/Common/SearchStatistics/Notices.php:113 languages/aioseo-lite.php:5929
+msgid "Reconnect Google Search Console"
+msgstr "Reconectează Google Search Console"
+
+#: languages/aioseo-lite.php:7605
+msgid "This action will unblock this query arg."
+msgstr "Această acțiune va debloca acest argument de interogare."
+
+#: languages/aioseo-lite.php:7602
+msgid "This action will unblock the selected query args."
+msgstr "Această acțiune va debloca argumentele de interogare selectate."
+
+#: languages/aioseo-lite.php:7599
+msgid "This action will permanently remove this query arg."
+msgstr "Această acțiune va înlătura definitiv acest argument de interogare."
+
+#: languages/aioseo-lite.php:7596
+msgid "This action will permanently remove the selected query args."
+msgstr "Această acțiune va înlătura definitiv argumentele de interogare selectate."
+
+#: languages/aioseo-lite.php:7585
+msgid "This action will block this query arg."
+msgstr "Această acțiune va bloca acest argument de interogare."
+
+#: languages/aioseo-lite.php:7582
+msgid "This action will block the selected query args."
+msgstr "Această acțiune va bloca argumentele de interogare selectate."
+
+#: languages/aioseo-lite.php:7387
+msgid "The query arg you've entered is already being blocked."
+msgstr "Argumentul de interogare pe care l-ai introdus este deja blocat."
+
+#: languages/aioseo-lite.php:7384
+msgid "The query arg has been successfully unblocked."
+msgstr "Argumentul de interogare a fost deblocat cu succes."
+
+#: languages/aioseo-lite.php:7381
+msgid "The query arg has been successfully deleted."
+msgstr "Argumentul de interogare a fost șters cu succes."
+
+#: languages/aioseo-lite.php:5843
+msgid "Query Arg Monitoring"
+msgstr "Monitorizare argumente de interogare"
+
+#: languages/aioseo-lite.php:8057
+msgid "Unblock Query Args"
+msgstr "Deblochează argumentele de interogare"
+
+#: languages/aioseo-lite.php:8054
+msgid "Unblock Query Arg"
+msgstr "Deblochează argumentul de interogare"
+
+#: languages/aioseo-lite.php:2719
+msgid "Enter one or multiple values"
+msgstr "Introdu una sau mai multe valori"
+
+#: languages/aioseo-lite.php:2240
+msgid "Delete Query Args"
+msgstr "Șterge argumentele de interogare"
+
+#: languages/aioseo-lite.php:2237
+msgid "Delete Query Arg"
+msgstr "Șterge argumentul de interogare"
+
+#: languages/aioseo-lite.php:1333
+msgid "Block Query Args"
+msgstr "Blochează argumentele de interogare"
+
+#: languages/aioseo-lite.php:1330
+msgid "Block Query Arg"
+msgstr "Blochează argumentul de interogare"
+
+#: languages/aioseo-lite.php:1058
+msgid "Are you sure you want to unblock these query args?"
+msgstr "Sigur vrei să deblochezi aceste argumente de interogare?"
+
+#: languages/aioseo-lite.php:1007
+msgid "Are you sure you want to block this query arg?"
+msgstr "Sigur vrei să blochezi acest argument de interogare?"
+
+#: languages/aioseo-lite.php:481
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: languages/aioseo-lite.php:1061
+msgid "Are you sure you want to unblock this query arg?"
+msgstr "Sigur vrei să deblochezi aceste argumente de interogare?"
+
+#: languages/aioseo-lite.php:1004
+msgid "Are you sure you want to block these query args?"
+msgstr "Sigur vrei să blochezi aceste argumente de interogare?"
+
+#: app/Common/Utils/Tags.php:529
+msgid "Post link (link as anchor text)."
+msgstr "Legătură la articol (legătură ca text ancoră)."
+
+#: app/Common/Utils/Tags.php:522
+msgid "Post link (name as anchor text)."
+msgstr "Legătură la articol (nume ca text ancoră)."
+
+#: app/Common/Utils/Tags.php:459
+msgid "The featured image of the current page/post."
+msgstr "Imaginea reprezentativă a paginii curente/articolului curent."
+
+#: languages/aioseo-lite.php:8895
+msgid "X Title"
+msgstr "Titlu X"
+
+#: languages/aioseo-lite.php:8892
+msgid "X Image"
+msgstr "Imagine X"
+
+#: languages/aioseo-lite.php:8889
+msgid "X Description"
+msgstr "Descriere X"
+
+#: languages/aioseo-lite.php:8880
+msgid "X (Twitter) Preview"
+msgstr "Previzualizare X (Twitter)"
+
+#: languages/aioseo-lite.php:8874
+msgid "X (Twitter)"
+msgstr "X (Twitter)"
+
+#: languages/aioseo-lite.php:8775
+msgid "Widgets"
+msgstr "Piese"
+
+#: languages/aioseo-lite.php:6199
+msgid "Schedule"
+msgstr "Programează"
+
+#: languages/aioseo-lite.php:5748
+msgid "Press enter to insert a URL"
+msgstr "Apasă Enter pentru a insera un URL"
+
+#: languages/aioseo-lite.php:4104
+msgid "IP Address"
+msgstr "Adresă IP"
+
+#: languages/aioseo-lite.php:3477
+msgid "Gutenberg Blocks"
+msgstr "Blocuri Gutenberg"
+
+#: languages/aioseo-lite.php:1414
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: app/Common/Admin/DeactivationSurvey.php:151
+msgid "Please select an option"
+msgstr "Te rog să selectezi o opțiune"
+
+#: languages/aioseo-lite.php:574
+msgid "Add Item"
+msgstr "Adaugă element"
+
+#: languages/aioseo-lite.php:8958
+msgid "Yoast SEO"
+msgstr "Yoast SEO"
+
+#: languages/aioseo-lite.php:6577
+msgid "SEOPress"
+msgstr "SEOPress"
+
+#: languages/aioseo-lite.php:5868
+msgid "Rank Math SEO"
+msgstr "Rank Math SEO"
+
+#: languages/aioseo-lite.php:4007
+msgid "Install Free Plugin"
+msgstr "Instalează modulul gratuit"
+
+#: languages/aioseo-lite.php:583
+msgid "Add License Key"
+msgstr "Adaugă cheia de licență"
+
+#: languages/aioseo-lite.php:6597
+msgid "Server error (5xx)"
+msgstr "Eroare server (5xx)"
+
+#: languages/aioseo-lite.php:5954
+msgid "Redirection error"
+msgstr "Eroare la redirecționare"
+
+#: languages/aioseo-lite.php:4291
+msgid "Last Crawl:"
+msgstr "Ultima accesare cu crawlere:"
+
+#: languages/aioseo-lite.php:4101
+msgid "Invalid URL"
+msgstr "URL-ul nu este valid"
+
+#: languages/aioseo-lite.php:4067
+msgid "Internal error"
+msgstr "Eroare internă"
+
+#: languages/aioseo-lite.php:2624
+msgid "Enable Post Types"
+msgstr "Activează tipurile de articol"
+
+#: languages/aioseo-lite.php:8179
+msgid "Unlock Video Sitemaps"
+msgstr "Deblochează hărțile site video"
+
+#: languages/aioseo-lite.php:8176
+msgid "Unlock SEO Revisions"
+msgstr "Deblochează reviziile SEO"
+
+#: languages/aioseo-lite.php:8161
+msgid "Unlock Redirects"
+msgstr "Deblochează redirecționările"
+
+#: languages/aioseo-lite.php:8158
+msgid "Unlock Post Tracking"
+msgstr "Deblochează urmărirea articolelor"
+
+#: languages/aioseo-lite.php:8117
+msgid "Unlock Custom Fields"
+msgstr "Deblochează câmpurile personalizate"
+
+#: languages/aioseo-lite.php:8108
+msgid "Unlock All Features"
+msgstr "Deblochează toate funcționalitățile"
+
+#. Translators: 1 - "PRO".
+#: languages/aioseo-lite.php:7649
+msgid "This is a %1$s Feature"
+msgstr "Aceasta este o funcționalitate %1$s"
+
+#: app/Common/Tools/SystemStatus.php:269
+msgid "Database Version"
+msgstr "Versiune bază de date"
+
+#: app/Common/Tools/SystemStatus.php:150
+msgid "Database Size"
+msgstr "Dimensiune bază de date"
+
+#: app/Common/Tools/SystemStatus.php:147
+msgid "Database"
+msgstr "Bază de date"
+
+#: languages/aioseo-lite.php:8203
+msgid "Update Page"
+msgstr "Actualizează pagina"
+
+#: languages/aioseo-lite.php:9043
+msgid "You have 1 more notification"
+msgstr "Ai încă o notificare"
+
+#: languages/aioseo-lite.php:3679
+msgid "https://any-domain.com/robots.txt"
+msgstr "https://any-domain.com/robots.txt"
+
+#: languages/aioseo-lite.php:3315
+msgid "Go to editor"
+msgstr "Mergi la editor"
+
+#: languages/aioseo-lite.php:4011
+msgid "Install WPCode"
+msgstr "Instalează WPCode"
+
+#: app/Common/SearchStatistics/SearchStatistics.php:529
+#: app/Common/SearchStatistics/SearchStatistics.php:1149
+msgid "All Content Types"
+msgstr "Toate tipurile de conținut"
+
+#: languages/aioseo-lite.php:1944
+msgid "Country code"
+msgstr "Cod de țară"
+
+#: languages/aioseo-lite.php:1585
+msgid "Choose country"
+msgstr "Alege țara"
+
+#: languages/aioseo-lite.php:3089
+msgid "Free Plugins"
+msgstr "Module gratuite"
+
+#: languages/aioseo-lite.php:7762
+msgid "title"
+msgstr "titlu"
+
+#: languages/aioseo-lite.php:7140
+msgid "The API key you have entered is invalid. Please check your API key and try again."
+msgstr "Cheia API pe care ai introdus-o nu este validă. Verifică cheia API și încearcă din nou."
+
+#: languages/aioseo-lite.php:7803
+msgid "Titles"
+msgstr "Titluri"
+
+#: languages/aioseo-lite.php:5260
+msgid "OpenAI API Key"
+msgstr "Cheie API OpenAI"
+
+#: languages/aioseo-lite.php:4638
+msgid "meta descriptions"
+msgstr "descrieri meta"
+
+#: languages/aioseo-lite.php:4337
+msgid "Learn more about all the features"
+msgstr "Află mai multe despre toate funcționalitățile"
+
+#: languages/aioseo-lite.php:2280
+msgid "Descriptions"
+msgstr "Descrieri"
+
+#: languages/aioseo-lite.php:8294
+msgid "Use AI Generator"
+msgstr "Folosește generatorul AI"
+
+#: languages/aioseo-lite.php:8948
+msgid "Yes, I want to disconnect"
+msgstr "Da, vreau să deconectez"
+
+#: languages/aioseo-lite.php:5926
+msgid "Reconnect"
+msgstr "Reconectează"
+
+#: app/Common/EmailReports/Summary/Content.php:651
+#: languages/aioseo-lite.php:5628
+msgid "Position"
+msgstr "Poziție"
+
+#: languages/aioseo-lite.php:2351
+msgid "Disconnect"
+msgstr "Deconectează"
+
+#: app/Common/Views/report/summary.php:169
+#: app/Common/Views/report/summary.php:266
+#: app/Common/Views/report/summary.php:369
+#: app/Common/Views/report/summary.php:446 languages/aioseo-lite.php:1694
+msgid "Clicks"
+msgstr "Clicuri"
+
+#: languages/aioseo-lite.php:9360
+msgid "Your URL is invalid."
+msgstr "URL-ul nu este valid."
+
+#: languages/aioseo-lite.php:9337
+msgid "Your target URL is not valid."
+msgstr "URL-ul pentru destinație nu este valid."
+
+#: languages/aioseo-lite.php:7948
+msgid "Total Keywords"
+msgstr "Total fraze cheie"
+
+#: languages/aioseo-lite.php:7942
+msgid "Total Clicks"
+msgstr "Total clicuri"
+
+#: languages/aioseo-lite.php:7924
+msgid "Top Pages"
+msgstr "Cele mai bune pagini"
+
+#: languages/aioseo-lite.php:6558
+msgid "SEO Statistics"
+msgstr "Statistici SEO"
+
+#: languages/aioseo-lite.php:4285
+msgid "Last 7 Days"
+msgstr "Ultimele 7 zile"
+
+#: languages/aioseo-lite.php:4281
+msgid "Last 6 Months"
+msgstr "Ultimele 6 luni"
+
+#: languages/aioseo-lite.php:4278
+msgid "Last 3 Months"
+msgstr "Ultimele 3 luni"
+
+#: languages/aioseo-lite.php:4274
+msgid "Last 28 Days"
+msgstr "Ultimele 28 de zile"
+
+#: languages/aioseo-lite.php:3885
+msgid "in search results"
+msgstr "în rezultatele de căutare"
+
+#: languages/aioseo-lite.php:3406
+msgid "Google Search Console Integration"
+msgstr "Integrare cu Google Search Console"
+
+#: languages/aioseo-lite.php:1217
+msgid "Avg. Position"
+msgstr "Poziție medie"
+
+#. Translators: 1 - The number of points.
+#: languages/aioseo-lite.php:332
+msgid "%s point"
+msgid_plural "%s points"
+msgstr[0] "%s punct"
+msgstr[1] "%s puncte"
+msgstr[2] "%s de puncte"
+
+#. Translators: 1 - The number of clicks.
+#: languages/aioseo-lite.php:320
+msgid "%s click"
+msgid_plural "%s clicks"
+msgstr[0] "%s clic"
+msgstr[1] "%s clicuri"
+msgstr[2] "%s de clicuri"
+
+#: app/Common/Admin/Admin.php:243 app/Common/Admin/Admin.php:244
+#: languages/aioseo-lite.php:6312
+msgid "Search Statistics"
+msgstr "Statistici de căutare"
+
+#. Translators: 1 - The direction (up or down), 2 - The difference, 3 - "in
+#. search results", 4 - The first date, 5 - The second date.
+#: languages/aioseo-lite.php:45
+msgid "%1$s %2$s %3$s compared to the previous period (%4$s - %5$s)"
+msgstr "%1$s %2$s %3$s în comparație cu perioada anterioară (%4$s - %5$s)"
+
+#: languages/aioseo-lite.php:6508
+msgid "SEO Inspector"
+msgstr "Inspector SEO"
+
+#: languages/aioseo-lite.php:5698
+msgid "Post Types:"
+msgstr "Tipuri de articol:"
+
+#: languages/aioseo-lite.php:6520
+msgid "SEO Overview"
+msgstr "Prezentare generală SEO"
+
+#: languages/aioseo-lite.php:4971
+msgid "No keyphrase found"
+msgstr "Nu am găsit nicio frază cheie"
+
+#: languages/aioseo-lite.php:4644
+msgid "Meta Tags"
+msgstr "Taguri meta"
+
+#: languages/aioseo-lite.php:2512
+msgid "Edit Facebook Meta Data"
+msgstr "Editează metadatele Facebook"
+
+#: app/Common/Standalone/SeoPreview.php:283 languages/aioseo-lite.php:6523
+msgid "SEO Preview"
+msgstr "Previzualizare SEO"
+
+#: app/Common/Standalone/SeoPreview.php:198
+msgid "Edit User"
+msgstr "Editează utilizatorul"
+
+#: languages/aioseo-lite.php:1031
+msgid "Are you sure you want to delete this link?"
+msgstr "Sigur vrei să ștergi această legătură?"
+
+#: languages/aioseo-lite.php:1019
+msgid "Are you sure you want to delete these links?"
+msgstr "Sigur vrei să ștergi aceste legături?"
+
+#: languages/aioseo-lite.php:8859
+msgid "Write an answer..."
+msgstr "Scrie un răspuns..."
+
+#: languages/aioseo-lite.php:8856
+msgid "Write a question..."
+msgstr "Scrie o întrebare..."
+
+#: languages/aioseo-lite.php:8448
+msgid "VAT ID:"
+msgstr "ID TVA:"
+
+#: languages/aioseo-lite.php:7878
+msgid "Too Many Words"
+msgstr "Prea multe cuvinte"
+
+#: languages/aioseo-lite.php:7824
+msgid "To let search engines know which profiles are associated with this site, enter them below:"
+msgstr "Pentru a arăta motoarelor de căutare care sunt profilurile asociate cu acest site, introdu-le mai jos:"
+
+#: languages/aioseo-lite.php:7012
+msgid "Table of Contents Settings"
+msgstr "Setări cuprins"
+
+#: languages/aioseo-lite.php:6044
+msgid "Reorder"
+msgstr "Reordonează"
+
+#: languages/aioseo-lite.php:5975
+msgid "Reduce Word Count"
+msgstr "Redu numărul de cuvinte"
+
+#: languages/aioseo-lite.php:5254
+msgid "Open Your RSS Feed"
+msgstr "Deschide fluxul RSS"
+
+#: languages/aioseo-lite.php:4789
+msgid "Needs improvement"
+msgstr "Necesită îmbunătățire"
+
+#: languages/aioseo-lite.php:5080
+msgid "Not Enough Words"
+msgstr "Numărul de cuvinte este insuficient"
+
+#: languages/aioseo-lite.php:4629
+msgid "Meta Description"
+msgstr "Descriere meta"
+
+#: languages/aioseo-lite.php:4426
+msgid "List Style"
+msgstr "Stil listă"
+
+#. Translators: 1 - Opening bold HTML tag, 2 - Closing bold HTML tag, 3 -
+#. Initial score range, 4 - Final score range.
+#: languages/aioseo-lite.php:438
+msgid "A very good score is between %1$s%3$d and %4$d%2$s."
+msgstr "Un punctaj foarte bun este între %1$s%3$d și %4$d%2$s."
+
+#: app/Common/Utils/Tags.php:585
+msgid "Parent Term"
+msgstr "Termen părinte"
+
+#: app/Common/Utils/Tags.php:1052
+msgid "Sample Parent Term Name"
+msgstr "Exemplu de nume pentru termenul părinte"
+
+#: app/Common/Utils/Tags.php:586
+msgid "The name of the parent term of the current term."
+msgstr "Numele termenului părinte pentru termenul curent."
+
+#. Translators: 1 - The singular label for the current post type.
+#: languages/aioseo-lite.php:8486
+msgid "View %1$s"
+msgstr "Vezi %1$s"
+
+#: languages/aioseo-lite.php:8273
+msgid "URL already exists."
+msgstr "URL-ul deja există."
+
+#. Translators: 1 - The post type plural name.
+#: languages/aioseo-lite.php:7939
+msgid "Total %1$s"
+msgstr "Total %1$s"
+
+#: languages/aioseo-lite.php:6545
+msgid "SEO Setup"
+msgstr "Inițializare SEO"
+
+#: languages/aioseo-lite.php:6449
+msgid "Select which Taxonomies should include an RSS feed."
+msgstr "Selectează care taxonomii trebuie să includă un flux RSS."
+
+#: languages/aioseo-lite.php:6094
+msgid "REST API support"
+msgstr "Suport pentru REST API"
+
+#: languages/aioseo-lite.php:6091
+msgid "REST API"
+msgstr "REST API"
+
+#: languages/aioseo-lite.php:5763
+msgid "Previous Scores"
+msgstr "Punctaje anterioare"
+
+#: languages/aioseo-lite.php:5650
+msgid "Post Comment Feeds"
+msgstr "Fluxuri pentru comentarii la articole"
+
+#: languages/aioseo-lite.php:5510
+msgid "Personal Options"
+msgstr "Opțiuni personale"
+
+#: languages/aioseo-lite.php:5678
+msgid "Post Type Archive Feeds"
+msgstr "Fluxuri pentru arhivă tipuri de articol"
+
+#: languages/aioseo-lite.php:4846
+msgid "New Score"
+msgstr "Punctaj nou"
+
+#: languages/aioseo-lite.php:3794
+msgid "Import Additional Pages"
+msgstr "Importă pagini suplimentare"
+
+#: languages/aioseo-lite.php:3297
+msgid "Global RSS Feed"
+msgstr "Flux RSS global"
+
+#: languages/aioseo-lite.php:3291
+msgid "Global Comments RSS Feed"
+msgstr "Flux RSS global pentru comentarii"
+
+#. Translators: 1 - A noun for something that's being edited ("Post", "Page",
+#. "Article", "Product", etc.).
+#: app/Common/Standalone/BuddyPress/BuddyPress.php:237
+#: app/Common/Standalone/SeoPreview.php:181 languages/aioseo-lite.php:2509
+msgid "Edit %1$s"
+msgstr "Editează %1$s"
+
+#: languages/aioseo-lite.php:2246
+msgid "Delete selected pages"
+msgstr "Șterge paginile selectate"
+
+#: languages/aioseo-lite.php:2234
+msgid "Delete Page"
+msgstr "Șterge pagina"
+
+#: languages/aioseo-lite.php:2057
+msgid "Customer Data"
+msgstr "Date client"
+
+#: languages/aioseo-lite.php:2007
+msgid "Current Score"
+msgstr "Punctaj actual"
+
+#: languages/aioseo-lite.php:1582
+msgid "Choose a Post Type"
+msgstr "Alege un tip de articol"
+
+#: languages/aioseo-lite.php:1143
+msgid "Author Feeds"
+msgstr "Fluxuri pentru autori"
+
+#: languages/aioseo-lite.php:1129
+msgid "Attachments Feed"
+msgstr "Fluxuri pentru atașamente"
+
+#. Translators: 1 - "Clarity".
+#: languages/aioseo-lite.php:259
+msgid "%1$s Project ID"
+msgstr "ID proiect %1$s"
+
+#. Translators: 1 - The plugin shortname ("AIOSEO").
+#: languages/aioseo-lite.php:247
+msgid "%1$s Overview"
+msgstr "Prezentare generală %1$s"
+
+#: app/Common/Utils/Tags.php:341
+msgid "Description for the current media file."
+msgstr "Descriere pentru fișierul media curent."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Dashboard.php:64
+msgid "%s Overview"
+msgstr "Prezentare generală %s"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Dashboard.php:42
+msgid "%s Setup"
+msgstr "Inițializare %s"
+
+#: app/Common/Views/admin/settings-page.php:180
+msgid "View supported browsers"
+msgstr "Vezi navigatoarele acceptate"
+
+#: app/Common/Views/admin/settings-page.php:162
+msgid "Resolve This Issue"
+msgstr "Rezolvă această problemă"
+
+#: languages/aioseo-lite.php:2427
+msgid "Don't update the modified date"
+msgstr "Nu actualiza data modificării"
+
+#: languages/aioseo-lite.php:5222
+msgid "Open Redirects"
+msgstr "Deschide redirecționările"
+
+#: languages/aioseo-lite.php:3319
+msgid "Go to Social Networks"
+msgstr "Mergi la rețelele sociale"
+
+#: languages/aioseo-lite.php:5207
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#. Translators: Minimum input length in characters to start searching posts in
+#. the "Insert/edit link" modal.
+#: app/Common/Admin/Admin.php:372
+msgctxt "minimum input length for searching post links"
+msgid "3"
+msgstr "3"
+
+#: app/Common/Admin/Admin.php:357
+msgid "Insert/edit link"
+msgstr "Inserează/editează legătura"
+
+#: languages/aioseo-lite.php:3430
+msgid "Got It!"
+msgstr "Am înțeles!"
+
+#: languages/aioseo-lite.php:5994
+msgid "Regenerate API Key"
+msgstr "Regenerează cheia API"
+
+#: languages/aioseo-lite.php:3976
+msgid "IndexNow API Key"
+msgstr "Cheie API IndexNow"
+
+#: languages/aioseo-lite.php:8197
+msgid "Update IndexNow"
+msgstr "Actualizează IndexNow"
+
+#: languages/aioseo-lite.php:7273
+msgid "The IndexNow addon is required to use this feature."
+msgstr "Ca să folosești această funcționalitate, ai nevoie de suplimentul IndexNow."
+
+#: languages/aioseo-lite.php:501
+msgid "Activate IndexNow"
+msgstr "Activează IndexNow"
+
+#. Translators: 1 - The post title.
+#: languages/aioseo-lite.php:4413
+msgid "Links & Suggestions for \"%1$s\""
+msgstr "Legături și sugestii pentru „%1$s”"
+
+#: languages/aioseo-lite.php:1016
+msgid "Are you sure you want to delete all links?"
+msgstr "Sigur vrei să ștergi toate legăturile?"
+
+#: languages/aioseo-lite.php:1022
+msgid "Are you sure you want to delete these pages?"
+msgstr "Sigur vrei să ștergi aceste pagini?"
+
+#: languages/aioseo-lite.php:2231
+msgid "Delete Link"
+msgstr "Șterge legătura"
+
+#: languages/aioseo-lite.php:7945
+msgid "Total External Links"
+msgstr "Total legături externe"
+
+#: languages/aioseo-lite.php:21
+msgid "# of Links"
+msgstr "nr. de legături"
+
+#: languages/aioseo-lite.php:7951
+msgid "Total Links"
+msgstr "Total legături"
+
+#: languages/aioseo-lite.php:2836
+msgid "External Links"
+msgstr "Legături externe"
+
+#: languages/aioseo-lite.php:1034
+msgid "Are you sure you want to delete this page?"
+msgstr "Sigur vrei să ștergi această pagină?"
+
+#: languages/aioseo-lite.php:5342
+msgid "other domains"
+msgstr "alte domenii"
+
+#: languages/aioseo-lite.php:6336
+msgid "See a Full Links Report"
+msgstr "Vezi un raport complet pentru legături"
+
+#: languages/aioseo-lite.php:5711
+msgid "Posts Crawled"
+msgstr "Articole accesate cu crawlere"
+
+#: languages/aioseo-lite.php:5336
+msgid "Orphaned posts are posts that have no inbound internal links yet and may be more difficult to find by search engines."
+msgstr "Articolele orfane sunt articole care nu au încă legături interne de intrare și pot fi găsite mai greu de motoarele de căutare."
+
+#: languages/aioseo-lite.php:6359
+msgid "See All Linking Opportunities"
+msgstr "Vezi toate oportunitățile pentru legături"
+
+#: languages/aioseo-lite.php:5333
+msgid "Orphaned Posts"
+msgstr "Articole orfane"
+
+#: languages/aioseo-lite.php:710
+msgid "Affiliate Links"
+msgstr "Legături afiliate"
+
+#: languages/aioseo-lite.php:4409
+msgid "Linking Opportunities"
+msgstr "Oportunități pentru legături"
+
+#: languages/aioseo-lite.php:4403
+msgid "Link Suggestions"
+msgstr "Sugestii de legături"
+
+#: languages/aioseo-lite.php:2828
+msgid "External"
+msgstr "Externe"
+
+#: languages/aioseo-lite.php:2410
+msgid "Domain"
+msgstr "Domeniu"
+
+#: languages/aioseo-lite.php:8935
+msgid "Yes, I want to delete all links"
+msgstr "Da, vreau să șterg toate legăturile"
+
+#: languages/aioseo-lite.php:8938
+msgid "Yes, I want to delete these links"
+msgstr "Da, vreau să șterg aceste legături"
+
+#: languages/aioseo-lite.php:8944
+msgid "Yes, I want to delete this link"
+msgstr "Da, vreau să șterg această legătură"
+
+#: languages/aioseo-lite.php:4968
+msgid "No items found."
+msgstr "Nu am găsit niciun element."
+
+#: languages/aioseo-lite.php:8191
+msgid "Update Addon"
+msgstr "Actualizează suplimentul"
+
+#. Translators: 1 - The type of link.
+#: languages/aioseo-lite.php:2228
+msgid "Delete All %1$s Links"
+msgstr "Șterge toate legăturile %1$s"
+
+#: languages/aioseo-lite.php:5401
+msgid "Overall Score"
+msgstr "Punctaj general"
+
+#: languages/aioseo-lite.php:8821
+msgid "Word Count"
+msgstr "Număr de cuvinte"
+
+#: languages/aioseo-lite.php:1537
+msgid "Character Count"
+msgstr "Număr de caractere"
+
+#: languages/aioseo-lite.php:6370
+msgid "See Orphaned Posts"
+msgstr "Vezi articolele orfane"
+
+#: languages/aioseo-lite.php:7872
+msgid "Too Long"
+msgstr "Prea lung"
+
+#: languages/aioseo-lite.php:7884
+msgid "Too Short"
+msgstr "Prea scurt"
+
+#: languages/aioseo-lite.php:4792
+msgid "Needs Improvement"
+msgstr "Necesită îmbunătățire"
+
+#: languages/aioseo-lite.php:1104
+msgid "At least one"
+msgstr "Cel puțin unul"
+
+#: languages/aioseo-lite.php:349
+msgid "10-15%"
+msgstr "10 - 15%"
+
+#: languages/aioseo-lite.php:353
+msgid "10-20%"
+msgstr "10 - 20%"
+
+#: languages/aioseo-lite.php:363
+msgid "20-30%"
+msgstr "20 - 30%"
+
+#: languages/aioseo-lite.php:1726
+msgid "Common Words"
+msgstr "Cuvinte uzuale"
+
+#: languages/aioseo-lite.php:4802
+msgid "Negative"
+msgstr "Negativ"
+
+#: languages/aioseo-lite.php:5636
+msgid "Positive"
+msgstr "Pozitiv"
+
+#: languages/aioseo-lite.php:4828
+msgid "Neutral"
+msgstr "Neutru"
+
+#: languages/aioseo-lite.php:7881
+msgid "Too Many Words 😑"
+msgstr "Prea multe cuvinte 😑"
+
+#: languages/aioseo-lite.php:5978
+msgid "Reduce Word Count 🙂"
+msgstr "Redu numărul de cuvinte 😑"
+
+#: languages/aioseo-lite.php:3847
+msgid "Important Issues"
+msgstr "Probleme importante"
+
+#: app/Common/Api/Plugins.php:77
+msgid "Plugin update failed. Please check permissions and try again."
+msgstr "Actualizarea modulului a eșuat. Te rog verifică permisiunile și încearcă din nou."
+
+#: languages/aioseo-lite.php:5083
+msgid "Not Enough Words 🙃"
+msgstr "Numărul de cuvinte este insuficient 🙃"
+
+#. Translators: 1 - The amount of errors.
+#: languages/aioseo-lite.php:110
+msgid "%1$s Error"
+msgid_plural "%1$s Errors"
+msgstr[0] "o eroare"
+msgstr[1] "%1$s erori"
+msgstr[2] "%1$s de erori"
+
+#: languages/aioseo-lite.php:5856
+msgid "Quick Links"
+msgstr "Legături rapide"
+
+#: languages/aioseo-lite.php:2558
+msgid "Email"
+msgstr "Email"
+
+#: languages/aioseo-lite.php:2886
+msgid "Fax"
+msgstr "Fax"
+
+#: languages/aioseo-lite.php:5513
+msgid "Phone"
+msgstr "Telefon"
+
+#: languages/aioseo-lite.php:7019
+msgid "Tax ID"
+msgstr "ID impozit"
+
+#: languages/aioseo-lite.php:8444
+msgid "Vat ID"
+msgstr "ID TVA"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - "Pro" string.
+#: languages/aioseo-lite.php:8228
+msgid "Upgrade to %1$s %2$s"
+msgstr "Actualizează la %1$s %2$s"
+
+#: languages/aioseo-lite.php:4171
+msgid "Join Our Community"
+msgstr "Alătură-te comunității noastre"
+
+#: languages/aioseo-lite.php:9029
+msgid "You currently don't have permission to activate this addon. Please ask a site administrator to activate first."
+msgstr "Nu ai permisiunea să activezi acest supliment. Te rog cere-i unui administrator de site să-l activeze."
+
+#: languages/aioseo-lite.php:5368
+msgid "Our Opening Hours:"
+msgstr "Programul nostru de lucru:"
+
+#: languages/aioseo-lite.php:2574
+msgid "Email:"
+msgstr "Email:"
+
+#: languages/aioseo-lite.php:2893
+msgid "Fax:"
+msgstr "Fax:"
+
+#: languages/aioseo-lite.php:5525
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: languages/aioseo-lite.php:656
+msgid "Address:"
+msgstr "Adresă:"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:37
+msgid "Back to Homepage"
+msgstr "Înapoi la prima pagină"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:32
+msgid "Whoops!"
+msgstr "Hopa!"
+
+#: app/Common/Views/sitemap/xsl/styles.php:103
+msgid "Back"
+msgstr "Înapoi"
+
+#. Translators: 1 - The "start-end" pagination results, 2 - Total items.
+#: app/Common/Views/sitemap/xsl/partials/pagination.php:42
+msgid "Showing %1$s of %2$s"
+msgstr "Arăt %1$s din %2$s"
+
+#: app/Common/Views/sitemap/xsl/default.php:282
+msgid "Images"
+msgstr "Imagini"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:39
+msgid "Configure Sitemap"
+msgstr "Configurează hărțile site"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:34
+msgid "There are no posts here"
+msgstr "Nu există articole aici"
+
+#: app/Common/Sitemap/Xsl.php:42
+msgid "Post Archive"
+msgstr "Arhivă articole"
+
+#: app/Common/Options/Options.php:599
+msgid "404 - Page Not Found"
+msgstr "Eroare 404 - pagină negăsită"
+
+#: app/Common/Options/Options.php:598
+msgid "Search Results for"
+msgstr "Rezultate de căutare pentru"
+
+#: languages/aioseo-lite.php:3395
+msgid "Google Reviews"
+msgstr "Recenzii Google"
+
+#: languages/aioseo-lite.php:875
+msgid "An error occurred while fetching keyphrases. Please try again later."
+msgstr "A apărut o eroare în timpul aducerii frazelor cheie. Te rog reîncearcă mai târziu."
+
+#: languages/aioseo-lite.php:9046
+msgid "You have exceeded the limit for requests. Please try again later."
+msgstr "Ai depășit numărul maxim de cereri. Te rog reîncearcă mai târziu."
+
+#: languages/aioseo-lite.php:4591
+msgid "Map Display"
+msgstr "Afișare hartă"
+
+#: languages/aioseo-lite.php:6673
+msgid "Show icon"
+msgstr "Arată iconul"
+
+#: languages/aioseo-lite.php:6685
+msgid "Show label"
+msgstr "Arată eticheta"
+
+#: languages/aioseo-lite.php:4594
+msgid "Map Preview"
+msgstr "Previzualizare hartă"
+
+#: languages/aioseo-lite.php:9253
+msgid "Your post needs improvement!"
+msgstr "Articolul necesită îmbunătățiri!"
+
+#. Translators: 1 - How many errors were found.
+#: languages/aioseo-lite.php:114
+msgid "%1$s error found!"
+msgid_plural "%1$s errors found!"
+msgstr[0] "Am găsit o eroare!"
+msgstr[1] "Am găsit %1$s erori!"
+msgstr[2] "Am găsit %1$s de erori!"
+
+#: app/Common/Api/Tools.php:237
+msgid ".htaccess file is empty."
+msgstr "Fișierul .htaccess este gol."
+
+#: languages/aioseo-lite.php:8521
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+#: languages/aioseo-lite.php:4927
+msgid "No focus keyphrase!"
+msgstr "Nu ai o frază cheie!"
+
+#: languages/aioseo-lite.php:1884
+msgid "Contributor"
+msgstr "Contributor"
+
+#. Translators: 1 - A URL.
+#: languages/aioseo-lite.php:2476
+msgid "e.g. %1$s"
+msgstr "de exemplu, %1$s"
+
+#: languages/aioseo-lite.php:2134
+msgid "Dedicated Page"
+msgstr "Pagină dedicată"
+
+#: app/Common/Views/sitemap/xsl/default.php:200 languages/aioseo-lite.php:5821
+msgid "Publication Date"
+msgstr "Data publicării"
+
+#. Translators: 1 - The name of the WP role, 2 - Opening bold tag, 3 - Closing
+#. bold tag, 4 - Plugin Name ("All in One SEO").
+#: languages/aioseo-lite.php:1479
+msgid "By default the %1$s role %2$shas no access%3$s to %4$s settings."
+msgstr "Implicit, rolul de %1$s %2$snu are access%3$s la setările %4$s."
+
+#: languages/aioseo-lite.php:1646
+msgid "Click here to learn more"
+msgstr "Dă clic aici pentru a afla mai multe"
+
+#: languages/aioseo-lite.php:1055
+msgid "Are you sure you want to restore this backup?"
+msgstr "Sigur vrei să restaurezi această copie de siguranță?"
+
+#: languages/aioseo-lite.php:1028
+msgid "Are you sure you want to delete this backup?"
+msgstr "Sigur vrei să ștergi această copie de siguranță?"
+
+#: app/Common/Views/sitemap/html/widget-options.php:172
+msgid "Enter a comma-separated list of term IDs."
+msgstr "Introdu o listă cu ID-uri termeni, separate cu virgulă."
+
+#: app/Common/Views/sitemap/html/widget-options.php:158
+msgid "Enter a comma-separated list of post IDs."
+msgstr "Introdu o listă cu ID-uri articole, separate cu virgulă."
+
+#: app/Common/Views/sitemap/html/widget-options.php:68
+#: languages/aioseo-lite.php:6708
+msgid "Show Publication Date"
+msgstr "Arată data publicării"
+
+#: app/Common/Views/sitemap/html/widget-options.php:52
+#: languages/aioseo-lite.php:6691
+msgid "Show Labels"
+msgstr "Arată etichetele"
+
+#: app/Common/Views/sitemap/html/widget-options.php:36
+#: languages/aioseo-lite.php:1730
+msgid "Compact Archives"
+msgstr "Arhive compacte"
+
+#: app/Common/Views/sitemap/html/compact-archive.php:12
+msgid "No date archives could be found."
+msgstr "Nu am găsit nicio arhivă de date."
+
+#: languages/aioseo-lite.php:5702
+msgid "Post/Term ID"
+msgstr "ID articol/termen"
+
+#: languages/aioseo-lite.php:4301
+msgid "Last Updated Date"
+msgstr "Data ultimei actualizări"
+
+#: languages/aioseo-lite.php:8951
+msgid "Yes, I want to restore this backup"
+msgstr "Da, vreau să șterg această copie de siguranță"
+
+#: languages/aioseo-lite.php:8941
+msgid "Yes, I want to delete this backup"
+msgstr "Da, vreau să șterg această copie de siguranță"
+
+#: languages/aioseo-lite.php:9053
+msgid "You have new notifications!"
+msgstr "Ai notificări noi!"
+
+#: app/Common/Views/sitemap/html/widget-options.php:139
+#: languages/aioseo-lite.php:6850
+msgid "Sort Direction"
+msgstr "Direcție de sortare"
+
+#: app/Common/Views/sitemap/html/widget-options.php:127
+#: app/Common/Views/sitemap/xsl/default.php:112
+#: app/Common/Views/sitemap/xsl/default.php:322 languages/aioseo-lite.php:4298
+msgid "Last Updated"
+msgstr "Ultima actualizare"
+
+#: app/Common/Sitemap/Html/Sitemap.php:129 languages/aioseo-lite.php:6741
+msgid "Sitemap"
+msgstr "Hartă site"
+
+#: app/Common/Sitemap/Html/Frontend.php:174
+msgid "No posts/terms could be found."
+msgstr "Nu am găsit niciun articol/termen."
+
+#: app/Common/Views/sitemap/html/widget-options.php:130
+#: languages/aioseo-lite.php:822
+msgid "Alphabetical"
+msgstr "În ordine alfabetică"
+
+#: languages/aioseo-lite.php:6400
+msgid "Select Rule"
+msgstr "Selectează regula"
+
+#: languages/aioseo-lite.php:2683
+msgid "Enter a Locale Code, e.g.: en_GB, es_ES"
+msgstr "Introdu un cod de locală, de exemplu ro_RO, es_ES, en_GB"
+
+#: languages/aioseo-lite.php:2706
+msgid "Enter an IP Address"
+msgstr "Introdu o adresă IP"
+
+#: languages/aioseo-lite.php:6397
+msgid "Select Roles"
+msgstr "Selectează rolurile"
+
+#: languages/aioseo-lite.php:6418
+msgid "Select Status"
+msgstr "Selectează starea"
+
+#: languages/aioseo-lite.php:4183
+msgid "Key"
+msgstr "Cheie"
+
+#: languages/aioseo-lite.php:559
+msgid "Add Custom Rule"
+msgstr "Adaugă o regulă personalizată"
+
+#: languages/aioseo-lite.php:8441
+msgid "Value"
+msgstr "Valoare"
+
+#: languages/aioseo-lite.php:2043
+msgid "Custom Rules"
+msgstr "Reguli personalizate"
+
+#: languages/aioseo-lite.php:2726
+msgid "Enter the Server Name"
+msgstr "Introdu numele serverului"
+
+#: languages/aioseo-lite.php:6394
+msgid "Select a Value or Add a New One"
+msgstr "Selectează o valoare sau adaugă una nouă"
+
+#: languages/aioseo-lite.php:3560
+msgid "Help us improve"
+msgstr "Ajută-ne să îmbunătățim"
+
+#: languages/aioseo-lite.php:3673
+msgid "HTTP Header"
+msgstr "Antet HTTP"
+
+#: languages/aioseo-lite.php:1902
+msgid "Cookie"
+msgstr "Cookie"
+
+#: languages/aioseo-lite.php:4499
+msgid "Login Status"
+msgstr "Stare autentificare"
+
+#: languages/aioseo-lite.php:4359
+msgid "Libraries"
+msgstr "Biblioteci"
+
+#: languages/aioseo-lite.php:2906
+msgid "Feeds"
+msgstr "Fluxuri"
+
+#: languages/aioseo-lite.php:8827
+msgid "WordPress Filter"
+msgstr "Filtru WordPress"
+
+#: languages/aioseo-lite.php:8833
+msgid "WordPress User Roles"
+msgstr "Roluri de utilizator WordPress"
+
+#: languages/aioseo-lite.php:5984
+msgid "Referrer"
+msgstr "Referent"
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:233
+msgid "%1$s SKU"
+msgstr "SKU %1$s"
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:226
+msgid "%1$s Price"
+msgstr "Preț %1$s"
+
+#: app/Common/Breadcrumbs/Tags.php:215
+msgid "Post Type Name"
+msgstr "Nume tip de articol"
+
+#: app/Common/Breadcrumbs/Tags.php:210
+msgid "Archive format"
+msgstr "Format arhivă"
+
+#: languages/aioseo-lite.php:6667
+msgid "Show current item"
+msgstr "Arată elementul curent"
+
+#: languages/aioseo-lite.php:4400
+msgid "Link current item"
+msgstr "Leagă elementul curent"
+
+#: languages/aioseo-lite.php:2028
+msgid "Custom HTML templates"
+msgstr "Șabloane HTML personalizate"
+
+#: languages/aioseo-lite.php:2195
+msgid "Default template for all pages."
+msgstr "Șablon implicit pentru toate paginile."
+
+#: app/Common/Breadcrumbs/Tags.php:195 languages/aioseo-lite.php:2103
+msgid "Day"
+msgstr "Zi"
+
+#: app/Common/Breadcrumbs/Tags.php:185
+msgid "Year"
+msgstr "An"
+
+#: languages/aioseo-lite.php:8291
+msgid "Use a default template"
+msgstr "Folosește un șablon implicit"
+
+#: languages/aioseo-lite.php:6679
+msgid "Show Icons"
+msgstr "Arată iconuri"
+
+#: languages/aioseo-lite.php:6717
+msgid "Show Title"
+msgstr "Arată titlul"
+
+#: app/Common/Admin/Admin.php:712 languages/aioseo-lite.php:5959
+msgid "Redirection Manager"
+msgstr "Manager de redirecționări"
+
+#: languages/aioseo-lite.php:6001
+msgid "Regex"
+msgstr "Regex"
+
+#: languages/aioseo-lite.php:598
+msgid "Add Redirects"
+msgstr "Adaugă redirecționări"
+
+#: languages/aioseo-lite.php:5846
+msgid "Query Parameters:"
+msgstr "Parametri de interogare:"
+
+#: languages/aioseo-lite.php:595
+msgid "Add Redirect"
+msgstr "Adaugă redirecționare"
+
+#: languages/aioseo-lite.php:866
+msgid "An error occurred while adding your redirects. Please try again later."
+msgstr "A apărut o eroare în timpul adăugării redirecționărilor. Te rog reîncearcă mai târziu."
+
+#: languages/aioseo-lite.php:5951
+msgid "Redirect Type:"
+msgstr "Tip de redirecționare:"
+
+#: languages/aioseo-lite.php:8772
+msgid "Widget"
+msgstr "Piesă"
+
+#: languages/aioseo-lite.php:2376
+msgid "Display Info"
+msgstr "Afișează informații"
+
+#: languages/aioseo-lite.php:4698
+msgid "Modified Posts"
+msgstr "Articole modificate"
+
+#: languages/aioseo-lite.php:4578
+msgid "Manual Redirects"
+msgstr "Redirecționări manuale"
+
+#: languages/aioseo-lite.php:3725
+msgid "Ignore all parameters"
+msgstr "Ignoră toți parametrii"
+
+#: languages/aioseo-lite.php:345
+msgid "1 week"
+msgstr "O săptămână"
+
+#: languages/aioseo-lite.php:339
+msgid "1 day"
+msgstr "O zi"
+
+#: languages/aioseo-lite.php:342
+msgid "1 hour"
+msgstr "O oră"
+
+#: languages/aioseo-lite.php:6864
+msgid "Source URLs"
+msgstr "URL-uri sursă"
+
+#: languages/aioseo-lite.php:5038
+msgid "No, I changed my mind"
+msgstr "Nu, m-am răzgândit"
+
+#: languages/aioseo-lite.php:7575
+msgid "This action cannot be undone."
+msgstr "Această acțiune nu poate fi anulată."
+
+#: languages/aioseo-lite.php:3695
+msgid "IDs"
+msgstr "ID-uri"
+
+#: languages/aioseo-lite.php:1841
+msgid "Contact Info"
+msgstr "Informații de contact"
+
+#: languages/aioseo-lite.php:1848
+msgid "Contact Page URL"
+msgstr "URL pagină Contact"
+
+#: languages/aioseo-lite.php:451
+msgid "About Page URL"
+msgstr "URL pagină Despre"
+
+#: languages/aioseo-lite.php:8669
+msgid "Website URL"
+msgstr "URL site web"
+
+#: languages/aioseo-lite.php:6676
+msgid "Show icons"
+msgstr "Arată iconuri"
+
+#: languages/aioseo-lite.php:6688
+msgid "Show labels"
+msgstr "Arată etichetele"
+
+#: languages/aioseo-lite.php:6858
+msgid "Source URL"
+msgstr "URL sursă"
+
+#: languages/aioseo-lite.php:5471
+msgid "Payment Methods Accepted"
+msgstr "Metode de plată acceptate"
+
+#: languages/aioseo-lite.php:2000
+msgid "Currencies Accepted"
+msgstr "Monede acceptate"
+
+#: languages/aioseo-lite.php:8320
+msgid "Use Defaults"
+msgstr "Folosește valorile implicite"
+
+#: languages/aioseo-lite.php:2564
+msgid "Email Address"
+msgstr "Adresă email"
+
+#: languages/aioseo-lite.php:1025
+msgid "Are you sure you want to delete these query args?"
+msgstr "Sigur vrei să ștergi aceste argumente de interogare?"
+
+#: languages/aioseo-lite.php:589
+msgid "Add New Redirection"
+msgstr "Adaugă redirecționare nouă"
+
+#: languages/aioseo-lite.php:6326
+msgid "Search URLs"
+msgstr "Caută URL-uri"
+
+#: languages/aioseo-lite.php:771
+msgid "All Groups"
+msgstr "Toate grupurile"
+
+#: languages/aioseo-lite.php:2937
+msgid "Filter by Group"
+msgstr "Filtrează după grup"
+
+#: languages/aioseo-lite.php:4445
+msgid "Loading..."
+msgstr "Încarc..."
+
+#: languages/aioseo-lite.php:6618
+msgid "Settings"
+msgstr "Setări"
+
+#: languages/aioseo-lite.php:3787
+msgid "Import / Export"
+msgstr "Import/export"
+
+#. Translators: 1 - A plugin name (e.g. "MonsterInsights", "Broken Link
+#. Checker", etc.).
+#: languages/aioseo-lite.php:6623
+msgid "Setup %1$s"
+msgstr "Inițializează %1$s"
+
+#. Translators: 1 - A plugin name (e.g. "MonsterInsights", "Broken Link
+#. Checker", etc.).
+#: languages/aioseo-lite.php:492
+msgid "Activate %1$s"
+msgstr "Activează %1$s"
+
+#. Translators: 1 - A plugin name (e.g. "MonsterInsights", "Broken Link
+#. Checker", etc.).
+#: languages/aioseo-lite.php:178
+msgid "%1$s is Installed & Active"
+msgstr "%1$s este instalat și activ"
+
+#. Translators: 1 - A plugin name (e.g. "MonsterInsights", "Broken Link
+#. Checker", etc.).
+#: app/Common/Api/Wizard.php:458 app/Common/Api/Wizard.php:471
+#: languages/aioseo-lite.php:4004
+msgid "Install %1$s"
+msgstr "Instalează %1$s"
+
+#: languages/aioseo-lite.php:6035
+msgid "Remove Keyphrase"
+msgstr "Înlătură fraza cheie"
+
+#: languages/aioseo-lite.php:577
+msgid "Add Keyphrase"
+msgstr "Adaugă o frază cheie"
+
+#: languages/aioseo-lite.php:7983
+msgid "Trend"
+msgstr "Tendință"
+
+#: languages/aioseo-lite.php:8533
+msgid "Volume"
+msgstr "Volum"
+
+#: languages/aioseo-lite.php:6711
+msgid "Show Results For:"
+msgstr "Arată rezultatele pentru:"
+
+#: languages/aioseo-lite.php:1428
+msgid "Bulk Actions"
+msgstr "Acțiuni în masă"
+
+#. Translators: 1 - The name of one of our partner plugins.
+#: languages/aioseo-lite.php:3373
+msgid "Google Analytics is now handled by %1$s."
+msgstr "Google Analytics este gestionat acum de %1$s."
+
+#: languages/aioseo-lite.php:4996
+msgid "No results"
+msgstr "Niciun rezultat"
+
+#: languages/aioseo-lite.php:5875
+msgid "Rating"
+msgstr "Evaluare"
+
+#: languages/aioseo-lite.php:2874
+msgid "FAQ"
+msgstr "Întrebări frecvente"
+
+#: app/Common/Utils/Tags.php:371
+msgid "The first name of the post author."
+msgstr "Prenumele autorului articolului."
+
+#: app/Common/Utils/Tags.php:366
+msgid "The display name of the post author."
+msgstr "Numele de afișat pentru autorul articolului."
+
+#: app/init/notices.php:224
+msgid "Heads up!"
+msgstr "Atenție!"
+
+#: app/Common/Utils/Tags.php:954
+msgid "Sample Custom Field Value"
+msgstr "Exemplu valoare câmp personalizat"
+
+#: app/Common/Utils/Tags.php:1056
+msgid "Sample taxonomy description"
+msgstr "Exemplu descriere taxonomie"
+
+#: app/Common/Utils/Tags.php:541
+msgid "The term the user is searching for."
+msgstr "Termenul pe care îl caută utilizatorul."
+
+#: app/Common/Utils/Tags.php:540
+msgid "Search Term"
+msgstr "Termen de căutare"
+
+#: app/Common/Utils/Tags.php:447
+msgid "Custom Field"
+msgstr "Câmp personalizat"
+
+#: app/Common/Breadcrumbs/Tags.php:139 app/Common/Utils/Tags.php:536
+msgid "The original title of the current post."
+msgstr "Titlul original al articolului curent. "
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:515
+msgid "%1$s Year"
+msgstr "An %1$s"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:509
+msgid "%1$s Month"
+msgstr "Lună %1$s"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:491
+msgid "%1$s Day"
+msgstr "Zi %1$s"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:485
+msgid "%1$s Date"
+msgstr "Dată %1$s "
+
+#: app/Common/Utils/Tags.php:346
+msgid "The date of the current archive, localized."
+msgstr "Data arhivei curente, localizată."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:479
+msgid "%1$s Content"
+msgstr "Conținut %1$s"
+
+#: app/Common/Utils/Tags.php:443
+msgid "The current year, localized."
+msgstr "Anul curent, localizat."
+
+#: app/Common/Utils/Tags.php:438
+msgid "The current month, localized."
+msgstr "Luna curentă, localizată."
+
+#: app/Common/Utils/Tags.php:433
+msgid "The current day of the month, localized."
+msgstr "Ziua curentă a lunii, localizată."
+
+#: app/Common/Utils/Tags.php:432
+msgid "Current Day"
+msgstr "Ziua curentă"
+
+#: app/Common/Utils/Tags.php:428
+msgid "The current date, localized."
+msgstr "Data curentă, localizată."
+
+#: app/Common/Utils/Tags.php:427
+msgid "Current Date"
+msgstr "Data curentă"
+
+#: app/Common/Utils/Tags.php:464
+msgid "The page number for the current paginated page."
+msgstr "Numărul paginii pentru pagina curentă paginată."
+
+#. Translators: 1 - The singular name of the current taxonomy.
+#: app/Common/Utils/Tags.php:591
+msgid "%1$s Description"
+msgstr "Descriere %1$s"
+
+#: app/Common/Utils/Tags.php:403
+msgid "Current or first category title."
+msgstr "Titlul actual sau al primei categorii."
+
+#: app/Common/Utils/Tags.php:386
+msgid "The title of the current archive."
+msgstr "Titlul categoriei curente."
+
+#: app/Common/Utils/Tags.php:385
+msgid "Archive Title"
+msgstr "Titlu arhivă"
+
+#: app/Common/Utils/Tags.php:546
+msgid "The separator defined in the search appearance settings."
+msgstr "Separatorul definit în setările Aspect în căutare. "
+
+#: app/Common/Utils/Tags.php:1017
+msgid "Example search string"
+msgstr "Exemplu pentru șir de căutare"
+
+#: app/Common/Standalone/BuddyPress/Tags.php:328 app/Common/Utils/Tags.php:892
+msgid "Sample Archive Title"
+msgstr "Exemplu pentru titlu arhivă"
+
+#: app/Common/Utils/Tags.php:1061
+msgid "Sample Taxonomy Title"
+msgstr "Exemplu pentru titlu taxonomie"
+
+#: app/Common/Utils/Tags.php:997
+msgid "An example of content from your page/post."
+msgstr "Un exemplu de conținut din pagina ta/articolul tău."
+
+#: app/Common/Utils/Tags.php:985 app/Common/Utils/Tags.php:988
+msgid "Sample excerpt from a page/post."
+msgstr "Exemplu de rezumat dintr-o pagină/dintr-un articol."
+
+#: app/Common/Utils/Tags.php:969
+msgid "Sample Parent"
+msgstr "Părinte exemplu"
+
+#: app/Common/Utils/Tags.php:1009
+msgid "Sample Post"
+msgstr "Exemplu de articol"
+
+#: app/Common/Utils/Tags.php:454
+msgid "The meta description for the current page/post."
+msgstr "Descrierea meta pentru pagina curentă/articolul curent."
+
+#: app/Common/Utils/Tags.php:579
+msgid "Taxonomy Name"
+msgstr "Nume taxonomie"
+
+#: app/Common/Utils/Tags.php:448
+msgid "A custom field from the current page/post."
+msgstr "Un câmp personalizat din pagina curentă/articolul curent."
+
+#: app/Common/Utils/Tags.php:574
+msgid "Tagline"
+msgstr "Slogan"
+
+#: app/Common/Utils/Tags.php:480
+msgid "The content of your page/post."
+msgstr "Conținutul paginii/articolului."
+
+#: app/Common/Utils/Tags.php:345
+msgid "Archive Date"
+msgstr "Dată arhivă"
+
+#: app/Common/Utils/Tags.php:498
+msgid "The excerpt defined on your page/post."
+msgstr "Rezumatul definit în pagină/articol."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:497
+msgid "%1$s Excerpt"
+msgstr "Rezumat %1$s"
+
+#: app/Common/Breadcrumbs/Tags.php:205 app/Common/Utils/Tags.php:463
+msgid "Page Number"
+msgstr "Număr pagină"
+
+#: app/Common/Utils/Tags.php:474
+msgid "The permalink for the current page/post."
+msgstr "Legătura permanentă pentru pagina curentă/articolul curent."
+
+#: app/Common/Breadcrumbs/Tags.php:127 app/Common/Utils/Tags.php:473
+msgid "Permalink"
+msgstr "Legătură permanentă"
+
+#: app/Common/Breadcrumbs/Tags.php:170 app/Common/Utils/Tags.php:375
+msgid "Author Last Name"
+msgstr "Nume autor"
+
+#: app/Common/Breadcrumbs/Tags.php:165 app/Common/Utils/Tags.php:370
+msgid "Author First Name"
+msgstr "Prenume autor"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:503
+msgid "%1$s Excerpt Only"
+msgstr "Numai rezumatul %1$s"
+
+#: app/Common/Utils/Tags.php:390 app/Common/Utils/Tags.php:556
+msgid "Site Link"
+msgstr "Legătură la site"
+
+#: app/Common/Utils/Tags.php:551
+msgid "The description for your site."
+msgstr "Descrierea site-ului tău."
+
+#: app/Common/Utils/Tags.php:575
+msgid "The tagline for your site, set in the general settings."
+msgstr "Sloganul site-ului tău, stabilit în setările generale."
+
+#: app/Common/Utils/Tags.php:920
+msgid "Sample caption for media."
+msgstr "Exemplu de text asociat pentru media."
+
+#: app/Common/Utils/Tags.php:868
+msgid "A sample alt tag for your image"
+msgstr "Un exemplu de tag alt pentru imaginea ta"
+
+#: app/Common/Utils/Tags.php:442
+msgid "Current Year"
+msgstr "Anul curent"
+
+#: app/Common/Utils/Tags.php:437
+msgid "Current Month"
+msgstr "Luna aceasta"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "statically"
+msgstr "static"
+
+#: app/Common/Options/Options.php:597
+msgid "Archives for"
+msgstr "Arhive pentru"
+
+#: app/Common/Utils/Tags.php:361
+msgid "The biography of the author."
+msgstr "Biografia autorului."
+
+#: app/Common/Traits/Helpers/Wp.php:233
+msgid "Attachments"
+msgstr "Atașamente"
+
+#: app/Common/Utils/Tags.php:360
+msgid "Author Biography"
+msgstr "Biografie autor"
+
+#: app/Common/Sitemap/Sitemap.php:252
+msgid "Delete Static Files"
+msgstr "Șterge fișierele statice"
+
+#: app/Common/Utils/Tags.php:365
+msgid "Author Name"
+msgstr "Nume autor"
+
+#: app/Common/Utils/Tags.php:350
+msgid "Author Link"
+msgstr "Legătură la autor"
+
+#: app/Common/Utils/Tags.php:336
+msgid "Caption for the current media file."
+msgstr "Text asociat pentru fișierul media curent."
+
+#: app/Common/Utils/Tags.php:335
+msgid "Media Caption"
+msgstr "Text asociat pentru elementul media."
+
+#: app/Common/Utils/Tags.php:330 languages/aioseo-lite.php:3742
+msgid "Image Alt Tag"
+msgstr "Tag alt pentru imagine"
+
+#: app/Common/Api/Wizard.php:58 languages/aioseo-lite.php:7999
+msgid "Try Again"
+msgstr "Încearcă din nou"
+
+#: app/Common/Api/Wizard.php:54
+msgid "SEO Plugin Import Failed"
+msgstr "Importul modulului SEO a eșuat"
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - The Site URL.
+#: app/Common/Api/Tools.php:121
+msgid "%1$s Debug Info from %2$s"
+msgstr "Informații de depanare %1$s de la %2$s"
+
+#: app/Common/Tools/RobotsTxt.php:527
+msgid "There was an error deleting the physical robots.txt file."
+msgstr "A fost o eroare la ștergerea fizică a fișierului robots.txt."
+
+#: app/Common/Api/Plugins.php:130 app/Common/Api/Sitemaps.php:83
+msgid "Deactivation failed. Please check permissions and try again."
+msgstr "Dezactivarea a eșuat. Te rog verifică permisiunile și încearcă din nou."
+
+#: app/Common/Api/Plugins.php:24
+msgid "Installation failed. Please check permissions and try again."
+msgstr "Instalarea a eșuat. Te rog verifică permisiunile și încearcă din nou."
+
+#: app/Common/Tools/RobotsTxt.php:440
+msgid "There was an error importing the static robots.txt file."
+msgstr "A fost o eroare la importul fișierului static robots.txt."
+
+#: app/Common/ImportExport/RankMath/TitleMeta.php:425
+#: app/Common/Migration/GeneralSettings.php:721
+msgid "Invalid Phone Number for Knowledge Graph"
+msgstr "Număr de telefon nevalid pentru Knowledge Graph"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/PostSettings.php:158
+#: app/Common/Standalone/PageBuilders/ThriveArchitect.php:99
+#: app/Common/Standalone/PageBuilders/ThriveArchitect.php:138
+#: languages/aioseo-lite.php:270
+msgid "%1$s Settings"
+msgstr "Setări %1$s"
+
+#. Translators: 1 - A date (e.g. September 2, 2022).
+#: app/Common/Schema/Graphs/Article/NewsArticle.php:41
+msgid "Published on %1$s."
+msgstr "Publicat pe %1$s."
+
+#: app/Common/Migration/Helpers.php:159
+msgid "Custom field names with spaces detected"
+msgstr "Nume de câmp personalizate cu spații detectate"
+
+#: app/Common/Tools/BadBotBlocker.php:223
+msgid "(Invalid IP)"
+msgstr "(IP invalid)"
+
+#: app/Common/Tools/RobotsTxt.php:401
+msgid "Physical Robots.txt File Detected"
+msgstr "Fișier fizic Robots.txt detectat"
+
+#: app/Common/Tools/SystemStatus.php:376 app/Common/Tools/SystemStatus.php:408
+msgid "needs update"
+msgstr "necesită actualizare"
+
+#: app/Common/Tools/SystemStatus.php:274
+msgid "Not Set"
+msgstr "Nu este setat"
+
+#: app/Common/Tools/SystemStatus.php:258
+msgid "unknown"
+msgstr "necunoscut"
+
+#: app/Common/Tools/SystemStatus.php:166
+msgid "Constants"
+msgstr "Constante"
+
+#: app/Common/Tools/SystemStatus.php:106
+msgid "Base Directory:"
+msgstr "Director de bază:"
+
+#: app/Common/Tools/SystemStatus.php:104
+msgid "Path:"
+msgstr "Cale:"
+
+#: app/Common/Tools/SystemStatus.php:99
+msgid "Hidden"
+msgstr "Ascuns"
+
+#: app/Common/Tools/SystemStatus.php:99
+msgid "Visible"
+msgstr "Vizibil"
+
+#: app/Common/Tools/SystemStatus.php:90
+msgid "User Count"
+msgstr "Număr de utilizatori"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:330
+msgid "%1$s is updated to the latest version"
+msgstr "%1$s este actualizat la ultima versiune"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:313
+msgid "%1$s needs to be updated"
+msgstr "%1$s trebuie să fie actualizat"
+
+#. Translators: 1 - The estimated reading time.
+#: app/Common/Social/Twitter.php:268
+msgid "%1$s minute"
+msgid_plural "%1$s minutes"
+msgstr[0] "%1$s minut"
+msgstr[1] "%1$s minute"
+msgstr[2] "%1$s de minute"
+
+#: app/Common/Social/Twitter.php:266
+msgid "Est. reading time"
+msgstr "Timp estimat pentru citire"
+
+#: app/Common/Social/Twitter.php:257
+msgid "Written by"
+msgstr "Scris de"
+
+#: app/Common/Tools/SystemStatus.php:257
+msgid "Web Server"
+msgstr "Server web"
+
+#: app/Common/Tools/SystemStatus.php:107
+msgid "Base URL:"
+msgstr "URL de bază:"
+
+#: app/Common/Tools/SystemStatus.php:105
+msgid "Url:"
+msgstr "URL:"
+
+#: app/Common/Tools/SystemStatus.php:102
+msgid "Upload Directory Info"
+msgstr "Încarcă informații despre director"
+
+#: app/Common/Tools/SystemStatus.php:94
+msgid "Front Page Info"
+msgstr "Informații despre pagina din față"
+
+#: app/Common/Tools/SystemStatus.php:62
+msgid "User Language"
+msgstr "Limbă utilizator"
+
+#: app/Common/Tools/SystemStatus.php:43
+msgid "Latest version:"
+msgstr "Ultima versiune:"
+
+#: app/Common/Tools/SystemStatus.php:78
+msgid "Permalink Structure"
+msgstr "Structură legături permanente"
+
+#: app/Common/Admin/Notices/Migration.php:44
+msgid "This notice will automatically disappear as soon as the migration has completed. Meanwhile, everything should continue to work as expected."
+msgstr "Această notificare va dispărea automat de îndată ce migrarea s-a finalizat. Între timp, totul ar trebui să continue să funcționeze conform așteptărilor."
+
+#. Translators: 1 - The plugin name ("AIOSEO).
+#: app/Common/Admin/Notices/Migration.php:41
+msgid "%1$s V3->V4 Migration In Progress"
+msgstr "%1$s V3->V4 Migrație în curs de desfășurare"
+
+#: app/Common/Admin/Notices/Import.php:41
+msgid "This notice will automatically disappear as soon as the import has completed. Meanwhile, everything should continue to work as expected."
+msgstr "Această notificare va dispărea automat de îndată ce importul s-a finalizat. Între timp, totul ar trebui să continue să funcționeze conform așteptărilor."
+
+#: app/Common/Admin/Notices/Import.php:38
+msgid "SEO Meta Import In Progress"
+msgstr "Import meta SEO în curs de desfășurare"
+
+#. Translators: 1 - The short plugin name ("AIOSEO").
+#: app/Common/Standalone/DetailsColumn.php:148
+msgid "%1$s Details"
+msgstr "Detalii %1$s"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Migration.php:43
+msgid "%1$s is currently upgrading your database and migrating your SEO data in the background."
+msgstr "%1$s actualizează acum baza de date și migrează datele SEO în fundal."
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Import.php:40
+msgid "%1$s is importing your existing SEO data in the background."
+msgstr "%1$s importă acum datele SEO existente în fundal."
+
+#. Translators: 1 - The short plugin name ("AIOSEO").
+#: app/Common/Admin/Admin.php:1033
+msgid "%1$s Score"
+msgstr "Punctaj %1$s"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Standalone/SetupWizard.php:176
+msgid "%1$s &rsaquo; Onboarding Wizard"
+msgstr "%1$s &rsaquo; Asistent de îmbarcare"
+
+#: app/Common/Admin/Notices/Notices.php:467
+msgid "Search Engines Blocked"
+msgstr "Motoarele de căutare sunt blocate"
+
+#: app/Common/Admin/Notices/Notices.php:475
+#: app/Common/Admin/Notices/Notices.php:524
+#: app/Common/Admin/Notices/Notices.php:600
+#: app/Common/ImportExport/RankMath/TitleMeta.php:434
+#: app/Common/Main/Updates.php:1576
+#: app/Common/Migration/GeneralSettings.php:729
+msgid "Fix Now"
+msgstr "Corectează acum"
+
+#: app/Common/Admin/Notices/Notices.php:596
+msgid "Conflicting Plugins Detected"
+msgstr "Am detectat module care sunt în conflict"
+
+#: app/Common/Admin/Notices/Notices.php:516
+msgid "Invalid Description Format"
+msgstr "Format invalid pentru descriere"
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:191
+msgid "%1$s is too long. Try to make it shorter."
+msgstr "%1$s este prea lungă. Încearcă să o scurtezi."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:195
+msgid "%1$s length"
+msgstr "Lungime %1$s"
+
+#: languages/aioseo-lite.php:7169
+msgid "The content is below the minimum of words. Add more content."
+msgstr "Conținutul este sub numărul minim de cuvinte. Adaugă mai mult conținut."
+
+#: languages/aioseo-lite.php:1863
+msgid "Content length"
+msgstr "Lungime conținut"
+
+#: languages/aioseo-lite.php:7667
+msgid "This is far below the recommended minimum of words."
+msgstr "Este cu mult sub numărul minim de cuvinte recomandat."
+
+#: languages/aioseo-lite.php:7172
+msgid "The content length is ok. Good job!"
+msgstr "Lungimea conținutului este bună. Foarte bine!"
+
+#: languages/aioseo-lite.php:2978
+msgid "Focus keyphrase at the beginning of SEO Title"
+msgstr "Frază cheie la începutul titlului SEO"
+
+#: languages/aioseo-lite.php:3018
+msgid "Focus keyphrase used at the beginning of SEO title."
+msgstr "Fraza cheie este folosită la începutul titlului SEO."
+
+#: languages/aioseo-lite.php:3015
+msgid "Focus keyphrase not found in the URL."
+msgstr "Fraza cheie nu este în URL."
+
+#: languages/aioseo-lite.php:3006
+msgid "Focus keyphrase in URL"
+msgstr "Frază cheie în URL"
+
+#: languages/aioseo-lite.php:3021
+msgid "Focus keyphrase used in the URL."
+msgstr "Fraza cheie este folosită în URL."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:9122
+msgid "Your %1$s appears in the first paragraph. Well done!"
+msgstr "%1$s apare în primul paragraf. Foarte bine!"
+
+#: languages/aioseo-lite.php:4917
+msgid "No content added yet."
+msgstr "Nu ai adăugat conținut până acum."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:161
+msgid "%1$s in introduction"
+msgstr "%1$s în introducere"
+
+#: languages/aioseo-lite.php:550
+msgid "Add Additional Keyphrases"
+msgstr "Adaugă fraze cheie suplimentare"
+
+#: languages/aioseo-lite.php:5905
+msgid "Readability"
+msgstr "Lizibilitate"
+
+#: languages/aioseo-lite.php:6119
+msgid "Robots Setting"
+msgstr "Setări Robots"
+
+#. Translators: 1 - "WooCommerce".
+#: app/Lite/Admin/Notices/Notices.php:78
+msgid "Advanced %1$s Support"
+msgstr "Suport avansat pentru %1$s"
+
+#: app/Lite/Admin/Connect.php:233
+msgid "Pro version is already installed."
+msgstr "Versiunea Pro este deja instalată."
+
+#: languages/aioseo-lite.php:565
+msgid "Add Focus Keyphrase"
+msgstr "Adaugă o frază cheie"
+
+#: languages/aioseo-lite.php:2148
+msgid "Default (Set under Social Networks)"
+msgstr "Implicit (setat în rețelele de socializare)"
+
+#: languages/aioseo-lite.php:5754
+msgid "Preview & Edit"
+msgstr "Previzualizează și editează"
+
+#: languages/aioseo-lite.php:617
+msgid "Additional Keyphrases"
+msgstr "Fraze cheie suplimentare"
+
+#: languages/aioseo-lite.php:2523
+msgid "Edit Snippet"
+msgstr "Editează fragmentul"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:205
+#: languages/aioseo-lite.php:3140
+msgid "General"
+msgstr "Generale"
+
+#: languages/aioseo-lite.php:2700
+msgid "Enter a URL to change the default Canonical URL"
+msgstr "Introdu un URL pentru a înlocui URL-ul canonic implicit"
+
+#: app/Lite/Admin/Connect.php:392
+msgid "The Pro version installed correctly, but it needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "Versiunea Pro a fost instalată corect, dar trebuie activată din pagina Module din administrarea WordPress."
+
+#: app/Lite/Admin/Connect.php:320
+msgid "You are not licensed."
+msgstr "Nu ai licență."
+
+#. Translators: 1 - The marketing site domain ("aioseo.com").
+#: app/Lite/Admin/Connect.php:288
+msgid "Could not install upgrade. Please download from %1$s and install manually."
+msgstr "Nu am putut instala actualizarea. Te rog să o descarci din %1$s și s-o instalezi manual."
+
+#: app/Lite/Admin/Connect.php:224
+msgid "Please enter your license key to connect."
+msgstr "Te rog introdu cheia de licență pentru a te conecta."
+
+#: app/Lite/Admin/Connect.php:218
+msgid "You are not allowed to install plugins."
+msgstr "Nu ai voie să instalezi module."
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Lite/Admin/Connect.php:167
+msgid "%1$s &rsaquo; Connect"
+msgstr "%1$s &rsaquo; Conectare"
+
+#: languages/aioseo-lite.php:2984
+msgid "Focus keyphrase found in content."
+msgstr "Am găsit fraza cheie în conținut."
+
+#: languages/aioseo-lite.php:3009
+msgid "Focus keyphrase not found in content."
+msgstr "Nu am găsit fraza cheie în conținut."
+
+#: languages/aioseo-lite.php:2991
+msgid "Focus keyphrase in content"
+msgstr "Frază cheie în conținut"
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:126
+msgid "%1$s found in meta description."
+msgstr "Am găsit %1$s în descrierea meta."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:165
+msgid "%1$s in meta description"
+msgstr "%1$s în descrierea meta"
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:231
+msgid "%1$s not found in meta description."
+msgstr "Nu am găsit %1$s în descrierea meta."
+
+#: languages/aioseo-lite.php:3012
+msgid "Focus keyphrase not found in SEO title."
+msgstr "Fraza cheie nu este în titlul SEO."
+
+#: languages/aioseo-lite.php:2995
+msgid "Focus keyphrase in SEO title"
+msgstr "Frază cheie în titlul SEO"
+
+#: languages/aioseo-lite.php:2987
+msgid "Focus keyphrase found in SEO title."
+msgstr "Fraza cheie este în titlul SEO."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:9126
+msgid "Your %1$s does not appear in the first paragraph. Make sure the topic is clear immediately."
+msgstr "%1$s nu apare în primul paragraf. Asigură-te că o pui acolo imediat."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:182
+msgid "%1$s is slightly long. Try to make it shorter."
+msgstr "%1$s este puțin cam lungă. Încearcă să o scurtezi."
+
+#. Translators: 1 - Focus Keyphrase or Keyphrase.
+#: languages/aioseo-lite.php:4904
+msgid "No %1$s was set. Set a %1$s in order to calculate your SEO score."
+msgstr "Nu ai stabilit o %1$s. Setează o %1$s pentru a calcula punctajul SEO."
+
+#: languages/aioseo-lite.php:2981
+msgid "Focus keyphrase doesn't appear at the beginning of SEO title."
+msgstr "Fraza cheie nu apare la începutul titlului SEO."
+
+#: languages/aioseo-lite.php:2974
+msgid "Focus Keyphrase"
+msgstr "Frază cheie"
+
+#: languages/aioseo-lite.php:4187
+msgid "Keyphrase"
+msgstr "Frază cheie"
+
+#: languages/aioseo-lite.php:8454
+msgid "very easy"
+msgstr "foarte ușor"
+
+#: languages/aioseo-lite.php:3344
+msgid "Good job!"
+msgstr "Foarte bine!"
+
+#: languages/aioseo-lite.php:2855
+msgid "Facebook Description"
+msgstr "Descriere Facebook"
+
+#: languages/aioseo-lite.php:2864
+msgid "Facebook Title"
+msgstr "Titlu Facebook"
+
+#: languages/aioseo-lite.php:2858
+msgid "Facebook Image"
+msgstr "Imagine Facebook"
+
+#: languages/aioseo-lite.php:3765
+msgid "Image Source"
+msgstr "Sursă imagine"
+
+#: languages/aioseo-lite.php:2861
+msgid "Facebook Preview"
+msgstr "Previzualizare Facebook"
+
+#: languages/aioseo-lite.php:8310
+msgid "Use Data from Facebook Tab"
+msgstr "Folosește datele din fila Facebook"
+
+#: languages/aioseo-lite.php:2163
+msgid "Default Object Type (Set in Social Networks)"
+msgstr "Tip implicit de obiect (setat în rețelele de socializare)"
+
+#: languages/aioseo-lite.php:8482
+msgid "Video URL"
+msgstr "URL video"
+
+#: languages/aioseo-lite.php:2014
+msgid "Custom Field Name"
+msgstr "Nume câmp personalizat"
+
+#: languages/aioseo-lite.php:6787
+msgid "Social"
+msgstr "Sociale"
+
+#: languages/aioseo-lite.php:5448
+msgid "Passive voice"
+msgstr "Diateză pasivă"
+
+#: languages/aioseo-lite.php:3775
+msgid "Images/videos in content"
+msgstr "Imagini/videouri în conținut"
+
+#: languages/aioseo-lite.php:6565
+msgid "SEO Title length"
+msgstr "Lungime titlu SEO"
+
+#: languages/aioseo-lite.php:2832
+msgid "External links"
+msgstr "Legături externe"
+
+#: languages/aioseo-lite.php:4074
+msgid "Internal links"
+msgstr "Legături interne"
+
+#: languages/aioseo-lite.php:7314
+msgid "The meta description is too short."
+msgstr "Descrierea meta este prea scurtă."
+
+#: languages/aioseo-lite.php:4635
+msgid "Meta description length"
+msgstr "Lungime descriere meta"
+
+#: languages/aioseo-lite.php:7977
+msgid "Transition words"
+msgstr "Cuvinte de tranziție"
+
+#: languages/aioseo-lite.php:3458
+msgid "Great! You are linking to external resources."
+msgstr "Foarte bine! Te-ai legat la resurse externe."
+
+#: languages/aioseo-lite.php:7487
+msgid "The title is over 60 characters."
+msgstr "Titlul are peste 60 de caractere."
+
+#: languages/aioseo-lite.php:7490
+msgid "The title is too short."
+msgstr "Titlul este prea scurt."
+
+#: languages/aioseo-lite.php:5561
+msgid "Please add a title first."
+msgstr "Te rog adaugă mai întâi un titlu."
+
+#: languages/aioseo-lite.php:3452
+msgid "Great job!"
+msgstr "Foarte bine!"
+
+#: languages/aioseo-lite.php:5565
+msgid "Please add some content first."
+msgstr "Te rog adaugă mai întâi un conținut."
+
+#: languages/aioseo-lite.php:6479
+msgid "Sentences length"
+msgstr "Lungime propoziții"
+
+#: languages/aioseo-lite.php:6475
+msgid "Sentence length is looking great!"
+msgstr "Lungimea propozițiilor este foarte bună!"
+
+#: languages/aioseo-lite.php:7307
+msgid "The meta description is over 160 characters."
+msgstr "Descrierea meta are peste 160 de caractere."
+
+#: languages/aioseo-lite.php:4974
+msgid "No meta description has been specified. Search engines will display copy from the page instead. Make sure to write one!"
+msgstr "Nu ai specificat o descriere meta. Motoarele de căutare vor afișa o porțiune de text din pagină. Asigură-te că scrii una!"
+
+#: languages/aioseo-lite.php:9143
+msgid "Your content contains images and/or video(s)."
+msgstr "Conținutul tău are imagini și/sau videouri."
+
+#: languages/aioseo-lite.php:2968
+msgid "Focus keyphrase"
+msgstr "Frază cheie"
+
+#: languages/aioseo-lite.php:3002
+msgid "Focus keyphrase in Subheadings"
+msgstr "Frază cheie în subtitluri"
+
+#: languages/aioseo-lite.php:4691
+msgid "Modal Content"
+msgstr "Conținut fereastră modală"
+
+#: languages/aioseo-lite.php:6932
+msgid "Subheading distribution"
+msgstr "Distribuție subtitluri"
+
+#: languages/aioseo-lite.php:5542
+msgid "Pinterest account"
+msgstr "Cont Pinterest"
+
+#: languages/aioseo-lite.php:6959
+msgid "Success!"
+msgstr "Succes!"
+
+#: languages/aioseo-lite.php:8660
+msgid "Webmaster Tools Verification"
+msgstr "Verificare cu instrumente pentru webmasteri"
+
+#: languages/aioseo-lite.php:4676
+msgid "Miscellaneous Verification"
+msgstr "Diverse verificări"
+
+#: languages/aioseo-lite.php:3421
+msgid "Google Verification Code"
+msgstr "Cod de confirmare pentru Google"
+
+#: languages/aioseo-lite.php:1295
+msgid "Bing Verification Code"
+msgstr "Cod de confirmare pentru Bing"
+
+#: languages/aioseo-lite.php:8901
+msgid "Yandex Verification Code"
+msgstr "Cod de confirmare pentru Yandex"
+
+#: languages/aioseo-lite.php:1241
+msgid "Baidu Verification Code"
+msgstr "Cod de confirmare pentru Baidu"
+
+#. Translators: 1 - "Baidu Webmaster Tools".
+#: languages/aioseo-lite.php:3253
+msgid "Get your Baidu verification code in %1$s."
+msgstr "Ia-ți codul de confirmare pentru Baidu din %1$s."
+
+#. Translators: 1 - "Yandex Webmaster Tools".
+#: languages/aioseo-lite.php:3273
+msgid "Get your Yandex verification code in %1$s."
+msgstr "Ia-ți codul de confirmare pentru Yandex din %1$s."
+
+#. Translators: 1 - "Bing Webmaster Tools".
+#: languages/aioseo-lite.php:3257
+msgid "Get your Bing verification code in %1$s."
+msgstr "Ia-ți codul de confirmare pentru Bing din %1$s."
+
+#. Translators: 1 - "Google Search Console".
+#: languages/aioseo-lite.php:3265
+msgid "Get your Google verification code in %1$s."
+msgstr "Ia-ți codul de confirmare pentru Google din %1$s."
+
+#. Translators: 1 - "Pinterest account".
+#: languages/aioseo-lite.php:3269
+msgid "Get your Pinterest verification code in your %1$s."
+msgstr "Ia-ți codul de confirmare pentru Pinterest din %1$s."
+
+#: languages/aioseo-lite.php:556
+msgid "Add content before each post in your site feed."
+msgstr "Adaugă conținut înainte de fiecare articol în fluxul site-ului."
+
+#: languages/aioseo-lite.php:553
+msgid "Add content after each post in your site feed."
+msgstr "Adaugă conținut după fiecare articol în fluxul site-ului."
+
+#: languages/aioseo-lite.php:6129
+msgid "RSS After Content"
+msgstr "RSS după conținut"
+
+#: languages/aioseo-lite.php:6132
+msgid "RSS Before Content"
+msgstr "RSS înainte de conținut"
+
+#: languages/aioseo-lite.php:5250
+msgid "Open Your RDF Feed"
+msgstr "Deschide fluxul RDF"
+
+#: languages/aioseo-lite.php:4323
+msgid "Learn more"
+msgstr "Învață mai multe"
+
+#. Translators: 1 - Plugin Short Name ("AIOSEO").
+#: languages/aioseo-lite.php:8074
+msgid "Uninstall %1$s"
+msgstr "Dezinstalează %1$s"
+
+#: languages/aioseo-lite.php:9094
+msgid "You will need to manually update everything."
+msgstr "Va trebui să actualizezi totul manual."
+
+#: languages/aioseo-lite.php:748
+msgid "All (recommended)"
+msgstr "Toate (recomandat)"
+
+#: languages/aioseo-lite.php:1186
+msgid "Automatic Updates"
+msgstr "Actualizări automate"
+
+#: languages/aioseo-lite.php:943
+msgid "Announcements"
+msgstr "Anunțuri"
+
+#: languages/aioseo-lite.php:659
+msgid "Admin Bar Menu"
+msgstr "Meniu bară de administrare"
+
+#: languages/aioseo-lite.php:8284
+msgid "Usage Tracking"
+msgstr "Urmărire utilizare"
+
+#. Translators: 1 - Plugin Short Name ("AIOSEO").
+#: languages/aioseo-lite.php:7613
+msgid "This adds %1$s to the admin toolbar for easy access to your SEO settings."
+msgstr "Asta adaugă %1$s în bara de unelte din administrare pentru a accesa mai ușor setările SEO."
+
+#: languages/aioseo-lite.php:4669
+msgid "Minor Only"
+msgstr "Numai minore"
+
+#: languages/aioseo-lite.php:2080
+msgid "Dashboard Widgets"
+msgstr "Piese în Panou control"
+
+#: languages/aioseo-lite.php:975
+msgid "archive"
+msgstr "arhivă"
+
+#: languages/aioseo-lite.php:6171
+msgid "Sample short description for your product."
+msgstr "Exemplu descriere scurtă a produsului dumneavoastră."
+
+#: languages/aioseo-lite.php:5751
+msgid "Preview"
+msgstr "Previzualizează"
+
+#: languages/aioseo-lite.php:3582
+msgid "Hide"
+msgstr "Ascunde"
+
+#: languages/aioseo-lite.php:6650
+msgid "Show"
+msgstr "Arată"
+
+#: languages/aioseo-lite.php:5799
+msgid "Products & Entertainment"
+msgstr "Produse și divertisment"
+
+#: languages/aioseo-lite.php:5555
+msgid "Places"
+msgstr "Locuri"
+
+#: languages/aioseo-lite.php:5480
+msgid "People"
+msgstr "Oameni"
+
+#: languages/aioseo-lite.php:5326
+msgid "Organizations"
+msgstr "Organizații"
+
+#: languages/aioseo-lite.php:3471
+msgid "Groups"
+msgstr "Grupuri"
+
+#: languages/aioseo-lite.php:1448
+msgid "Businesses"
+msgstr "Afaceri"
+
+#: languages/aioseo-lite.php:525
+msgid "Activities"
+msgstr "Activități"
+
+#: languages/aioseo-lite.php:6778
+msgid "Smart Redirects + 404 Detection"
+msgstr "Redirecționări inteligente și detectare eroare 404 "
+
+#: languages/aioseo-lite.php:1397
+msgid "Breadcrumb Templates"
+msgstr "Șabloane firimituri"
+
+#: languages/aioseo-lite.php:1530
+msgid "Category Name"
+msgstr "Nume categorie"
+
+#: languages/aioseo-lite.php:1080
+msgid "Article Title"
+msgstr "Titlu articol"
+
+#: languages/aioseo-lite.php:6925
+msgid "Subcategory"
+msgstr "Subcategorie"
+
+#: languages/aioseo-lite.php:2003
+msgid "Current Item"
+msgstr "Element curent"
+
+#: app/Common/Breadcrumbs/Tags.php:180 languages/aioseo-lite.php:372
+msgid "404 Error Format"
+msgstr "Format eroare 404"
+
+#: languages/aioseo-lite.php:982
+msgid "Archive Format"
+msgstr "Format arhivă"
+
+#: languages/aioseo-lite.php:1390
+msgid "Breadcrumb Prefix"
+msgstr "Prefix firimituri"
+
+#: languages/aioseo-lite.php:3633
+msgid "Homepage Link"
+msgstr "Legătură la prima pagină"
+
+#: languages/aioseo-lite.php:1393
+msgid "Breadcrumb Settings"
+msgstr "Setări firimituri"
+
+#: languages/aioseo-lite.php:5532
+msgid "PHP Code"
+msgstr "Cod PHP"
+
+#: languages/aioseo-lite.php:3474
+msgid "Gutenberg Block"
+msgstr "Bloc Gutenberg"
+
+#: languages/aioseo-lite.php:6635
+msgid "Setup Wizard"
+msgstr "Asistent de inițializare"
+
+#: languages/aioseo-lite.php:4365
+msgid "License"
+msgstr "Licență"
+
+#: app/Common/Breadcrumbs/Tags.php:150 app/Common/Utils/Tags.php:545
+#: languages/aioseo-lite.php:6580
+msgid "Separator"
+msgstr "Separator"
+
+#: languages/aioseo-lite.php:5296
+msgid "Optimized Search Appearance"
+msgstr "Aspect în căutare optimizat"
+
+#. Translators: This refers to the homepage of the site.
+#: app/Common/Breadcrumbs/Breadcrumbs.php:521
+#: app/Common/Options/Options.php:596 app/Common/Schema/Breadcrumb.php:322
+#: app/Common/Views/sitemap/xsl/partials/breadcrumb.php:24
+#: languages/aioseo-lite.php:3605
+msgid "Home"
+msgstr "Prima pagină"
+
+#: languages/aioseo-lite.php:7993
+msgid "TruSEO Score & Content"
+msgstr "Punctaj și conținut TruSEO"
+
+#: languages/aioseo-lite.php:2603
+msgid "Enable Breadcrumbs"
+msgstr "Activează firimituri"
+
+#: languages/aioseo-lite.php:1406
+msgid "Breadcrumbs"
+msgstr "Firimituri"
+
+#: languages/aioseo-lite.php:6664
+msgid "Show Breadcrumbs on Your Website"
+msgstr "Arată firimituri pe site-ul tău web"
+
+#: languages/aioseo-lite.php:8567
+msgid "We couldn't connect to the site, please try again later."
+msgstr "Nu ne-am putut conecta la site, te rog reîncearcă mai târziu."
+
+#: languages/aioseo-lite.php:8675
+msgid "Websites"
+msgstr "Site-uri web"
+
+#: languages/aioseo-lite.php:6644
+msgid "Shortcode"
+msgstr "Scurt-cod"
+
+#: languages/aioseo-lite.php:419
+msgid "A short description for your product."
+msgstr "O descriere scurtă a produsului."
+
+#: languages/aioseo-lite.php:5796
+msgid "Product Short Description"
+msgstr "Descriere scurtă produs"
+
+#: languages/aioseo-lite.php:6284
+msgid "Search for an item..."
+msgstr "Caută un element..."
+
+#. Translators: 1 - An example URL (e.g. https://aioseo.com/example).
+#: languages/aioseo-lite.php:2687
+msgid "Enter a page URL, e.g. %1$s"
+msgstr "Introdu URL-ul unei pagini, de exemplu %1$s"
+
+#: languages/aioseo-lite.php:2532
+msgid "Edit Your Meta Description"
+msgstr "Editează descrierea meta"
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:9213
+msgid "Your meta description is %1$d characters long, which is too long."
+msgstr "Descrierea ta meta are %1$d de caractere, este prea lungă."
+
+#: languages/aioseo-lite.php:4980
+msgid "No meta description was found for your page."
+msgstr "Nu am găsită nicio descriere meta pentru pagina ta."
+
+#: languages/aioseo-lite.php:2546
+msgid "Edit Your Page Title"
+msgstr "Editează titlul paginii"
+
+#: languages/aioseo-lite.php:8255
+msgid "Upgrade Your Plan"
+msgstr "Actualizează-ți planul"
+
+#: languages/aioseo-lite.php:8025
+msgid "Type"
+msgstr "Tip"
+
+#: app/Common/Views/sitemap/html/widget-options.php:133
+#: languages/aioseo-lite.php:3692
+msgid "ID"
+msgstr "ID"
+
+#: languages/aioseo-lite.php:1683
+msgid "Click to Copy"
+msgstr "Dă clic pentru a copia"
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:9217
+msgid "Your meta description is only %1$d characters long, which is too short."
+msgstr "Descrierea ta meta are numai %1$d caractere, este prea scurtă."
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:7304
+msgid "The meta description is only %1$d characters long, which is too short."
+msgstr "Descrierea meta are numai %1$d caractere, este prea scurtă."
+
+#: languages/aioseo-lite.php:4977
+msgid "No meta description was found for the page."
+msgstr "Nu am găsită nicio descriere meta pentru pagină."
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:9221
+msgid "Your meta description is set and is %1$d characters long."
+msgstr "Ai stabilit descrierea meta și are %1$d de caractere."
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:7311
+msgid "The meta description is set and is %1$d characters long."
+msgstr "Ai stabilit descrierea meta și are %1$d de caractere."
+
+#. Translators: 1 - The length of the meta description as a number.
+#: languages/aioseo-lite.php:7300
+msgid "The meta description is %1$d characters long, which is too long."
+msgstr "Descrierea meta are %1$d de caractere, este prea lungă."
+
+#: languages/aioseo-lite.php:9347
+msgid "Your theme is not visible!"
+msgstr "Tema ta nu este vizibilă!"
+
+#. Translators: 1 - The name of the theme.
+#: languages/aioseo-lite.php:957
+msgid "Anyone can see that you are using the %1$s theme."
+msgstr "Oricine poate vedea că folosești tema %1$s."
+
+#: languages/aioseo-lite.php:7484
+msgid "The theme is not visible."
+msgstr "Tema nu este vizibilă."
+
+#: languages/aioseo-lite.php:7531
+msgid "There are no visible plugins."
+msgstr "Nu există module vizibile."
+
+#: languages/aioseo-lite.php:9065
+msgid "You have no visible plugins!"
+msgstr "Nu ai niciun modul vizibil."
+
+#: languages/aioseo-lite.php:5608
+msgid "Plugins from your website are publicly visible."
+msgstr "Modulele de pe site-ul tău web sunt vizibile public."
+
+#: languages/aioseo-lite.php:5605
+msgid "Plugins from the website are publicly visible."
+msgstr "Modulele de pe site-ul web sunt vizibile public."
+
+#: languages/aioseo-lite.php:9259
+msgid "Your response time is under 0.2 seconds."
+msgstr "Timpul de răspuns este sub 0,2 secunde."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:7433
+msgid "The SEO title is set and is %1$d characters long."
+msgstr "Ai stabilit titlul SEO și are %1$d caractere."
+
+#: languages/aioseo-lite.php:7397
+msgid "The response time is under 0.2 seconds."
+msgstr "Timpul de răspuns este sub 0,2 secunde."
+
+#: languages/aioseo-lite.php:1987
+msgid "CSS:"
+msgstr "CSS:"
+
+#: languages/aioseo-lite.php:4159
+msgid "JavaScript:"
+msgstr "JavaScript:"
+
+#: languages/aioseo-lite.php:3771
+msgid "Images:"
+msgstr "Imagini:"
+
+#: languages/aioseo-lite.php:758
+msgid "All CSS files appear to be minified."
+msgstr "Toate fișierele CSS par să fie minificate."
+
+#: languages/aioseo-lite.php:6821
+msgid "Some CSS files don't seem to be minified."
+msgstr "Unele fișiere CSS nu par a fi minificate."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:9278
+msgid "Your SEO title is set and is %1$d characters long."
+msgstr "Ai stabilit titlul SEO și are %1$d caractere."
+
+#. Translators: 1 - The total number of page requests.
+#: languages/aioseo-lite.php:7360
+msgid "The page makes %1$d requests."
+msgstr "Pagina face %1$d de cereri."
+
+#. Translators: 1 - The total number of page requests.
+#: languages/aioseo-lite.php:9247
+msgid "Your page makes %1$d requests."
+msgstr "Pagina face %1$d de cereri."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:7425
+msgid "The SEO title is %1$d characters long, which is too long."
+msgstr "Titlul SEO are %1$d caractere, este prea lung."
+
+#. Translators: 1 - The total number of page requests.
+#: languages/aioseo-lite.php:7455
+msgid "The size of the HTML document is %1$d KB."
+msgstr "Dimensiunea documentului HTML este de %1$d Ko."
+
+#: languages/aioseo-lite.php:7676
+msgid "This is under the average of 33 KB."
+msgstr "Este sub media de 33 Ko."
+
+#: languages/aioseo-lite.php:7670
+msgid "This is over our recommendation of 50 KB."
+msgstr "Este peste recomandările noastre de 50 Ko."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:9270
+msgid "Your SEO title is %1$d characters long, which is too long."
+msgstr "Titlul SEO are %1$d caractere, este prea lung."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:9274
+msgid "Your SEO title is only %1$d characters long, which is too short."
+msgstr "Titlul SEO are numai %1$d caractere, este prea scurt."
+
+#: languages/aioseo-lite.php:8570
+msgid "We couldn't find an SEO Title."
+msgstr "Nu am putut găsi un titlu SEO."
+
+#: languages/aioseo-lite.php:7412
+msgid "The robots.txt file is missing or unavailable."
+msgstr "Fișierul robots.txt lipsește sau este indisponibil."
+
+#: languages/aioseo-lite.php:9262
+msgid "Your robots.txt file is missing or unavailable."
+msgstr "Fișierul robots.txt lipsește sau este indisponibil."
+
+#: languages/aioseo-lite.php:8589
+msgid "We found Schema.org data on the page."
+msgstr "Am găsit datele Schema.org în pagină."
+
+#: languages/aioseo-lite.php:8592
+msgid "We found Schema.org data on your page."
+msgstr "Am găsit datele Schema.org în pagina ta."
+
+#: languages/aioseo-lite.php:5003
+msgid "No Schema.org data was found on the page."
+msgstr "Nu am găsit datele Schema.org în pagină."
+
+#: languages/aioseo-lite.php:5006
+msgid "No Schema.org data was found on your page."
+msgstr "Nu am găsit datele Schema.org în pagina ta."
+
+#. Translators: 1 - The length of the SEO title as a number.
+#: languages/aioseo-lite.php:7429
+msgid "The SEO title is only %1$d characters long, which is too short."
+msgstr "Titlul SEO are numai %1$d caractere, este prea scurt."
+
+#: languages/aioseo-lite.php:2543
+msgid "Edit Your Page"
+msgstr "Editează-ți pagina"
+
+#: languages/aioseo-lite.php:9293
+msgid "Your site has a robots.txt file."
+msgstr "Site-ul tău are un fișier robots.txt."
+
+#: languages/aioseo-lite.php:7445
+msgid "The site has a robots.txt file."
+msgstr "Site-ul are un fișier robots.txt."
+
+#: languages/aioseo-lite.php:2839
+msgid "External:"
+msgstr "Extern:"
+
+#: languages/aioseo-lite.php:4092
+msgid "Internal:"
+msgstr "Intern:"
+
+#: languages/aioseo-lite.php:6827
+msgid "Some images on your page have no alt attribute."
+msgstr "Unele imagini din pagină nu au atributul alt."
+
+#: languages/aioseo-lite.php:7342
+msgid "The page has a correct number of internal and external links."
+msgstr "Pagina are un număr adecvat de legături interne și externe."
+
+#: languages/aioseo-lite.php:9240
+msgid "Your page has a correct number of internal and external links."
+msgstr "Pagina are un număr adecvat de legături interne și externe."
+
+#: languages/aioseo-lite.php:4960
+msgid "No internal links were found on the page."
+msgstr "Nu am găsit nicio legătură internă în pagină."
+
+#: languages/aioseo-lite.php:4963
+msgid "No internal links were found on your page."
+msgstr "Nu am găsit nicio legătură internă în pagina ta."
+
+#: languages/aioseo-lite.php:774
+msgid "All images on the page have alt attributes."
+msgstr "Toate imaginile din pagină au atribute alt."
+
+#: languages/aioseo-lite.php:777
+msgid "All images on your page have alt attributes."
+msgstr "Toate imaginile din pagina ta au atribute alt."
+
+#: languages/aioseo-lite.php:7866
+msgid "Too few internal links on the page."
+msgstr "Ai prea puține legături interne în pagină."
+
+#: languages/aioseo-lite.php:7869
+msgid "Too few internal links on your page."
+msgstr "Ai prea puține legături interne în pagina ta."
+
+#: languages/aioseo-lite.php:3480
+msgid "H2 tags were found on the page."
+msgstr "Am găsit taguri H2 în pagină."
+
+#: languages/aioseo-lite.php:3483
+msgid "H2 tags were found on your page."
+msgstr "Am găsit taguri H2 în pagina ta."
+
+#: languages/aioseo-lite.php:4940
+msgid "No H2 tags were found on the page."
+msgstr "Nu am găsit niciun tag H2 în pagină."
+
+#: languages/aioseo-lite.php:4943
+msgid "No H2 tags were found on your page."
+msgstr "Nu am găsit niciun tag H2 în pagina ta."
+
+#: languages/aioseo-lite.php:5169
+msgid "One H1 tag was found on the page."
+msgstr "Am găsit un tag H1 în pagină."
+
+#: languages/aioseo-lite.php:5172
+msgid "One H1 tag was found on your page."
+msgstr "Am găsit un tag H1 în pagina ta."
+
+#. Translators: 1 - The number of H1 tags found.
+#: languages/aioseo-lite.php:25
+msgid "%1$d H1 tags were found."
+msgstr "Am găsit %1$d taguri H1."
+
+#: languages/aioseo-lite.php:4937
+msgid "No H1 tag was found."
+msgstr "Nu am găsit niciun tag H1."
+
+#: languages/aioseo-lite.php:5891
+msgid "Read the Setup Guide"
+msgstr "Citește ghidul de inițializare"
+
+#: languages/aioseo-lite.php:4310
+msgid "Launch the Setup Wizard"
+msgstr "Rulează asistentul de inițializare"
+
+#: languages/aioseo-lite.php:6938
+msgid "Submit a Support Ticket"
+msgstr "Trimite un tichet pentru suport"
+
+#: languages/aioseo-lite.php:3236
+msgid "Get Support"
+msgstr "Ai acces la suport"
+
+#: languages/aioseo-lite.php:8492
+msgid "View All Documentation"
+msgstr "Vezi toată documentația"
+
+#: languages/aioseo-lite.php:8504
+msgid "View Documentation"
+msgstr "Vezi documentația"
+
+#: languages/aioseo-lite.php:2406
+msgid "Docs"
+msgstr "Documente"
+
+#: app/Common/Views/report/summary.php:146
+#: app/Common/Views/report/summary.php:243
+#: app/Common/Views/report/summary.php:354
+#: app/Common/Views/report/summary.php:431
+#: app/Common/Views/report/summary.php:614
+#: app/Common/Views/report/summary.php:755
+#: app/Common/Views/report/summary.php:880 languages/aioseo-lite.php:8489
+msgid "View All"
+msgstr "Vezi tot"
+
+#: languages/aioseo-lite.php:6255
+msgid "Search"
+msgstr "Căutare"
+
+#: languages/aioseo-lite.php:1697
+msgid "Close"
+msgstr "Închide"
+
+#: languages/aioseo-lite.php:6196
+msgid "Save Changes"
+msgstr "Salvează modificările"
+
+#: languages/aioseo-lite.php:8495
+msgid "View all tags"
+msgstr "Vezi toate tagurile"
+
+#: languages/aioseo-lite.php:1676
+msgid "Click on the tags below to insert variables into your template."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în șablon."
+
+#: languages/aioseo-lite.php:3654
+msgid "How to Get Started"
+msgstr "Cum să începi"
+
+#: languages/aioseo-lite.php:6694
+msgid "Show Less"
+msgstr "Arată mai puțin"
+
+#: languages/aioseo-lite.php:6700
+msgid "Show More"
+msgstr "Arată mai mult"
+
+#: languages/aioseo-lite.php:2050
+msgid "Custom separator:"
+msgstr "Separator personalizat:"
+
+#: languages/aioseo-lite.php:6330
+msgid "Security"
+msgstr "Securitate"
+
+#: languages/aioseo-lite.php:687
+msgid "Advanced SEO"
+msgstr "SEO avansat"
+
+#: languages/aioseo-lite.php:4954
+msgid "No Index Paginated"
+msgstr "Fără index paginat"
+
+#: languages/aioseo-lite.php:2363
+msgid "Dismissed Notifications"
+msgstr "Notificări respinse"
+
+#: languages/aioseo-lite.php:6362
+msgid "See Dismissed Notifications"
+msgstr "Vezi notificările respinse"
+
+#: languages/aioseo-lite.php:9056
+msgid "You have no new notifications."
+msgstr "Nu ai notificări noi."
+
+#: languages/aioseo-lite.php:398
+msgid "a few seconds ago"
+msgstr "acum câteva secunde"
+
+#. Translators: A number will be prepended to this string, e.g. "2 years ago".
+#: languages/aioseo-lite.php:8915
+msgid "years ago"
+msgstr "cu ani în urmă"
+
+#: languages/aioseo-lite.php:441
+msgid "a year ago"
+msgstr "acum un an"
+
+#. Translators: A number will be prepended to this string, e.g. "2 months ago".
+#: languages/aioseo-lite.php:4720
+msgid "months ago"
+msgstr "cu luni în urmă"
+
+#: languages/aioseo-lite.php:410
+msgid "a month ago"
+msgstr "acum o lună"
+
+#. Translators: A number will be prepended to this string, e.g. "2 days ago".
+#: languages/aioseo-lite.php:2110
+msgid "days ago"
+msgstr "acum câteva zile"
+
+#: languages/aioseo-lite.php:392
+msgid "a day ago"
+msgstr "acum o zi"
+
+#. Translators: A number will be prepended to this string, e.g. "2 minutes
+#. ago".
+#: languages/aioseo-lite.php:4673
+msgid "minutes ago"
+msgstr "acum câteva minute"
+
+#: languages/aioseo-lite.php:407
+msgid "a minute ago"
+msgstr "un minut în urmă"
+
+#: languages/aioseo-lite.php:5013
+msgid "No taxonomies available."
+msgstr "Nu sunt disponibile taxonomii."
+
+#: languages/aioseo-lite.php:4993
+msgid "No post types available."
+msgstr "Nu este disponibil niciun tip de articol."
+
+#: languages/aioseo-lite.php:6769
+msgid "Slug:"
+msgstr "Descriptor:"
+
+#: languages/aioseo-lite.php:4253
+msgid "Label:"
+msgstr "Etichetă:"
+
+#: languages/aioseo-lite.php:4685
+msgid "Mobile Snapshot"
+msgstr "Instantaneu pentru mobil"
+
+#: languages/aioseo-lite.php:8550
+msgid "Warnings"
+msgstr "Avertizări"
+
+#: languages/aioseo-lite.php:930
+msgid "Analyzing..."
+msgstr "Analizez..."
+
+#: languages/aioseo-lite.php:4984
+msgid "No ODP"
+msgstr "Fără ODP"
+
+#: languages/aioseo-lite.php:5010
+msgid "No Snippet"
+msgstr "Fără fragment"
+
+#: languages/aioseo-lite.php:5025
+msgid "No Translate"
+msgstr "Fără traducere"
+
+#: languages/aioseo-lite.php:4908
+msgid "No Archive"
+msgstr "Nicio arhivă"
+
+#: languages/aioseo-lite.php:4931
+msgid "No Follow"
+msgstr "Fără urmărire"
+
+#: languages/aioseo-lite.php:4951
+msgid "No Index"
+msgstr "Fără index"
+
+#: languages/aioseo-lite.php:4270
+msgid "Large"
+msgstr "Mare"
+
+#: languages/aioseo-lite.php:6886
+msgid "Standard"
+msgstr "Standard"
+
+#: languages/aioseo-lite.php:4605
+msgid "Max Image Preview"
+msgstr "Previzualizare imagine maximă"
+
+#: languages/aioseo-lite.php:4613
+msgid "Max Video Preview"
+msgstr "Previzualizare video maximă"
+
+#: languages/aioseo-lite.php:4609
+msgid "Max Snippet"
+msgstr "Fragment maxim"
+
+#: languages/aioseo-lite.php:6116
+msgid "Robots meta:"
+msgstr "Robots meta:"
+
+#: languages/aioseo-lite.php:9372
+msgid "Your Username:"
+msgstr "Numele tău de utilizator:"
+
+#: languages/aioseo-lite.php:8394
+msgid "Use the same username for multiple social networks"
+msgstr "Folosește același nume de utilizator pentru mai multe rețele sociale"
+
+#: languages/aioseo-lite.php:9387
+msgid "Your YouTube URL is invalid. Please check the format and try again."
+msgstr "URL-ul YouTube este invalid. Te rog verifică formatul și încearcă din nou."
+
+#. Translators: This refers to a discount (e.g. "As a valued user you receive
+#. 50%, automatically applied at checkout!").
+#: languages/aioseo-lite.php:5153
+msgid "off"
+msgstr "oprit"
+
+#: languages/aioseo-lite.php:1263
+msgid "Basic SEO"
+msgstr "SEO de bază"
+
+#: languages/aioseo-lite.php:9224
+msgid "Your MySpace URL is invalid. Please check the format and try again."
+msgstr "URL-ul MySpace este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9375
+msgid "Your Wikipedia URL is invalid. Please check the format and try again."
+msgstr "URL-ul Wikipedia este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9321
+msgid "Your SoundCloud URL is invalid. Please check the format and try again."
+msgstr "URL-ul SoundCloud este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9384
+msgid "Your Yelp URL is invalid. Please check the format and try again."
+msgstr "URL-ul Yelp este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9353
+msgid "Your Tumblr URL is invalid. Please check the format and try again."
+msgstr "URL-ul Tumblr este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9209
+msgid "Your LinkedIn URL is invalid. Please check the format and try again."
+msgstr "URL-ul LinkedIn este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9250
+msgid "Your Pinterest URL is invalid. Please check the format and try again."
+msgstr "URL-ul Pinterest este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:869
+msgid "An error occurred while analyzing your site."
+msgstr "A apărut o eroare în timpul analizării site-ului tău."
+
+#: languages/aioseo-lite.php:9231
+msgid "Your Overall Site Score"
+msgstr "Punctaj general pentru site-ul tău"
+
+#: languages/aioseo-lite.php:7023
+msgid "Tax ID:"
+msgstr "ID impozit:"
+
+#: languages/aioseo-lite.php:5766
+msgid "Price Indicator"
+msgstr "Indicator de preț"
+
+#. Translators: 1 - Initial score range, 2 - Final score range.
+#: languages/aioseo-lite.php:433
+msgid "A very good score is between %1$d and %2$d."
+msgstr "Un punctaj foarte bun este între %1$d și %2$d."
+
+#: languages/aioseo-lite.php:5516
+msgid "Phone number"
+msgstr "Număr de telefon"
+
+#: languages/aioseo-lite.php:7250
+msgid "The geographic area where a service or offered item is provided."
+msgstr "Zona geografică în care este furnizat un serviciu sau un produs."
+
+#: languages/aioseo-lite.php:6682
+msgid "Show in Search Results"
+msgstr "Arată în rezultatele de căutare"
+
+#. Translators: 1 - "Pro".
+#: languages/aioseo-lite.php:8261
+msgid "upgrading to %1$s"
+msgstr "actualizând la %1$s"
+
+#: languages/aioseo-lite.php:3086
+msgid "Free"
+msgstr "Gratuit"
+
+#: languages/aioseo-lite.php:5138
+msgid "Number of Posts"
+msgstr "Număr de articole"
+
+#: languages/aioseo-lite.php:4307
+msgid "Launch Setup Wizard"
+msgstr "Lansează asistentul de inițializare"
+
+#: languages/aioseo-lite.php:2017
+msgid "Custom Field Support"
+msgstr "Suport pentru câmpuri personalizate"
+
+#: languages/aioseo-lite.php:2779
+msgid "Exclude Pages/Posts"
+msgstr "Exclude pagini/articole"
+
+#: languages/aioseo-lite.php:9191
+msgid "Your Instagram URL is invalid. Please check the format and try again."
+msgstr "URL-ul Instagram este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:9152
+msgid "Your Facebook URL is invalid. Please check the format and try again."
+msgstr "URL-ul Facebook este invalid. Te rog verifică formatul și încearcă din nou."
+
+#: languages/aioseo-lite.php:5219
+msgid "Open News Sitemap"
+msgstr "Deschide harta site Știri"
+
+#: languages/aioseo-lite.php:5241
+msgid "Open Video Sitemap"
+msgstr "Deschide harta site video"
+
+#: languages/aioseo-lite.php:3667
+msgid "HTML Sitemap"
+msgstr "Hartă site HTML"
+
+#: languages/aioseo-lite.php:6609
+msgid "Set Publication Name"
+msgstr "Setează numele publicației"
+
+#: languages/aioseo-lite.php:1680
+msgid "Click on the tags below to insert variables into your title."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în titlu."
+
+#: languages/aioseo-lite.php:9381
+msgid "Your X (Twitter) URL is invalid. Please check the format and try again."
+msgstr "URL-ul X (Twitter) nu este valid. Te rog să verifici formatul și să încerci din nou."
+
+#: languages/aioseo-lite.php:2630
+msgid "Enable Schema Markup"
+msgstr "Activează Schema Markup"
+
+#: languages/aioseo-lite.php:5739
+msgid "Press enter to create a keyword"
+msgstr "Apasă Enter pentru a crea un cuvânt cheie"
+
+#: languages/aioseo-lite.php:3612
+msgid "Home Page"
+msgstr "Prima pagină"
+
+#: languages/aioseo-lite.php:7794
+msgid "Title Separator"
+msgstr "Separator de titlu"
+
+#: languages/aioseo-lite.php:1123
+msgid "Attachment"
+msgstr "Atașament"
+
+#: languages/aioseo-lite.php:5345
+msgid "Other Options"
+msgstr "Alte opțiuni"
+
+#: languages/aioseo-lite.php:5881
+msgid "Read Only"
+msgstr "Numai citire"
+
+#: languages/aioseo-lite.php:6112
+msgid "Robots Meta Settings"
+msgstr "Setări Robots Meta"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Breadcrumbs/Tags.php:138 app/Common/Breadcrumbs/Tags.php:144
+#: app/Common/Utils/Tags.php:535 app/Common/Utils/Tags.php:597
+#: languages/aioseo-lite.php:285
+msgid "%1$s Title"
+msgstr "Titlu %1$s"
+
+#: languages/aioseo-lite.php:1126
+msgid "Attachment Parent"
+msgstr "Părinte atașament"
+
+#: languages/aioseo-lite.php:5938
+msgid "Redirect Attachment URLs"
+msgstr "Redirecționează URL-urile atașamentelor"
+
+#: languages/aioseo-lite.php:7631
+msgid "This feature requires one of the following plans:"
+msgstr "Această funcționalitate necesită unul din următoarele planuri:"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:6654
+msgid "Show %1$s Meta Box"
+msgstr "Arată caseta meta %1$s"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: languages/aioseo-lite.php:6658
+msgid "Show %1$s Thumbnail in Google Custom Search"
+msgstr "Arată miniatura %1$s în căutarea personalizată Google"
+
+#: languages/aioseo-lite.php:1431
+msgid "Bulk Editing"
+msgstr "Editare în masă"
+
+#: languages/aioseo-lite.php:4240
+msgid "Knowledge Graph"
+msgstr "Knowledge Graph"
+
+#: languages/aioseo-lite.php:6583
+msgid "Separator Character"
+msgstr "Caracter pentru separator"
+
+#: languages/aioseo-lite.php:6222
+msgid "Schema Markup"
+msgstr "Schemă markup"
+
+#: languages/aioseo-lite.php:2124
+msgid "Deactivated"
+msgstr "Dezactivat"
+
+#: languages/aioseo-lite.php:6905
+msgid "Status:"
+msgstr "Stare:"
+
+#. Translators: 1 - Company name ("Awesome Motive").
+#: languages/aioseo-lite.php:7101
+msgid "The %1$s Team"
+msgstr "Echipa %1$s"
+
+#: languages/aioseo-lite.php:4558
+msgid "Manage"
+msgstr "Administrează"
+
+#. Translators: 1 - The amount of remaining notifications.
+#: languages/aioseo-lite.php:9040
+msgid "You have %1$s more notifications"
+msgstr "Ai încă %1$s notificări"
+
+#: languages/aioseo-lite.php:6012
+msgid "Relaunch Setup Wizard"
+msgstr "Lansează din nou asistentul de inițializare"
+
+#. Translators: 1 - "Pro", 2 - A discount percentage (e.g. "50%").
+#: languages/aioseo-lite.php:8232
+msgid "Upgrade to %1$s and Save %2$s"
+msgstr "Actualizează la %1$s și economisești %2$s"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - "Pro".
+#: languages/aioseo-lite.php:3217
+msgid "Get more features in %1$s %2$s:"
+msgstr "Ai mai multe funcționalități în %1$s %2$s:"
+
+#: languages/aioseo-lite.php:5840
+msgid "Purchase License"
+msgstr "Cumpără licența"
+
+#: languages/aioseo-lite.php:2716
+msgid "Enter License Key"
+msgstr "Introdu cheia de licență"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:8216
+msgid "Upgrade %1$s to Pro and Unlock all Features!"
+msgstr "Actualizează %1$s la Pro și deblochezi toate funcționalitățile!"
+
+#: languages/aioseo-lite.php:6287
+msgid "Search for Features..."
+msgstr "Caută funcționalități..."
+
+#: languages/aioseo-lite.php:2116
+msgid "Deactivate All Features"
+msgstr "Dezactivează toate funcționalitățile"
+
+#: languages/aioseo-lite.php:495
+msgid "Activate All Features"
+msgstr "Activează toate funcționalitățile"
+
+#: languages/aioseo-lite.php:2360
+msgid "Dismiss All"
+msgstr "Respinge tot"
+
+#: languages/aioseo-lite.php:5859
+msgid "Quicklinks"
+msgstr "Legături rapide"
+
+#: languages/aioseo-lite.php:7528
+msgid "There are no new notifications at this moment."
+msgstr "Nu există notificări noi în acest moment."
+
+#: languages/aioseo-lite.php:6353
+msgid "See all dismissed notifications."
+msgstr "Vezi toate notificările respinse."
+
+#: app/Common/Tools/RobotsTxt.php:410 languages/aioseo-lite.php:3797
+msgid "Import and Delete"
+msgstr "Importă și șterge"
+
+#: languages/aioseo-lite.php:6551
+msgid "SEO Site Score"
+msgstr "Punctaj SEO pentru site"
+
+#: languages/aioseo-lite.php:5229
+msgid "Open Robots.txt"
+msgstr "Deschide Robots.txt"
+
+#: languages/aioseo-lite.php:2243
+msgid "Delete Rule"
+msgstr "Șterge regula"
+
+#: languages/aioseo-lite.php:2606
+msgid "Enable Custom Robots.txt"
+msgstr "Activează Robots.txt personalizat"
+
+#: languages/aioseo-lite.php:4666
+msgid "Minimum size: 300px x 157px, ideal ratio 2:1, 5MB max. JPG, PNG, WEBP and GIF formats only."
+msgstr "Dimensiune minimă: 300px x 157px, raport ideal 2: 1, 5 MB max. Numai formatele JPG, PNG, WEBP și GIF."
+
+#: languages/aioseo-lite.php:4656
+msgid "Minimum size: 144px x 144px, ideal ratio 1:1, 5MB max. JPG, PNG, WEBP and GIF formats only."
+msgstr "Dimensiune minimă: 144 px x 144 px, raport ideal 1: 1, 5 MB max. Numai formatele JPG, PNG, WEBP și GIF."
+
+#: languages/aioseo-lite.php:613
+msgid "Additional Data"
+msgstr "Date suplimentare"
+
+#: languages/aioseo-lite.php:1517
+msgid "Card Type"
+msgstr "Tip de card"
+
+#: languages/aioseo-lite.php:3615
+msgid "Home Page Image"
+msgstr "Imagine pentru prima pagină"
+
+#: languages/aioseo-lite.php:2903
+msgid "Features:"
+msgstr "Funcționalități:"
+
+#. Translators: 1 - The abbreviated plugin name ("AIOSEO").
+#: languages/aioseo-lite.php:203
+msgid "%1$s Lite vs. Pro"
+msgstr "%1$s Lite versus Pro"
+
+#. Translators: 1 - The plugin short name ("AIOSEO Pro"), 2 - "Pro" string.
+#: languages/aioseo-lite.php:4015
+msgid "Installing %1$s %2$s"
+msgstr "Instalez %1$s %2$s"
+
+#: languages/aioseo-lite.php:3651
+msgid "How to Control Search Results"
+msgstr "Cum să controlezi rezultatele de căutare"
+
+#: languages/aioseo-lite.php:1289
+msgid "Best Practices for Domains and URLs"
+msgstr "Cele mai bune practici pentru domenii și URL-uri"
+
+#: languages/aioseo-lite.php:1257
+msgid "Basic Guide to Google Search Console"
+msgstr "Ghid de bază pentru Google Search Console"
+
+#: languages/aioseo-lite.php:1254
+msgid "Basic Guide to Google Analytics"
+msgstr "Ghid de bază pentru Google Analytics"
+
+#: languages/aioseo-lite.php:6376
+msgid "See our full documentation"
+msgstr "Consultă documentația noastră completă"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:105
+msgid "%1$s Documentation"
+msgstr "Documentație %1$s "
+
+#: languages/aioseo-lite.php:8498
+msgid "View all video tutorials"
+msgstr "Vezi toate tutorialele video"
+
+#: languages/aioseo-lite.php:8479
+msgid "Video Tutorials"
+msgstr "Tutoriale video"
+
+#: languages/aioseo-lite.php:1640
+msgid "Cleared"
+msgstr "Șters"
+
+#: languages/aioseo-lite.php:4511
+msgid "Logs"
+msgstr "Jurnale"
+
+#: languages/aioseo-lite.php:5041
+msgid "No, I need to make a backup"
+msgstr "Nu, trebuie să fac o copie de siguranță"
+
+#: languages/aioseo-lite.php:8928
+msgid "Yes, I have a backup and want to reset the settings"
+msgstr "Da, am o copie de siguranță și vreau să resetez setările"
+
+#: languages/aioseo-lite.php:1052
+msgid "Are you sure you want to reset the selected settings to default?"
+msgstr "Sigur vrei să resetezi setările selectate la valorile implicite?"
+
+#: languages/aioseo-lite.php:9287
+msgid "Your settings have been reset successfully!"
+msgstr "Setările tale au fost resetate cu succes!"
+
+#: languages/aioseo-lite.php:6406
+msgid "Select settings that you would like to reset:"
+msgstr "Selectează setările pe care vrei să le resetezi:"
+
+#: languages/aioseo-lite.php:6403
+msgid "Select Settings"
+msgstr "Selectează setările"
+
+#: languages/aioseo-lite.php:6080
+msgid "Reset / Restore Settings"
+msgstr "Resetează/restaurează setările"
+
+#: languages/aioseo-lite.php:1906
+msgid "Copied!"
+msgstr "Copiat!"
+
+#: languages/aioseo-lite.php:8824
+msgid "WordPress"
+msgstr "WordPress"
+
+#: languages/aioseo-lite.php:7009
+msgid "System Status Info"
+msgstr "Informații despre starea sistemului"
+
+#. Translators: 1 - The location of the log file.
+#: languages/aioseo-lite.php:7296
+msgid "The log for the blocked bots is located here: %1$s"
+msgstr "Jurnalul pentru boții blocați se află aici: %1$s"
+
+#: languages/aioseo-lite.php:1342
+msgid "Blocked Bots Log"
+msgstr "Jurnal de boți blocați"
+
+#: languages/aioseo-lite.php:6982
+msgid "Summary with Large Image"
+msgstr "Rezumat cu imagine mare"
+
+#: languages/aioseo-lite.php:6781
+msgid "Smart Schema"
+msgstr "Schemă inteligentă"
+
+#: app/Common/Admin/Admin.php:235 languages/aioseo-lite.php:4470
+msgid "Local SEO"
+msgstr "Local SEO"
+
+#: app/Common/Tools/SystemStatus.php:250 languages/aioseo-lite.php:6600
+msgid "Server Info"
+msgstr "Informații despre server"
+
+#: languages/aioseo-lite.php:1909
+msgid "Copy to Clipboard"
+msgstr "Copiază în clipboard"
+
+#: languages/aioseo-lite.php:2439
+msgid "Download System Info File"
+msgstr "Descarcă fișierul cu informații despre sistem"
+
+#: languages/aioseo-lite.php:4316
+msgid "Learn how to get your Pinterest Verification Code"
+msgstr "Află cum să obții codul de confirmare pentru Pinterest"
+
+#: languages/aioseo-lite.php:5552
+msgid "Pinterest Verification Code"
+msgstr "Cod de confirmare pentru Pinterest"
+
+#: languages/aioseo-lite.php:2151
+msgid "Default Card Type"
+msgstr "Tip implicit de card"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:752
+msgid "All %1$s Settings"
+msgstr "Toate setările %1$s "
+
+#: languages/aioseo-lite.php:3705
+msgid "If you have already confirmed your website with Pinterest, you can skip the step below."
+msgstr "Dacă ți-ai confirmat deja site-ul cu Pinterest, poți să sari peste pasul de mai jos."
+
+#: languages/aioseo-lite.php:7827
+msgid "To let search engines know which profiles are associated with this user, enter them below:"
+msgstr "Pentru a arăta motoarelor de căutare care sunt profilurile asociate cu acest utilizator, introdu-le mai jos:"
+
+#: languages/aioseo-lite.php:8877
+msgid "X (Twitter) Card Settings"
+msgstr "Setări card X (Twitter)"
+
+#: languages/aioseo-lite.php:6456
+msgid "Select your timezone"
+msgstr "Selectează fusul orar:"
+
+#. Translators: 1 - Opening HTML link and bold tag, 2 - Closing HTML link and
+#. bold tag.
+#: languages/aioseo-lite.php:1753
+msgid "Complete documentation on usage tracking is available %1$shere%2$s."
+msgstr "Documentația completă privind urmărirea utilizării este disponibilă %1$saici%2$s."
+
+#: languages/aioseo-lite.php:900
+msgid "An upgrade is required to unlock the following features."
+msgstr "Este necesară o actualizare pentru a debloca următoarele funcționalități."
+
+#: languages/aioseo-lite.php:8922
+msgid "Yes, count me in"
+msgstr "Da, contează pe mine"
+
+#: languages/aioseo-lite.php:8067
+msgid "Under Construction"
+msgstr "În construcție"
+
+#: languages/aioseo-lite.php:6498
+msgid "SEO Editor"
+msgstr "Editor SEO"
+
+#: languages/aioseo-lite.php:6511
+msgid "SEO Manager"
+msgstr "Manager SEO"
+
+#: languages/aioseo-lite.php:2549
+msgid "Editor"
+msgstr "Editor"
+
+#: languages/aioseo-lite.php:666
+msgid "Administrator"
+msgstr "Administrator"
+
+#: languages/aioseo-lite.php:469
+msgid "Access Control Settings"
+msgstr "Setări control acces"
+
+#: languages/aioseo-lite.php:9200
+msgid "Your license has expired."
+msgstr "Licența ta a expirat."
+
+#: languages/aioseo-lite.php:9203
+msgid "Your license key is invalid."
+msgstr "Cheia ta de licență nu este validă."
+
+#: languages/aioseo-lite.php:9197
+msgid "Your license has been disabled."
+msgstr "Licența ta a fost dezactivată."
+
+#. Translators: 1 - A number, 2 - A number.
+#: languages/aioseo-lite.php:243
+msgid "%1$s out of %2$s max recommended characters."
+msgstr "%1$s din %2$s caractere maxim recomandate."
+
+#: languages/aioseo-lite.php:2526
+msgid "Edit Title and Description"
+msgstr "Editează titlul și descrierea"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag.
+#: languages/aioseo-lite.php:1471
+msgid "By default SEO Editors have access to %1$sSEO settings for individual pages and posts.%2$s"
+msgstr "În mod implicit, editorii SEO au acces la %1$ssetările SEO pentru pagini și articole individuale.%2$s"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag.
+#: languages/aioseo-lite.php:1459
+msgid "By default Authors have access to %1$sSEO settings for individual pages and posts that they already have permission to edit.%2$s"
+msgstr "În mod implicit, autorii au acces la %1$ssetările SEO pentru pagini și articole individuale pe care au deja permisiunea de editare.%2$s"
+
+#: languages/aioseo-lite.php:8847
+msgid "Would you like to purchase and install the following features now?"
+msgstr "Vrei să cumperi și să instalezi acum funcționalitățile următoare?"
+
+#. Translators: 1 - Plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:3557
+msgid "Help make %1$s better for everyone"
+msgstr "Ajută la îmbunătățirea %1$s pentru toată lumea"
+
+#: languages/aioseo-lite.php:9146
+msgid "Your Email Address"
+msgstr "Adresa ta de email"
+
+#: languages/aioseo-lite.php:2402
+msgid "Do you have multiple authors?"
+msgstr "Ai mai mulți autori?"
+
+#: languages/aioseo-lite.php:5837
+msgid "Purchase and Install Now"
+msgstr "Cumpără și instalează acum"
+
+#: languages/aioseo-lite.php:3685
+msgid "I'll do it later"
+msgstr "Fac asta mai târziu"
+
+#: languages/aioseo-lite.php:9097
+msgid "You won't have access to this functionality until the extensions have been purchased and installed."
+msgstr "Nu vei avea acces la această funcționalitate până când extensiile nu vor fi cumpărate și instalate."
+
+#: languages/aioseo-lite.php:5935
+msgid "Redirect attachment pages?"
+msgstr "Redirecționezi paginile atașament?"
+
+#: languages/aioseo-lite.php:4107
+msgid "Is the site under construction or live (ready to be indexed)?"
+msgstr "Site-ul este în construcție sau live (pregătit pentru a fi indexat)?"
+
+#: languages/aioseo-lite.php:4435
+msgid "Live Site"
+msgstr "Site live"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag.
+#: languages/aioseo-lite.php:1455
+msgid "By default Admins have access to %1$sall SEO site settings%2$s"
+msgstr "În mod implicit, administratorii au acces la %1$stoate setările SEO ale site-ului%2$s"
+
+#: languages/aioseo-lite.php:1665
+msgid "Click on the tags below to insert variables into your meta description."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în descrierea meta."
+
+#: languages/aioseo-lite.php:1673
+msgid "Click on the tags below to insert variables into your site title."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în titlul site-ului tău."
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag.
+#: languages/aioseo-lite.php:1467
+msgid "By default Editors have access to %1$sSEO settings for General Settings, Search Appearance, Social Networks, and Redirects as well as all settings for individual pages and posts.%2$s"
+msgstr "În mod implicit, editorii au acces la %1$ssetările SEO pentru Setări generale, Aspect în căutare, Rețele de socializare și Redirecționări, precum și la toate setările pentru pagini și articole individuale.%2$s"
+
+#: languages/aioseo-lite.php:9071
+msgid "You have not yet added a valid license key."
+msgstr "Nu ai adăugat încă o cheie de licență validă."
+
+#: languages/aioseo-lite.php:7980
+msgid "Travel Agency"
+msgstr "Agenție de turism"
+
+#: languages/aioseo-lite.php:7954
+msgid "Tourist Information Center"
+msgstr "Centru de informare turistică"
+
+#: languages/aioseo-lite.php:7053
+msgid "Television Station"
+msgstr "Post de televiziune"
+
+#: languages/aioseo-lite.php:6873
+msgid "Sports Activity Location"
+msgstr "Locație activități sportive"
+
+#: languages/aioseo-lite.php:6641
+msgid "Shopping Center"
+msgstr "Centru comercial"
+
+#: languages/aioseo-lite.php:6462
+msgid "Self Storage"
+msgstr "Depozit"
+
+#: languages/aioseo-lite.php:5932
+msgid "Recycling Center"
+msgstr "Centru de reciclare"
+
+#: languages/aioseo-lite.php:5908
+msgid "Real Estate Agent"
+msgstr "Agent imobiliar"
+
+#: languages/aioseo-lite.php:4619
+msgid "Medical Business"
+msgstr "Centru medical"
+
+#: languages/aioseo-lite.php:4486
+msgid "Lodging Business"
+msgstr "Cazare"
+
+#: languages/aioseo-lite.php:4362
+msgid "Library"
+msgstr "Bibliotecă"
+
+#: languages/aioseo-lite.php:4349
+msgid "Legal Service"
+msgstr "Servicii juridice"
+
+#: languages/aioseo-lite.php:3608
+msgid "Home & Construction Business"
+msgstr "Afaceri case și construcții"
+
+#: languages/aioseo-lite.php:3547
+msgid "Health & Beauty Business"
+msgstr "Centre de sănătate și frumusețe"
+
+#: languages/aioseo-lite.php:3433
+msgid "Government Office"
+msgstr "Birou guvernamental"
+
+#: languages/aioseo-lite.php:3033
+msgid "Food Establishment"
+msgstr "Unitate alimentară"
+
+#: languages/aioseo-lite.php:2943
+msgid "Financial Service"
+msgstr "Servicii financiare"
+
+#: languages/aioseo-lite.php:2745
+msgid "Entertainment Business"
+msgstr "Afaceri de divertisment "
+
+#: languages/aioseo-lite.php:2594
+msgid "Employment Agency"
+msgstr "Agenție pentru ocuparea forței de muncă"
+
+#: languages/aioseo-lite.php:2577
+msgid "Emergency Service"
+msgstr "Serviciul de urgență"
+
+#: languages/aioseo-lite.php:2454
+msgid "Dry Cleaning/Laundry"
+msgstr "Curățătorie chimică/spălătorie"
+
+#: languages/aioseo-lite.php:2252
+msgid "Dentist"
+msgstr "Dentist"
+
+#: languages/aioseo-lite.php:1560
+msgid "Childcare"
+msgstr "Îngrijirea copiilor"
+
+#: languages/aioseo-lite.php:1199
+msgid "Automotive Business"
+msgstr "Afaceri auto"
+
+#: languages/aioseo-lite.php:985
+msgid "Archive Organization"
+msgstr "Arhivă"
+
+#: languages/aioseo-lite.php:1064
+msgid "Area Served"
+msgstr "Zonă deservită"
+
+#: languages/aioseo-lite.php:4749
+msgid "Multiple Locations"
+msgstr "Mai multe locații"
+
+#: languages/aioseo-lite.php:5468
+msgid "Payment Info"
+msgstr "Informații despre plată"
+
+#: languages/aioseo-lite.php:516
+msgid "Active Notifications"
+msgstr "Notificări active"
+
+#: languages/aioseo-lite.php:4843
+msgid "New Notifications"
+msgstr "Notificări noi"
+
+#: languages/aioseo-lite.php:5865
+msgid "Radio Station"
+msgstr "Post de radio"
+
+#: languages/aioseo-lite.php:6248
+msgid "Score"
+msgstr "Punctaj"
+
+#: languages/aioseo-lite.php:2157
+msgid "Default Image Source (Set in Social Networks)"
+msgstr "Sursă implicită pentru imagine (setată în rețelele de socializare)"
+
+#: languages/aioseo-lite.php:1120
+msgid "Attached Image"
+msgstr "Imagine atașată"
+
+#: languages/aioseo-lite.php:2154
+msgid "Default Image (Set Below)"
+msgstr "Imagine implicită (setată mai jos)"
+
+#: languages/aioseo-lite.php:767
+msgid "All Good!"
+msgstr "Toate bune!"
+
+#: languages/aioseo-lite.php:2769
+msgid "Excellent!"
+msgstr "Excelent!"
+
+#: languages/aioseo-lite.php:8459
+msgid "Very Good!"
+msgstr "Foarte bine!"
+
+#: languages/aioseo-lite.php:425
+msgid "A valid license key is required"
+msgstr "Este necesară o cheie de licență validă"
+
+#: languages/aioseo-lite.php:5348
+msgid "Other:"
+msgstr "Altele:"
+
+#: languages/aioseo-lite.php:5617
+msgid "Portfolio"
+msgstr "Portofoliu"
+
+#: languages/aioseo-lite.php:1922
+msgid "Corporation"
+msgstr "Corporație"
+
+#: languages/aioseo-lite.php:5178
+msgid "Online Store"
+msgstr "Magazin online"
+
+#: languages/aioseo-lite.php:4868
+msgid "News Channel"
+msgstr "Canal de știri"
+
+#: languages/aioseo-lite.php:6772
+msgid "Small Offline Business"
+msgstr "Afaceri mici offline"
+
+#: languages/aioseo-lite.php:6189
+msgid "Save and Continue"
+msgstr "Salvează și continuă"
+
+#: languages/aioseo-lite.php:3309
+msgid "Go Back"
+msgstr "Du-te înapoi"
+
+#: languages/aioseo-lite.php:7838
+msgid "to see your Site Score."
+msgstr "pentru a vedea punctajul site-ului tău."
+
+#: languages/aioseo-lite.php:1760
+msgid "Complete Site Audit Checklist"
+msgstr "Finalizează lista de verificări pentru auditul site-ului"
+
+#: languages/aioseo-lite.php:7821
+msgid "to analyze a competitor site."
+msgstr "pentru a analiza un site concurent."
+
+#. Translators: 1 - HTML Line break tag.
+#: languages/aioseo-lite.php:4798
+msgid "Needs%1$sImprovement!"
+msgstr "Necesită%1$sîmbunătățiri!"
+
+#. Translators: 1 - HTML Line break tag.
+#: languages/aioseo-lite.php:8648
+msgid "We've got some%1$swork to do!"
+msgstr "Avem câteva%1$slucruri de făcut!"
+
+#: languages/aioseo-lite.php:1592
+msgid "Choose Image"
+msgstr "Alege o imagine"
+
+#: languages/aioseo-lite.php:6760
+msgid "Skip this Step"
+msgstr "Sari peste acest pas"
+
+#: languages/aioseo-lite.php:1851
+msgid "Contact Page URL:"
+msgstr "URL pagină Contact:"
+
+#: languages/aioseo-lite.php:454
+msgid "About Page URL:"
+msgstr "URL pagină Despre:"
+
+#: languages/aioseo-lite.php:9228
+msgid "Your name or company name."
+msgstr "Numele tău sau numele companiei."
+
+#: languages/aioseo-lite.php:4780
+msgid "name"
+msgstr "nume"
+
+#: languages/aioseo-lite.php:940
+msgid "Animal Shelter"
+msgstr "Adăpost pentru animale"
+
+#: languages/aioseo-lite.php:1442
+msgid "Business Info"
+msgstr "Informații despre afacere"
+
+#: languages/aioseo-lite.php:3467
+msgid "Grouped"
+msgstr "Grupat"
+
+#: languages/aioseo-lite.php:3800
+msgid "Import Data and Continue"
+msgstr "Importă datele și continuă"
+
+#: languages/aioseo-lite.php:3928
+msgid "Include All Taxonomies"
+msgstr "Include toate taxonomiile"
+
+#: languages/aioseo-lite.php:1196
+msgid "Automatically Ping Search Engines"
+msgstr "Trimite ping-uri automat la motoare de căutare"
+
+#: languages/aioseo-lite.php:8766
+msgid "Which SEO features do you want to enable?"
+msgstr "Ce funcționalități SEO vrei să activezi?"
+
+#. Translators: 1 - Plugin short name ("AIOSEO"), 2 - A list of plugin names.
+#: languages/aioseo-lite.php:7214
+msgid "The following %1$s addons will be installed: %2$s"
+msgstr "Vor fi instalate următoarele suplimente %1$s: %2$s"
+
+#. Translators: 1 - Plugin short name ("AIOSEO"), 2 - A list of plugin names.
+#: languages/aioseo-lite.php:7223
+msgid "The following plugins and %1$s addons will be installed: %2$s"
+msgstr "Vor fi instalate următoarele module și suplimente %1$s: %2$s"
+
+#: languages/aioseo-lite.php:3627
+msgid "Home Page Title"
+msgstr "Titlu pentru prima pagină"
+
+#: languages/aioseo-lite.php:2733
+msgid "Enter your answer"
+msgstr "Introdu răspunsul tău"
+
+#. Translators: 1 - A list of plugin names.
+#: languages/aioseo-lite.php:7227
+msgid "The following plugins will be installed: %1$s"
+msgstr "Vor fi instalate următoarele module: %1$s"
+
+#: languages/aioseo-lite.php:8763
+msgid "Which category best describes your website?"
+msgstr "Care categorie descrie cel mai bine site-ul tău web?"
+
+#: languages/aioseo-lite.php:2100
+msgid "Date Archive Sitemap"
+msgstr "Hartă site arhivă de date"
+
+#: languages/aioseo-lite.php:1170
+msgid "Author Sitemap"
+msgstr "Hartă site autori"
+
+#: languages/aioseo-lite.php:2638
+msgid "Enable Sitemap"
+msgstr "Activează hărțile site"
+
+#: languages/aioseo-lite.php:8672
+msgid "Website URL:"
+msgstr "URL site web:"
+
+#: languages/aioseo-lite.php:5238
+msgid "Open Sitemap"
+msgstr "Deschide harta site"
+
+#: languages/aioseo-lite.php:2803
+msgid "Export All Post Types"
+msgstr "Exportă toate tipurile de articol"
+
+#: languages/aioseo-lite.php:2806
+msgid "Export All Settings"
+msgstr "Exportă toate setările"
+
+#. Translators: 1 - The name of the plugin being imported (e.g "Yoast SEO").
+#: languages/aioseo-lite.php:289
+msgid "%1$s was successfully imported!"
+msgstr "%1$s a fost importat cu succes!"
+
+#: languages/aioseo-lite.php:799
+msgid "All Settings"
+msgstr "Toate setările"
+
+#: languages/aioseo-lite.php:2182
+msgid "Default settings that just work"
+msgstr "Setări implicite care funcționează"
+
+#: languages/aioseo-lite.php:6501
+msgid "SEO Editor Role"
+msgstr "Rol de editor SEO"
+
+#: languages/aioseo-lite.php:6514
+msgid "SEO Manager Role"
+msgstr "Rol de manager SEO"
+
+#: languages/aioseo-lite.php:8850
+msgid "WP Roles (Editor, Author)"
+msgstr "Roluri WP (editor, autor)"
+
+#: languages/aioseo-lite.php:3825
+msgid "Import Settings From Other Plugins"
+msgstr "Importă setările din alte module"
+
+#: languages/aioseo-lite.php:7850
+msgid "To unlock the selected features, please enter your license key below."
+msgstr "Pentru a debloca funcționalitățile selectate, te rog introdu cheia ta de licență mai jos."
+
+#. Translators: 1 - "Pro".
+#: languages/aioseo-lite.php:8220
+msgid "upgrade to %1$s"
+msgstr "actualizează la %1$s"
+
+#: app/Common/Admin/Admin.php:218 languages/aioseo-lite.php:6807
+msgid "Social Networks"
+msgstr "Rețele sociale"
+
+#. Translators: 1 - The name of the plugin being imported (e.g "Yoast SEO").
+#: languages/aioseo-lite.php:879
+msgid "An error occurred while importing %1$s. Please try again."
+msgstr "A apărut o eroare în timpul importului %1$s. Te rog încearcă din nou."
+
+#: languages/aioseo-lite.php:7078
+msgid "Term Meta"
+msgstr "Metadate termen"
+
+#: languages/aioseo-lite.php:5660
+msgid "Post Meta"
+msgstr "Metadate articol"
+
+#: languages/aioseo-lite.php:5096
+msgid "not installed"
+msgstr "neinstalat"
+
+#: languages/aioseo-lite.php:6390
+msgid "Select a plugin..."
+msgstr "Selectează un modul..."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:2730
+msgid "Enter your %1$s License Key"
+msgstr "Introdu cheia ta de licență pentru %1$s"
+
+#. Translators: 1 - "upgrade to Pro".
+#: languages/aioseo-lite.php:7847
+msgid "To unlock the selected features, please %1$s and enter your license key below."
+msgstr "Pentru a debloca funcționalitățile selectate, te rog %1$s și introdu cheia ta de licență mai jos."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:1579
+msgid "Choose a plugin to import SEO data directly into %1$s."
+msgstr "Alege un modul pentru a importa datele SEO direct în %1$s."
+
+#: app/Common/Admin/Admin.php:222 languages/aioseo-lite.php:6754
+msgid "Sitemaps"
+msgstr "Hărți site"
+
+#: languages/aioseo-lite.php:6100
+msgid "Restore"
+msgstr "Restaurează"
+
+#: languages/aioseo-lite.php:1975
+msgid "Create Backup"
+msgstr "Creează o copie de siguranță"
+
+#: languages/aioseo-lite.php:9062
+msgid "You have no saved backups."
+msgstr "Nu ai nicio copie de siguranță salvată."
+
+#: languages/aioseo-lite.php:1223
+msgid "Backup Settings"
+msgstr "Setări copii de siguranță"
+
+#. Translators: 1 - Date, 2 - Timestamp.
+#: languages/aioseo-lite.php:71
+msgid "%1$s at %2$s"
+msgstr "%1$s la %2$s"
+
+#: languages/aioseo-lite.php:6965
+msgid "Success! The backup was restored."
+msgstr "Succes! Copia de siguranță a fost restaurată."
+
+#: languages/aioseo-lite.php:6962
+msgid "Success! The backup was deleted."
+msgstr "Succes! Copia de siguranță a fost ștearsă."
+
+#: languages/aioseo-lite.php:1705
+msgid "Closed"
+msgstr "Închis"
+
+#: languages/aioseo-lite.php:5201
+msgid "Open 24h"
+msgstr "Deschis 24 de ore"
+
+#: languages/aioseo-lite.php:6987
+msgid "Sunday"
+msgstr "Duminică"
+
+#: languages/aioseo-lite.php:6176
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: languages/aioseo-lite.php:3101
+msgid "Friday"
+msgstr "Vineri"
+
+#: languages/aioseo-lite.php:7755
+msgid "Thursday"
+msgstr "Joi"
+
+#: languages/aioseo-lite.php:8680
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: languages/aioseo-lite.php:8011
+msgid "Tuesday"
+msgstr "Marți"
+
+#: languages/aioseo-lite.php:4703
+msgid "Monday"
+msgstr "Luni"
+
+#: languages/aioseo-lite.php:6459
+msgid "Select your timezone:"
+msgstr "Selectează fusul orar:"
+
+#: languages/aioseo-lite.php:8288
+msgid "Use 24h format"
+msgstr "Folosește formatul 24 de ore"
+
+#: languages/aioseo-lite.php:5196
+msgid "Open 24/7"
+msgstr "Deschis non-stop (24/7)"
+
+#: languages/aioseo-lite.php:4258
+msgid "Labels"
+msgstr "Etichete"
+
+#: languages/aioseo-lite.php:2379
+msgid "Display Opening Hours"
+msgstr "Afișează programul de funcționare"
+
+#: languages/aioseo-lite.php:6705
+msgid "Show Opening Hours"
+msgstr "Afișează programul de funcționare"
+
+#: languages/aioseo-lite.php:1567
+msgid "Choose a File"
+msgstr "Alege un fișier"
+
+#: languages/aioseo-lite.php:783
+msgid "All Items"
+msgstr "Toate elementele"
+
+#: languages/aioseo-lite.php:3349
+msgid "Good Results"
+msgstr "Rezultate bune"
+
+#: languages/aioseo-lite.php:5923
+msgid "Recommended Improvements"
+msgstr "Îmbunătățiri recomandate"
+
+#: app/Common/Tools/SystemStatus.php:66 languages/aioseo-lite.php:7759
+msgid "Timezone"
+msgstr "Fus orar"
+
+#: languages/aioseo-lite.php:5280
+msgid "Opening Hours Settings"
+msgstr "Setări program de funcționare"
+
+#: languages/aioseo-lite.php:5988
+msgid "Refresh Results"
+msgstr "Reîmprospătează rezultatele"
+
+#: languages/aioseo-lite.php:1756
+msgid "Complete SEO Checklist"
+msgstr "Finalizează lista de verificări SEO"
+
+#: languages/aioseo-lite.php:7503
+msgid "The URL provided is invalid."
+msgstr "URL-ul furnizat este invalid."
+
+#: app/Common/Tools/RobotsTxt.php:412 languages/aioseo-lite.php:2224
+msgid "Delete"
+msgstr "Șterge"
+
+#. Translators: 1 - The plugin short name ('AIOSEO').
+#: languages/aioseo-lite.php:9306
+msgid "Your site is not connected. Please connect to %1$s, then try again."
+msgstr "Site-ul tău nu este conectat. Te rog conectează-te la %1$s, apoi încearcă din nou."
+
+#: languages/aioseo-lite.php:5591
+msgid "Please enter a valid URL."
+msgstr "Te rog să introduci un URL valid."
+
+#: languages/aioseo-lite.php:2713
+msgid "Enter Competitor URL"
+msgstr "Introdu URL-ul competitorului"
+
+#: languages/aioseo-lite.php:6670
+msgid "Show Facebook Author"
+msgstr "Arată autorul pe Facebook"
+
+#: languages/aioseo-lite.php:3660
+msgid "How to get your Facebook App ID"
+msgstr "Cum să obții ID-ul aplicației Facebook"
+
+#: languages/aioseo-lite.php:3657
+msgid "How to get your Facebook Admin ID"
+msgstr "Cum să obții ID-ul de administrator Facebook"
+
+#: languages/aioseo-lite.php:4652
+msgid "Minimum size: 112px x 112px, The image must be in JPG, PNG, GIF, SVG, or WEBP format."
+msgstr "Dimensiune minimă: 112 px x 112 px. Imaginea trebuie să fie în formatul JPG, PNG, GIF, SVG sau WEBP."
+
+#: languages/aioseo-lite.php:4506
+msgid "Logo"
+msgstr "Logo"
+
+#: languages/aioseo-lite.php:4786
+msgid "Name"
+msgstr "Nume"
+
+#: languages/aioseo-lite.php:6023
+msgid "Remove"
+msgstr "Înlătură"
+
+#: languages/aioseo-lite.php:5458
+msgid "Paste your image URL or select a new image"
+msgstr "Plasează URL-ul imaginii sau selectează o imagine nouă"
+
+#: languages/aioseo-lite.php:8265
+msgid "Upload or Select Image"
+msgstr "Încarcă sau selectează o imagine"
+
+#: languages/aioseo-lite.php:3143
+msgid "General Facebook Settings"
+msgstr "Setări generale Facebook"
+
+#: languages/aioseo-lite.php:936
+msgid "And many more..."
+msgstr "Și multe altele..."
+
+#: languages/aioseo-lite.php:703
+msgid "Advanced WooCommerce"
+msgstr "WooCommerce avansat"
+
+#: app/Common/Breadcrumbs/Widget.php:124
+msgid "Title:"
+msgstr "Titlu:"
+
+#: languages/aioseo-lite.php:2090
+msgid "Database Tools"
+msgstr "Instrumente pentru baza de date"
+
+#: languages/aioseo-lite.php:5539
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: languages/aioseo-lite.php:6812
+msgid "Social Profiles"
+msgstr "Profiluri sociale"
+
+#: languages/aioseo-lite.php:990
+msgid "Archives"
+msgstr "Arhive"
+
+#: languages/aioseo-lite.php:1878
+msgid "Content Types"
+msgstr "Tipuri de conținut"
+
+#: languages/aioseo-lite.php:3300
+msgid "Global Settings"
+msgstr "Setări globale"
+
+#: languages/aioseo-lite.php:3832
+msgid "Import/Export"
+msgstr "Import/export"
+
+#: languages/aioseo-lite.php:3575
+msgid "Here's what to do next:"
+msgstr "Iată ce trebuie să faci în continuare:"
+
+#: languages/aioseo-lite.php:2949
+msgid "Finish Setup and Go to the Dashboard"
+msgstr "Finalizează inițializarea și mergi la Panou control"
+
+#: languages/aioseo-lite.php:3312
+msgid "Go back to the Dashboard"
+msgstr "Du-te înapoi la Panou control"
+
+#: languages/aioseo-lite.php:4356
+msgid "Let's Get Started"
+msgstr "Hai să începem"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:8706
+msgid "Welcome to the %1$s Setup Wizard!"
+msgstr "Bine ai venit la asistentul de inițializare %1$s!"
+
+#: languages/aioseo-lite.php:1830
+msgid "Connecting..."
+msgstr "Conectez..."
+
+#. Translators: 1 - The current step count. 2 - The total step count.
+#: languages/aioseo-lite.php:6913
+msgid "Step %1$s of %2$s"
+msgstr "Pasul %1$s din %2$s"
+
+#: languages/aioseo-lite.php:1700
+msgid "Close and Exit Wizard Without Saving"
+msgstr "Închide și ieși din asistentul de inițializare fără a salva"
+
+#: languages/aioseo-lite.php:6356
+msgid "See all features"
+msgstr "Vezi toate funcționalitățile"
+
+#: app/Lite/Views/taxonomy-upsell.php:871 languages/aioseo-lite.php:4334
+msgid "Learn more about all features"
+msgstr "Află mai multe despre toate funcționalitățile"
+
+#: languages/aioseo-lite.php:1571
+msgid "Choose a Person"
+msgstr "Alege o persoană"
+
+#. Translators: 1 - "Pro".
+#: languages/aioseo-lite.php:8238
+msgid "Upgrade to %1$s Today"
+msgstr "Actualizează la %1$s azi"
+
+#: languages/aioseo-lite.php:3761
+msgid "Image SEO Optimization"
+msgstr "Optimizare SEO pentru imagini"
+
+#: languages/aioseo-lite.php:6339
+msgid "See Advanced Settings"
+msgstr "Vezi Setări avansate"
+
+#. Translators: 1 - Plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:8554
+msgid "Watch our Guided Tour of %1$s"
+msgstr "Urmează turul nostru ghidat pentru %1$s"
+
+#: languages/aioseo-lite.php:4165
+msgid "Join on Facebook"
+msgstr "Alătură-te pe Facebook"
+
+#: languages/aioseo-lite.php:4582
+msgid "Manually Enter Person"
+msgstr "Introdu persoana manual"
+
+#: languages/aioseo-lite.php:9318
+msgid "Your Social Profiles"
+msgstr "Profilurile tale sociale"
+
+#: languages/aioseo-lite.php:2185
+msgid "Default Social Share Image"
+msgstr "Imagine implicită pentru partajare pe rețelele sociale"
+
+#: languages/aioseo-lite.php:8384
+msgid "Use the home page description"
+msgstr "Folosește descrierea pentru prima pagină"
+
+#: languages/aioseo-lite.php:8388
+msgid "Use the home page title"
+msgstr "Folosește titlul primei pagini"
+
+#: languages/aioseo-lite.php:2166
+msgid "Default Post Facebook Image"
+msgstr "Imagine implicită pentru articole pe Facebook"
+
+#: languages/aioseo-lite.php:3553
+msgid "Height"
+msgstr "Înălțime"
+
+#: languages/aioseo-lite.php:8781
+msgid "Width"
+msgstr "Lățime"
+
+#: languages/aioseo-lite.php:8246
+msgid "Upgrade to Pro to Unlock Powerful SEO Features"
+msgstr "Actualizează la Pro pentru a debloca funcționalități SEO puternice"
+
+#: languages/aioseo-lite.php:6632
+msgid "Setup Webmaster Tools"
+msgstr "Inițializează instrumentele pentru webmasteri"
+
+#: languages/aioseo-lite.php:1783
+msgid "Congratulations, your site is now SEO ready!"
+msgstr "Felicitări, site-ul tău este pregătit pentru SEO!"
+
+#: languages/aioseo-lite.php:7493
+msgid "The Title of the Page or Site you are Sharing"
+msgstr "Titlul paginii sau site-ului pe care îl partajezi"
+
+#: languages/aioseo-lite.php:8465
+msgid "Video and News Sitemaps"
+msgstr "Hărți site video și știri"
+
+#: languages/aioseo-lite.php:1669
+msgid "Click on the tags below to insert variables into your site name."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în numele site-ului."
+
+#: languages/aioseo-lite.php:1658
+msgid "Click on the tags below to insert variables into your home page title."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în titlul primei pagini."
+
+#: languages/aioseo-lite.php:1654
+msgid "Click on the tags below to insert variables into your description."
+msgstr "Dă clic pe tagurile de mai jos pentru a insera variabile în descriere."
+
+#: languages/aioseo-lite.php:3768
+msgid "Image Title"
+msgstr "Titlu imagine"
+
+#: languages/aioseo-lite.php:6956
+msgid "Success"
+msgstr "Succes"
+
+#: languages/aioseo-lite.php:6775
+msgid "Smart Recommendations"
+msgstr "Recomandări inteligente"
+
+#: languages/aioseo-lite.php:6136
+msgid "RSS Content"
+msgstr "Conținut RSS"
+
+#: languages/aioseo-lite.php:8657
+msgid "Webmaster Tools"
+msgstr "Instrumente pentru webmasteri"
+
+#: languages/aioseo-lite.php:5273
+msgid "Opening Hours"
+msgstr "Program de funcționare"
+
+#: languages/aioseo-lite.php:4483
+msgid "Locations"
+msgstr "Locații"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: languages/aioseo-lite.php:1814
+msgid "Connect with %1$s"
+msgstr "Conectează-te cu %1$s"
+
+#: languages/aioseo-lite.php:7785
+msgid "Title & Description"
+msgstr "Titlu și descriere"
+
+#: languages/aioseo-lite.php:5058
+msgid "None"
+msgstr "Nimic"
+
+#: languages/aioseo-lite.php:4865
+msgid "News Article"
+msgstr "Articol de știri"
+
+#: languages/aioseo-lite.php:2021
+msgid "Custom Fields"
+msgstr "Câmpuri personalizate"
+
+#: app/Common/Admin/Admin.php:214 languages/aioseo-lite.php:6262
+msgid "Search Appearance"
+msgstr "Aspect în căutare"
+
+#: app/Common/Main/Updates.php:1368 languages/aioseo-lite.php:8653
+msgid "Web Page"
+msgstr "Pagină web"
+
+#: languages/aioseo-lite.php:1083
+msgid "Article Type"
+msgstr "Tip de articol"
+
+#: app/Common/Main/Updates.php:1340
+msgid "FAQ Page"
+msgstr "Pagină Întrebări frecvente"
+
+#: languages/aioseo-lite.php:1845
+msgid "Contact Page"
+msgstr "Pagină Contact"
+
+#: languages/aioseo-lite.php:6492
+msgid "SEO Audit Checklist"
+msgstr "Listă de verificări pentru audit SEO"
+
+#: languages/aioseo-lite.php:1588
+msgid "Choose Features"
+msgstr "Alege funcționalități"
+
+#: app/Common/Admin/Admin.php:258 languages/aioseo-lite.php:909
+msgid "Analytics"
+msgstr "Analitice"
+
+#: languages/aioseo-lite.php:4429
+msgid "Lite vs. Pro"
+msgstr "Lite versus Pro"
+
+#: languages/aioseo-lite.php:3276
+msgid "Getting Started"
+msgstr "Începe"
+
+#: app/Common/Admin/Admin.php:204 languages/aioseo-lite.php:2077
+msgid "Dashboard"
+msgstr "Panou control"
+
+#: languages/aioseo-lite.php:1713
+msgid "Collection Page"
+msgstr "Pagină Colecție"
+
+#: languages/aioseo-lite.php:5812
+msgid "Profile Page"
+msgstr "Pagină Profil"
+
+#: languages/aioseo-lite.php:917
+msgid "Analyze Competitor Site"
+msgstr "Analizează site-ul concurent"
+
+#: languages/aioseo-lite.php:3151
+msgid "General Sitemap"
+msgstr "Hartă site generală"
+
+#: languages/aioseo-lite.php:639
+msgid "Additional Site Information"
+msgstr "Informații suplimentare despre site"
+
+#: languages/aioseo-lite.php:1371
+msgid "Blog Post"
+msgstr "Articol de blog"
+
+#: languages/aioseo-lite.php:3415
+msgid "Google Tag Manager account"
+msgstr "Cont Google Tag Manager"
+
+#: languages/aioseo-lite.php:8694
+msgid "Welcome"
+msgstr "Bine ai venit"
+
+#: languages/aioseo-lite.php:681
+msgid "Advanced"
+msgstr "Avansate"
+
+#: app/Common/Options/Options.php:588 languages/aioseo-lite.php:2142
+msgid "default"
+msgstr "implicit"
+
+#: languages/aioseo-lite.php:1787
+msgid "Connect"
+msgstr "Conectează"
+
+#: languages/aioseo-lite.php:5462
+msgid "Paste your license key here"
+msgstr "Plasează cheia de licență aici"
+
+#: languages/aioseo-lite.php:5412
+msgid "Page Analysis"
+msgstr "Analiză pagină"
+
+#: app/Common/Admin/Admin.php:250 languages/aioseo-lite.php:7892
+msgid "Tools"
+msgstr "Unelte"
+
+#: app/Common/Admin/Admin.php:239 languages/aioseo-lite.php:6489
+msgid "SEO Analysis"
+msgstr "Analiză SEO"
+
+#: app/Common/Admin/Admin.php:231 languages/aioseo-lite.php:5968
+msgid "Redirects"
+msgstr "Redirecționări"
+
+#: languages/aioseo-lite.php:4078
+msgid "Internal Links"
+msgstr "Legături interne"
+
+#: languages/aioseo-lite.php:8317
+msgid "Use Default Settings"
+msgstr "Folosește setările implicite"
+
+#: languages/aioseo-lite.php:9206
+msgid "Your license key provides access to updates and addons."
+msgstr "Cheia ta de licență oferă acces la actualizări și suplimente."
+
+#: languages/aioseo-lite.php:6748
+msgid "Sitemap Settings"
+msgstr "Setări hărți site"
+
+#: languages/aioseo-lite.php:893
+msgid "An unknown error occurred, please try again later."
+msgstr "A apărut o eroare necunoscută. Te rog încearcă din nou mai târziu."
+
+#: languages/aioseo-lite.php:2466
+msgid "Dynamically Generate"
+msgstr "Generează dinamic"
+
+#: languages/aioseo-lite.php:1624
+msgid "Clear"
+msgstr "Șterge"
+
+#: languages/aioseo-lite.php:8030
+msgid "Type to search..."
+msgstr "Tastează pentru a căuta..."
+
+#: app/Common/Views/sitemap/html/widget-options.php:149
+#: languages/aioseo-lite.php:2785
+msgid "Exclude Posts / Pages"
+msgstr "Exclude articole/pagini"
+
+#: languages/aioseo-lite.php:3919
+msgid "Include All Post Types"
+msgstr "Include toate tipurile de articol"
+
+#: languages/aioseo-lite.php:7788
+msgid "Title Attribute Format"
+msgstr "Format atribut titlu"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all_in_one_seo_pack.php
+msgid "https://aioseo.com/"
+msgstr "https://aioseo.com/"
+
+#: app/Common/Admin/SiteHealth.php:367 app/Common/Admin/SiteHealth.php:433
+msgid "Search Page"
+msgstr "Pagină de căutare"
+
+#: app/Common/Admin/SiteHealth.php:361 app/Common/Admin/SiteHealth.php:427
+msgid "Paginated Content"
+msgstr "Conținut paginat"
+
+#: app/Common/Utils/Tags.php:408
+msgid "Categories"
+msgstr "Categorii"
+
+#: app/Common/Admin/SiteHealth.php:365 app/Common/Admin/SiteHealth.php:431
+msgid "Author Archives"
+msgstr "Arhive autori"
+
+#: app/Common/Admin/SiteHealth.php:366 app/Common/Admin/SiteHealth.php:432
+msgid "Date Archives"
+msgstr "Arhive date"
+
+#: app/Common/Admin/SiteHealth.php:321
+msgid "Go to Plugins"
+msgstr "Mergi la Module"
+
+#: app/Common/Admin/SiteHealth.php:81
+msgid "Nofollowed content"
+msgstr "Conținut fără urmărire"
+
+#: app/Common/Admin/SiteHealth.php:73
+msgid "Noindexed content"
+msgstr "Conținut fără indexare"
+
+#: app/Common/Admin/SiteHealth.php:121
+msgid "Go to Settings > Reading"
+msgstr "Mergi la Setări > Afișare"
+
+#: app/Common/Admin/SiteHealth.php:270
+msgid "Your Person Name and Image are set"
+msgstr "Numele tău și imaginea ta sunt setate, ca persoană"
+
+#: app/Common/Admin/SiteHealth.php:235
+msgid "Your Organization Name and Logo are set"
+msgstr "Numele și logoul organizației tale sunt setate"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:318
+msgid "An update is available for %1$s. Upgrade to the latest version to receive all the latest features, bug fixes and security improvements."
+msgstr "Este disponibilă o actualizare pentru %1$s. Actualizează la ultima versiune pentru a primi toate funcționalitățile recente, corecțiile de erori și îmbunătățirile de securitate."
+
+#: app/Common/Admin/SiteHealth.php:222
+msgid "Your Organization Name and/or Logo are blank"
+msgstr "Numele și/sau logoul organizației tale sunt goale"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:151
+msgid "Your Site Title and/or Tagline are blank. We recommend setting both of these values as %1$s requires these for various features, including our schema markup"
+msgstr "Titlul site-ului și/sau sloganul sunt goale. Îți recomandăm să setezi ambele valori deoarece %1$s are nevoie de ele pentru diverse funcționalități, inclusiv pentru marcajul schemei noastre"
+
+#: app/Common/Admin/SiteHealth.php:148
+msgid "Your Site Title and/or Tagline are blank"
+msgstr "Titlul și sloganul site-ului sunt goale"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:94
+msgid "The fields below contain important SEO information from %1$s that may effect your site."
+msgstr "Câmpurile de mai jos conțin informații SEO importante de la %1$s care îți pot afecta site-ul."
+
+#: app/Common/Admin/SiteHealth.php:164
+msgid "Your Site Title and Tagline are set"
+msgstr "Titlul și sloganul site-ului sunt setate"
+
+#: app/Common/Admin/SiteHealth.php:128
+msgid "Your site appears in search results"
+msgstr "Site-ul tău apare în rezultatele de căutare"
+
+#: app/Common/Admin/SiteHealth.php:119
+msgid "Your site does not appear in search results"
+msgstr "Site-ul tău nu apare în rezultatele de căutare"
+
+#: languages/aioseo-lite.php:6139
+msgid "RSS Content Settings"
+msgstr "Setări conținut RSS"
+
+#: languages/aioseo-lite.php:1643
+msgid "Click here"
+msgstr "Dă clic aici"
+
+#: app/Common/Utils/Tags.php:376
+msgid "The last name of the post author."
+msgstr "Numele autorului articolului."
+
+#: app/Common/Main/Updates.php:1670
+#: app/Common/Migration/GeneralSettings.php:458
+#: app/Common/Migration/SocialMeta.php:110 languages/aioseo-lite.php:4331
+msgid "Learn More"
+msgstr "Învață mai multe"
+
+#: app/Common/Admin/SiteHealth.php:157
+msgid "Go to Settings > General"
+msgstr "Mergi la Setări > Generale"
+
+#: app/Common/Admin/Admin.php:456 app/Common/Admin/Admin.php:735
+#: languages/aioseo-lite.php:5123
+msgid "Notifications"
+msgstr "Notificări"
+
+#: languages/aioseo-lite.php:4463
+msgid "Local Business SEO"
+msgstr "SEO pentru afaceri locale"
+
+#: app/Common/Admin/Admin.php:576
+msgid "LinkedIn Post Inspector"
+msgstr "Inspector pentru postare LinkdIn"
+
+#: languages/aioseo-lite.php:6896
+msgid "State"
+msgstr "Județ (provincie, stat)"
+
+#: app/Common/Views/sitemap/html/widget-options.php:124
+#: languages/aioseo-lite.php:5831
+msgid "Publish Date"
+msgstr "Data publicării"
+
+#: app/Common/Views/sitemap/xsl/default.php:101
+#: app/Common/Views/sitemap/xsl/default.php:191
+#: app/Common/Views/sitemap/xsl/default.php:271
+#: app/Common/Views/sitemap/xsl/templates/header.php:50
+#: languages/aioseo-lite.php:8270
+msgid "URL"
+msgstr "URL"
+
+#: languages/aioseo-lite.php:472
+msgid "Access our Premium Support"
+msgstr "Accesează suportul nostru premium"
+
+#: languages/aioseo-lite.php:4875
+msgid "News Sitemap"
+msgstr "Hartă site Știri"
+
+#: languages/aioseo-lite.php:6149
+msgid "RSS Sitemap"
+msgstr "Hartă site RSS"
+
+#: app/Common/Admin/Notices/Review.php:95
+msgid "Yes I love it"
+msgstr "Da, îmi place"
+
+#: app/Common/Admin/Notices/Review.php:96 languages/aioseo-lite.php:5112
+msgid "Not Really..."
+msgstr "Nu prea..."
+
+#: languages/aioseo-lite.php:5100
+msgid "Not Installed"
+msgstr "Neinstalat"
+
+#: languages/aioseo-lite.php:4230
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+#: languages/aioseo-lite.php:7800
+msgid "titles"
+msgstr "titluri"
+
+#: languages/aioseo-lite.php:5783
+msgid "Priority Support"
+msgstr "Suport prioritar"
+
+#: languages/aioseo-lite.php:1768
+msgid "Complete Support"
+msgstr "Suport complet"
+
+#: languages/aioseo-lite.php:5715
+msgid "Posts, Pages and custom Post Types only"
+msgstr "Numai articole, pagini și tipuri de articol personalizat"
+
+#: languages/aioseo-lite.php:4381
+msgid "Limited Support"
+msgstr "Suport limitat"
+
+#: languages/aioseo-lite.php:8805
+msgid "WooCommerce Integration"
+msgstr "Integrare WooCommerce"
+
+#: languages/aioseo-lite.php:6275
+msgid "Search Engine Optimization (SEO)"
+msgstr "Optimizare pentru motoarele de căutare (SEO)"
+
+#: languages/aioseo-lite.php:5718
+msgid "Posts, Pages, Categories and Tags only"
+msgstr "Numai articole, pagini, categorii și etichete"
+
+#: languages/aioseo-lite.php:8808
+msgid "WooCommerce Products only"
+msgstr "Numai produse WooCommerce"
+
+#: languages/aioseo-lite.php:9390
+msgid "Yup, we know a thing or two about building awesome products that customers love."
+msgstr "Da, știm câte ceva despre crearea de produse minunate pe care clienții le adoră."
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - "Pro" string.
+#: languages/aioseo-lite.php:3191
+msgid "Get %1$s %2$s and Unlock all the Powerful Features."
+msgstr "Ia %1$s %2$s și deblochezi toate funcționalitățile puternice."
+
+#: languages/aioseo-lite.php:5077
+msgid "Not Available"
+msgstr "Indisponibil"
+
+#: languages/aioseo-lite.php:5725
+msgid "Posts, Pages, custom Post Types + Categories, Tags and custom Taxonomies"
+msgstr "Articole, pagini, tipuri de articol personalizat + categorii, etichete și taxonomii personalizate"
+
+#: languages/aioseo-lite.php:485
+msgid "Activate"
+msgstr "Activează"
+
+#: languages/aioseo-lite.php:513
+msgid "Activated"
+msgstr "Activat"
+
+#: languages/aioseo-lite.php:7003
+msgid "Support & Docs"
+msgstr "Suport și documentație"
+
+#: app/Common/Admin/Admin.php:364
+msgid "Link has been inserted."
+msgstr "Legătura a fost inserată."
+
+#: app/Common/Admin/Admin.php:360 app/Common/Traits/Helpers/Wp.php:784
+#: app/Common/Traits/Helpers/Wp.php:790
+msgid "(no title)"
+msgstr "(fără titlu)"
+
+#: app/Common/Admin/Admin.php:359
+msgid "Add Link"
+msgstr "Adaugă o legătură"
+
+#: app/Common/Admin/Admin.php:358
+msgid "Update"
+msgstr "Actualizează"
+
+#: app/Common/Admin/Admin.php:586
+msgid "CSS Validator"
+msgstr "Validator CSS"
+
+#: app/Common/Admin/Admin.php:581
+msgid "HTML Validator"
+msgstr "Validator HTML"
+
+#: app/Common/Admin/Admin.php:543
+msgid "Analyze this page"
+msgstr "Analizează această pagină"
+
+#: app/Common/Admin/Admin.php:571
+msgid "Facebook Debugger"
+msgstr "Depanator Facebook"
+
+#: languages/aioseo-lite.php:6802
+msgid "Social meta for Categories, Tags and Custom Taxonomies"
+msgstr "Metadate sociale pentru categorii, etichete și taxonomii personalizate"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - "Pro" string.
+#: languages/aioseo-lite.php:3187
+msgid "Get %1$s %2$s and Unlock all the Powerful Features"
+msgstr "Ia %1$s %2$s și deblochezi toate funcționalitățile puternice"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:9111
+msgid "You're using %1$s - no license needed. Enjoy!"
+msgstr "Folosești %1$s - nu ai nevoie de o licență. Bucură-te!"
+
+#: languages/aioseo-lite.php:4168
+msgid "Join our Community"
+msgstr "Alătură-te comunității noastre"
+
+#: app/Common/Admin/Admin.php:551
+msgid "Google Page Speed Test"
+msgstr "Test de viteză a paginii Google"
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - "upgrading to Pro".
+#: languages/aioseo-lite.php:9115
+msgid "You're using %1$s. To unlock more features, consider %2$s"
+msgstr "Folosești %1$s. Pentru a debloca mai multe funcționalități, ia în considerare %2$s"
+
+#: app/Common/Admin/Admin.php:362
+msgid "No results found."
+msgstr "Nu am găsit niciun rezultat."
+
+#: app/Common/Admin/Admin.php:967
+msgid "Give us a 5-star rating!"
+msgstr "Lasă-ne o evaluare de 5 stele!"
+
+#: app/Lite/Admin/Connect.php:292
+msgid "Plugin installed & activated."
+msgstr "Modulul este instalat și activat."
+
+#. Translators: This is an action link users can click to open a feature
+#. request.
+#: app/Lite/Main/Filters.php:32 languages/aioseo-lite.php:6974
+msgid "Suggest a Feature"
+msgstr "Sugerează o funcționalitate"
+
+#: app/Common/Admin/Admin.php:263 languages/aioseo-lite.php:458
+msgid "About Us"
+msgstr "Despre noi"
+
+#: app/Common/Admin/Notices/Review.php:108
+#: app/Common/Admin/Notices/Review.php:161
+msgid "I already did"
+msgstr "Deja am făcut asta"
+
+#: app/Common/Admin/Notices/Review.php:107
+#: app/Common/Admin/Notices/Review.php:160 languages/aioseo-lite.php:5065
+msgid "Nope, maybe later"
+msgstr "Nu, poate mai târziu"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Review.php:92 languages/aioseo-lite.php:995
+msgid "Are you enjoying %1$s?"
+msgstr "Îți place %1$s?"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:106
+#: app/Common/Admin/Notices/Review.php:159 languages/aioseo-lite.php:5160
+msgid "Ok, you deserve it"
+msgstr "OK, meriți asta"
+
+#: app/Common/Admin/Notices/Review.php:102 languages/aioseo-lite.php:3288
+msgid "Give feedback"
+msgstr "Spune-ne impresiile"
+
+#: languages/aioseo-lite.php:4834
+msgid "never"
+msgstr "niciodată"
+
+#: languages/aioseo-lite.php:8908
+msgid "yearly"
+msgstr "anual"
+
+#: languages/aioseo-lite.php:848
+msgid "always"
+msgstr "întotdeauna"
+
+#. Translators: 1 - "Pro".
+#: app/Lite/Admin/Notices/Notices.php:84 languages/aioseo-lite.php:8224
+msgid "Upgrade to %1$s"
+msgstr "Actualizează la %1$s"
+
+#. Translators: 1 - "upgrading to Pro".
+#: languages/aioseo-lite.php:7843
+msgid "To unlock more features, consider %1$s."
+msgstr "Pentru a debloca mai multe funcționalități, ia în considerare %1$s."
+
+#: app/Common/Utils/Tags.php:331
+msgid "Your image's alt tag attribute."
+msgstr "Atributul tag alt pentru imaginea ta."
+
+#. Author of the plugin
+#: all_in_one_seo_pack.php
+msgid "All in One SEO Team"
+msgstr "Echipa All in One SEO"
+
+#: languages/aioseo-lite.php:5503
+msgid "Person Name"
+msgstr "Nume persoană"
+
+#: languages/aioseo-lite.php:534
+msgid "Ad free (no banner adverts)"
+msgstr "Fără reclame (niciun banner de publicitate)"
+
+#: languages/aioseo-lite.php:5330
+msgid "Organize sitemap entries into distinct files in your sitemap. We recommend you enable this setting if your sitemap contains more than 1,000 URLs."
+msgstr "Organizează intrările hărților site în fișiere distincte în hărțile tale site. Recomandăm să activezi această setare dacă harta ta site conține mai mult de 1.000 de URL-uri."
+
+#: languages/aioseo-lite.php:6076
+msgid "Reservations"
+msgstr "Rezervări"
+
+#: languages/aioseo-lite.php:6161
+msgid "Sales"
+msgstr "Vânzări"
+
+#: languages/aioseo-lite.php:1292
+msgid "Billing Support"
+msgstr "Suport pentru facturare"
+
+#: languages/aioseo-lite.php:7050
+msgid "Technical Support"
+msgstr "Suport tehnic"
+
+#: languages/aioseo-lite.php:2061
+msgid "Customer Support"
+msgstr "Suport pentru clienți"
+
+#: languages/aioseo-lite.php:5522
+msgid "Phone Number"
+msgstr "Număr de telefon"
+
+#: languages/aioseo-lite.php:5323
+msgid "Organization Name"
+msgstr "Nume organizație"
+
+#: app/Common/Breadcrumbs/Tags.php:206
+msgid "The page number."
+msgstr "Numărul paginii."
+
+#: app/Common/Admin/Notices/Review.php:103 languages/aioseo-lite.php:5018
+msgid "No thanks"
+msgstr "Nu, mulțumesc"
+
+#: languages/aioseo-lite.php:2356
+msgid "Dismiss"
+msgstr "Respinge"
+
+#: app/Common/Breadcrumbs/Breadcrumbs.php:296
+msgid "Page"
+msgstr "Pagină"
+
+#: app/Common/Utils/Tags.php:402 languages/aioseo-lite.php:1524
+msgid "Category"
+msgstr "Categorie"
+
+#: languages/aioseo-lite.php:979
+msgid "Archive"
+msgstr "Arhivă"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:8698
+msgid "Welcome to %1$s"
+msgstr "Bine ai venit la %1$s"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: languages/aioseo-lite.php:5888
+msgid "Read the %1$s user guide"
+msgstr "Citește ghidul utilizatorului pentru %1$s"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Notices.php:470
+msgid "Warning: %1$s has detected that you are blocking access to search engines. You can change this in Settings > Reading if this was unintended."
+msgstr "Avertizare: %1$s a detectat că blochezi accesul la motoarele de căutare. Poți modifica asta în Setări > Afișare, dacă a fost ceva neintenționat."
+
+#: app/Common/Admin/Notices/Notices.php:477
+#: app/Common/Admin/Notices/Notices.php:526
+#: app/Common/Admin/Notices/Notices.php:602 app/Common/Api/Wizard.php:475
+#: app/Common/ImportExport/RankMath/TitleMeta.php:436
+#: app/Common/Migration/GeneralSettings.php:731
+#: app/Common/Migration/Helpers.php:169
+msgid "Remind Me Later"
+msgstr "Amintește-mi mai târziu"
+
+#. Translators: 1 - "WooCommerce", 2 - The plugin short name ("AIOSEO").
+#: app/Lite/Admin/Notices/Notices.php:80
+msgid "We have detected you are running %1$s. Upgrade to %2$s to unlock our advanced eCommerce SEO features, including SEO for Product Categories and more."
+msgstr "Am detectat că rulezi %1$s. Actualizează la %2$s pentru a debloca funcționalitățile noastre SEO avansate pentru comerțul electronic, inclusiv SEO pentru categorii de produse și altele."
+
+#: app/Common/Admin/Dashboard.php:178
+msgid "Temporarily unable to load feed."
+msgstr "Nu pot încărca temporar fluxul."
+
+#: app/Common/Breadcrumbs/Tags.php:190 languages/aioseo-lite.php:4709
+msgid "Month"
+msgstr "Lună"
+
+#: app/Common/Tools/SystemStatus.php:417 languages/aioseo-lite.php:3888
+msgid "Inactive Plugins"
+msgstr "Module inactive"
+
+#: app/Common/Tools/SystemStatus.php:385 languages/aioseo-lite.php:519
+msgid "Active Plugins"
+msgstr "Module active"
+
+#. Translators: 1 - The plugin name ("All in One SEO).
+#: app/Common/Api/Tools.php:137
+msgid "%1$s Debug Info"
+msgstr "Informații despre depanarea %1$s"
+
+#: app/Common/Views/sitemap/html/widget-options.php:163
+#: languages/aioseo-lite.php:2791
+msgid "Exclude Terms"
+msgstr "Exclude termeni"
+
+#: languages/aioseo-lite.php:8905
+msgid "Yandex Webmaster Tools"
+msgstr "Instrumente pentru webmasteri Yandex"
+
+#: languages/aioseo-lite.php:1245
+msgid "Baidu Webmaster Tools"
+msgstr "Instrumente pentru webmasteri Baidu"
+
+#: languages/aioseo-lite.php:1149
+msgid "Author Pages"
+msgstr "Pagini autor"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:53
+#: languages/aioseo-lite.php:8277
+msgid "URLs"
+msgstr "URL-uri"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:24
+#: app/Common/Views/sitemap/xsl/templates/header.php:33
+msgid "Generated by"
+msgstr "Generată de"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:65
+msgid "sitemaps"
+msgstr "hărți site"
+
+#: app/Common/Utils/Tags.php:397 app/Common/Utils/Tags.php:569
+msgid "Your site title."
+msgstr "Titlul site-ului tău."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:33
+msgid "this is an XML Sitemap, meant to be consumed by search engines like Google or Bing."
+msgstr "aceasta este o hartă site XML, menită să fie consumată de motoarele de căutare, cum ar fi Google sau Bing."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:58
+msgid "This sitemap index contains"
+msgstr "Acest index de hărți site conține"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:46
+msgid "This sitemap contains"
+msgstr "Această hartă site conține"
+
+#: languages/aioseo-lite.php:3402
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: languages/aioseo-lite.php:1299
+msgid "Bing Webmaster Tools"
+msgstr "Instrumente pentru webmasteri Bing"
+
+#: languages/aioseo-lite.php:2343
+msgid "Disallow"
+msgstr "Refuză"
+
+#: languages/aioseo-lite.php:811
+msgid "Allow"
+msgstr "Permite"
+
+#: languages/aioseo-lite.php:2772
+msgid "Exclude Images"
+msgstr "Exclude imaginile"
+
+#: languages/aioseo-lite.php:2775
+msgid "Exclude Images from your sitemap."
+msgstr "Exclude imaginile din harta ta site."
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Search Engine Visibility"
+msgstr "Vizibilitate pentru motoare de căutare"
+
+#: app/Common/Tools/SystemStatus.php:54 app/Common/Utils/Tags.php:396
+#: app/Common/Utils/Tags.php:568 languages/aioseo-lite.php:6738
+msgid "Site Title"
+msgstr "Titlu site"
+
+#: app/Common/Tools/SystemStatus.php:58
+msgid "Site Language"
+msgstr "Limbă site"
+
+#: languages/aioseo-lite.php:6505
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "SEO pentru categorii, etichete și taxonomii personalizate"
+
+#: languages/aioseo-lite.php:700
+msgid "Advanced support for e-commerce"
+msgstr "Suport avansat pentru comerțul electronic"
+
+#: app/Common/Migration/SocialMeta.php:75 languages/aioseo-lite.php:8303
+msgid "Use Content for Autogenerated Descriptions"
+msgstr "Folosește conținutul pentru descrieri generate automat"
+
+#: app/Common/Admin/Dashboard.php:80 languages/aioseo-lite.php:6517
+msgid "SEO News"
+msgstr "SEO News"
+
+#: languages/aioseo-lite.php:8212
+msgid "Upgrade"
+msgstr "Actualizează"
+
+#: languages/aioseo-lite.php:2463
+msgid "Dynamically creates the XML Sitemap instead of using a static file."
+msgstr "Creează dinamic harta site XML în loc să folosească un fișier static."
+
+#: languages/aioseo-lite.php:914
+msgid "Analyze"
+msgstr "Analizează"
+
+#. Description of the plugin
+#: all_in_one_seo_pack.php
+msgid "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007."
+msgstr "SEO pentru WordPress. Are funcționalități, cum ar fi hărți site XML, SEO pentru tipuri de articol personalizate, SEO pentru bloguri, site-uri de afaceri sau site-uri ecommerce și multe altele. Mai mult de 100 de milioane de descărcări din anul 2007."
+
+#: languages/aioseo-lite.php:8306
+msgid "Use Custom Blocklists"
+msgstr "Folosește liste de blocare personalizate"
+
+#: languages/aioseo-lite.php:1336
+msgid "Block Referral Spam using HTTP"
+msgstr "Blochează spamul redirecționat folosind HTTP"
+
+#: languages/aioseo-lite.php:1308
+msgid "Block Bad Bots using HTTP"
+msgstr "Blochează boții nedoriți folosind HTTP"
+
+#: languages/aioseo-lite.php:3754
+msgid "Image SEO"
+msgstr "SEO pentru imagini"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:51 app/Lite/Admin/Admin.php:80
+#: app/Lite/Main/Filters.php:76 languages/aioseo-lite.php:8242
+msgid "Upgrade to Pro"
+msgstr "Actualizează la Pro"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:71
+msgid "Documentation"
+msgstr "Documentație"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:646 app/Lite/Main/Filters.php:61
+#: languages/aioseo-lite.php:6542
+msgid "SEO Settings"
+msgstr "Setări SEO"
+
+#: languages/aioseo-lite.php:4369
+msgid "License Key"
+msgstr "Cheie de licență"
+
+#: languages/aioseo-lite.php:2849
+msgid "Facebook App ID"
+msgstr "ID aplicație Facebook"
+
+#: languages/aioseo-lite.php:2846
+msgid "Facebook Admin ID"
+msgstr "ID administrator Facebook"
+
+#: languages/aioseo-lite.php:4295
+msgid "Last Modified"
+msgstr "Ultima modificare"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "dynamically"
+msgstr "dinamic"
+
+#: app/Common/Views/sitemap/html/widget-options.php:74
+#: languages/aioseo-lite.php:5695
+msgid "Post Types"
+msgstr "Tipuri de articol"
+
+#: languages/aioseo-lite.php:5419
+msgid "Page URL"
+msgstr "URL pagină"
+
+#: languages/aioseo-lite.php:610
+msgid "Add URL"
+msgstr "Adaugă URL"
+
+#: app/Common/Sitemap/Xsl.php:39 languages/aioseo-lite.php:628
+msgid "Additional Pages"
+msgstr "Pagini suplimentare"
+
+#: app/Common/Views/sitemap/html/widget-options.php:97
+#: languages/aioseo-lite.php:7034
+msgid "Taxonomies"
+msgstr "Taxonomii"
+
+#: languages/aioseo-lite.php:3096
+msgid "Frequency"
+msgstr "Frecvență"
+
+#: app/Common/Views/sitemap/xsl/default.php:309 languages/aioseo-lite.php:5772
+msgid "Priority"
+msgstr "Prioritate"
+
+#: languages/aioseo-lite.php:4712
+msgid "monthly"
+msgstr "lunar"
+
+#: languages/aioseo-lite.php:8687
+msgid "weekly"
+msgstr "săptămânal"
+
+#: languages/aioseo-lite.php:2064
+msgid "daily"
+msgstr "zilnic"
+
+#: languages/aioseo-lite.php:2643
+msgid "Enable Sitemap Indexes"
+msgstr "Activează indexările hărții site"
+
+#: app/Common/Views/sitemap/xsl/default.php:296
+msgid "Change Frequency"
+msgstr "Schimbă frecvența"
+
+#: languages/aioseo-lite.php:528
+msgid "Activity"
+msgstr "Activitate"
+
+#: languages/aioseo-lite.php:531
+msgid "Actor"
+msgstr "Actor"
+
+#: languages/aioseo-lite.php:738
+msgid "Album"
+msgstr "Album"
+
+#: app/Common/Main/Updates.php:1133 languages/aioseo-lite.php:1071
+msgid "Article"
+msgstr "Articol"
+
+#: languages/aioseo-lite.php:1077
+msgid "Article Tags"
+msgstr "Etichete articol"
+
+#: languages/aioseo-lite.php:1114
+msgid "Athlete"
+msgstr "Atlet"
+
+#: languages/aioseo-lite.php:1133
+msgid "Author"
+msgstr "Autor"
+
+#: languages/aioseo-lite.php:1364
+msgid "Blog"
+msgstr "Blog"
+
+#: languages/aioseo-lite.php:1375
+msgid "Book"
+msgstr "Carte"
+
+#: languages/aioseo-lite.php:1486
+msgid "Cafe"
+msgstr "Cafenea"
+
+#: languages/aioseo-lite.php:1733
+msgid "Company"
+msgstr "Companie"
+
+#: languages/aioseo-lite.php:2748
+msgid "Episode"
+msgstr "Episod"
+
+#: languages/aioseo-lite.php:2843
+msgid "Facebook"
+msgstr "Facebook"
+
+#: languages/aioseo-lite.php:3131
+msgid "Game"
+msgstr "Joc"
+
+#: languages/aioseo-lite.php:3360
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: languages/aioseo-lite.php:3636
+msgid "Hotel"
+msgstr "Hotel"
+
+#: languages/aioseo-lite.php:3739
+msgid "Image"
+msgstr "Imagine"
+
+#: languages/aioseo-lite.php:4744
+msgid "Movie"
+msgstr "Film"
+
+#: languages/aioseo-lite.php:4764
+msgid "Musician"
+msgstr "Muzician"
+
+#: app/Common/Tools/SystemStatus.php:83 app/Common/Tools/SystemStatus.php:87
+#: app/Common/Tools/SystemStatus.php:298 app/Common/Tools/SystemStatus.php:302
+#: app/Common/Tools/SystemStatus.php:306 languages/aioseo-lite.php:4886
+msgid "No"
+msgstr "Nu"
+
+#: app/Common/Tools/SystemStatus.php:174 app/Common/Tools/SystemStatus.php:178
+#: app/Common/Tools/SystemStatus.php:182 app/Common/Tools/SystemStatus.php:186
+#: app/Common/Tools/SystemStatus.php:190 app/Common/Tools/SystemStatus.php:194
+#: app/Common/Tools/SystemStatus.php:198 app/Common/Tools/SystemStatus.php:202
+#: app/Common/Tools/SystemStatus.php:206 app/Common/Tools/SystemStatus.php:210
+#: app/Common/Tools/SystemStatus.php:214 app/Common/Tools/SystemStatus.php:218
+#: app/Common/Tools/SystemStatus.php:222
+msgid "Not set"
+msgstr "Nesetat"
+
+#: app/Common/Tools/SystemStatus.php:277
+msgid "PHP Version"
+msgstr "Versiune PHP"
+
+#: languages/aioseo-lite.php:5614
+msgid "Politician"
+msgstr "Politician"
+
+#: app/Common/Main/Updates.php:1175 languages/aioseo-lite.php:5790
+msgid "Product"
+msgstr "Produs"
+
+#: languages/aioseo-lite.php:5808
+msgid "Profile"
+msgstr "Profil"
+
+#: languages/aioseo-lite.php:6097
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: app/Common/Admin/Admin.php:448 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "SEO"
+
+#: app/Common/Tools/SystemStatus.php:273
+msgid "SQL Mode"
+msgstr "Mod SQL"
+
+#: languages/aioseo-lite.php:6594
+msgid "Server"
+msgstr "Server"
+
+#: languages/aioseo-lite.php:6842
+msgid "Song"
+msgstr "Melodie"
+
+#: languages/aioseo-lite.php:6870
+msgid "Sport"
+msgstr "Sport"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:66 languages/aioseo-lite.php:7000
+msgid "Support"
+msgstr "Suport"
+
+#: languages/aioseo-lite.php:7006
+msgid "System Status"
+msgstr "Stare sistem"
+
+#: languages/aioseo-lite.php:8083
+msgid "University"
+msgstr "Universitate"
+
+#: app/Common/Tools/SystemStatus.php:50 languages/aioseo-lite.php:8451
+msgid "Version"
+msgstr "Versiune"
+
+#: app/Common/Tools/SystemStatus.php:83 app/Common/Tools/SystemStatus.php:87
+#: app/Common/Tools/SystemStatus.php:298 app/Common/Tools/SystemStatus.php:302
+#: app/Common/Tools/SystemStatus.php:306 languages/aioseo-lite.php:8919
+msgid "Yes"
+msgstr "Da"
+
+#: languages/aioseo-lite.php:5500
+msgid "Person"
+msgstr "Persoană"
+
+#: languages/aioseo-lite.php:5315
+msgid "Organization"
+msgstr "Organizație"
+
+#: app/Common/Tools/SystemStatus.php:70
+msgid "Home URL"
+msgstr "URL prima pagină"
+
+#: app/Common/Tools/SystemStatus.php:323 languages/aioseo-lite.php:522
+msgid "Active Theme"
+msgstr "Temă activă"
+
+#: languages/aioseo-lite.php:6935
+#: dist/Lite/assets/link-format/link-format-block.js:2
+msgid "Submit"
+msgstr "Trimite"
+
+#: languages/aioseo-lite.php:8407
+msgid "User Agent"
+msgstr "Agent utilizator"
+
+#: app/Common/Utils/Tags.php:458 languages/aioseo-lite.php:2900
+msgid "Featured Image"
+msgstr "Imagine reprezentativă"
+
+#: languages/aioseo-lite.php:697
+msgid "Advanced Settings"
+msgstr "Setări avansate"
+
+#: languages/aioseo-lite.php:3110
+msgid "Front Page"
+msgstr "Pagina din față"
+
+#: app/Common/Views/report/summary.php:159
+#: app/Common/Views/report/summary.php:256
+#: app/Common/Views/report/summary.php:626
+#: app/Common/Views/report/summary.php:767 languages/aioseo-lite.php:5644
+msgid "Post"
+msgstr "Articol"
+
+#: app/Common/EmailReports/Summary/Content.php:556
+#: app/Common/EmailReports/Summary/Content.php:582
+#: app/Common/Tools/SystemStatus.php:262 languages/aioseo-lite.php:4776
+msgid "N/A"
+msgstr "Nu se aplică"
+
+#: languages/aioseo-lite.php:1941
+msgid "Country"
+msgstr "Țară"
+
+#: app/Common/Tools/SystemStatus.php:281
+msgid "PHP Memory Limit"
+msgstr "Limită de memorie PHP"
+
+#: app/Common/Tools/SystemStatus.php:285
+msgid "PHP Max Upload Size"
+msgstr "Dimensiune maximă de încărcare PHP"
+
+#: languages/aioseo-lite.php:3784
+msgid "Import"
+msgstr "Import"
+
+#: languages/aioseo-lite.php:2031
+msgid "Custom Image"
+msgstr "Imagine personalizată"
+
+#: languages/aioseo-lite.php:6179
+msgid "Save"
+msgstr "Salvează"
+
+#: app/Common/Tools/SystemStatus.php:289
+msgid "PHP Max Post Size"
+msgstr "Dimensiune maximă articol PHP"
+
+#: app/Common/Tools/SystemStatus.php:253
+msgid "Operating System"
+msgstr "Sistem de operare"
+
+#: languages/aioseo-lite.php:2821
+msgid "Export Settings"
+msgstr "Exportă setările"
+
+#: languages/aioseo-lite.php:6241
+msgid "School"
+msgstr "Școală"
+
+#: languages/aioseo-lite.php:5486
+msgid "Performance"
+msgstr "Performanță"
+
+#: languages/aioseo-lite.php:1500
+msgid "Cancel"
+msgstr "Anulează"
+
+#. Plugin Name of the plugin
+#: all_in_one_seo_pack.php
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: languages/aioseo-lite.php:3279
+msgid "Getting started? Read the Beginners Guide"
+msgstr "Începi? Citește ghidul pentru începători"
+
+#: languages/aioseo-lite.php:601
+msgid "Add Rule"
+msgstr "Adaugă regulă"
+
+#: languages/aioseo-lite.php:5145
+msgid "Object Type"
+msgstr "Tip de obiect"
+
+#: languages/aioseo-lite.php:1074
+msgid "Article Section"
+msgstr "Secțiune articol"
+
+#: languages/aioseo-lite.php:1192
+msgid "Automatically Generate Article Tags"
+msgstr "Generează automat etichete articol"
+
+#: languages/aioseo-lite.php:6978
+msgid "Summary"
+msgstr "Rezumat"
+
+#: languages/aioseo-lite.php:2952
+msgid "First Available Image"
+msgstr "Prima imagine disponibilă"
+
+#: languages/aioseo-lite.php:5647
+msgid "Post Author Image"
+msgstr "Imagine autor articol"
+
+#: languages/aioseo-lite.php:8017
+msgid "TV Show"
+msgstr "Emisiune TV"
+
+#: languages/aioseo-lite.php:3030
+msgid "Food"
+msgstr "Mâncare"
+
+#: languages/aioseo-lite.php:2445
+msgid "Drink"
+msgstr "Băuturi"
+
+#: languages/aioseo-lite.php:4261
+msgid "Landmark"
+msgstr "Reper"
+
+#: languages/aioseo-lite.php:5818
+msgid "Public Figure"
+msgstr "Persoană publică"
+
+#: languages/aioseo-lite.php:2312
+msgid "Director"
+msgstr "Director"
+
+#: languages/aioseo-lite.php:1248
+msgid "Band"
+msgstr "Formație"
+
+#: languages/aioseo-lite.php:6882
+msgid "Sports Team"
+msgstr "Echipă sportivă"
+
+#: languages/aioseo-lite.php:6879
+msgid "Sports League"
+msgstr "Ligă sportivă"
+
+#: languages/aioseo-lite.php:1533
+msgid "Cause"
+msgstr "Cauză"
+
+#: languages/aioseo-lite.php:8200
+msgid "Update Options"
+msgstr "Actualizează opțiunile"
+
+#: languages/aioseo-lite.php:2502
+#: dist/Lite/assets/link-format/link-format-block.js:2
+msgid "Edit"
+msgstr "Editează"
+
+#: languages/aioseo-lite.php:2505
+msgid "Edit .htaccess"
+msgstr "Editează .htaccess"
+
+#: app/Common/Admin/Admin.php:254 languages/aioseo-lite.php:2897
+msgid "Feature Manager"
+msgstr "Manager funcționalități"
+
+#: app/Common/Admin/Admin.php:628
+msgid "Edit SEO"
+msgstr "Editează SEO"
+
+#: languages/aioseo-lite.php:5156
+msgid "Off"
+msgstr "Oprit"
+
+#: languages/aioseo-lite.php:5166
+msgid "On"
+msgstr "Pornit"
+
+#: languages/aioseo-lite.php:5507
+msgid "Person or Organization"
+msgstr "Persoană sau organizație"
+
+#: languages/aioseo-lite.php:1251
+msgid "Bar"
+msgstr "Bară"
+
+#: languages/aioseo-lite.php:8517
+msgid "View the Changelog"
+msgstr "Vezi istoricul modificărilor"
+
+#: languages/aioseo-lite.php:6122
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#: languages/aioseo-lite.php:8557
+msgid "Watch video tutorials"
+msgstr "Vizionează tutorialele video"
+
+#: app/Common/Tools/SystemStatus.php:305
+msgid "PHP XML Support"
+msgstr "Suport PHP XML"
+
+#: app/Common/Tools/SystemStatus.php:301
+msgid "PHP IPTC Support"
+msgstr "Suport PHP IPTC"
+
+#: app/Common/Tools/SystemStatus.php:297
+msgid "PHP Exif Support"
+msgstr "Suport PHP Exif"
+
+#: app/Common/Tools/SystemStatus.php:293
+msgid "PHP Max Script Execution Time"
+msgstr "Timp maxim de execuție pentru scriptul PHP"
+
+#: app/Common/Tools/SystemStatus.php:261
+msgid "Memory Usage"
+msgstr "Folosirea memoriei"
+
+#: app/Common/Tools/SystemStatus.php:79 languages/aioseo-lite.php:2145
+msgid "Default"
+msgstr "Implicit"
+
+#: languages/aioseo-lite.php:3745
+msgid "Image from Custom Field"
+msgstr "Imagine din câmp personalizat"
+
+#: languages/aioseo-lite.php:2955
+msgid "First Image in Content"
+msgstr "Prima imagine din conținut"
+
+#: languages/aioseo-lite.php:11
+msgid ".htaccess Editor"
+msgstr "Editor .htaccess"
+
+#: languages/aioseo-lite.php:6126
+msgid "Robots.txt Editor"
+msgstr "Editor Robots.txt"
+
+#: languages/aioseo-lite.php:6083
+msgid "Reset Selected Settings to Default"
+msgstr "Resetează setările selectate la valorile implicite"
+
+#: languages/aioseo-lite.php:2567
+msgid "Email Debug Information"
+msgstr "Informații despre depanare emailuri"
+
+#: languages/aioseo-lite.php:8300
+msgid "Use Categories in Article Tags"
+msgstr "Folosește categorii în etichete pentru articole"
+
+#: languages/aioseo-lite.php:8323
+msgid "Use Keywords in Article Tags"
+msgstr "Folosește cuvinte cheie în etichete pentru articole"
+
+#: languages/aioseo-lite.php:6899
+msgid "State/Province"
+msgstr "Județ/provincie"
+
+#: languages/aioseo-lite.php:8663
+msgid "Website"
+msgstr "Site web"
+
+#: app/Common/Utils/Tags.php:550
+msgid "Site Description"
+msgstr "Descriere site"
+
+#: app/Common/Tools/SystemStatus.php:74
+msgid "Site URL"
+msgstr "URL site"
+
+#: languages/aioseo-lite.php:6735
+msgid "Site Name"
+msgstr "Nume site"
+
+#: app/Common/Tools/SystemStatus.php:82
+msgid "Multisite"
+msgstr "Multi-site"
+
+#: languages/aioseo-lite.php:8472
+msgid "Video Sitemap"
+msgstr "Hartă site video"
+
+#: languages/aioseo-lite.php:818
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "Îți permite să specifici numărului maxim de articole într-o hartă site (până la 50.000)."
+
+#: languages/aioseo-lite.php:3932
+msgid "Include Author Archives in your sitemap."
+msgstr "Include arhivele autorilor în harta site."
+
+#: languages/aioseo-lite.php:3936
+msgid "Include Date Archives in your sitemap."
+msgstr "Include arhivele de date în harta site."
+
+#: languages/aioseo-lite.php:6446
+msgid "Select which Taxonomies appear in your sitemap."
+msgstr "Selectează care taxonomii să apară în harta site."
+
+#: languages/aioseo-lite.php:6437
+msgid "Select which Post Types appear in your sitemap."
+msgstr "Selectează care tipuri de articol să apară în harta site."
+
+#: app/Common/Migration/SocialMeta.php:79
+msgid "Run Shortcodes in Description"
+msgstr "Rulează scurt-codurile în descriere"
+
+#: app/Common/Migration/SocialMeta.php:83
+msgid "Run Shortcodes in Title"
+msgstr "Rulează scurt-codurile în titlu"
+
+#: languages/aioseo-lite.php:6793
+msgid "Social Media"
+msgstr "Media socială"
+
+#: languages/aioseo-lite.php:5050
+msgid "Non-Profit"
+msgstr "Nonprofit"
+
+#: languages/aioseo-lite.php:2347
+msgid "Discard Changes"
+msgstr "Renunță la modificări"
+
+#: languages/aioseo-lite.php:1614
+msgid "City"
+msgstr "Localitate"
+
+#: languages/aioseo-lite.php:8898
+msgid "XML Sitemap"
+msgstr "Hărți site XML"
+
+#: app/Common/Utils/Tags.php:453 languages/aioseo-lite.php:2274
+msgid "Description"
+msgstr "Descriere"
+
+#: languages/aioseo-lite.php:2277
+msgid "Description Format"
+msgstr "Format descriere"
+
+#: app/Common/Tools/SystemStatus.php:174 app/Common/Tools/SystemStatus.php:178
+#: app/Common/Tools/SystemStatus.php:182 app/Common/Tools/SystemStatus.php:186
+#: app/Common/Tools/SystemStatus.php:190 app/Common/Tools/SystemStatus.php:194
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: languages/aioseo-lite.php:2327
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: languages/aioseo-lite.php:2658
+msgid "Enabled"
+msgstr "Activat"
+
+#: app/Common/Admin/Admin.php:361
+#: app/Common/Views/sitemap/html/widget-options.php:13
+#: languages/aioseo-lite.php:7779
+msgid "Title"
+msgstr "Titlu"
+
+#: languages/aioseo-lite.php:2384
+msgid "Display Settings"
+msgstr "Setări afișare"
+
+#: languages/aioseo-lite.php:3622
+msgid "Home Page Settings"
+msgstr "Setări prima pagină"
+
+#: languages/aioseo-lite.php:1177
+msgid "Autogenerate Descriptions"
+msgstr "Generează automat descrieri"
+
+#: languages/aioseo-lite.php:5422
+msgid "Paged Format"
+msgstr "Format paginat"
+
+#: languages/aioseo-lite.php:4990
+msgid "No Pagination for Canonical URLs"
+msgstr "Fără paginație pentru URL-uri canonice"
+
+#: languages/aioseo-lite.php:4568
+msgid "Manage Google Analytics"
+msgstr "Administrează Google Analytics"
+
+#: languages/aioseo-lite.php:1508
+msgid "Canonical URL"
+msgstr "URL canonic"
+
+#: languages/aioseo-lite.php:5545
+msgid "Pinterest Site Verification"
+msgstr "Confirmare site cu Pinterest"
+
+#: app/Common/Admin/Admin.php:209 languages/aioseo-lite.php:4816
+msgid "Network Settings"
+msgstr "Setări rețea"
+
+#: languages/aioseo-lite.php:1543
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Bifează asta dacă vrei să fie folosite categoriile tale pentru un articol dat ca și cuvinte cheie meta pentru acest articol (în plus față de alte cuvinte cheie pe care le specifici în ecranul Editează articol)."
+
+#: languages/aioseo-lite.php:1549
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "Bifează asta dacă dacă vrei să fie folosite etichetele tale pentru un articol dat ca și cuvinte cheie meta pentru acest articol (în plus față de alte cuvinte cheie pe care le specifici în ecranul Editează articol)."
+
+#: languages/aioseo-lite.php:7690
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "Această opțiune îți permite să comuți folosirea cuvintelor cheie meta pe întregul site."
+
+#: languages/aioseo-lite.php:5981
+msgid "Referer Blocklist"
+msgstr "Listă de blocare referințe"
+
+#: languages/aioseo-lite.php:1228
+msgid "Bad Bot Blocker"
+msgstr "Blocare bot rău"
+
+#: app/Common/Admin/Admin.php:210 languages/aioseo-lite.php:3147
+msgid "General Settings"
+msgstr "Setări generale"
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Bot blocat cu IP %1$s -- referință similară %2$s găsită în lista de blocare."
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Bot blocat cu IP %1$s -- agent utilizator similar %2$s găsit în lista de blocare."
+
+#: languages/aioseo-lite.php:8410
+msgid "User Agent Blocklist"
+msgstr "Listă de blocare agenți utilizatori"
+
+#: languages/aioseo-lite.php:7957
+msgid "Track Blocked Bots"
+msgstr "Urmărește boții blocați"

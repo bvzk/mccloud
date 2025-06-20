@@ -1,0 +1,32 @@
+# Translation of Plugins - jQuery Updater - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - jQuery Updater - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-23 15:23:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - jQuery Updater - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "http://www.ramoonus.nl/"
+msgstr "http://www.ramoonus.nl/"
+
+#. Author of the plugin
+msgid "Ramoonus"
+msgstr "Ramoonus"
+
+#. Description of the plugin
+msgid "This plugin updates jQuery to the latest  stable version."
+msgstr "Acest modul actualizează jQuery la ultima versiune stabilă."
+
+#. Plugin URI of the plugin
+msgid "http://www.ramoonus.nl/wordpress/jquery-updater/"
+msgstr "http://www.ramoonus.nl/wordpress/jquery-updater/"
+
+#. Plugin Name of the plugin
+msgid "jQuery Updater"
+msgstr "jQuery Updater"

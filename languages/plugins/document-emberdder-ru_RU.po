@@ -1,0 +1,852 @@
+# Translation of Plugins - Document Embedder - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Document Embedder - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-30 15:23:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Document Embedder - Development (trunk)\n"
+
+#: inc/PostType/PPTViewer.php:98
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: inc/Model/Menu.php:62
+msgid "How to use ?"
+msgstr "Как использовать?"
+
+#: inc/Model/Menu.php:47
+msgid "Web"
+msgstr "Web"
+
+#: inc/Model/Menu.php:44
+msgid "Developer"
+msgstr "Разработчик"
+
+#: inc/Base/Activate.php:298
+msgid "hide"
+msgstr "скрыть"
+
+#: inc/Base/Activate.php:268
+msgid "Stay on the safe side"
+msgstr "Оставайтесь на безопасной стороне"
+
+#: inc/Base/Activate.php:171
+msgid "Terms and Condition"
+msgstr "Условия и положения"
+
+#: inc/Base/Activate.php:169
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: inc/Base/Activate.php:163
+msgid "Active, deactivated, or uninstalled"
+msgstr "Активен, деактивирован или деинсталлирован"
+
+#: inc/Base/Activate.php:162
+msgid "CURRENT PLUGIN STATUS"
+msgstr "Текущий статус плагина"
+
+#: inc/Base/Activate.php:156
+msgid "Updates, announcements, marketing, no spam"
+msgstr "Обновления, анонсы, предложения, никакого спама"
+
+#: inc/Base/Activate.php:142
+msgid "Name and email address"
+msgstr "Имя и адрес электронной почты"
+
+#: inc/Base/Activate.php:136
+msgid "What permissions are being granted?"
+msgstr "Какие разрешения предоставляются?"
+
+#: inc/Base/Activate.php:133 inc/Base/Activate.php:300
+msgid "Skip"
+msgstr "Пропустить"
+
+#: inc/Base/Activate.php:131 inc/Base/Activate.php:285
+msgid "Agree & continue"
+msgstr "Согласиться и продолжить"
+
+#: admin/inc/metabox.php:44
+msgid "Show file name on top"
+msgstr "Показать имя файла сверху"
+
+#: admin/inc/metabox.php:37
+msgid "Height"
+msgstr "Высота"
+
+#: admin/inc/metabox.php:30
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/inc/metabox.php:25 dist/editor.js:1
+msgid "Document"
+msgstr "Документ"
+
+#: admin/inc/metabox.php:13
+msgid "Configuration"
+msgstr "Конфигурация"
+
+#: admin/framework/functions/validate.php:68
+#: admin/framework/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr "Пожалуйста, введите действующий URL."
+
+#: admin/framework/functions/validate.php:50
+#: admin/framework/functions/validate.php:126
+msgid "This field is required."
+msgstr "Это поле обязательное."
+
+#: admin/framework/functions/validate.php:32
+#: admin/framework/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr "Укажите действующий номер."
+
+#: admin/framework/functions/validate.php:14
+#: admin/framework/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr "Введите действительный адрес электронной почты"
+
+#: admin/framework/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr "Ошибка: у вас нет на это разрешения."
+
+#: admin/framework/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr "Ошибка: Неверный ID элемента."
+
+#: admin/framework/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr "Ошибка: Ответ не является корректным JSON-ответом."
+
+#: admin/framework/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr "Веб-шрифты Google"
+
+#: admin/framework/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr "Безопасные веб-шрифты"
+
+#: admin/framework/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr "Пользовательские веб-шрифты"
+
+#: admin/framework/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr "Пользовательский стиль"
+
+#: admin/framework/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: admin/framework/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr "Интервал между словами"
+
+#: admin/framework/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr "Межсимвольный интервал"
+
+#: admin/framework/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr "Пространство между строками"
+
+#: admin/framework/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: admin/framework/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr "Зачёркивание"
+
+#: admin/framework/fields/typography/typography.php:219
+msgid "Overline"
+msgstr "Надчеркнутый"
+
+#: admin/framework/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr "Волнистая"
+
+#: admin/framework/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr "Оформление текста"
+
+#: admin/framework/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr "Нижний регистр"
+
+#: admin/framework/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: admin/framework/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr "Слова с заглавных"
+
+#: admin/framework/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr "Преобразование текста"
+
+#: admin/framework/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr "Все малые прописные"
+
+#: admin/framework/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr "Малые прописные"
+
+#: admin/framework/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr "Вариант шрифта"
+
+#: admin/framework/fields/typography/typography.php:175
+msgid "Initial"
+msgstr "Первоначальный"
+
+#: admin/framework/fields/typography/typography.php:174
+msgid "Justify"
+msgstr "По ширине"
+
+#: admin/framework/fields/typography/typography.php:173
+msgid "Right"
+msgstr "Правильно"
+
+#: admin/framework/fields/typography/typography.php:172
+msgid "Center"
+msgstr "По центру"
+
+#: admin/framework/fields/typography/typography.php:171
+msgid "Left"
+msgstr "Левый"
+
+#: admin/framework/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr "Выравнивание текста"
+
+#: admin/framework/fields/typography/typography.php:158
+msgid "Subset"
+msgstr "Набор"
+
+#: admin/framework/fields/typography/typography.php:144
+#: admin/framework/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr "Загрузить дополнительные стили"
+
+#: admin/framework/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: admin/framework/fields/typography/typography.php:119
+#: admin/framework/fields/typography/typography.php:132
+#: admin/framework/fields/typography/typography.php:145
+#: admin/framework/fields/typography/typography.php:160
+#: admin/framework/fields/typography/typography.php:176
+#: admin/framework/fields/typography/typography.php:189
+#: admin/framework/fields/typography/typography.php:203
+#: admin/framework/fields/typography/typography.php:221
+msgid "Default"
+msgstr "По умолчанию"
+
+#: admin/framework/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr "Семейство шрифтов Backup"
+
+#: admin/framework/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr "Семья шрифта"
+
+#: admin/framework/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr "Откл."
+
+#: admin/framework/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr "Включена"
+
+#: admin/framework/fields/media/media.php:25
+#: admin/framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr "Загрузить"
+
+#: admin/framework/fields/map/map.php:25
+msgid "Longitude"
+msgstr "Долгота"
+
+#: admin/framework/fields/map/map.php:24
+msgid "Latitude"
+msgstr "Широта"
+
+#: admin/framework/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr "Фокус"
+
+#: admin/framework/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr "Посещаемый"
+
+#: admin/framework/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr "Активна"
+
+#: admin/framework/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr "При наведении курсора"
+
+#: admin/framework/fields/link/link.php:22
+msgid "Remove Link"
+msgstr "Удалить ссылку"
+
+#: admin/framework/fields/link/link.php:21
+msgid "Edit Link"
+msgstr "Изменить ссылку"
+
+#: admin/framework/fields/link/link.php:20
+msgid "Add Link"
+msgstr "Добавить ссылку"
+
+#: admin/framework/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr "Удалить значок"
+
+#: admin/framework/fields/icon/icon.php:20
+#: admin/framework/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr "Добавить значок"
+
+#: admin/framework/fields/group/group.php:122
+#: admin/framework/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr "Вы не можете удалить больше."
+
+#: admin/framework/fields/group/group.php:121
+#: admin/framework/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr "Вы не можете добавить больше."
+
+#: admin/framework/fields/group/group.php:46
+#: admin/framework/fields/group/group.php:87
+#: admin/framework/fields/repeater/repeater.php:48
+#: admin/framework/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr "Вы уверены, что хотите удалить этот пункт?"
+
+#: admin/framework/fields/group/group.php:35
+#: admin/framework/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr "Ошибка: конфликт ID поля."
+
+#: admin/framework/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr "Очистить"
+
+#: admin/framework/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr "Редактировать галерею"
+
+#: admin/framework/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr "Добавить галерею"
+
+#: admin/framework/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr "высота"
+
+#: admin/framework/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr "ширина"
+
+#: admin/framework/fields/border/border.php:58
+msgid "ridge"
+msgstr "грани"
+
+#: admin/framework/fields/border/border.php:57
+msgid "Groove"
+msgstr "Выпуклость"
+
+#: admin/framework/fields/border/border.php:56
+msgid "Outset"
+msgstr "Выпуклый"
+
+#: admin/framework/fields/border/border.php:55
+msgid "Inset"
+msgstr "Вставка"
+
+#: admin/framework/fields/border/border.php:54
+#: admin/framework/fields/typography/typography.php:215
+msgid "Double"
+msgstr "Двойная"
+
+#: admin/framework/fields/border/border.php:53
+#: admin/framework/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr "Точечный"
+
+#: admin/framework/fields/border/border.php:52
+#: admin/framework/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr "Штриховой пунктир"
+
+#: admin/framework/fields/border/border.php:51
+#: admin/framework/fields/typography/typography.php:214
+msgid "Solid"
+msgstr "Сплошной"
+
+#: admin/framework/fields/border/border.php:29
+#: admin/framework/fields/spacing/spacing.php:29
+msgid "all"
+msgstr "все"
+
+#: admin/framework/fields/border/border.php:28
+#: admin/framework/fields/spacing/spacing.php:28
+msgid "left"
+msgstr "осталось"
+
+#: admin/framework/fields/border/border.php:27
+#: admin/framework/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr "снизу"
+
+#: admin/framework/fields/border/border.php:26
+#: admin/framework/fields/spacing/spacing.php:26
+msgid "right"
+msgstr "справа"
+
+#: admin/framework/fields/border/border.php:25
+#: admin/framework/fields/spacing/spacing.php:25
+msgid "top"
+msgstr "над"
+
+#: admin/framework/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr "Экспортировать и скачать"
+
+#: admin/framework/fields/backup/backup.php:26
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/framework/fields/background/background.php:279
+msgid "Luminosity"
+msgstr "Яркость"
+
+#: admin/framework/fields/background/background.php:278
+msgid "Color"
+msgstr "Цвет шрифта"
+
+#: admin/framework/fields/background/background.php:277
+msgid "Saturation"
+msgstr "Насыщенность"
+
+#: admin/framework/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr "Осветление основы"
+
+#: admin/framework/fields/background/background.php:275
+msgid "Lighten"
+msgstr "Осветление"
+
+#: admin/framework/fields/background/background.php:274
+msgid "Darken"
+msgstr "Затемнение"
+
+#: admin/framework/fields/background/background.php:273
+msgid "Overlay"
+msgstr "Оверлей"
+
+#: admin/framework/fields/background/background.php:272
+msgid "Screen"
+msgstr "Экран"
+
+#: admin/framework/fields/background/background.php:271
+msgid "Multiply"
+msgstr "Умножение"
+
+#: admin/framework/fields/background/background.php:270
+#: admin/framework/fields/link_color/link_color.php:36
+#: admin/framework/fields/typography/typography.php:186
+msgid "Normal"
+msgstr "Обычное"
+
+#: admin/framework/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr "Режим наложения фона"
+
+#: admin/framework/fields/background/background.php:252
+msgid "Background Clip"
+msgstr "Обрезка фона"
+
+#: admin/framework/fields/background/background.php:238
+#: admin/framework/fields/background/background.php:255
+msgid "Content Box"
+msgstr "Бокс для содержимого"
+
+#: admin/framework/fields/background/background.php:237
+#: admin/framework/fields/background/background.php:253
+msgid "Border Box"
+msgstr "Рамка блока"
+
+#: admin/framework/fields/background/background.php:236
+#: admin/framework/fields/background/background.php:254
+msgid "Padding Box"
+msgstr "Внутренний отступ блока"
+
+#: admin/framework/fields/background/background.php:235
+msgid "Background Origin"
+msgstr "Источник фона"
+
+#: admin/framework/fields/background/background.php:221
+msgid "Auto"
+msgstr "Авто"
+
+#: admin/framework/fields/background/background.php:218
+msgid "Background Size"
+msgstr "Размер фона"
+
+#: admin/framework/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr "Привязка фона"
+
+#: admin/framework/fields/background/background.php:185
+msgid "Repeat"
+msgstr "Повторить"
+
+#: admin/framework/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr "Повтор фона"
+
+#: admin/framework/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr "Внизу справа"
+
+#: admin/framework/fields/background/background.php:169
+msgid "Right Center"
+msgstr "По центру справа"
+
+#: admin/framework/fields/background/background.php:168
+msgid "Right Top"
+msgstr "Вверху справа"
+
+#: admin/framework/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr "Внизу по центру"
+
+#: admin/framework/fields/background/background.php:165
+msgid "Center Top"
+msgstr "По центру сверху"
+
+#: admin/framework/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr "Внизу слева"
+
+#: admin/framework/fields/background/background.php:163
+msgid "Left Center"
+msgstr "Слева по центру"
+
+#: admin/framework/fields/background/background.php:162
+msgid "Left Top"
+msgstr "Вверху слева"
+
+#: admin/framework/fields/background/background.php:161
+msgid "Background Position"
+msgstr "Позиция фона"
+
+#: admin/framework/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr "&#8665; из верхнего угла влево"
+
+#: admin/framework/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr "&#8664; из верхнего угла вправо"
+
+#: admin/framework/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr "&#8658; слева направо"
+
+#: admin/framework/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr "&#8659; сверху вниз"
+
+#: admin/framework/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr "Направление градиента"
+
+#: admin/framework/fields/background/background.php:108
+msgid "Direction"
+msgstr "Направление"
+
+#: admin/framework/fields/background/background.php:72
+#: admin/framework/fields/date/date.php:31
+#: admin/framework/fields/datetime/datetime.php:36
+msgid "From"
+msgstr "Из"
+
+#: admin/framework/fields/background/background.php:36
+#: admin/framework/fields/media/media.php:59
+msgid "Not selected"
+msgstr "Не выбрано"
+
+#: admin/framework/classes/shortcode-options.class.php:290
+#: admin/framework/functions/actions.php:16
+#: admin/framework/functions/actions.php:68
+#: admin/framework/functions/actions.php:106
+#: admin/framework/functions/actions.php:141
+#: admin/framework/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr "Ошибка: некорректная верификация nonce."
+
+#: admin/framework/classes/shortcode-options.class.php:253
+#: admin/framework/fields/group/group.php:23
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: admin/framework/classes/setup.class.php:775
+#: admin/framework/classes/setup.class.php:779
+msgid "Field not found!"
+msgstr "Поле не найдено!"
+
+#: admin/framework/classes/setup.class.php:703
+msgid "Oops! Not allowed."
+msgstr "Не разрешено."
+
+#: admin/framework/classes/setup.class.php:601
+msgid "Searching..."
+msgstr "Идет поиск ..."
+
+#: admin/framework/classes/setup.class.php:600
+msgid "Please enter %s or more characters"
+msgstr "Введите %s или более символов"
+
+#: admin/framework/classes/setup.class.php:599
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: admin/framework/classes/comment-options.class.php:217
+#: admin/framework/classes/metabox-options.class.php:295
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/framework/classes/comment-options.class.php:217
+#: admin/framework/classes/metabox-options.class.php:295
+msgid "update post"
+msgstr "обновлённая запись"
+
+#: admin/framework/classes/admin-options.class.php:676
+#: admin/framework/classes/comment-options.class.php:199
+#: admin/framework/classes/metabox-options.class.php:277
+#: admin/framework/fields/button_set/button_set.php:56
+#: admin/framework/fields/checkbox/checkbox.php:76
+#: admin/framework/fields/radio/radio.php:75
+#: admin/framework/fields/select/select.php:113
+#: admin/framework/functions/actions.php:41
+msgid "No data available."
+msgstr "Данные отсутствуют."
+
+#: admin/framework/classes/admin-options.class.php:578
+#: admin/framework/classes/admin-options.class.php:701
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr "Вы уверены, что хотите сбросить все настройки до значений по умолчанию?"
+
+#: admin/framework/classes/admin-options.class.php:578
+#: admin/framework/classes/admin-options.class.php:701
+#: admin/framework/classes/comment-options.class.php:216
+#: admin/framework/classes/metabox-options.class.php:294
+#: admin/framework/fields/backup/backup.php:31
+msgid "Reset"
+msgstr "Сбросить"
+
+#: admin/framework/classes/admin-options.class.php:578
+#: admin/framework/classes/admin-options.class.php:701
+msgid "Reset All"
+msgstr "Полный сброс"
+
+#: admin/framework/classes/admin-options.class.php:577
+#: admin/framework/classes/admin-options.class.php:700
+msgid "Are you sure to reset this section options?"
+msgstr "Вы уверены к сбросу настроек этого раздела?"
+
+#: admin/framework/classes/admin-options.class.php:577
+#: admin/framework/classes/admin-options.class.php:700
+msgid "Reset Section"
+msgstr "Сбросить раздел"
+
+#: admin/framework/classes/admin-options.class.php:576
+#: admin/framework/classes/admin-options.class.php:699
+msgid "Saving..."
+msgstr "Сохранение…"
+
+#: admin/framework/classes/admin-options.class.php:576
+#: admin/framework/classes/admin-options.class.php:699
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/framework/classes/admin-options.class.php:573
+#: admin/framework/fields/icon/icon.php:57
+#: admin/framework/fields/map/map.php:23
+msgid "Search..."
+msgstr "Поиск…"
+
+#: admin/framework/classes/admin-options.class.php:571
+msgid "show all settings"
+msgstr "показать все настройки"
+
+#: admin/framework/classes/admin-options.class.php:569
+msgid "You have unsaved changes, save your changes!"
+msgstr "У вас есть несохраненные изменения, сохранить изменения!"
+
+#: admin/framework/classes/admin-options.class.php:389
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#: admin/framework/classes/admin-options.class.php:302
+#: admin/framework/classes/admin-options.class.php:318
+msgid "Default settings restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+#: admin/framework/classes/admin-options.class.php:290
+msgid "Settings successfully imported."
+msgstr "Настройки успешно импортированы."
+
+#: admin/framework/classes/admin-options.class.php:230
+msgid "Error while saving the changes."
+msgstr "Ошибка при сохранении изменений."
+
+#. Plugin URI of the plugin
+msgid "http://documentembedder.com/"
+msgstr "http://documentembedder.com/"
+
+#. Author of the plugin
+msgid "bPlugins LLC"
+msgstr "bPlugins LLC"
+
+#: admin/framework/fields/background/background.php:220
+msgid "Contain"
+msgstr "Содержимое"
+
+#: admin/framework/fields/background/background.php:219
+msgid "Cover"
+msgstr "Обложка "
+
+#: admin/framework/fields/background/background.php:203
+msgid "Scroll"
+msgstr "Прокрутка"
+
+#: admin/framework/fields/background/background.php:204
+msgid "Fixed"
+msgstr "Фиксировано"
+
+#: admin/framework/fields/background/background.php:166
+msgid "Center Center"
+msgstr "По центру"
+
+#: admin/framework/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr "Унаследовать"
+
+#: admin/framework/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr "Повторять по вертикали"
+
+#: admin/framework/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr "Повторить по горизонтали"
+
+#: admin/framework/fields/background/background.php:186
+msgid "No Repeat"
+msgstr "Не повторять"
+
+#: admin/framework/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr "Выбрать шрифт"
+
+#: admin/framework/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr "Выкл."
+
+#: admin/framework/fields/switcher/switcher.php:20
+msgid "On"
+msgstr "Вкл."
+
+#: admin/framework/functions/actions.php:72
+#: admin/framework/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr "Ошибка: неверный ключ."
+
+#: admin/framework/fields/border/border.php:59
+#: admin/framework/fields/typography/typography.php:199
+#: admin/framework/fields/typography/typography.php:213
+msgid "None"
+msgstr "Нет"
+
+#: admin/framework/classes/setup.class.php:602
+msgid "No results found."
+msgstr "Результаты не найдены."
+
+#: inc/PostType/PPTViewer.php:95
+msgid "Supports"
+msgstr "Поддержка"
+
+#: inc/Base/Activate.php:299
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#. Author URI of the plugin
+msgid "http://bplugins.com"
+msgstr "https://bplugins.com"
+
+#: inc/Model/Metabox.php:42
+msgid "Get The Pro For Free"
+msgstr "Получите Pro бесплатно"
+
+#: admin/framework/fields/media/media.php:26
+#: admin/framework/fields/upload/upload.php:25
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/Model/Metabox.php:35
+msgid "Try LightBox Addons"
+msgstr "Попробуйте аддоны LightBox"
+
+#: inc/Model/Metabox.php:29
+msgid "Upgrade to Pro"
+msgstr "Обновить до Pro"
+
+#: inc/PostType/PPTViewer.php:42
+msgid "Sorry, we couldn't find the power point file you are looking for."
+msgstr "К сожалению, мы не смогли найти файл power point, который вы ищете."
+
+#: inc/PostType/PPTViewer.php:41
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/PostType/PPTViewer.php:40
+msgid "View item"
+msgstr "Посмотреть элемент"
+
+#: inc/PostType/PPTViewer.php:39
+msgid "New item"
+msgstr "Новый элемент"
+
+#: inc/PostType/PPTViewer.php:38
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/PostType/PPTViewer.php:36 inc/PostType/PPTViewer.php:37
+msgid "Add New Doc"
+msgstr "Добавить новый документ"
+
+#: document-embedder.php:32
+msgid "Updated"
+msgstr "Обновлено"
+
+#. Description of the plugin
+msgid "Embed Any document easily in wordpress such as word, excel, powerpoint, pdf and more"
+msgstr "Встраивание любого документа в wordpress, такого как word, excel, powerpoint, pdf и т.д."
+
+#. Plugin Name of the plugin
+#: inc/PostType/PPTViewer.php:34 inc/PostType/PPTViewer.php:35
+#: inc/PostType/PPTViewer.php:94
+msgid "Document Embedder"
+msgstr "Document Embedder"

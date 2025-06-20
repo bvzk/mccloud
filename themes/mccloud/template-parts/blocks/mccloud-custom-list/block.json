@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom List",
+  "title": "McCloud Custom List",
+  "description": "A custom McCloud List block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["list", "custom list"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "McCloud Custom Title",
+  "title": "McCloud Custom Title",
+  "description": "A custom McCloud Title block that uses ACF fields.",
+  "style": ["file:./style.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["title", "custom title"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "block.php"
+  },
+  "supports": {
+    "anchor": true
+  }
+}
