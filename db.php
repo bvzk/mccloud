@@ -1,1 +1,0 @@
-/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/query-monitor/wp-content/db.php

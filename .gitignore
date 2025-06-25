@@ -13,6 +13,8 @@
 /wpvividbackups
 /cache
 debug.log
+db.php
+wf-licensing.log
 
 #Theme
 
