@@ -1,225 +1,18 @@
 <?php
 
-require_once get_template_directory() . '/inc/polylang-custom.php';
+define('MCCLD_DIR', get_template_directory());
+define('MCCLD_URL', get_template_directory_uri());
 
-function mccloud_theme_support()
-{
+//require_once MCCLD_DIR . '/inc/polylang-custom.php';
+require_once MCCLD_DIR . '/inc/after-theme-setup.php'; // all hooks that needs to be done on after_theme_setup
+require_once MCCLD_DIR . '/inc/theme-customizer.php'; // Customizer additions
+require_once MCCLD_DIR . '/inc/admin-panel.php'; // Admin Customizer additions
+require_once MCCLD_DIR . '/inc/template-tags.php'; // Tags customizer additions
+require_once MCCLD_DIR . '/telegram.php'; // telegram
+require_once MCCLD_DIR . '/classes/class-twentytwenty-walker-page.php';
+require_once MCCLD_DIR . '/classes/class-twentytwenty-script-loader.php';
+require_once MCCLD_DIR . '/inc/scripts-styles.php'; // All scripts and styles enqueue | dequeue
 
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support('automatic-feed-links');
-
-	// Custom background color.
-	add_theme_support(
-		'custom-background',
-		array(
-			'default-color' => 'f5efe0',
-		)
-	);
-
-	// Set content-width.
-	global $content_width;
-	if (!isset($content_width)) {
-		$content_width = 580;
-	}
-
-	/*
-	 * Enable support for Post Thumbnails on posts and pages.
-	 *
-	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-	 */
-	add_theme_support('post-thumbnails');
-
-	// Set post thumbnail size.
-	set_post_thumbnail_size(1200, 9999);
-
-
-	// Add custom image size used in Cover Template.
-	add_image_size('twentytwenty-fullscreen', 1980, 9999);
-
-	// Custom logo.
-	$logo_width = 120;
-	$logo_height = 90;
-
-	// If the retina setting is active, double the recommended width and height.
-	if (get_theme_mod('retina_logo', false)) {
-		$logo_width = floor($logo_width * 2);
-		$logo_height = floor($logo_height * 2);
-	}
-
-	add_theme_support(
-		'custom-logo',
-		array(
-			'height' => $logo_height,
-			'width' => $logo_width,
-			'flex-height' => true,
-			'flex-width' => true,
-		)
-	);
-
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
-	add_theme_support('title-tag');
-
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-	add_theme_support(
-		'html5',
-		array(
-			'search-form',
-			'comment-form',
-			'comment-list',
-			'gallery',
-			'caption',
-			'script',
-			'style',
-		)
-	);
-
-	/*
-	 * Make theme available for translation.
-	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Twenty Twenty, use a find and replace
-	 * to change 'twentytwenty' to the name of your theme in all the template files.
-	 */
-	load_theme_textdomain('twentytwenty');
-
-	// Add support for full and wide align images.
-	add_theme_support('align-wide');
-
-	/*
-	 * Adds starter content to highlight the theme on fresh sites.
-	 * This is done conditionally to avoid loading the starter content on every
-	 * page load, as it is a one-off operation only needed once in the customizer.
-	 */
-	if (is_customize_preview()) {
-		require get_template_directory() . '/inc/starter-content.php';
-		add_theme_support('starter-content', mccloud_get_starter_content());
-	}
-
-	// Add theme support for selective refresh for widgets.
-	add_theme_support('customize-selective-refresh-widgets');
-
-	/*
-	 * Adds `async` and `defer` support for scripts registered or enqueued
-	 * by the theme.
-	 */
-	$loader = new TwentyTwenty_Script_Loader();
-	add_filter('script_loader_tag', array($loader, 'filter_script_loader_tag'), 10, 2);
-
-}
-add_filter('upload_mimes', 'svg_upload_allow');
-
-add_image_size('mccloud-post-thumbnail', 420, 235, true);
-add_image_size('mccloud-post-thumbnail-2x', 840, 470, true);
-add_image_size('mccloud-post-thumbnail-m', 268, 150, true);
-add_image_size('mccloud-post-thumbnail-m-2x', 536, 300, true);
-
-# Добавляет SVG в список разрешенных для загрузки файлов.
-function svg_upload_allow($mimes)
-{
-	$mimes['svg'] = 'image/svg+xml';
-
-	return $mimes;
-}
-
-add_filter('wp_check_filetype_and_ext', 'fix_svg_mime_type', 10, 5);
-
-# Исправление MIME типа для SVG файлов.
-function fix_svg_mime_type($data, $file, $filename, $mimes, $real_mime = '')
-{
-
-	// WP 5.1 +
-	if (version_compare($GLOBALS['wp_version'], '5.1.0', '>='))
-		$dosvg = in_array($real_mime, ['image/svg', 'image/svg+xml']);
-	else
-		$dosvg = ('.svg' === strtolower(substr($filename, -4)));
-
-	// mime тип был обнулен, поправим его
-	// а также проверим право пользователя
-	if ($dosvg) {
-
-		// разрешим
-		if (current_user_can('manage_options')) {
-
-			$data['ext'] = 'svg';
-			$data['type'] = 'image/svg+xml';
-		}
-		// запретим
-		else {
-			$data['ext'] = $type_and_ext['type'] = false;
-		}
-
-	}
-
-	return $data;
-}
-
-add_filter('wp_prepare_attachment_for_js', 'show_svg_in_media_library');
-
-# Формирует данные для отображения SVG как изображения в медиабиблиотеке.
-function show_svg_in_media_library($response)
-{
-	if ($response['mime'] === 'image/svg+xml') {
-		// С выводом названия файла
-		$response['image'] = [
-			'src' => $response['url'],
-		];
-	}
-
-	return $response;
-}
-
-add_action('after_setup_theme', 'mccloud_theme_support');
-
-/**
- * REQUIRED FILES
- * Include required files.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-// Telegram
-
-require get_template_directory() . '/telegram.php';
-
-// Custom page walker.
-require get_template_directory() . '/classes/class-twentytwenty-walker-page.php';
-
-// Custom script loader class.
-require get_template_directory() . '/classes/class-twentytwenty-script-loader.php';
-
-add_action('wp_print_scripts', function () {
-	wp_dequeue_script('google-recaptcha');
-});
-
-function mccloud_register_styles()
-{
-	wp_enqueue_style('slick', get_template_directory_uri() . '/slick/slick.css', array(), 1);
-	wp_enqueue_style('twentytwenty-style', get_stylesheet_uri(), array(), '1');
-	wp_enqueue_style('mccloud-style', get_template_directory_uri() . '/dist/app.css', array(), '1.0.15');
-	// wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/custom.css', array(), 1 );
-	// wp_enqueue_style( 'media-style', get_template_directory_uri() . '/media.css', array(), 1 );
-}
-add_action('wp_enqueue_scripts', 'mccloud_register_styles');
-
-function mccloud_register_scripts()
-{
-	wp_register_script('slick', get_template_directory_uri() . '/slick/slick.min.js', array('jquery'), '1.0.1', false);
-	wp_enqueue_script('slick');
-
-	wp_register_script('mccloud-app-js', get_template_directory_uri() . '/dist/app.js', array('jquery'), '1.0.15', false);
-	wp_enqueue_script('mccloud-app-js');
-
-	//wp_register_script('maskedunput', get_template_directory_uri() .'/slick/jquery.maskedinput.min.js');
-	//wp_enqueue_script('maskedunput');
-}
-
-add_action('wp_enqueue_scripts', 'mccloud_register_scripts');
 
 function mccloud_menus()
 {
@@ -1018,7 +811,7 @@ function get_three_cards_data_implementation()
 	];
 }
 
-pll_register_string('not_found_text', 'Сторінку не знайдено');
+//pll_register_string('not_found_text', 'Сторінку не знайдено');
 
 
 if( function_exists('acf_add_options_page') ) {
@@ -1044,7 +837,7 @@ function mccloud_register_acf_blocks() {
 	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-steps' );
 	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-cta' );
 }
-add_action( 'init', 'mccloud_register_acf_blocks' );
+//add_action( 'init', 'mccloud_register_acf_blocks' );
 
 
 
@@ -1122,26 +915,26 @@ add_filter( 'wpseo_og_locale', function( $locale ) {
 });
 
 // Реєструємо строки перекладу один раз
-add_action('init', function () {
-    pll_register_string('cookie_accept', 'Прийняти');
-    pll_register_string('cookie_text', 'Ми використовуємо cookies для покращення роботи сайту.');
-    pll_register_string('about_mc', 'Про mcCloud');
-    pll_register_string('about_mc_it', "mcCloud – це ІТ-команда, що надає послуги хмарної інтеграції для бізнесу. Компанія оснащує підприємства надійними інструментами та персоналізованими програмами, а також проводить ІТ-тренінги та консультації.");
-    pll_register_string('about_cases', 'Подібні кейси');
-    pll_register_string('cases', 'Кейси');
-    pll_register_string('blog', 'Блог');
-    pll_register_string('about', 'Про нас');
-    pll_register_string('contact', 'Контакти');
-});
+//add_action('init', function () {
+//    pll_register_string('cookie_accept', 'Прийняти');
+//    pll_register_string('cookie_text', 'Ми використовуємо cookies для покращення роботи сайту.');
+//    pll_register_string('about_mc', 'Про mcCloud');
+//    pll_register_string('about_mc_it', "mcCloud – це ІТ-команда, що надає послуги хмарної інтеграції для бізнесу. Компанія оснащує підприємства надійними інструментами та персоналізованими програмами, а також проводить ІТ-тренінги та консультації.");
+//    pll_register_string('about_cases', 'Подібні кейси');
+//    pll_register_string('cases', 'Кейси');
+//    pll_register_string('blog', 'Блог');
+//    pll_register_string('about', 'Про нас');
+//    pll_register_string('contact', 'Контакти');
+//});
 
 // Підключаємо скрипт та передаємо перекладені строки
 function enqueue_cookie_banner_script() {
     wp_enqueue_script('cookie-banner', get_template_directory_uri() . '/js/cookie-banner.js', [], null, true);
 
-    wp_localize_script('cookie-banner', 'cookieBannerLang', [
-        'message' => pll__('Ми використовуємо cookies для покращення роботи сайту.'),
-        'accept'  => pll__('Прийняти'),
-    ]);
+//    wp_localize_script('cookie-banner', 'cookieBannerLang', [
+//        'message' => pll__('Ми використовуємо cookies для покращення роботи сайту.'),
+//        'accept'  => pll__('Прийняти'),
+//    ]);
 }
 add_action('wp_enqueue_scripts', 'enqueue_cookie_banner_script');
 
