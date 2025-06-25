@@ -4,7 +4,7 @@
  */
 
 /**
- * Main Polylang class for REST API requrests, accessible from @see PLL().
+ * Main Polylang class for REST API requests, accessible from @see PLL().
  *
  * @since 2.6
  */
@@ -14,6 +14,11 @@ class PLL_REST_Request extends PLL_Base {
 	 *                              definition process runs.
 	 */
 	public $curlang;
+
+	/**
+	 * @var PLL_Default_Term|null
+	 */
+	public $default_term;
 
 	/**
 	 * @var PLL_Filters|null
@@ -74,6 +79,9 @@ class PLL_REST_Request extends PLL_Base {
 	public function init() {
 		parent::init();
 
+		$this->default_term = new PLL_Default_Term( $this );
+		$this->default_term->add_hooks();
+
 		if ( ! $this->model->has_languages() ) {
 			return;
 		}
@@ -106,7 +114,7 @@ class PLL_REST_Request extends PLL_Base {
 		if ( ! empty( $lang ) && is_string( $lang ) ) {
 			$this->curlang = $this->model->get_language( sanitize_key( $lang ) );
 
-			if ( empty( $this->curlang ) && ! empty( $this->options['default_lang'] ) && is_string( $this->options['default_lang'] ) ) {
+			if ( empty( $this->curlang ) && ! empty( $this->options['default_lang'] ) ) {
 				// A lang has been requested but it is invalid, let's fall back to the default one.
 				$this->curlang = $this->model->get_language( sanitize_key( $this->options['default_lang'] ) );
 			}

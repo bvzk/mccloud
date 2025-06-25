@@ -233,7 +233,7 @@ class WP_Reset_CLI extends WP_CLI_Command
             } else {
               $tmp['name'] = 'n/a';
             }
-            $tmp['created'] = date(get_option('date_format'), strtotime($ss['timestamp'])) . ' @ ' . date(get_option('time_format'), strtotime($ss['timestamp']));
+            $tmp['created'] = gmdate(get_option('date_format'), strtotime($ss['timestamp'])) . ' @ ' . gmdate(get_option('time_format'), strtotime($ss['timestamp']));
             $tmp['info'] = $ss['tbl_core'] . ' standard & ';
             if ($ss['tbl_custom']) {
               $tmp['info'] .= $ss['tbl_custom'] . ' custom table' . ($ss['tbl_custom'] == 1 ? '' : 's');

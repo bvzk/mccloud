@@ -24,11 +24,11 @@ class PLL_Frontend_Filters_Search {
 	public $curlang;
 
 	/**
-	 * Constructor
+	 * Constructor.
 	 *
 	 * @since 1.2
 	 *
-	 * @param object $polylang
+	 * @param object $polylang The Polylang object.
 	 */
 	public function __construct( &$polylang ) {
 		$this->links_model = &$polylang->links_model;
@@ -69,7 +69,7 @@ class PLL_Frontend_Filters_Search {
 
 		if ( $this->links_model->using_permalinks ) {
 			// Take care to modify only the url in the <form> tag.
-			preg_match( '#<form.+?>#', $form, $matches );
+			preg_match( '#<form.+?>#s', $form, $matches );
 			$old = reset( $matches );
 			if ( empty( $old ) ) {
 				return $form;
@@ -88,15 +88,21 @@ class PLL_Frontend_Filters_Search {
 	}
 
 	/**
-	 * Adds the language information in admin bar search form
+	 * Adds the language information in the admin bar search form.
 	 *
 	 * @since 1.2
 	 *
 	 * @return void
 	 */
 	public function add_admin_bar_menus() {
-		remove_action( 'admin_bar_menu', 'wp_admin_bar_search_menu', 4 );
-		add_action( 'admin_bar_menu', array( $this, 'admin_bar_search_menu' ), 4 );
+		// Backward compatibility with WP < 6.6. The priority was 4 before this version, 9999 since then.
+		$priority = has_action( 'admin_bar_menu', 'wp_admin_bar_search_menu' );
+		if ( ! is_int( $priority ) ) {
+			return;
+		}
+
+		remove_action( 'admin_bar_menu', 'wp_admin_bar_search_menu', $priority );
+		add_action( 'admin_bar_menu', array( $this, 'admin_bar_search_menu' ), $priority );
 	}
 
 	/**
@@ -105,7 +111,7 @@ class PLL_Frontend_Filters_Search {
 	 *
 	 * @since 0.9
 	 *
-	 * @param WP_Admin_Bar $wp_admin_bar
+	 * @param WP_Admin_Bar $wp_admin_bar The WP_Admin_Bar instance, passed by reference.
 	 * @return void
 	 */
 	public function admin_bar_search_menu( $wp_admin_bar ) {
@@ -132,20 +138,21 @@ class PLL_Frontend_Filters_Search {
 	}
 
 	/**
-	 * Allows modifying the search form if it does not pass get_search_form
+	 * Allows modifying the search form if it does not pass get_search_form.
 	 *
 	 * @since 0.1
 	 *
 	 * @return void
 	 */
 	public function wp_print_footer_scripts() {
-		// Don't use directly e[0] just in case there is somewhere else an element named 's'
-		// Check before if the hidden input has not already been introduced by get_search_form ( FIXME: is there a way to improve this ) ?
-		// Thanks to AndyDeGroo for improving the code for compatibility with old browsers
-		// http://wordpress.org/support/topic/development-of-polylang-version-08?replies=6#post-2645559
+		/*
+		 * Don't use directly e[0] just in case there is somewhere else an element named 's'
+		 * Check before if the hidden input has not already been introduced by get_search_form ( FIXME: is there a way to improve this ) ?
+		 * Thanks to AndyDeGroo for improving the code for compatibility with old browsers
+		 * http://wordpress.org/support/topic/development-of-polylang-version-08?replies=6#post-2645559
+		 */
 		$lang = esc_js( $this->curlang->slug );
-		$js = "//<![CDATA[
-		e = document.getElementsByName( 's' );
+		$js = "e = document.getElementsByName( 's' );
 		for ( i = 0; i < e.length; i++ ) {
 			if ( e[i].tagName.toUpperCase() == 'INPUT' ) {
 				s = e[i].parentNode.parentNode.children;
@@ -159,12 +166,18 @@ class PLL_Frontend_Filters_Search {
 					var ih = document.createElement( 'input' );
 					ih.type = 'hidden';
 					ih.name = 'lang';
-					ih.value = '$lang';
+					ih.value = '{$lang}';
 					e[i].parentNode.appendChild( ih );
 				}
 			}
+		}";
+
+		$type_attr = current_theme_supports( 'html5', 'script' ) ? '' : ' type="text/javascript"';
+
+		if ( $type_attr ) {
+			$js = "/* <![CDATA[ */\n{$js}\n/* ]]> */";
 		}
-		//]]>";
-		echo '<script type="text/javascript">' . $js . '</script>'; // phpcs:ignore WordPress.Security.EscapeOutput
+
+		echo "<script{$type_attr}>\n{$js}\n</script>\n"; // phpcs:ignore WordPress.Security.EscapeOutput
 	}
 }

@@ -5,6 +5,9 @@
  * @package cyr-to-lat
  */
 
+// phpcs:ignore Generic.Commenting.DocComment.MissingShort
+/** @noinspection PhpInternalEntityUsedInspection */
+
 namespace CyrToLat;
 
 use CyrToLat\Symfony\Polyfill\Mbstring\Mbstring;
@@ -1115,7 +1118,7 @@ class ConversionTables {
 					'Zuo'    => '昨左佐做作坐座阼唑嘬怍胙祚酢',
 				];
 				break;
-			case 'iso9':
+			case 'ISO9':
 			default:
 				$table = [
 					'А' => 'A',

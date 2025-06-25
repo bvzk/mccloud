@@ -1,9 +1,7 @@
-
-
 <?php
 set_query_var('heroLabel', 'Google Workspace');
-set_query_var('heroTitle', 'Google Workspace Business:<br>перший крок до трансформації вашого бізнесу');
-set_query_var('heroSubtitle', 'Google Workspace забезпечує надійне хмарне рішення, яке дає змогу вашій компанії працювати будь-де, будь-коли, з упевненістю в безпеці даних і доступом до спільної роботи в режимі реального часу.');
+set_query_var('heroTitle', pll__('Google Workspace Business:<br>перший крок до трансформації вашого бізнесу'));
+set_query_var('heroSubtitle', pll__('Google Workspace забезпечує надійне хмарне рішення, яке дає змогу вашій компанії працювати будь-де, будь-коли, з упевненістю в безпеці даних і доступом до спільної роботи в режимі реального часу.'));
 // set_query_var('heroPicture', "
 //      <picture>
 //                 <source type='image/webp'

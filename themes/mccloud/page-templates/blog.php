@@ -43,27 +43,27 @@ $categories = get_categories(array('parent' => 9, 'hide_empty' => false));
 ?>
 
 <main class="my-7 2xl:my-[120px] container" id="site-content" role="main">
-    <?php if ( $categories ) { ?>
-        <div class="flex items-center mb-[70px] overflow-x-auto">
-            <a href="<?=get_permalink( 1157 );?>" class="btn text-nowrap text-black mr-5
-            <?php if($category_id == 36) { ?>
-                btn-light-success
-            <?php } else { ?>
-                btn-light border-[#F2F2F7]
-            <?php } ?>
-        ">Усі категорії</a>
-            <?php foreach( $categories as $_category ) { ?>
-                <a href="<?=get_permalink( 1157 ) . $_category->slug; ?>/"
-                   class="btn text-nowrap text-black mr-5
-                <?php if($category_id == $_category->term_id) { ?>
-                    btn-light-success
-                <?php } else { ?>
-                    btn-light border-[#F2F2F7]
-                <?php } ?>
-            "><?=$_category->name;?></a>
-            <?php } ?>
-        </div>
-    <?php } ?>
+<!--    --><?php //if ( $categories ) { ?>
+<!--        <div class="flex items-center mb-[70px] overflow-x-auto">-->
+<!--            <a href="--><?php //=get_permalink( 1157 );?><!--" class="btn text-nowrap text-black mr-5-->
+<!--            --><?php //if($category_id == 36) { ?>
+<!--                btn-light-success-->
+<!--            --><?php //} else { ?>
+<!--                btn-light border-[#F2F2F7]-->
+<!--            --><?php //} ?>
+<!--        ">Усі категорії</a>-->
+<!--            --><?php //foreach( $categories as $_category ) { ?>
+<!--                <a href="--><?php //=get_permalink( 1157 ) . $_category->slug; ?><!--/"-->
+<!--                   class="btn text-nowrap text-black mr-5-->
+<!--                --><?php //if($category_id == $_category->term_id) { ?>
+<!--                    btn-light-success-->
+<!--                --><?php //} else { ?>
+<!--                    btn-light border-[#F2F2F7]-->
+<!--                --><?php //} ?>
+<!--            ">--><?php //=$_category->name;?><!--</a>-->
+<!--            --><?php //} ?>
+<!--        </div>-->
+<!--    --><?php //} ?>
 
     <div class="posts-slider lg:grid lg:grid-cols-3 gap-4 mb-5 2xl:mb-11">
         <?php if ( $posts-> have_posts() ) : ?>
@@ -116,14 +116,8 @@ $categories = get_categories(array('parent' => 9, 'hide_empty' => false));
             ) );
             ?>
         </div>
-        <?php /*
-        <a href="#" class="w-4/12 bg-[#F8F8F8] text-[14px] leading-[22px] py-[14px] rounded-lg text-center text-black">
-            Показати ще
-        </a>
-        */ ?>
     </div>
 
-    <!-- <?php echo do_shortcode('[contact-form-7 id="35a07df" title="Підписатись на новини"]'); ?> -->
 </main>
 
 <?php get_footer(); ?>

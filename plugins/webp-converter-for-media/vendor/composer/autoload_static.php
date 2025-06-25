@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
+class ComposerStaticInit977a71a7bb63d9fc0c8d6b8913a12a29
 {
     public static $prefixLengthsPsr4 = array (
         'W' => 
@@ -83,6 +83,7 @@ class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
         'WebpConverter\\Conversion\\OutputPathGenerator' => __DIR__ . '/../..' . '/src/Conversion/OutputPathGenerator.php',
         'WebpConverter\\Conversion\\PathsFinder' => __DIR__ . '/../..' . '/src/Conversion/PathsFinder.php',
         'WebpConverter\\Error\\Detector\\CloudflareStatusDetector' => __DIR__ . '/../..' . '/src/Error/Detector/CloudflareStatusDetector.php',
+        'WebpConverter\\Error\\Detector\\CurlLibraryDetector' => __DIR__ . '/../..' . '/src/Error/Detector/CurlLibraryDetector.php',
         'WebpConverter\\Error\\Detector\\DetectorInterface' => __DIR__ . '/../..' . '/src/Error/Detector/DetectorInterface.php',
         'WebpConverter\\Error\\Detector\\LibsNotInstalledDetector' => __DIR__ . '/../..' . '/src/Error/Detector/LibsNotInstalledDetector.php',
         'WebpConverter\\Error\\Detector\\LibsWithoutWebpSupportDetector' => __DIR__ . '/../..' . '/src/Error/Detector/LibsWithoutWebpSupportDetector.php',
@@ -92,12 +93,12 @@ class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
         'WebpConverter\\Error\\Detector\\SettingsIncorrectDetector' => __DIR__ . '/../..' . '/src/Error/Detector/SettingsIncorrectDetector.php',
         'WebpConverter\\Error\\Detector\\TokenStatusDetector' => __DIR__ . '/../..' . '/src/Error/Detector/TokenStatusDetector.php',
         'WebpConverter\\Error\\Detector\\UnsupportedServerDetector' => __DIR__ . '/../..' . '/src/Error/Detector/UnsupportedServerDetector.php',
-        'WebpConverter\\Error\\Detector\\WebpFormatActivatedDetector' => __DIR__ . '/../..' . '/src/Error/Detector/WebpFormatActivatedDetector.php',
         'WebpConverter\\Error\\ErrorDetectorAggregator' => __DIR__ . '/../..' . '/src/Error/ErrorDetectorAggregator.php',
         'WebpConverter\\Error\\Notice\\AccessTokenInvalidNotice' => __DIR__ . '/../..' . '/src/Error/Notice/AccessTokenInvalidNotice.php',
         'WebpConverter\\Error\\Notice\\ApiLimitExceededNotice' => __DIR__ . '/../..' . '/src/Error/Notice/ApiLimitExceededNotice.php',
         'WebpConverter\\Error\\Notice\\BypassingApacheNotice' => __DIR__ . '/../..' . '/src/Error/Notice/BypassingApacheNotice.php',
         'WebpConverter\\Error\\Notice\\CloudflareSettingsIncorrectNotice' => __DIR__ . '/../..' . '/src/Error/Notice/CloudflareSettingsIncorrectNotice.php',
+        'WebpConverter\\Error\\Notice\\CurlFunctionDisabledNotice' => __DIR__ . '/../..' . '/src/Error/Notice/CurlFunctionDisabledNotice.php',
         'WebpConverter\\Error\\Notice\\LibsNotInstalledNotice' => __DIR__ . '/../..' . '/src/Error/Notice/LibsNotInstalledNotice.php',
         'WebpConverter\\Error\\Notice\\LibsWithoutWebpSupportNotice' => __DIR__ . '/../..' . '/src/Error/Notice/LibsWithoutWebpSupportNotice.php',
         'WebpConverter\\Error\\Notice\\NoticeInterface' => __DIR__ . '/../..' . '/src/Error/Notice/NoticeInterface.php',
@@ -113,7 +114,6 @@ class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
         'WebpConverter\\Error\\Notice\\RewritesUploadsBlockedNotice' => __DIR__ . '/../..' . '/src/Error/Notice/RewritesUploadsBlockedNotice.php',
         'WebpConverter\\Error\\Notice\\SettingsIncorrectNotice' => __DIR__ . '/../..' . '/src/Error/Notice/SettingsIncorrectNotice.php',
         'WebpConverter\\Error\\Notice\\UnsupportedPlaygroundServerNotice' => __DIR__ . '/../..' . '/src/Error/Notice/UnsupportedPlaygroundServerNotice.php',
-        'WebpConverter\\Error\\Notice\\WebpRequiredNotice' => __DIR__ . '/../..' . '/src/Error/Notice/WebpRequiredNotice.php',
         'WebpConverter\\Exception\\ConversionErrorException' => __DIR__ . '/../..' . '/src/Exception/ConversionErrorException.php',
         'WebpConverter\\Exception\\ExceptionAbstract' => __DIR__ . '/../..' . '/src/Exception/ExceptionAbstract.php',
         'WebpConverter\\Exception\\ExceptionInterface' => __DIR__ . '/../..' . '/src/Exception/ExceptionInterface.php',
@@ -173,6 +173,7 @@ class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
         'WebpConverter\\Service\\PathsGenerator' => __DIR__ . '/../..' . '/src/Service/PathsGenerator.php',
         'WebpConverter\\Service\\RestApiUnlocker' => __DIR__ . '/../..' . '/src/Service/RestApiUnlocker.php',
         'WebpConverter\\Service\\ServerConfigurator' => __DIR__ . '/../..' . '/src/Service/ServerConfigurator.php',
+        'WebpConverter\\Service\\SiteHealthDetector' => __DIR__ . '/../..' . '/src/Service/SiteHealthDetector.php',
         'WebpConverter\\Service\\StatsManager' => __DIR__ . '/../..' . '/src/Service/StatsManager.php',
         'WebpConverter\\Service\\TokenValidator' => __DIR__ . '/../..' . '/src/Service/TokenValidator.php',
         'WebpConverter\\Service\\ViewLoader' => __DIR__ . '/../..' . '/src/Service/ViewLoader.php',
@@ -219,9 +220,9 @@ class ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb3cba3e0bcf9265e013a62e97cb26081::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit977a71a7bb63d9fc0c8d6b8913a12a29::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit977a71a7bb63d9fc0c8d6b8913a12a29::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit977a71a7bb63d9fc0c8d6b8913a12a29::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,20 +1,21 @@
 <?php
 $posts = new WP_Query(array(
-    'cat' => 9,
+    'cat' => '9,101,103',
     'post_type' => 'post',
     'orderby' => 'date',
     'post_status' => 'publish',
     'order' => 'DESC',
-    'posts_per_page' => 3
+    'posts_per_page' => 3,
+    'lang' => pll_current_language()
 ));
 ?>
 
 <?php if ($posts->have_posts()): ?>
     <div class="container mt-8 2xl:mt-[120px]">
         <div class="flex md:justify-between justify-center items-center mb-5 2xl:mb-9">
-            <h2 class="md:title-text-2 text-4 leading-5 font-bold">Останні матеріали</h2>
+            <h2 class="md:title-text-2 text-4 leading-5 font-bold"><?php echo pll__('Останні матеріали'); ?></h2>
             <div class="hidden md:flex">
-                <a href="<?= get_permalink(1157); ?>" class="btn btn-light-blue">Усі публікації</a>
+                <a href="<?= get_permalink(1157); ?>" class="btn btn-light-blue"><?php echo pll__('Усі публікації'); ?></a>
             </div>
         </div>
         <div class="slick-force-height cases-slider lg:grid lg:grid-cols-3 gap-4">

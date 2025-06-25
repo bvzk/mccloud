@@ -49,6 +49,11 @@ class PLL_Frontend extends PLL_Base {
 	public $links;
 
 	/**
+	 * @var PLL_Default_Term|null
+	 */
+	public $default_term;
+
+	/**
 	 * @var PLL_Frontend_Nav_Menu|null
 	 */
 	public $nav_menu;
@@ -62,6 +67,11 @@ class PLL_Frontend extends PLL_Base {
 	 * @var PLL_Frontend_Filters_Widgets|null
 	 */
 	public $filters_widgets;
+
+	/**
+	 * @var PLL_Canonical
+	 */
+	public $canonical;
 
 	/**
 	 * Constructor.
@@ -110,6 +120,9 @@ class PLL_Frontend extends PLL_Base {
 		parent::init();
 
 		$this->links = new PLL_Frontend_Links( $this );
+
+		$this->default_term = new PLL_Default_Term( $this );
+		$this->default_term->add_hooks();
 
 		// Setup the language chooser
 		$c = array( 'Content', 'Url', 'Url', 'Domain' );
@@ -231,24 +244,36 @@ class PLL_Frontend extends PLL_Base {
 	 * @return void
 	 */
 	public function switch_blog( $new_blog_id, $prev_blog_id ) {
+		if ( (int) $new_blog_id === (int) $prev_blog_id ) {
+			// Do nothing if same blog.
+			return;
+		}
+
 		parent::switch_blog( $new_blog_id, $prev_blog_id );
 
 		// Need to check that some languages are defined when user is logged in, has several blogs, some without any languages.
-		if ( $this->is_active_on_new_blog( $new_blog_id, $prev_blog_id ) && did_action( 'pll_language_defined' ) && $this->model->has_languages() ) {
-			static $restore_curlang;
-			if ( empty( $restore_curlang ) ) {
-				$restore_curlang = $this->curlang->slug; // To always remember the current language through blogs.
-			}
-
-			$lang = $this->model->get_language( $restore_curlang );
-			$this->curlang = $lang ? $lang : $this->model->get_default_language();
-
-			if ( isset( $this->static_pages ) ) {
-				$this->static_pages->init();
-			}
-
-			$this->load_strings_translations();
+		if ( ! $this->is_active_on_current_site() || ! $this->model->has_languages() || ! did_action( 'pll_language_defined' ) ) {
+			return;
 		}
+
+		static $restore_curlang;
+
+		if ( empty( $restore_curlang ) ) {
+			$restore_curlang = $this->curlang->slug; // To always remember the current language through blogs.
+		}
+
+		$lang          = $this->model->get_language( $restore_curlang );
+		$this->curlang = $lang ?: $this->model->get_default_language();
+		if ( empty( $this->curlang ) ) {
+			return;
+		}
+
+		if ( isset( $this->static_pages ) ) {
+			$this->static_pages->init();
+		}
+
+		// Send the slug instead of the locale here to avoid conflicts with same locales.
+		$this->load_strings_translations( $this->curlang->slug );
 	}
 
 	/**

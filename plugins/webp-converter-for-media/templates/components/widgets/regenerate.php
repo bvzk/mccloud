@@ -66,14 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="webpcPage__widgetNotice">
 				<p>
 					<?php
-					echo wp_kses_post(
-						sprintf(
-						/* translators: %1$s: open strong tag, %2$s: close strong tag */
-							__( 'Converting images to WebP and AVIF simultaneously guarantees the lowest weight of your images and compatibility with all browsers. By using the AVIF format you will reduce the weight of your images even more compared to WebP.', 'webp-converter-for-media' ),
-							'<strong>',
-							'</strong>'
-						)
-					);
+					echo esc_html__( 'Converting images to WebP and AVIF simultaneously guarantees the lowest weight of your images and compatibility with all browsers. By using the AVIF format you will reduce the weight of your images even more compared to WebP.', 'webp-converter-for-media' );
 					?>
 				</p>
 			</div>
@@ -93,7 +86,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							<div class="webpcLoader__columnOverlay">
 								<div class="webpcLoader__columnOverlayTitle">
 									<?php
-									echo sprintf(
+									printf(
 									/* translators: %1$s: percent value, %2$s: output format */
 										esc_html( __( '%1$s converted to %2$s', 'webp-converter-for-media' ) ),
 										'<strong><span data-counter-percent>0</span>%</strong>',
@@ -103,7 +96,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								</div>
 								<div class="webpcLoader__columnOverlayDesc webpcLoader__columnOverlayDesc--active">
 									<?php
-									echo sprintf(
+									printf(
 									/* translators: %s: images count */
 										esc_html( __( '%s images remaining', 'webp-converter-for-media' ) ),
 										'<span data-counter-left>0</span>'
@@ -113,7 +106,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<div class="webpcLoader__columnOverlayDesc webpcLoader__columnOverlayDesc--loading"
 									data-counter-loader>
 									<?php
-									echo sprintf(
+									printf(
 									/* translators: %s: break line tag */
 										esc_html( __( 'Calculating, %splease wait', 'webp-converter-for-media' ) ),
 										'<br>'
@@ -142,12 +135,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<label for="webpc-regenerate-force"></label>
 					<span class="webpcField__label">
 						<?php echo esc_html( __( 'Force the conversion of all images again', 'webp-converter-for-media' ) ); ?>
-						<span class="webpcField__labelChecked">
+						<span class="webpcField__labelWarning">
 							<?php echo esc_html( __( 'If you want to optimize only unconverted images, leave this option unchecked. Use only when needed.', 'webp-converter-for-media' ) ); ?>
 						</span>
 					</span>
 				</div>
-				<button type="button" class="webpcLoader__button webpcButton webpcButton--blue webpcButton--bg" data-submit>
+				<button type="button" class="webpcLoader__button webpcButton webpcButton--blue webpcButton--bg"
+					data-submit
+					data-open-popup="regeneration">
 					<?php echo esc_html( __( 'Start Bulk Optimization', 'webp-converter-for-media' ) ); ?>
 				</button>
 				<div class="webpcLoader__status" data-status hidden>
@@ -159,7 +154,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</div>
 					<div class="webpcLoader__statusContent">
 						<?php
-						echo sprintf(
+						printf(
 						/* translators: %s progress value */
 							wp_kses_post( __( 'Saving the weight of your images: %s', 'webp-converter-for-media' ) ),
 							'<strong data-status-count-size>0 kB</strong>'
@@ -167,7 +162,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						?>
 						<br>
 						<?php
-						echo sprintf(
+						printf(
 						/* translators: %s images count */
 							wp_kses_post( __( 'Successfully converted files: %s', 'webp-converter-for-media' ) ),
 							'<strong data-status-count-success>0</strong>'
@@ -175,7 +170,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						?>
 						<br>
 						<?php
-						echo sprintf(
+						printf(
 						/* translators: %s images count */
 							wp_kses_post( __( 'Failed or skipped file conversion attempts: %s', 'webp-converter-for-media' ) ),
 							'<strong data-status-count-error>0</strong>'

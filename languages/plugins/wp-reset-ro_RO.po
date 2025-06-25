@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
-"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: ro\n"
 "Project-Id-Version: Plugins - WP Reset &#8211; Most Advanced WordPress Reset Tool - Stable (latest release)\n"
 
@@ -48,15 +48,17 @@ msgid "An undocumented error has occurred. Please refresh the page and try again
 msgstr "A apărut o eroare necunoscută. Te rog reîmprospătează pagina și încearcă din nou."
 
 #. Author URI of the plugin
+#: wp-reset.php
 msgid "https://www.webfactoryltd.com/"
 msgstr "https://www.webfactoryltd.com/"
 
 #. Author of the plugin
+#: wp-reset.php
 msgid "WebFactory Ltd"
 msgstr "WebFactory Ltd"
 
 #. Plugin Name of the plugin
-#: wp-reset.php:247 wp-reset.php:372 wp-reset.php:1421
+#: wp-reset.php wp-reset.php:247 wp-reset.php:372 wp-reset.php:1421
 msgid "WP Reset"
 msgstr "WP Reset"
 

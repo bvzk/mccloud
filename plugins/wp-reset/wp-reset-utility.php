@@ -94,7 +94,9 @@ class WP_Reset_Utility
     global $wpdb, $wp_reset;
 
     $tbl_core = $tbl_custom = $tbl_size = $tbl_rows = 0;
-    $table_status = $wpdb->get_results('SHOW TABLE STATUS');
+    
+    // phpcs:ignore db call warning as we are using uncommon queries
+    $table_status = $wpdb->get_results('SHOW TABLE STATUS'); // phpcs:ignore
     if (is_array($table_status)) {
       foreach ($table_status as $index => $table) {
         if (0 !== stripos($table->Name, $wpdb->prefix)) {

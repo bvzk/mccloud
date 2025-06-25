@@ -33,11 +33,11 @@ if (is_string($label) && $label != "") {
 
 
 if (empty($title)) {
-    $title = __("Про компанію mcCloud", "");
+    $title = pll__("Про компанію mcCloud", "");
 }
 
 if (empty($subtitle)) {
-    $subtitle = __("mcCloud - офіційний партнер Google Cloud в Україні. Ми підвищуємо ефективність роботи наших клієнтів через впровадження хмарних рішень.", "");
+    $subtitle = pll__("mcCloud - офіційний партнер Google Cloud в Україні. Ми підвищуємо ефективність роботи наших клієнтів через впровадження хмарних рішень.", "");
 }
 
 if (empty($picture)) {
@@ -64,21 +64,54 @@ if (empty($picture)) {
 
 
 ?>
+
 <div class="max-w-[806px] mx-auto text-center overflow-hidden" style="padding-top: 60px;">
-    <nav aria-label="Breadcrumb" class="mb-[18px] hidden md:block">
-        <ul class="flex text-[#8E8E93] justify-center text-[14px]">
-            <li><a href="<?=home_url();?>/" class="text-[#8E8E93]">Головна</a></li>
+    <nav aria-label="Breadcrumb" class="mb-[18px] md:block" >
+
+
+        <ul class="flex text-[#8E8E93] justify-center text-[14px]" itemscope itemtype="https://schema.org/BreadcrumbList">
+
+            <!-- Головна -->
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="<?= home_url(); ?>/" class="text-[#8E8E93]" itemprop="item">
+                    <span itemprop="name"><?php echo pll__('Головна'); ?></span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+
+
             <li><span class="mx-2 inline-block">/</span></li>
+
             <?php if( is_page( 'blog' ) && isset($_GET['term_id']) && $category = get_category_by_slug($_GET['term_id'])) { ?>
-                <li><a href="<?= get_permalink(1157); ?>/" class="text-[#8E8E93]"><?php the_title(); ?></a></li>
+
+                <!-- Сторінка блогу -->
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="<?= get_permalink(1157); ?>" class="text-[#8E8E93]" itemprop="item">
+                        <span itemprop="name"><?php the_title(); ?></span>
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
                 <li><span class="mx-2 inline-block">/</span></li>
-                <li class="truncate"><span aria-current="page"><?= $category->name; ?></span></li>
+
+                <!-- Категорія блогу (остання крихта, без посилання) -->
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="truncate">
+                    <span itemprop="name" aria-current="page"><?= $category->name; ?></span>
+                    <meta itemprop="item" content="<?= get_term_link($category); ?>" />
+                    <meta itemprop="position" content="3" />
+                </li>
             <?php } else { ?>
-                <li class="truncate"><span aria-current="page"><?php the_title(); ?></span></li>
+                <!-- Поточна сторінка (остання крихта, без посилання) -->
+                <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="truncate">
+                    <span itemprop="name" aria-current="page"><?php the_title(); ?></span>
+                    <meta itemprop="item" content="<?= get_permalink(); ?>" />
+                    <meta itemprop="position" content="2" />
+                </li>
             <?php } ?>
         </ul>
     </nav>
- </div>
+
+
+</div>
 
 <div class="xl:py-[120px] lg:py-7 md:py-6 py-5">
     <div class="container flex flex-col-reverse md:flex-row md:items-center">
@@ -96,7 +129,7 @@ if (empty($picture)) {
             <?php
             if (empty($customHtml)) { ?>
                 <div class="flex">
-                    <a href="<?php echo get_field('header_link') ? get_field('header_link') : '#consultForm'?>" class="btn btn-lg btn-success md:w-auto w-full text-center">Замовити</a>
+                    <a href="<?php echo get_field('header_link') ? home_url()  . get_field('header_link') : '#consultForm'?>" class="btn btn-lg btn-success md:w-auto w-full text-center"><?php echo pll__('Замовити'); ?></a>
                 </div>
                 <?php
             } else { ?>

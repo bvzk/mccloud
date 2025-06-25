@@ -1,10 +1,10 @@
 === WP Reset - Most Advanced WordPress Reset Tool ===
-Tags: wordpress reset, reset database, reset wordpress database, reset, advanced wordpress reset, restart wordpress, clean wordpress, default wp, default wordpress, reset wp, wp reset, developer, wp-cli, backup, database backup
+Tags: wordpress reset, reset database, reset wordpress, reset, advanced wordpress reset
 Contributors: WebFactory
 Requires at least: 4.0
 Requires PHP: 5.2
-Tested up to: 6.3
-Stable tag: 1.97
+Tested up to: 6.8
+Stable tag: 2.04
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -118,6 +118,35 @@ Or if needed, upload manually;
 5. Use our 1-click backup feature before running any reset tools
 
 == Changelog ==
+
+= v2.04 =
+* 2024/10/24
+* Minor bug fixes and code improvements
+
+= v2.03 =
+* 2024/06/04
+* Adjusted HTML escaping on translatable strings
+* Fixed some unescaped HTML output
+
+= v2.02 =
+* 2024/05/13
+* Fixed license ajax security issue
+
+= v2.01 =
+* 2024/04/16
+* Completely unnecessary update we were forced to do
+
+= v2.00 =
+* 2024/03/25
+* More secure snapshot export filename
+
+= v1.99 =
+* 2024/03/13
+* PHP 8.2 compatibility fix
+
+= v1.98 =
+* 2023/09/24
+* RTL GUI fix
 
 = v1.97 =
 * 2023/01/10
@@ -313,3 +342,7 @@ We sure do! Just type "wp reset" in your shell to see the list of available comm
 = How long does it take for the reset operation to complete? =
 
 On most installations a second or two. If you have a huge amounts of data in tables then up to ten seconds.
+
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/wp-reset)

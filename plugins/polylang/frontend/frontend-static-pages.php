@@ -33,7 +33,7 @@ class PLL_Frontend_Static_Pages extends PLL_Static_Pages {
 	 *
 	 * @since 1.8
 	 *
-	 * @param object $polylang
+	 * @param object $polylang The Polylang object.
 	 */
 	public function __construct( &$polylang ) {
 		parent::__construct( $polylang );
@@ -69,12 +69,12 @@ class PLL_Frontend_Static_Pages extends PLL_Static_Pages {
 	}
 
 	/**
-	 * Manages canonical redirection of the homepage when using page on front
+	 * Manages the canonical redirect of the homepage when using a page on front.
 	 *
 	 * @since 0.1
 	 *
-	 * @param string $redirect_url
-	 * @return bool|string modified url, false if redirection is canceled
+	 * @param string $redirect_url The redirect url.
+	 * @return string|false The modified url, false if the redirect is canceled.
 	 */
 	public function redirect_canonical( $redirect_url ) {
 		if ( is_page() && ! is_feed() && get_queried_object_id() == $this->curlang->page_on_front ) {
@@ -131,12 +131,12 @@ class PLL_Frontend_Static_Pages extends PLL_Static_Pages {
 	}
 
 	/**
-	 * Prevents canonical redirection if we are on a static front page
+	 * Prevents the canonical redirect if we are on a static front page.
 	 *
 	 * @since 1.8
 	 *
-	 * @param string $redirect_url
-	 * @return bool|string
+	 * @param string $redirect_url The redirect url.
+	 * @return string|false
 	 */
 	public function pll_check_canonical_url( $redirect_url ) {
 		return $this->options['redirect_lang'] && ! $this->options['force_lang'] && ! empty( $this->curlang->page_on_front ) && is_page( $this->curlang->page_on_front ) ? false : $redirect_url;
@@ -226,19 +226,27 @@ class PLL_Frontend_Static_Pages extends PLL_Static_Pages {
 	 * @return PLL_Language|false
 	 */
 	public function page_for_posts_query( $lang, $query ) {
-		if ( empty( $lang ) && $this->page_for_posts ) {
-			$page_id = $this->get_page_id( $query );
-
-			if ( ! empty( $page_id ) && in_array( $page_id, $pages = $this->model->get_languages_list( array( 'fields' => 'page_for_posts' ) ) ) ) {
-				// Fill the cache with all pages for posts to avoid one query per page later
-				// The posts_per_page limit is a trick to avoid splitting the query
-				get_posts( array( 'posts_per_page' => 99, 'post_type' => 'page', 'post__in' => $pages, 'lang' => '' ) );
-
-				$lang = $this->model->post->get_language( $page_id );
-				$query->is_singular = $query->is_page = false;
-				$query->is_home = $query->is_posts_page = true;
-			}
+		if ( ! empty( $lang ) || ! $this->page_for_posts ) {
+			return $lang;
 		}
+
+		$page_id = $this->get_page_id( $query );
+
+		if ( empty( $page_id ) ) {
+			return $lang;
+		}
+
+		$pages = $this->model->get_languages_list( array( 'fields' => 'page_for_posts' ) );
+		$pages = array_filter( $pages );
+
+		if ( in_array( $page_id, $pages ) ) {
+			_prime_post_caches( $pages ); // Fill the cache with all pages for posts to avoid one query per page later.
+
+			$lang = $this->model->post->get_language( $page_id );
+			$query->is_singular = $query->is_page = false;
+			$query->is_home = $query->is_posts_page = true;
+		}
+
 		return $lang;
 	}
 
@@ -258,11 +266,7 @@ class PLL_Frontend_Static_Pages extends PLL_Static_Pages {
 			return $query->queried_object_id;
 		}
 
-		if ( isset( $query->query_vars['page_id'] ) ) {
-			return $query->query_vars['page_id'];
-		}
-
-		return 0; // No page queried.
+		return $query->query_vars['page_id'] ?? 0; // No page queried.
 	}
 
 	/**

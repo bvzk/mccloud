@@ -45,11 +45,11 @@ class PLL_Settings_CPT extends PLL_Settings_Module {
 	private $disabled_taxonomies;
 
 	/**
-	 * Constructor
+	 * Constructor.
 	 *
 	 * @since 1.8
 	 *
-	 * @param object $polylang polylang object
+	 * @param object $polylang The Polylang object.
 	 */
 	public function __construct( &$polylang ) {
 		parent::__construct(
@@ -159,18 +159,20 @@ class PLL_Settings_CPT extends PLL_Settings_Module {
 	}
 
 	/**
-	 * Sanitizes the settings before saving
+	 * Prepares the received data before saving.
 	 *
-	 * @since 1.8
+	 * @since 3.7
 	 *
-	 * @param array $options
+	 * @param array $options Raw values to save.
+	 * @return array
 	 */
-	protected function update( $options ) {
+	protected function prepare_raw_data( array $options ): array {
 		$newoptions = array();
 
 		foreach ( array( 'post_types', 'taxonomies' ) as $key ) {
 			$newoptions[ $key ] = empty( $options[ $key ] ) ? array() : array_keys( $options[ $key ], 1 );
 		}
-		return $newoptions; // Take care to return only validated options
+
+		return $newoptions; // Take care to return only validated options.
 	}
 }

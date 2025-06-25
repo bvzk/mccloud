@@ -1,5 +1,7 @@
 <?php
 
+require_once get_template_directory() . '/inc/polylang-custom.php';
+
 function mccloud_theme_support()
 {
 
@@ -401,31 +403,49 @@ function telegram_send($info)
 }
 
 
-function add_post_subtitle()
-{
-	add_meta_box('post-subtitle', 'Подзаголовок', 'post_subtitle_callback', 'post', 'normal', 'high');
+function add_post_subtitle() {
+	add_meta_box('post-subtitle', 'Подзаголовки для стран', 'post_subtitle_callback', 'post', 'normal', 'high');
 }
+add_action('add_meta_boxes', 'add_post_subtitle');
 
-function post_subtitle_callback($post)
-{
+function post_subtitle_callback($post) {
 	wp_nonce_field(basename(__FILE__), 'post_subtitle_metabox');
-	$html = 'Подзаголовок <input style="width: 100%; margin-top: 10px" type="text" value="' . get_post_meta($post->ID, 'post_subtitle', true) . '" name="post_subtitle"/>';
 
-	echo $html;
-}
+	$languages = ['ua' => 'UA', 'kz' => 'KZ', 'ro' => 'RO'];
 
-add_action('admin_menu', 'add_post_subtitle');
-
-function true_save_box_data($post_id)
-{
-	$post = get_post($post_id);
-	if ($post->post_type == 'post') {
-		update_post_meta($post_id, 'post_subtitle', esc_attr($_POST['post_subtitle']));
+	foreach ($languages as $code => $label) {
+		$value = get_post_meta($post->ID, 'post_subtitle_' . $code, true);
+		echo '<label><strong>Подзаголовок (' . $label . '):</strong></label>';
+		echo '<input type="text" style="width: 100%; margin-bottom: 10px" name="post_subtitle_' . $code . '" value="' . esc_attr($value) . '" />';
 	}
-	return $post_id;
 }
 
-add_action('save_post', 'true_save_box_data');
+function save_post_subtitle($post_id) {
+
+	if (!isset($_POST['post_subtitle_metabox']) || !wp_verify_nonce($_POST['post_subtitle_metabox'], basename(__FILE__))) {
+		return $post_id;
+	}
+
+
+	if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) {
+		return $post_id;
+	}
+
+
+	if (!current_user_can('edit_post', $post_id)) {
+		return $post_id;
+	}
+
+	$languages = ['ua', 'kz', 'ro'];
+
+	foreach ($languages as $code) {
+		if (isset($_POST['post_subtitle_' . $code])) {
+			update_post_meta($post_id, 'post_subtitle_' . $code, sanitize_text_field($_POST['post_subtitle_' . $code]));
+		}
+	}
+}
+add_action('save_post', 'save_post_subtitle');
+
 
 function sectionNews()
 {
@@ -453,14 +473,14 @@ function noindex_nofollow_page($string = "")
 {
 	global $wp;
 	$current_url = home_url(add_query_arg(array(), $wp->request));
-	$items = array(
-		'https://mccloud.global/ua/author/mramor-admin',
-		'https://mccloud.global/ro/author/mramor-admin',
-		'https://mccloud.global/ua/category/novini',
-		'https://mccloud.global/ro/category/novini',
-		'https://mccloud.global/ua/blog/feed',
-		'https://mccloud.global/ro/blog/feed',
-	);
+    $items = array(
+    'https://mccloud-ro.test-ocean.com.ua/ua/author/mramor-admin',
+    'https://mccloud-ro.test-ocean.com.ua/ru/author/mramor-admin',
+    'https://mccloud-ro.test-ocean.com.ua/ua/category/novini',
+    'https://mccloud-ro.test-ocean.com.ua/ru/category/novini',
+    'https://mccloud-ro.test-ocean.com.ua/ua/blog/feed',
+    'https://mccloud-ro.test-ocean.com.ua/ru/blog/feed',
+    );
 
 	// echo "<!-- " . $current_url . " -->";
 
@@ -589,6 +609,7 @@ add_filter('paginate_links', function ($link) {
 });
 
 
+
 add_filter('wpseo_exclude_from_sitemap_by_post_ids', 'exclude_posts_from_xml_sitemaps');
 
 /* Exclude One Taxonomy From Yoast SEO Sitemap */
@@ -699,16 +720,7 @@ function custom_email_confirmation_validation_filter($result, $tag)
 	return $result;
 }
 
-// add_filter('wpseo_canonical', 'custom_remove_yoast_canonical_for_blog_pages');
 
-// function custom_remove_yoast_canonical_for_blog_pages($canonical)
-// {
-// 	// Check if the current page is a blog page or a paginated page
-// 	if (is_home() || is_paged()) {
-// 		return false; // Return false to prevent Yoast from adding a canonical tag
-// 	}
-// 	return $canonical; // Return the default canonical URL for other pages
-// }
 
 
 add_filter('wpseo_metadesc', 'custom_paged_description_yoast', 10, 1);
@@ -739,101 +751,100 @@ function custom_paged_title_yoast($title)
 // First block - Enterprise Packages
 function get_enterprise_plan_data()
 {
-	return [
-		'title' => 'Пакети Enterprise',
-		'plans' => [
-			[
-				'name' => 'Enterprise Essentials',
-				'price' => '9.60',
-				'button_text' => 'Обрати пакет',
-				'highlight' => true,
-				'features' => [
-					'1 ТБ для зберігання даних на кожну ліцензію та Загальний Диск для команди',
-					'До 250 користувачів y Meet',
-					'Удосконалена підтримка',
-					'Drive, Editors, Meet, Chat, Keep, Tasks, Sites (без Gmail)',
-					'Сеанси підгруп i можливість підняття руки в Meet, QA, Polls, Whiteboarding, відстеження відвідуваності',
-				]
-			],
-			[
-				'name' => 'Enterprise Standard',
-				'price' => '26.10',
-				'button_text' => 'Замовити',
-				'highlight' => false,
-				'features' => [
-					'Необмежена кількість пам’яті на диску *',
-					'Функціонал пакета Essentials',
-					'Захищена корпоративна пошта з власним доменом',
-					'До 500 користувачів в Meet, онлайн трансляція (10к), Meet Rooms',
-					'Покращені інструменти управління i кастомізації',
-					'Сейф, поліпшений захист від втрати даних, Cloud Identity Premium, AppSheet Core, розширений DLP, Cloud Search',
-				]
-			],
-			[
-				'name' => 'Enterprise Plus',
-				'price' => '33.80',
-				'button_text' => 'Обрати пакет',
-				'highlight' => true,
-				'features' => [
-					'Необмежена кількість пам’яті на диску *',
-					'Функціонал пакета Standard, а також ',
-					'До 1000 користувачів в Meet,  онлайн трансляція (100к), безшумний режим',
-					'Drive, Editors, Meet, Chat, Keep,  Tasks, Sites (без Gmail)',
-					'Покращені інструменти управління і кастомізації',
-					'Шифрування ключами клієнта, шифрування по стандарту S/MIME, розширений експорт даних, вибір регіонів зберігання даних, Work insights',
-				]
-			]
-		]
-	];
+    return [
+        'title' => pll__('Пакети Enterprise'),
+        'plans' => [
+            [
+                'name' => pll__('Enterprise Essentials'),
+                'price' => '9.60',
+                'button_text' => pll__('Обрати пакет'),
+                'highlight' => true,
+                'features' => [
+                    pll__('1 ТБ для зберігання даних на кожну ліцензію та Загальний Диск для команди'),
+                    pll__('До 250 користувачів y Meet'),
+                    pll__('Удосконалена підтримка'),
+                    pll__('Drive, Editors, Meet, Chat, Keep, Tasks, Sites (без Gmail)'),
+                    pll__('Сеанси підгруп i можливість підняття руки в Meet, QA, Polls, Whiteboarding, відстеження відвідуваності'),
+                ]
+            ],
+            [
+                'name' => pll__('Enterprise Standard'),
+                'price' => '26.10',
+                'button_text' => pll__('Замовити'),
+                'highlight' => false,
+                'features' => [
+                    pll__('Необмежена кількість пам’яті на диску *'),
+                    pll__('Функціонал пакета Essentials'),
+                    pll__('Захищена корпоративна пошта з власним доменом'),
+                    pll__('До 500 користувачів в Meet, онлайн трансляція (10к), Meet Rooms'),
+                    pll__('Покращені інструменти управління i кастомізації'),
+                    pll__('Сейф, поліпшений захист від втрати даних, Cloud Identity Premium, AppSheet Core, розширений DLP, Cloud Search'),
+                ]
+            ],
+            [
+                'name' => pll__('Enterprise Plus'),
+                'price' => '33.80',
+                'button_text' => pll__('Обрати пакет'),
+                'highlight' => true,
+                'features' => [
+                    pll__('Необмежена кількість пам’яті на диску *'),
+                    pll__('Функціонал пакета Standard, а також '),
+                    pll__('До 1000 користувачів в Meet, онлайн трансляція (100к), безшумний режим'),
+                    pll__('Drive, Editors, Meet, Chat, Keep, Tasks, Sites (без Gmail)'),
+                    pll__('Покращені інструменти управління і кастомізації'),
+                    pll__('Шифрування ключами клієнта, шифрування по стандарту S/MIME, розширений експорт даних, вибір регіонів зберігання даних, Work insights'),
+                ]
+            ]
+        ]
+    ];
 }
 
 
 function get_business_plan_data() {
     return [
-        'title' => 'Пакети Business',
+        'title' => pll__('Пакети Business'),
         'plans' => [
             [
-                'name' => 'Business Starter',
+                'name' => pll__('Business Starter'),
                 'price' => '6.12',
-                'button_text' => 'Обрати пакет',
+                'button_text' => pll__('Обрати пакет'),
                 'highlight' => true,
                 'features' => [
-                    '3 користувачiв Google Meet',
-					'До 100 користувачів в Google Meet',
-                    '30 ГБ для зберігання даних на кожну ліцензію',
-                    'Пакет професійних бізнес-додатків',
-
-                    'Безпечна корпоративна електронна пошта',
-                    'Drive, Editors, Meet, Chat, Keep, Tasks, Sites',
-                    'Сеанси підгруп і можливість підняття руки в Meet',
+                    pll__('3 користувачiв Google Meet'),
+                    pll__('До 100 користувачів в Google Meet'),
+                    pll__('30 ГБ для зберігання даних на кожну ліцензію'),
+                    pll__('Пакет професійних бізнес-додатків'),
+                    pll__('Безпечна корпоративна електронна пошта'),
+                    pll__('Drive, Editors, Meet, Chat, Keep, Tasks, Sites'),
+                    pll__('Сеанси підгруп і можливість підняття руки в Meet'),
                 ]
             ],
             [
-                'name' => 'Business Standard',
+                'name' => pll__('Business Standard'),
                 'price' => '12.24',
-                'button_text' => 'Замовити',
+                'button_text' => pll__('Замовити'),
                 'highlight' => false,
                 'features' => [
-                    '2 ТБ для зберігання даних на кожну ліцензію',
-                    'До 150 користувачів в Google Meet',
-                    'Пакет професійних бізнес-додатків',
-                    'Безпечна корпоративна електронна пошта',
-                    'Drive, Editors, Meet, Chat, Keep, Tasks, Sites',
-                    'Сеанси підгруп і можливість підняття руки в Meet',
+                    pll__('2 ТБ для зберігання даних на кожну ліцензію'),
+                    pll__('До 150 користувачів в Google Meet'),
+                    pll__('Пакет професійних бізнес-додатків'),
+                    pll__('Безпечна корпоративна електронна пошта'),
+                    pll__('Drive, Editors, Meet, Chat, Keep, Tasks, Sites'),
+                    pll__('Сеанси підгруп і можливість підняття руки в Meet'),
                 ]
             ],
             [
-                'name' => 'Business Plus',
+                'name' => pll__('Business Plus'),
                 'price' => '21.10',
-                'button_text' => 'Обрати пакет',
+                'button_text' => pll__('Обрати пакет'),
                 'highlight' => true,
                 'features' => [
-                    '5 ТБ для зберігання даних на кожну ліцензію',
-                    'До 500 користувачів в Google Meet',
-                    'Пакет професійних бізнес-додатків',
-                    'Безпечна корпоративна електронна пошта',
-                    'Drive, Editors, Meet, Chat, Keep, Tasks, Sites',
-                    'Сеанси підгруп і можливість підняття руки в Meet',
+                    pll__('5 ТБ для зберігання даних на кожну ліцензію'),
+                    pll__('До 500 користувачів в Google Meet'),
+                    pll__('Пакет професійних бізнес-додатків'),
+                    pll__('Безпечна корпоративна електронна пошта'),
+                    pll__('Drive, Editors, Meet, Chat, Keep, Tasks, Sites'),
+                    pll__('Сеанси підгруп і можливість підняття руки в Meet'),
                 ]
             ]
         ]
@@ -862,60 +873,53 @@ function load_plans_template(string $plan_type)
 
 function get_enterprise_packageFeatures_data()
 {
-	return [
-		'title' => 'Особливості пакетів Enterprise',
-		'subtitle' => 'Унікальні можливості та функціонал пакетів Enterprise для вашого бізнесу',
-		'variants' => [
-			[
-				'title' => 'Essentials',
-				'subtitle' => 'Пакет Enterprise Essentials підійде середнім  і великим підприємствам, яким потрібна платформа для спільної роботи, але вони хочуть зберегти вже наявний поштовий сервіс.',
-				'desc' => "З Enterprise Essentials ви отримуєте набір інструментів для спільної роботи та відеоконференцій, включаючи Google Диск, Google Документи, Google Meet і Google Чат.  Він пропонує вашій організації розширені засоби керування політиками, об'єднане сховище, а також безпеку та керування корпоративного рівня.",
-			],
-
-			[
-				'title' => 'Standard',
-				'subtitle' => 'Пакет Enterprise Standard – це оптимальне рішення для великих компаній, у яких більше вимог до налаштувань безпеки і яким потрібні просунуті інструменти для управління і контролю.',
-				'desc' => 'Крім всіх характеристик Essentials, пакет Enterprise Standard містити Gmail, Calendar, Сейф, поліпшений захист від втрати даних, Cloud Identity Premium, розширений DLP і не тільки. Що також важливо, на кожного користувача виділяється необмежена кількість пам’яті на диску',
-			],
-
-			[
-				'title' => 'Plus',
-				'subtitle' => 'Enterprise Plus надає розширені можливості  в сферах безпеки, адміністрування та аналітики, і може бути вигідним для організацій, які потребують додаткового функціоналу для оптимізації своїх бізнес-процесів.',
-				'desc' => 'Розширений функціонал Enterprise Plus включає  в себе всі властивості пакетів Essentials і Standard, а також сертифікат відповідності, центр безпеки, пошук в Хмарі, AppSheet PRO та  можливість інтеграції зі сторонніми інструментами архівування.',
-			],
-
-		]
-	];
+    return [
+        'title' => pll__('Особливості пакетів Enterprise'),
+        'subtitle' => pll__('Унікальні можливості та функціонал пакетів Enterprise для вашого бізнесу'),
+        'variants' => [
+            [
+                'title' => pll__('Essentials'),
+                'subtitle' => pll__('Пакет Enterprise Essentials підійде середнім  і великим підприємствам, яким потрібна платформа для спільної роботи, але вони хочуть зберегти вже наявний поштовий сервіс.'),
+                'desc' => pll__('З Enterprise Essentials ви отримуєте набір інструментів для спільної роботи та відеоконференцій, включаючи Google Диск, Google Документи, Google Meet і Google Чат. Він пропонує вашій організації розширені засоби керування політиками, об\'єднане сховище, а також безпеку та керування корпоративного рівня.'),
+            ],
+            [
+                'title' => pll__('Standard'),
+                'subtitle' => pll__('Пакет Enterprise Standard – це оптимальне рішення для великих компаній, у яких більше вимог до налаштувань безпеки і яким потрібні просунуті інструменти для управління і контролю.'),
+                'desc' => pll__('Крім всіх характеристик Essentials, пакет Enterprise Standard містити Gmail, Calendar, Сейф, поліпшений захист від втрати даних, Cloud Identity Premium, розширений DLP і не тільки. Що також важливо, на кожного користувача виділяється необмежена кількість пам’яті на диску'),
+            ],
+            [
+                'title' => pll__('Plus'),
+                'subtitle' => pll__('Enterprise Plus надає розширені можливості в сферах безпеки, адміністрування та аналітики, і може бути вигідним для організацій, які потребують додаткового функціоналу для оптимізації своїх бізнес-процесів.'),
+                'desc' => pll__('Розширений функціонал Enterprise Plus включає в себе всі властивості пакетів Essentials і Standard, а також сертифікат відповідності, центр безпеки, пошук в Хмарі, AppSheet PRO та  можливість інтеграції зі сторонніми інструментами архівування.'),
+            ],
+        ]
+    ];
 }
+
 
 
 
 function get_business_packageFeatures_data()
 {
 	return [
-		'title' => 'Особливості пакетів Business',
-		'subtitle' => 'Зручна співпраця та ефективна комунікація: інструменти для вашого успіху',
+		'title'    => pll__('Особливості пакетів Business'),
+		'subtitle' => pll__('Зручна співпраця та ефективна комунікація: інструменти для вашого успіху'),
 		'variants' => [
 			[
-				'title' => 'Starter',
-				'subtitle' => 'Пакет Business Starter підійде невеликому бізнесу, який тільки починає розвиватися.',
-				'desc' => 'Оформивши даний тарифний план, ви зможете оцінити доступність, надійність інструментів Google Workspace, а також усі переваги забезпечення. Gmail, Drive, Meet, Calendar, Chat, Docs, Sheets, Slides, Keep, Sites, Forms, допоможуть оптимізувати бізнес, зробити роботу більш ефективною і продуктивною. У міру розширення свого бізнесу ви зможете перейти на більш просунутий тарифний план.',
+				'title'    => pll__('Starter'),
+				'subtitle' => pll__('Пакет Business Starter підійде невеликому бізнесу, який тільки починає розвиватися.'),
+				'desc'     => pll__('Оформивши даний тарифний план, ви зможете оцінити доступність, надійність інструментів Google Workspace, а також усі переваги забезпечення. Gmail, Drive, Meet, Calendar, Chat, Docs, Sheets, Slides, Keep, Sites, Forms, допоможуть оптимізувати бізнес, зробити роботу більш ефективною і продуктивною. У міру розширення свого бізнесу ви зможете перейти на більш просунутий тарифний план.'),
 			],
-
-
 			[
-				'title' => 'Standard',
-				'subtitle' => 'Найоптимальніший тарифний план, який найбільш часто вибирають користувачі.',
-				'desc' => 'Підійде для малого та середнього бізнесу, як в разі невеликої кількості людей, які працюють в одному офісі, так і для великої інтернаціональної команди. Переваги цього пакета перед Starter полягають в більш просунутих функціях додатків Meet і Chat, розширені функції аудиту й звітності для Диска, а також в можливості створювати спільні диски для команди, що особливо актуально в режимі віддаленої роботи.',
+				'title'    => pll__('Standard'),
+				'subtitle' => pll__('Найоптимальніший тарифний план, який найбільш часто вибирають користувачі.'),
+				'desc'     => pll__('Підійде для малого та середнього бізнесу, як в разі невеликої кількості людей, які працюють в одному офісі, так і для великої інтернаціональної команди. Переваги цього пакета перед Starter полягають в більш просунутих функціях додатків Meet і Chat, розширені функції аудиту й звітності для Диска, а також в можливості створювати спільні диски для команди, що особливо актуально в режимі віддаленої роботи.'),
 			],
-
-
 			[
-				'title' => 'Plus',
-				'subtitle' => 'Цей пакет відмінно підійде для середнього бізнесу.',
-				'desc' => 'Business Plus – це покращений пакет бізнес-додатків з 5 ТБ сховищем на кожного користувача, а також вдосконаленими засобами контролю безпеки і управління. Додатково до основного функціонала Business Standard ви отримуєте Сейф і розширені функції управління кінцевими точками. ',
+				'title'    => pll__('Plus'),
+				'subtitle' => pll__('Цей пакет відмінно підійде для середнього бізнесу.'),
+				'desc'     => pll__('Business Plus – це покращений пакет бізнес-додатків з 5 ТБ сховищем на кожного користувача, а також вдосконаленими засобами контролю безпеки і управління. Додатково до основного функціонала Business Standard ви отримуєте Сейф і розширені функції управління кінцевими точками.'),
 			],
-
 		]
 	];
 }
@@ -941,23 +945,23 @@ function get_three_cards_data_about()
 {
 	return  [
 			[
-				'title' => 'Найкращі рішення',
-				'subtitle' => 'Ми підбираємо рішення індивідуально під ваш запит так, щоб досягти співвідношення функціонала/ціни та щоб наші клієнти не платили за зайві опції.',
+				'title' => pll__('Найкращі рішення'),
+				'subtitle' => pll__('Ми підбираємо рішення індивідуально під ваш запит так, щоб досягти співвідношення функціонала/ціни та щоб наші клієнти не платили за зайві опції.'),
 				'srcset' => '/wp-content/themes/mccloud/image/setting-1.jpg, /wp-content/themes/mccloud/image/setting-1-2x.jpg 2x',
 				'src' => '/wp-content/themes/mccloud/image/setting-1.jpg',
 
 			],
 
 			[
-				'title' => 'Повний супровід',
-				'subtitle' => 'Як прямий партнер Google ми надаємо допомогу в налаштуваннях хмарної платформи Google Wokrspace та інших продуктів.',
+				'title' => pll__('Повний супровід'),
+				'subtitle' => pll__('Як прямий партнер Google ми надаємо допомогу в налаштуваннях хмарної платформи Google Wokrspace та інших продуктів.'),
 				'srcset' => '/wp-content/themes/mccloud/image/setting-2.jpg, /wp-content/themes/mccloud/image/setting-2-2x.jpg 2x',
 				'src' => '/wp-content/themes/mccloud/image/setting-2.jpg',
 			],
 
 			[
-				'title' => 'Навчання та консалтинг',
-				'subtitle' => 'За необхідності проводимо консалтинг та тренінги для ІТ-персоналу та співробітників вашої компанії.',
+				'title' => pll__('Навчання та консалтинг'),
+				'subtitle' => pll__('За необхідності проводимо консалтинг та тренінги для ІТ-персоналу та співробітників вашої компанії.'),
 				'srcset' => '/wp-content/themes/mccloud/image/setting-3.jpg, /wp-content/themes/mccloud/image/setting-3-2x.jpg 2x',
 				'src' => '/wp-content/themes/mccloud/image/setting-3.jpg',
 			],
@@ -968,27 +972,24 @@ function get_three_cards_data_about()
 function get_three_cards_data_acordion()
 {
 	return [
-			[
-				'title' => 'Обраний план',
-				'subtitle' => 'Google Workspace пропонує кілька різних планів, таких як Enterprise Essentials, Enterprise Standard, Enterprise Plus, кожен план має свої функціональні можливості та обмеження, які впливають на ціну.',
-				'srcset' => '/wp-content/themes/mccloud/image/price-package-1.jpg, /wp-content/themes/mccloud/image/price-package-1-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/price-package-1.jpg',
-			],
-
-			[
-				'title' => 'Кількість користувачів',
-				'subtitle' => 'Ціна плану залежить від кількості користувачів, яким будуть надані доступи до сервісів Google Workspace. Зазвичай чим більше користувачів, тим нижча вартість на одного користувача.',
-				'srcset' => '/wp-content/themes/mccloud/image/price-package-2.jpg, /wp-content/themes/mccloud/image/price-package-2-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/price-package-2.jpg',
-			],
-
-			[
-				'title' => 'Додаткові функції та сервіси',
-				'subtitle' => 'Деякі плани можуть містити додаткові функції або сервіси, такі як розширена безпека, архівація  даних, підтримка користувачів тощо. Додаткові  можливості можуть впливати на ціну тарифу.',
-				'srcset' => '/wp-content/themes/mccloud/image/price-package-3.jpg, /wp-content/themes/mccloud/image/price-package-3-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/price-package-3.jpg',
-			],
-
+		[
+			'title'    => pll__('Обраний план'),
+			'subtitle' => pll__('Google Workspace пропонує кілька різних планів, таких як Enterprise Essentials, Enterprise Standard, Enterprise Plus, кожен план має свої функціональні можливості та обмеження, які впливають на ціну.'),
+			'srcset'   => '/wp-content/themes/mccloud/image/price-package-1.jpg, /wp-content/themes/mccloud/image/price-package-1-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/price-package-1.jpg',
+		],
+		[
+			'title'    => pll__('Кількість користувачів'),
+			'subtitle' => pll__('Ціна плану залежить від кількості користувачів, яким будуть надані доступи до сервісів Google Workspace. Зазвичай чим більше користувачів, тим нижча вартість на одного користувача.'),
+			'srcset'   => '/wp-content/themes/mccloud/image/price-package-2.jpg, /wp-content/themes/mccloud/image/price-package-2-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/price-package-2.jpg',
+		],
+		[
+			'title'    => pll__('Додаткові функції та сервіси'),
+			'subtitle' => pll__('Деякі плани можуть містити додаткові функції або сервіси, такі як розширена безпека, архівація даних, підтримка користувачів тощо. Додаткові можливості можуть впливати на ціну тарифу.'),
+			'srcset'   => '/wp-content/themes/mccloud/image/price-package-3.jpg, /wp-content/themes/mccloud/image/price-package-3-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/price-package-3.jpg',
+		],
 	];
 }
 
@@ -996,29 +997,29 @@ function get_three_cards_data_acordion()
 function get_three_cards_data_implementation()
 {
 	return [
-			[
-				'title' => 'Консультація',
-				'subtitle' => "Заповніть онлайн-заявку щоб з вами оперативно зв'язався наш фахівець. Разом ви зможете вибрати оптимальний пакет Google Workspace, який якнайкраще підходить саме для ваших цілей та задач.",
-				'srcset' => '/wp-content/themes/mccloud/image/setting-1.jpg, /wp-content/themes/mccloud/image/setting-1-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/setting-1.jpg',
-			],
-
-			[
-				'title' => 'Налаштування та реалізація',
-				'subtitle' => 'Команда mcCloud допоможе налаштувати такі сервіси, як корпоративна пошта Гугл, Meet, Google Диск та інші, а також надасть необхідну кількість кількість облікових записів для співробітників.',
-				'srcset' => '/wp-content/themes/mccloud/image/setting-2.jpg, /wp-content/themes/mccloud/image/setting-2-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/setting-2.jpg',
-			],
-
-			[
-				'title' => 'Підтримка',
-				'subtitle' => 'Після перенесення (міграції) даних і налаштувань ви отримаєте постійну техпідтримку та безплатне навчання, яке необхідне, щоб скористатися в повному обсязі всіма доступними опціями Google Workspace.',
-				'srcset' => '/wp-content/themes/mccloud/image/setting-3.jpg, /wp-content/themes/mccloud/image/setting-3-2x.jpg 2x',
-				'src' => '/wp-content/themes/mccloud/image/setting-3.jpg',
-			],
-
+		[
+			'title'    => pll__('Консультація'),
+			'subtitle' => pll__("Заповніть онлайн-заявку щоб з вами оперативно зв'язався наш фахівець. Разом ви зможете вибрати оптимальний пакет Google Workspace, який якнайкраще підходить саме для ваших цілей та задач."),
+			'srcset'   => '/wp-content/themes/mccloud/image/setting-1.jpg, /wp-content/themes/mccloud/image/setting-1-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/setting-1.jpg',
+		],
+		[
+			'title'    => pll__('Налаштування та реалізація'),
+			'subtitle' => pll__('Команда mcCloud допоможе налаштувати такі сервіси, як корпоративна пошта Гугл, Meet, Google Диск та інші, а також надасть необхідну кількість кількість облікових записів для співробітників.'),
+			'srcset'   => '/wp-content/themes/mccloud/image/setting-2.jpg, /wp-content/themes/mccloud/image/setting-2-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/setting-2.jpg',
+		],
+		[
+			'title'    => pll__('Підтримка'),
+			'subtitle' => pll__('Після перенесення (міграції) даних і налаштувань ви отримаєте постійну техпідтримку та безплатне навчання, яке необхідне, щоб скористатися в повному обсязі всіма доступними опціями Google Workspace.'),
+			'srcset'   => '/wp-content/themes/mccloud/image/setting-3.jpg, /wp-content/themes/mccloud/image/setting-3-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/image/setting-3.jpg',
+		],
 	];
 }
+
+pll_register_string('not_found_text', 'Сторінку не знайдено');
+
 
 if( function_exists('acf_add_options_page') ) {
     acf_add_options_page(array(
@@ -1045,12 +1046,6 @@ function mccloud_register_acf_blocks() {
 }
 add_action( 'init', 'mccloud_register_acf_blocks' );
 
-// function add_custom_canonical() {
-//     if (is_singular()) { // Додає canonical тільки для постів і сторінок
-//         echo '<link rel="canonical" href="' . get_permalink() . '" />' . "\n";
-//     }
-// }
-// add_action('wp_head', 'add_custom_canonical');
 
 
 function add_zoho_salesiq() {
@@ -1069,134 +1064,15 @@ function add_zoho_salesiq() {
 }
 add_action('wp_footer', 'add_zoho_salesiq');
 
-function redirect_uppercase_urls() {
-	$request_uri = $_SERVER['REQUEST_URI'];
-	
-	// Split the URL into path and query parts
-	$parsed_url = parse_url($request_uri);
-	$path = $parsed_url['path'] ?? '';
-	$query = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : '';
-	
-	// Redirect only if the path contains uppercase letters
-	if (preg_match('/[A-Z]/', $path)) {
-		$lowercase_path = strtolower($path);
-		$new_url = $lowercase_path . $query;
-		
-		wp_redirect($new_url, 301);
-		exit;
-	}
-}
-
 add_action('template_redirect', 'redirect_uppercase_urls');
-
-
-function custom_trp_hreflang_tag($hreflang, $language_code) {
-    switch ($language_code) {
-        case 'ru-RU':
-            return 'kz'; // або 'ru-RU', якщо тобі так треба
-        case 'ro_RO':
-            return 'ro'; // без дублювання 'ro-RO'
-        case 'uk':
-            return 'ua';
-        default:
-            return $hreflang;
+function redirect_uppercase_urls() {
+    $request_uri = $_SERVER['REQUEST_URI'];
+    if (preg_match('/[A-Z]/', $request_uri)) {
+        $lowercase_url = strtolower($request_uri);
+        wp_redirect($lowercase_url, 301);
+        exit;
     }
 }
-
-
-add_filter('wpseo_metadesc', '__return_false');
-add_filter('wpseo_title', '__return_false');
-
-add_filter('wpseo_canonical', 'trp_fix_yoast_canonical');
-function trp_fix_yoast_canonical($canonical) {
-    if (function_exists('trp_get_url_for_language')) {
-        $current_lang = get_locale(); // Або тримай trp_get_current_language() якщо треба короткий код
-        $canonical = trp_get_url_for_language($current_lang, false, true);
-    }
-    return $canonical;
-}
-
-add_filter('wpseo_title', 'custom_acf_seo_title');
-add_filter('wpseo_metadesc', 'custom_acf_seo_description');
-
-function custom_acf_seo_title($title) {
-    if (!is_singular()) return $title;
-
-    switch (get_locale()) {
-        case 'ru_RU':
-            $lang = 'kz';
-            break;
-        case 'ro_RO':
-            $lang = 'ro';
-            break;
-        case 'uk':
-        case 'uk_UA':
-            $lang = 'ua';
-            break;
-        default:
-            $lang = 'ua'; // fallback на українську
-            break;
-    }
-
-    $field = get_field("meta_title_$lang");
-    return $field ?:  $title;
-}
-
-
-function custom_acf_seo_description($desc) {
-    if (!is_singular()) return $desc;
-
-    switch (get_locale()) {
-        case 'ru_RU':
-            $lang = 'kz';
-            break;
-        case 'ro_RO':
-            $lang = 'ro';
-            break;
-        case 'uk':
-        case 'uk_UA':
-            $lang = 'ua';
-            break;
-        default:
-            $lang = 'ua'; // fallback на українську
-            break;
-    }
-
-    $field = get_field("meta_desc_$lang");
-    return $field ?: $desc;
-}
-
-
-
-function mccloud_default_acf_meta_value( $value, $post_id, $field ) {
-    if ( ! $value ) {
-        $post_title = get_the_title( $post_id );
-
-        switch ( $field['name'] ) {
-            case 'meta_title_kz':
-            case 'meta_title_ro':
-            case 'meta_title_ua':
-                return $post_title;
-
-           case 'meta_desc_kz':
-                return $post_title . ' — McCloud блогында оқыңыз! Google Workspace экожүйесі туралы көптеген қызықты және пайдалы мақалалар ✅ Тек мамандардан өзекті ақпарат ➡️ mcCloud';
-
-            case 'meta_desc_ro':
-                return $post_title . ' – Citiți pe blogul McCloud! Multe articole interesante și utile despre ecosistemul Google Workspace ✅ Doar informații actuale de la specialiști ➡️ mcCloud';
-
-            case 'meta_desc_ua':
-                return $post_title . ' – читайте в блозі компанії McCloud! Багато цікавих та корисних статей про екосистему Google Workspace ✅ Тільки актуальна інформація від фахівців компанії ➡️ mcCloud';
-        }
-    }
-
-    return $value;
-}
-add_filter( 'acf/load_value/name=meta_title_kz', 'mccloud_default_acf_meta_value', 10, 3 );
-add_filter( 'acf/load_value/name=meta_title_ro', 'mccloud_default_acf_meta_value', 10, 3 );
-add_filter( 'acf/load_value/name=meta_title_ua', 'mccloud_default_acf_meta_value', 10, 3 );
-add_filter( 'acf/load_value/name=meta_desc_kz', 'mccloud_default_acf_meta_value', 10, 3 );
-add_filter( 'acf/load_value/name=meta_desc_ro', 'mccloud_default_acf_meta_value', 10, 3 );
-add_filter( 'acf/load_value/name=meta_desc_ua', 'mccloud_default_acf_meta_value', 10, 3 );
 
 
 // Реєструємо власний endpoint для sitemap.xml
@@ -1222,4 +1098,65 @@ add_action('template_redirect', function() {
         exit;
     }
 });
+
+add_action('wp_head', 'add_x_default_hreflang', 2);
+
+function add_x_default_hreflang() {
+    // Задаємо x-default URL (наприклад, українська версія як дефолт)
+    $default_url = home_url('/ua/'); // змінити, якщо інша структура
+
+    echo '<link rel="alternate" hreflang="x-default" href="' . esc_url($default_url) . '" />' . "\n";
+}
+
+add_filter( 'wpseo_og_locale', function( $locale ) {
+    if ( function_exists('pll_current_language') ) {
+        $lang = pll_current_language();
+        switch ( $lang ) {
+            case 'ua': return 'ua_UA';
+            case 'ro': return 'ro_RO';
+            case 'kz': return 'kk_KZ';
+            case 'en': return 'en_US';
+        }
+    }
+    return $locale;
+});
+
+// Реєструємо строки перекладу один раз
+add_action('init', function () {
+    pll_register_string('cookie_accept', 'Прийняти');
+    pll_register_string('cookie_text', 'Ми використовуємо cookies для покращення роботи сайту.');
+    pll_register_string('about_mc', 'Про mcCloud');
+    pll_register_string('about_mc_it', "mcCloud – це ІТ-команда, що надає послуги хмарної інтеграції для бізнесу. Компанія оснащує підприємства надійними інструментами та персоналізованими програмами, а також проводить ІТ-тренінги та консультації.");
+    pll_register_string('about_cases', 'Подібні кейси');
+    pll_register_string('cases', 'Кейси');
+    pll_register_string('blog', 'Блог');
+    pll_register_string('about', 'Про нас');
+    pll_register_string('contact', 'Контакти');
+});
+
+// Підключаємо скрипт та передаємо перекладені строки
+function enqueue_cookie_banner_script() {
+    wp_enqueue_script('cookie-banner', get_template_directory_uri() . '/js/cookie-banner.js', [], null, true);
+
+    wp_localize_script('cookie-banner', 'cookieBannerLang', [
+        'message' => pll__('Ми використовуємо cookies для покращення роботи сайту.'),
+        'accept'  => pll__('Прийняти'),
+    ]);
+}
+add_action('wp_enqueue_scripts', 'enqueue_cookie_banner_script');
+
+
+function add_custom_canonical() {
+    // Для окремих постів/сторінок — стандартний permalink
+    if (is_singular() && !is_home() && get_query_var('paged') == 1) {
+        echo '<link rel="canonical" href="' . esc_url(get_permalink()) . '">' . "\n";
+        return;
+    } else {
+        $paged = get_query_var('paged') ? get_query_var('paged') : 1;
+        $canonical_url = get_pagenum_link($paged);
+
+        echo '<link rel="canonical" href="' . esc_url($canonical_url) . '">' . "\n";
+    }
+}
+add_action('wp_head', 'add_custom_canonical', 1);
 

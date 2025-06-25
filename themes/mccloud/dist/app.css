@@ -3328,7 +3328,7 @@ h1 {
   z-index: 20;
   right: 0;
   background: linear-gradient(270deg, #f3f5f2 0%, rgba(243, 245, 242, 0) 100%);
-  width: 72px;
+  width: 6px;
   border-top-right-radius: 22px;
   border-bottom-right-radius: 22px;
 }
@@ -3411,7 +3411,7 @@ h1 {
   }
 }
 .header .header__nav a:hover {
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
 }
 
 .footer .footer__collapse-toggle {

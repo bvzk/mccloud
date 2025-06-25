@@ -1,3 +1,5 @@
+
+
 <?php
 
 $post_categories = get_the_category(get_the_ID());
@@ -13,10 +15,11 @@ if ($post_categories) {
 
 set_query_var('heroLabel', $labels ?: '');
 set_query_var('heroTitle', the_title("", "", false));
-set_query_var('heroSubtitle', get_post_meta(get_the_ID(), 'post_subtitle', true));
+$lang = function_exists('pll_current_language') ? pll_current_language() : 'ua';
+set_query_var('heroSubtitle', get_post_meta(get_the_ID(), 'post_subtitle_' . $lang, true));
 set_query_var('heroCustomHtml', "
 <div class=\"flex\">
-<a href=\"#consultForm\" class=\"btn btn-lg btn-success\">Замовити послугу</a>
+<a href=\"#consultForm\" class=\"btn btn-lg btn-success\">".pll__('Замовити послугу')."</a>
 </div>
 ");
 
@@ -30,4 +33,5 @@ $heroPicture = "
 
 // Set the query variable
 set_query_var('heroPicture', $heroPicture);
-require get_template_directory() . '/template-parts/common/heroSection.php';
+require get_template_directory() . '/template-parts/common/heroSectionCase.php';
+

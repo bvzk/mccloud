@@ -1,4 +1,8 @@
 <?php
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+use function Easy_Plugins\Table_Of_Contents\Cord\mb_find_replace;
 /**
  * Filter to add plugins to the TOC list.
  *
@@ -46,6 +50,7 @@ add_filter(
 			'connections_qtip',
 			'cn_thumb',
 			'cn_thumbr',
+			'pmpro_member_profile_edit',
 		);
 
 		$tags_to_remove = array_merge( $tags_to_remove, $shortcodes );
@@ -224,6 +229,13 @@ add_action(
 				10,
 				1
 			);
+			add_filter(
+				'ez_toc_apply_filter_status_manually',
+				'__return_false' ,
+				10,
+				1
+			);
+
 		}
 	},
 	11
@@ -497,25 +509,6 @@ function ez_toc_flbuilder_layout_data( $data ) {
 }
 
 /**
- * Thrive Theme Builder Compatibility
- * add inline custom CSS to remove double line
- * on links of our Easy TOC container
- * @since 2.0.38
- */
-if ( 'Thrive Theme Builder' == apply_filters( 'current_theme', get_option( 'current_theme' ) ) ) {
-
-    add_action( 'wp_head', 'ezTocEnqueueScriptsforThriveThemeBuilder' );
-
-    if( ! function_exists( 'ezTocEnqueueScriptsforThriveThemeBuilder' ) ) {
-    	function ezTocEnqueueScriptsforThriveThemeBuilder() {
-            echo <<<INLINECSSAVADA
-<style>#ez-toc-container a:hover{text-decoration: none;}</style>
-INLINECSSAVADA;
-        }
-    }
-}
-
-/**
  * Kalium - Medical Theme Compatibility
  * remove duplicate eztoc containers
  * in faq sections
@@ -579,25 +572,6 @@ if ( in_array( 'js_composer/js_composer.php', apply_filters( 'active_plugins', g
             return $output;
         }
     }
-}
-
-/**
- * Foodie Pro Theme Compatibility
- * for working sticky toggle
- * in right way
- * @since 2.0.39
- */
-if ( 'Foodie Pro' == apply_filters( 'current_theme', get_option( 'current_theme' ) ) ) {
-    add_action( 'wp_head', 'ezTocEnqueueScriptsforFoodieProTheme' );
-
-    if( ! function_exists( 'ezTocEnqueueScriptsforFoodieProTheme' ) ) {
-    	function ezTocEnqueueScriptsforFoodieProTheme() {
-            echo <<<INLINECSSFOODPRO
-<style>@media only screen and (max-width: 940px){ .ez-toc-sticky #ez-toc-sticky-container .menu-toggle,#ez-toc-container .menu-toggle, #ez-toc-widget-container .menu-toggle{display:none} .ez-toc-sticky #ez-toc-sticky-container nav,#ez-toc-container nav, #ez-toc-widget-container nav {display:block}  }</style>
-INLINECSSFOODPRO;
-        }
-    }
-
 }
 
 /**
@@ -767,24 +741,6 @@ function ez_toc_sidebar_has_toc_status_cfs($status){
 	}
 	
 	return $status;
-}
-
-/** 
- * If Chamomile theme is active then remove hamburger div from content
- * @since 2.0.53
- * */
-if('Chamomile' == apply_filters( 'current_theme', get_option( 'current_theme' ) )){
-	add_action('wp_footer', 'ez_toc_add_custom_script');
-	function ez_toc_add_custom_script()
-	{
-		?>
-		<script>
-			jQuery(document).ready(function($){
-				$('#ez-toc-container').find('.hamburger').remove();
-			});
-		</script>
-		<?php
-	}
 }
 
 /**
@@ -983,11 +939,45 @@ if(function_exists('wp_get_theme')){
  * @since 2.0.57
  */
 add_filter('eztoc_modify_the_content','eztoc_mediavine_trellis_content_improver');
-function eztoc_mediavine_trellis_content_improver($content){
-	if(class_exists('Mediavine\Trellis\Custom_Content') && ezTOC_Option::get('mediavine-create') == 1 ){
-		$content = mb_convert_encoding( html_entity_decode($content), 'HTML-ENTITIES', 'UTF-8' );
-	}
-	return $content;
+function eztoc_mediavine_trellis_content_improver($content) {
+    if (class_exists('Mediavine\Trellis\Custom_Content') && ezTOC_Option::get('mediavine-create') == 1) {
+        $pattern = '/<script type="application\/ld\+json">(.*?)<\/script>/s';
+        preg_match_all($pattern, $content, $matches);
+        $jsonLdContents = $matches[1];
+        $content = preg_replace_callback($pattern, function ($match) {
+            static $index = 0;
+            return '<!-- JSON-LD-PLACEHOLDER-' . $index++ . ' -->';
+        }, $content);
+
+        $content = mb_convert_encoding(html_entity_decode($content), 'HTML-ENTITIES', 'UTF-8');
+        
+        if (!empty($jsonLdContents)) {
+            foreach ($jsonLdContents as $index => $jsoncontent) {
+                // Decode JSON content to an array
+                $decodedJson = json_decode($jsoncontent, true);
+
+                // Check if decoding was successful
+                if (json_last_error() === JSON_ERROR_NONE) {
+                    // Apply htmlspecialchars to name and description if they exist
+                    if (isset($decodedJson['name'])) {
+                        $decodedJson['name'] = htmlspecialchars($decodedJson['name'], ENT_QUOTES | ENT_HTML5);
+                    }
+                    if (isset($decodedJson['description'])) {
+                        $decodedJson['description'] = htmlspecialchars($decodedJson['description'], ENT_QUOTES | ENT_HTML5);
+                    }
+
+                    // Re-encode the JSON content
+                    $jsoncontent = json_encode($decodedJson, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+                }
+
+                // Replace the placeholder with the modified script tag
+                $placeholder = '<!-- JSON-LD-PLACEHOLDER-' . $index . ' -->';
+                $scriptTag = '<script type="application/ld+json">' . $jsoncontent . '</script>';
+                $content = str_replace($placeholder, $scriptTag, $content);
+            }
+        }
+    }
+    return $content;
 }
 
 //Perfmatters Compatibility
@@ -1006,37 +996,37 @@ function ez_toc_woodmart_gallery_fix(){
 	if(function_exists('woodmart_load_classes') && class_exists('Vc_Manager')){
 		
 		if(!wp_style_is('el-section-title')){
-			wp_register_style( 'el-section-title', WOODMART_THEME_DIR.'/css/parts/el-section-title.min.css');
+			wp_register_style( 'el-section-title', WOODMART_THEME_DIR.'/css/parts/el-section-title.min.css', array() ,ezTOC::VERSION );
 			wp_enqueue_style( 'el-section-title' );
 		}
 		
 		if(!wp_style_is('wd-section-title-style-simple-and-brd')){
-		wp_register_style( 'wd-section-title-style-simple-and-brd', WOODMART_THEME_DIR.'/css/parts/el-section-title-style-simple-and-brd.min.css');
+		wp_register_style( 'wd-section-title-style-simple-and-brd', WOODMART_THEME_DIR.'/css/parts/el-section-title-style-simple-and-brd.min.css', array() ,ezTOC::VERSION);
 		wp_enqueue_style( 'wd-section-title-style-simple-and-brd' );
 		}
 		
 		if(!wp_style_is('wd-owl-carousel')){
-			wp_register_style( 'wd-owl-carousel', WOODMART_THEME_DIR.'/css/parts/lib-owl-carousel.min.css');
+			wp_register_style( 'wd-owl-carousel', WOODMART_THEME_DIR.'/css/parts/lib-owl-carousel.min.css', array() ,ezTOC::VERSION);
 			wp_enqueue_style( 'wd-owl-carousel' );
 		}
 		
 		if(!wp_style_is('wd-image-gallery')){
-			wp_register_style( 'wd-image-gallery', WOODMART_THEME_DIR.'/css/parts/el-gallery.min.css');
+			wp_register_style( 'wd-image-gallery', WOODMART_THEME_DIR.'/css/parts/el-gallery.min.css', array() ,ezTOC::VERSION);
 			wp_enqueue_style( 'wd-image-gallery' );
 		}
 
 		if(!wp_style_is('wd-accordion')){
-			wp_register_style( 'wd-accordion', WOODMART_THEME_DIR.'/css/parts/el-accordion.min.css');
+			wp_register_style( 'wd-accordion', WOODMART_THEME_DIR.'/css/parts/el-accordion.min.css', array() ,ezTOC::VERSION);
 			wp_enqueue_style( 'wd-accordion' );
 		}
 		
 		if(!wp_style_is('wd-tabs')){
-			wp_register_style( 'wd-tabs', WOODMART_THEME_DIR.'/css/parts/el-tabs.min.css');
+			wp_register_style( 'wd-tabs', WOODMART_THEME_DIR.'/css/parts/el-tabs.min.css', array() ,ezTOC::VERSION);
 			wp_enqueue_style( 'wd-tabs' );
 		}
 
 		if(!wp_style_is('wd-team-member')){
-			wp_register_style( 'wd-team-member', WOODMART_THEME_DIR.'/css/parts/el-team-member.min.css');
+			wp_register_style( 'wd-team-member', WOODMART_THEME_DIR.'/css/parts/el-team-member.min.css', array() ,ezTOC::VERSION);
 			wp_enqueue_style( 'wd-team-member' );
 		}
 			
@@ -1126,41 +1116,229 @@ add_filter(
 
 );
 
+/**
+ * To fix icon issue in TOC for the woo category page description
+ * @param mixed $allowed_tags
+ * @return mixed
+ */
+function eztoc_woo_category_toc_fix($allowed_tags) {
+    
+    if( function_exists('is_product_category') && is_product_category() && true == ezTOC_Option::get( 'include_product_category', false)) {
+    $allowed_tags['svg'] = array(
+        'width' => true,
+        'height' => true,
+        'viewbox' => true,
+        'xmlns' => true,
+        'fill' => true,
+        'stroke' => true,
+        'style' => true,
+        'class'=> true
+    );
+    
+    $allowed_tags['path'] =   array(
+        'd' => true,
+        'fill' => true,
+        'stroke' => true,
+    );
+    
+     $allowed_tags['span']['style'] = true;
+        
+        
+    }
 
-add_filter('ez_toc_modify_process_page_content', 'ez_toc_fix_avada_post_card_loop_issue',10,1);
+    return $allowed_tags;
+}
+add_filter('wp_kses_allowed_html', 'eztoc_woo_category_toc_fix', 10, 2);
+
+/*
+*Compatibility for Customize Post Categories for WPBakery Page Builder plugin 
+*@see https://github.com/ahmedkaludi/easy-table-of-contents/issues/843
+*/
 
 /**
- * Fix for Avada Post Card Loop Issue
- * @since 2.0.67
- * @param string $content The current post content.
- * @return string The updated post content.
- * @url https://github.com/ahmedkaludi/Easy-Table-of-Contents/issues/757
+ * Custom post categories for  Customize Post Categories for WPBakery Page Builder plugin
+ * @param string $content
+ * @return string
  */
-function ez_toc_fix_avada_post_card_loop_issue($content){
-	
-	if (class_exists('FusionBuilder')){
-		$main_post_id = get_transient('eztoc_original_post_id');
-		$current_post_id = get_the_ID();
-		   if($main_post_id && ($main_post_id != $current_post_id)){
-			   return ''; 
-		   }
-	}
+add_filter('ez_toc_modify_process_page_content', 'ez_toc_post_categories_for_wpbakery_page_builder', 10, 1);
 
-  return $content;
+function ez_toc_post_categories_for_wpbakery_page_builder($content) {
+    if (function_exists('Vc_Manager')  && function_exists('POST_CATEGORY_WPBAKERY_PAGE_BUILDER\\plugin_init') && is_category( ) ) {
+        global $wpdb;
+        $template_id =  ez_toc_wpbakery_get_template_id();
+		if($template_id){
+			$content = get_post_field('post_content', $template_id);
+		}
+    }
+    return $content;
 }
 
-add_action('the_post', 'ez_toc_store_original_post_id', 10 ,1);
-
 /**
- * Store the original post ID for Avada Post Card Loop Issue
- * @since 2.0.67
- * @param WP_Post $post The current post object.
- * @return void
- * @url https://github.com/ahmedkaludi/Easy-Table-of-Contents/issues/757
+ * Start buffer for Customize Post Categories for WPBakery Page Builder plugin
  */
-function ez_toc_store_original_post_id($post) {
-    // Check if the original post ID is already stored
-    if (class_exists('FusionBuilder') && false === get_transient('eztoc_original_post_id')) {
-        set_transient('eztoc_original_post_id', $post->ID);
+add_action('template_redirect', 'ez_toc_start_buffer_for_wpbakery_category');
+function ez_toc_start_buffer_for_wpbakery_category() {
+	if (function_exists('Vc_Manager')  && is_category() && function_exists('POST_CATEGORY_WPBAKERY_PAGE_BUILDER\\plugin_init')) {
+        ob_start('ez_toc_modify_wpbakery_category_template');
     }
 }
+
+
+
+/**
+ * Modify the category template for WPBakery Page Builder with Post Categories plugin
+ * @param string $buffer
+ * @return string
+ */
+function ez_toc_modify_wpbakery_category_template($buffer) {
+	$template_id =ez_toc_wpbakery_get_template_id();
+	if($template_id){
+		$post = ezTOC::get( $template_id );
+		if($post){
+			$find    = $post->getHeadings();
+			$replace = $post->getHeadingsWithAnchors();
+			if (  !empty( $find ) && !empty( $replace ) && !empty( $buffer ) ){
+				return mb_find_replace($find, $replace, $buffer);
+			}
+		}  
+	}
+
+    return $buffer;
+}
+
+/**
+ * Get template id for Customize Post Categories for WPBakery Page Builder plugin
+ * @return mixed
+ */
+function ez_toc_wpbakery_get_template_id(){
+	
+	global $wpdb;
+	$template_id = false ;
+	$category_id = get_queried_object_id();
+	 $template_id = get_term_meta($category_id, 'mst_post_cat_template', true);
+	 if( $template_id && $template_id != 'active'){
+		 return $template_id;
+	}else{
+		$template_id = $wpdb->get_var( $wpdb->prepare("
+			SELECT p.ID 
+			FROM {$wpdb->posts} p
+			INNER JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id
+			WHERE p.post_type = %s
+			  AND p.post_status = %s
+			  AND pm.meta_key = %s
+			  AND pm.meta_value = %s
+			LIMIT 1
+			",
+			'category_wpb', 
+			'publish',
+			'mst_active',
+			'1'
+		));
+
+	}
+
+	return $template_id;
+}
+
+/**
+ * Add js backup fix for Customize Post Categories for WPBakery Page Builder plugin
+ */
+add_action('wp_footer', 'ez_toc_js_to_footer_for_wpbakery_category');
+function ez_toc_js_to_footer_for_wpbakery_category() {
+    $js_fallback_fix = false;
+
+    if (function_exists('Vc_Manager') && is_category() && function_exists('POST_CATEGORY_WPBAKERY_PAGE_BUILDER\\plugin_init')) {
+        $template_id = ez_toc_wpbakery_get_template_id();
+        if ($template_id) {
+            $post = ezTOC::get($template_id);
+            if ($post) {
+                $find = $post->getHeadings();
+                $replace = $post->getHeadingsWithAnchors();
+                if (!empty($find) && !empty($replace)) {
+                    $js_fallback_fix = '
+                        document.addEventListener("DOMContentLoaded", function () {
+                            function eztocfindAndReplaceContent(findArray, replaceArray) {
+                                if (!Array.isArray(findArray) || !Array.isArray(replaceArray) || findArray.length !== replaceArray.length) {
+                                    console.error("The find and replace arrays must be of the same length.");
+                                    return;
+                                }
+
+                                let bodyContent = document.body.innerHTML;
+                                findArray.forEach((findText, index) => {
+                                    const replaceText = replaceArray[index];
+                                    const regex = new RegExp(findText, "g");
+                                    bodyContent = bodyContent.replace(regex, replaceText);
+                                });
+
+                                document.body.innerHTML = bodyContent;
+                            }
+
+                            const findArray = ' . wp_json_encode($find) . ';
+                            const replaceArray = ' . wp_json_encode($replace) . ';
+                            eztocfindAndReplaceContent(findArray, replaceArray);
+                        });
+                    ';
+                }
+            }
+        }
+    } elseif (class_exists('Publisher') && is_singular()) {
+        $post = ezTOC::get(get_the_ID());
+        if ($post) {
+            $find = $post->getHeadings();
+            $replace = $post->getHeadingsWithAnchors();
+            if (!empty($find)) {
+				$js_fallback_fix = '
+				document.addEventListener("DOMContentLoaded", function () {
+
+					function eztocExtractHeadingTexts(inputArray) {
+					return inputArray.map((input) => {
+					if (input.length <= 6) {
+						return "";
+					}
+					return input.substring(1, input.length - 5);
+					});
+				}
+				function eztocStripTags(input) {
+					return input.replace(/<[^>]*>.*?<\/[^>]*>/gis, \'\');
+				}
+
+					const findArray = eztocExtractHeadingTexts(' . wp_json_encode($find) . ');
+					const replaceArray = eztocExtractHeadingTexts(' . wp_json_encode($replace) . ');
+					const elements = document.querySelectorAll(\'h1:not(:has(span.ez-toc-section)), h2:not(:has(span.ez-toc-section)), h3:not(:has(span.ez-toc-section)), h4:not(:has(span.ez-toc-section)), h5:not(:has(span.ez-toc-section)), h6:not(:has(span.ez-toc-section))\');
+					if(elements.length){
+						elements.forEach(function(item, index){
+							let heading_inner =  item.innerHTML;
+							let heading_txt =  eztocStripTags(heading_inner);
+							const find_index = findArray.indexOf(heading_txt.trim());
+							if (find_index !== -1){
+								heading_inner = heading_inner.replace(findArray[find_index],replaceArray[find_index]);
+								item.innerHTML = heading_inner;
+							}
+						});
+					}
+
+				});
+';
+            }
+        }
+    }
+
+    if ($js_fallback_fix) {
+        ?>
+        <script id="eztoc-wpbakery-link-fix-fallback">
+            <?php echo $js_fallback_fix; //phpcs:ignore - Already escaped above ?>
+        </script>
+        <?php
+    }
+}
+
+/**
+ * Compatibility for the theme "Cheap Energy 24"
+ */
+add_filter( 'ez_toc_apply_filter_status_manually', function( $default ) {
+    
+    if ( apply_filters( 'current_theme', get_option( 'current_theme' ) ) == "cheapenergy24" && function_exists('fusion_builder_activate') ) {
+        return true;
+    }
+    return $default;
+} );

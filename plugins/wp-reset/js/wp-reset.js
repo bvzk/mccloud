@@ -1338,8 +1338,11 @@ jQuery(document).ready(function ($) {
   function wpr_position_sidebar_ads() {
     pos_left = Math.round($('#wp_reset_form nav').width()) + 260;
     pos_top = Math.round($('#wp_reset_form #logo-icon').offset().top);
-
-    $('#wpr-sidebar-ads').css('top', pos_top + 'px').css('left', pos_left + 'px');
+    if($('body').hasClass('rtl')){
+        $('#wpr-sidebar-ads').css('top', pos_top + 'px').css('right', pos_left + 'px');
+    } else {
+        $('#wpr-sidebar-ads').css('top', pos_top + 'px').css('left', pos_left + 'px');
+    }
     $('#wpr-sidebar-ads').show();
   } // wpr_position_sidebar_ads
 

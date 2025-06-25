@@ -9,7 +9,7 @@
  * @since 1.2
  */
 class PLL_Switcher {
-	const DEFAULTS = array(
+	public const DEFAULTS = array(
 		'dropdown'               => 0, // Display as list and not as dropdown.
 		'echo'                   => 1, // Echoes the list.
 		'hide_if_empty'          => 1, // Hides languages with no posts (or pages).
@@ -122,18 +122,19 @@ class PLL_Switcher {
 		$out   = array();
 
 		foreach ( $this->links->model->get_languages_list( array( 'hide_empty' => $args['hide_if_empty'] ) ) as $language ) {
-			$id = (int) $language->term_id;
-			$order = (int) $language->term_group;
-			$slug = $language->slug;
-			$locale = $language->get_locale( 'display' );
+			$id           = (int) $language->term_id;
+			$order        = (int) $language->term_group;
+			$slug         = $language->slug;
+			$locale       = $language->get_locale( 'display' );
+			$is_rtl       = $language->is_rtl;
 			$item_classes = array( 'lang-item', 'lang-item-' . $id, 'lang-item-' . esc_attr( $slug ) );
-			$classes = isset( $args['classes'] ) && is_array( $args['classes'] ) ?
+			$classes      = isset( $args['classes'] ) && is_array( $args['classes'] ) ?
 				array_merge(
 					$item_classes,
 					$args['classes']
 				) :
 				$item_classes;
-			$link_classes = isset( $args['link_classes'] ) ? $args['link_classes'] : array();
+			$link_classes = $args['link_classes'] ?? array();
 			$current_lang = $this->get_current_language( $args ) === $slug;
 
 			if ( $current_lang ) {
@@ -169,14 +170,21 @@ class PLL_Switcher {
 			$url = empty( $url ) || $args['force_home'] ? $this->links->get_home_url( $language ) : $url; // If the page is not translated, link to the home page
 
 			$name = $args['show_names'] || ! $args['show_flags'] || $args['raw'] ? ( 'slug' == $args['display_names_as'] ? $slug : $language->name ) : '';
-			$flag = $args['raw'] && ! $args['show_flags'] ? $language->get_display_flag_url() : ( $args['show_flags'] ? $language->get_display_flag() : '' );
+
+			if ( $args['raw'] && ! $args['show_flags'] ) {
+				$flag = $language->get_display_flag_url();
+			} elseif ( $args['show_flags'] ) {
+				$flag = $language->get_display_flag( empty( $args['show_names'] ) ? 'alt' : 'no-alt' );
+			} else {
+				$flag = '';
+			}
 
 			if ( $first ) {
 				$classes[] = 'lang-item-first';
 				$first = false;
 			}
 
-			$out[ $slug ] = compact( 'id', 'order', 'slug', 'locale', 'name', 'url', 'flag', 'current_lang', 'no_translation', 'classes', 'link_classes' );
+			$out[ $slug ] = compact( 'id', 'order', 'slug', 'locale', 'is_rtl', 'name', 'url', 'flag', 'current_lang', 'no_translation', 'classes', 'link_classes' );
 		}
 
 		return $out;
@@ -230,8 +238,8 @@ class PLL_Switcher {
 			$args['hide_if_no_translation'] = 0;
 		}
 
-		// Prevents showing empty options in dropdown
-		if ( $args['dropdown'] ) {
+		// Prevents showing empty options in `<select>`.
+		if ( $args['dropdown'] && ! $args['raw'] ) {
 			$args['show_names'] = 1;
 		}
 
@@ -266,15 +274,14 @@ class PLL_Switcher {
 		 */
 		$out = apply_filters( 'pll_the_languages', $walker->walk( $elements, -1, $args ), $args );
 
-		// Javascript to switch the language when using a dropdown list
+		// Javascript to switch the language when using a dropdown list.
 		if ( $args['dropdown'] && 0 === $args['admin_render'] ) {
-			// Accept only few valid characters for the urls_x variable name ( as the widget id includes '-' which is invalid )
+			// Accept only few valid characters for the urls_x variable name (as the widget id includes '-' which is invalid).
 			$out .= sprintf(
-				'<script type="text/javascript">
-					//<![CDATA[
-					document.getElementById( "%1$s" ).addEventListener( "change", function ( event ) { location.href = event.currentTarget.value; } )
-					//]]>
+				'<script%1$s>
+					document.getElementById( "%2$s" ).addEventListener( "change", function ( event ) { location.href = event.currentTarget.value; } )
 				</script>',
+				current_theme_supports( 'html5', 'script' ) ? '' : ' type="text/javascript"',
 				esc_js( $args['name'] )
 			);
 		}

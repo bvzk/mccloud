@@ -11,9 +11,9 @@ get_header();
     { "@context" : "https://schema.org",
         "@type" : "Organization",
         "name": "mcCloud",
-        "url" : "https://mccloud.ua/",
+        "url" : "https://mccloud-ro.test-ocean.com.ua/",
         "image": [
-            "https://mccloud.ua/wp-content/themes/mccloud/image/logo.png"
+            "https://mccloud-ro.test-ocean.com.ua/wp-content/themes/mccloud/image/logo.png"
         ],
         "address": {
             "@type": "PostalAddress",
@@ -41,20 +41,16 @@ get_header();
     </div>
     <div class="w-auto">
         <h2 class="title-text-2 font-bold xl:mb-4 mb-3 text-5 leading-6">
-            mcCloud — прем'єр партнер Google Cloud в Україні
-        </h2>
+			<?php echo pll__('mcCloud — прем\'єр партнер Google Cloud в Україні'); ?>
+		</h2>
         <div class="text-3 leading-4 md:text-[14px] xl:text-[16px] xl:mb-8 lg:mb-4 md:mb-3 mb-4">
-            <strong>
-                Компанія mcCloud — це Premier partner Google Cloud. Наша головна бізнес-перевага — технічна підтримка
-                від досвідчених фахівців на всіх етапах роботи у Google Workspace.</strong>
+            <strong><?php echo pll__('Компанія mcCloud — це Premier partner Google Cloud. Наша головна бізнес-перевага — технічна підтримка від досвідчених фахівців на всіх етапах роботи у Google Workspace.') ?></strong>
             <br><br>
-            Ми завжди знаходимо найкращі рішення щодо функціонала/ціни так, щоб наші клієнти не платили
-            за непотрібні опції. Також як прямий партнер Google ми надаємо консультації та допомогу
-            в налаштуваннях та використанні хмарної платформи Google Wokrspace.
+            <?php echo pll__('Ми завжди знаходимо найкращі рішення щодо функціонала/ціни так, щоб наші клієнти не платили за непотрібні опції. Також як прямий партнер Google ми надаємо консультації та допомогу в налаштуваннях та використанні хмарної платформи Google Wokrspace.'); ?>
         </div>
         <div class="flex items-center md:flex-row-reverse md:justify-end flex-col gap-3 md:gap-4">
-            <div class="md:hidden xl:block text-gray font-semibold">2 500+ суперових кліентів по всьому світу</div>
-            <a href="<?= get_permalink(586); ?>" class="btn btn-light-primary md:mr-6 mr-0 w-full md:w-auto">Детальніше про компанію</a>
+            <div class="md:hidden xl:block text-gray font-semibold"><?php echo pll__('2 500+ суперових кліентів по всьому світу'); ?></div>
+            <a href="<?= get_permalink(586); ?>" class="btn btn-light-primary md:mr-6 mr-0 w-full md:w-auto"><?php echo pll__('Детальніше про компанію'); ?></a>
         </div>
     </div>
 </div>
@@ -62,20 +58,17 @@ get_header();
 <div
     class="bg-customLightGreen rounded-5 2xl:pt-[110px] md:pt-[58px] pt-4 2xl:pb-[212px] xl:pb-[127px] lg:pb-[187px] md:pb-[133px] pb-[212px] md:mt-11 mt-9">
     <div class="container">
-        <h2 class="md:title-text-2 text-4 leading-5 md:text-6 md:leading-7 md:mb-5 mb-3 text-center font-semibold">Послуги компанії mcCloud</h2>
+        <h2 class="md:title-text-2 text-4 leading-5 md:text-6 md:leading-7 md:mb-5 mb-3 text-center font-semibold"><?php echo pll__('Послуги компанії mcCloud'); ?></h2>
         <div class="bg-white rounded-4 p-2.5 flex flex-col-reverse md:flex-row md:justify-between">
             <div class="md:w-5/12 pt-5 xl:px-7 md:px-2 2xl:p-10">
                 <h3 class="md:title-text-2 text-4 font-semibold lg:mb-5 md:mb-3 mb-2">Google Workspace</h3>
                 <div class="text-3 leading-4 lg:mb-6 mb-3 max-w-[438px]">
                     <div class="text-3 md:text-[14px] xl:text-[20px] leading-4 xl:leading-[28px] font-medium">
-                        Google Workspace (раніше G Suite) — це пакет хмарних інструментів для спільної роботи, який
-                        включає електронну пошту, календарі, документи, таблиці, презентації, чат та інші рішення для
-                        бізнесу.
+                       <?php echo pll__('Google Workspace (раніше G Suite) — це пакет хмарних інструментів для спільної роботи, який включає електронну пошту, календарі, документи, таблиці, презентації, чат та інші рішення для бізнесу.'); ?>
                         <br><br>
                     </div>
                     <div class="md:hidden lg:block text-3 md:text-[14px] xl:text-[20px] leading-4 xl:leading-[28px] font-medium">
-                        З mcCloud, Google Cloud partner (Україна), ви можете розраховувати на допомогу в реєстрації,
-                        перенесенні даних та налаштуваннях для швидкого старту.
+                        <?php echo pll__('З mcCloud, Google Cloud partner (Україна), ви можете розраховувати на допомогу в реєстрації, перенесенні даних та налаштуваннях для швидкого старту.'); ?>
                     </div>
                 </div>
                 <div class="flex lg:mb-6 mb-5">
@@ -90,7 +83,7 @@ get_header();
                             </svg>
                         </div>
                         <div class="lg:px-[12px] px-2 xl:text-3 lg: text-[12px] lg:leading-4 leading-[18px]">
-                            Зберігання <br>файлів в хмарі
+                            <?php echo pll__('Зберігання <br>файлів в хмарі'); ?>
                         </div>
                     </div>
                     <div class="border border-[#F2F2F7] rounded-lg flex items-center ">
@@ -103,13 +96,13 @@ get_header();
                             </svg>
                         </div>
                         <div class="lg:px-[12px] px-2 xl:text-3 lg: text-[12px] lg:leading-4 leading-[18px]">
-                            Оптимізована<br>командна робота
+                            <?php echo pll__('Оптимізована<br>командна робота'); ?>
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row gap-3">
-                    <a href="<?= get_permalink(1133); ?>" class="btn btn-primary md:mr-3 mr-0">Дізнатися більше</a>
-                    <a href="<?= get_permalink(1133); ?>#choosePlan" class="btn btn-light-primary">Обрати план</a>
+                    <a href="<?= get_permalink(1133); ?>" class="btn btn-primary md:mr-3 mr-0"><?php echo pll__('Дізнатися більше'); ?></a>
+                    <a href="<?= get_permalink(1133); ?>#choosePlan" class="btn btn-light-primary"><?php echo pll__('Обрати план'); ?></a>
                 </div>
             </div>
             <div
@@ -126,9 +119,8 @@ get_header();
 
 <div class="container">
     <div class="hidden md:block text-center md:mb-8 2xl:mb-11">
-        <h2 class="title-text-2 font-bold xl:mb-2">Продукти компанії mcCloud</h2>
-        <div class="xl:text-3 xl:leading-4 text-gray">Зручна співпраця та ефективна комунікація: інструменти для вашого
-            успіху</div>
+        <h2 class="title-text-2 font-bold xl:mb-2"><?php echo pll__('Продукти компанії mcCloud'); ?></h2>
+        <div class="xl:text-3 xl:leading-4 text-gray"><?php echo pll__('Зручна співпраця та ефективна комунікація: інструменти для вашого успіху'); ?></div>
     </div>
     <div class="hidden md:grid grid-cols-3 xl:gap-4 lg:gap-3 md:gap-2 mb-10 2xl:mb-[160px]">
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
@@ -137,11 +129,9 @@ get_header();
             </div>
             <h3 class="title-text-4 font-bold mb-3">Chrome Enterprise</h3>
             <div class="h-[170px] overflow-hidden leading-4 mb-5">
-                Chrome Enterprise — це версія браузера Chrome для корпоративного використання.
-                Ваші користувачі отримають браузер, який вони вже знають, із додатковими корпоративними засобами
-                керування та можливостями безпеки для вашої організації.
+                <?php echo pll__('Chrome Enterprise — це версія браузера Chrome для корпоративного використання. Ваші користувачі отримають браузер, який вони вже знають, із додатковими корпоративними засобами керування та можливостями безпеки для вашої організації.'); ?>
             </div>
-            <a href="/chrome-enterprise-premium/" class="btn btn-lg btn-success block width-fit">Дізнатися більше</a>
+            <a href="<?= home_url(); ?>/chrome-enterprise-premium/" class="btn btn-lg btn-success block width-fit"><?php echo pll__('Дізнатися більше'); ?></a>
         </div>
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
             <div class="h-[60px] flex items-center mb-5">
@@ -149,12 +139,9 @@ get_header();
             </div>
             <h3 class="title-text-4 font-bold mb-3">Gemini</h3>
             <div class="h-[170px] overflow-hidden leading-4 mb-5">
-                Gemini — велика мовна модель від Google AI. Володіє знаннями з безлічі тем,
-                може генерувати текст, перекладати мови, писати різні види творчого контенту та відповідати на ваші
-                запитання інформативно. Все ще перебуває у розробці, але вже навчився виконувати багато видів
-                завдань.
+                <?php echo pll__('Gemini — велика мовна модель від Google AI. Володіє знаннями з безлічі тем, може генерувати текст, перекладати мови, писати різні види творчого контенту та відповідати на ваші запитання інформативно. Все ще перебуває у розробці, але вже навчився виконувати багато видів завдань.'); ?>
             </div>
-            <a href="<?= get_permalink(1154); ?>" class="btn btn-lg btn-success block width-fit">Дізнатися більше</a>
+            <a href="<?= get_permalink(1154); ?>" class="btn btn-lg btn-success block width-fit"><?php echo pll__('Дізнатися більше'); ?></a>
         </div>
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
             <div class="h-[60px] flex items-center mb-5">
@@ -162,16 +149,13 @@ get_header();
             </div>
             <h3 class="title-text-4 font-bold mb-3">Spinbackup</h3>
             <div class="h-[170px] overflow-hidden  leading-4 mb-5" style="letter-spacing: -0.2px">
-                Spinbackup — це хмарна платформа для захисту даних, якою пропонує скористатися
-                McCloud (реселлер Гугл). Ми надаємо комплексний захист електронної пошти та додатків Google
-                Workspace. Spinbackup є надійним інструментом для захисту цифрових активів компаній та
-                конфіденційної інформації.
+                <?php echo pll__('Spinbackup — це хмарна платформа для захисту даних, якою пропонує скористатися McCloud (реселлер Гугл). Ми надаємо комплексний захист електронної пошти та додатків Google Workspace. Spinbackup є надійним інструментом для захисту цифрових активів компаній та конфіденційної інформації.'); ?>
             </div>
-            <a href="<?= get_permalink(1137); ?>" class="btn btn-lg btn-success block width-fit">Дізнатися більше</a>
+            <a href="<?= get_permalink(1137); ?>" class="btn btn-lg btn-success block width-fit"><?php echo pll__('Дізнатися більше'); ?></a>
         </div>
     </div>
 
-    <h2 class="md:title-text-2 text-4 leading-5 text-center md:mb-5 mb-3 font-bold">Рішення для бізнесу</h2>
+    <h2 class="md:title-text-2 text-4 leading-5 text-center md:mb-5 mb-3 font-bold"><?php echo pll__('Рішення для бізнесу'); ?> </h2>
     <div class="flex justify-center mb-7 2xl:mb-11">
         <div class="flex" data-tabs-toggle="#businessSolutionsTabs" data-tabs-active-classes="bg-lightgreen"
             data-tabs-inactive-classes="bg-white" role="tablist">
@@ -200,8 +184,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For IT industry</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Безпечна комунікація та конфіденційність. Відправляйте документи без ризику їх витоку.
-                        GeminiDuet AI допомагає оптимізувати час у офісі та віддалено.
+                        <?php echo pll__('Безпечна комунікація та конфіденційність. Відправляйте документи без ризику їх витоку. GeminiDuet AI допомагає оптимізувати час у офісі та віддалено.'); ?>
                     </div>
                 </div>
                 <div
@@ -219,8 +202,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Legal services</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Заборона на видалення файлів та контроль дій користувачів. Надсилайте запити на підписання через
-                        eSignature.
+                        <?php echo pll__('Заборона на видалення файлів та контроль дій користувачів. Надсилайте запити на підписання через eSignature.'); ?>
                     </div>
                 </div>
                 <div
@@ -259,8 +241,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Finance</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Фінансова аналітика в Google Таблицях. Швидке налаштування доступу до конфіденційних документів
-                        з контролем витоку.
+                        <?php echo pll__('Фінансова аналітика в Google Таблицях. Швидке налаштування доступу до конфіденційних документів з контролем витоку.'); ?>
                     </div>
                 </div>
                 <div
@@ -275,8 +256,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Healthcare</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Сервіси, адаптовані для сфери охорони здоров’я, відповідність вимогам HIPAA. Зручна комунікація
-                        учасників команди, простий запис пацієнтів до лікарів.
+                        <?php echo pll__('Сервіси, адаптовані для сфери охорони здоров’я, відповідність вимогам HIPAA. Зручна комунікація учасників команди, простий запис пацієнтів до лікарів.'); ?>
                     </div>
                 </div>
                 <div
@@ -294,8 +274,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Marketing</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Швидка й проста комунікація команди, можливість створювати й коригувати візуальний та текстовий
-                        контент, а також ефективно презентувати його замовнику.
+                        <?php echo pll__('Швидка й проста комунікація команди, можливість створювати й коригувати візуальний та текстовий контент, а також ефективно презентувати його замовнику.'); ?>
                     </div>
                 </div>
                 <div
@@ -310,8 +289,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Entrepreneurs </h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Сервіс дозволяє швидко працювати з документами та створювати корпоративну пошту без додаткового
-                        програмного забезпечення.  
+                        <?php echo pll__('Сервіс дозволяє швидко працювати з документами та створювати корпоративну пошту без додаткового програмного забезпечення.'); ?>
                     </div>
                 </div>
                 <div
@@ -335,8 +313,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Human resourses</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Швидкий контакт з кандидатами, призначення зустрічей, перегляд CV. Створіть робочий простір в
-                        AppSheet або отримайте поради від Gemini.
+                        <?php echo pll__('Швидкий контакт з кандидатами, призначення зустрічей, перегляд CV. Створіть робочий простір в AppSheet або отримайте поради від Gemini.'); ?>
                     </div>
                 </div>
                 <div
@@ -354,8 +331,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-3">For Education</h3>
                     <div class=" text-gray leading-4" style="cursor: pointer;">
-                        Хмарні сервіси для навчальних закладів: відеоконференції, робота з документами, розкладом.
-                        Ідеальна альтернатива очному навчанню.
+                        <?php echo pll__('Хмарні сервіси для навчальних закладів: відеоконференції, робота з документами, розкладом. Ідеальна альтернатива очному навчанню.'); ?>
                     </div>
                 </div>
             </div>
@@ -433,9 +409,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-5">Spinbackup <br> for Google Workspace</h3>
                     <div class=" text-gray">
-                        Завдяки регулярному резервному копіюванню, вся інформація буде збережена в хмарі. При цьому
-                        зберігаються не лише пошта та документи, але й дані Календаря. А SpinSecurity ефективно
-                        визначить та заблокує загрози.
+                        <?php echo pll__('Завдяки регулярному резервному копіюванню, вся інформація буде збережена в хмарі. При цьому зберігаються не лише пошта та документи, але й дані Календаря. А SpinSecurity ефективно визначить та заблокує загрози.'); ?>
                     </div>
                 </div>
                 <div
@@ -461,9 +435,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-5">Spinbackup <br> для Microsoft</h3>
                     <div class=" text-gray">
-                        Автоматичне копіювання документів та папок зі збереженням ієрархії, яке дозволяє швидко
-                        відновити 100% інформації.Надійний захист користувачів усіх рівнів. Зручна панель
-                        адміністратора та регулярні звіти.
+                        <?php echo pll__('Автоматичне копіювання документів та папок зі збереженням ієрархії, яке дозволяє швидко відновити 100% інформації.Надійний захист користувачів усіх рівнів. Зручна панель адміністратора та регулярні звіти.'); ?>
                     </div>
                 </div>
                 <div
@@ -490,9 +462,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-5">Spinbackup <br> для Slack</h3>
                     <div class=" text-gray">
-                        Копіювання знімків від 1 до 3 разів на добу. Збереження чатів та повідомлень, які можна
-                        оперативно відновити. Інтелектуальне сканування AI, що дозволяє оцінити ризики витоку або
-                        втрати інформації, а також попередити несанкціонований доступ.
+                        <?php echo pll__('Копіювання знімків від 1 до 3 разів на добу. Збереження чатів та повідомлень, які можна оперативно відновити. Інтелектуальне сканування AI, що дозволяє оцінити ризики витоку або втрати інформації, а також попередити несанкціонований доступ.'); ?>
                     </div>
                 </div>
                 <div
@@ -525,9 +495,7 @@ get_header();
                     </div>
                     <h3 class="text-4 leading-5 font-bold mb-5">Spinbackup <br> for Saleforce</h3>
                     <div class=" text-gray">
-                        Швидке копіювання різних видів даних для всіх користувачів. Зручна та зрозуміла панель
-                        аналітики. Можливість оперативного відновлення даних, яка збереже час та мінімізує стрес
-                        команди.
+                        <?php echo pll__('Швидке копіювання різних видів даних для всіх користувачів. Зручна та зрозуміла панель аналітики. Можливість оперативного відновлення даних, яка збереже час та мінімізує стрес команди.') ?>
                     </div>
                 </div>
             </div>

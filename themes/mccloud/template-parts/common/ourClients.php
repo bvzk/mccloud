@@ -2,7 +2,7 @@
 $title = get_query_var('title', "");
 
 if (empty($title)) {
-    $title = __("Наші клієнти", "");
+    $title = pll__("Наші клієнти", "");
 }
 
 ?>

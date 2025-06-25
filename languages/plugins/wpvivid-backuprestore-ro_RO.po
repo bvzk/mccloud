@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-15 12:33:23+0000\n"
+"PO-Revision-Date: 2025-02-08 09:20:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,43 +16,43 @@ msgstr ""
 msgid "WPvivid Backup & Migration"
 msgstr "WPvivid Backup & Migration"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2403
+#: admin/partials/wpvivid-backup-restore-page-display.php:2404
 msgid "Try our AVIF and WebP conversion tool, it's free"
 msgstr "Încearcă instrumentul nostru pentru convertire în AVIF și WebP, este gratuit"
 
-#: admin/partials/wpvivid-settings-page-display.php:636
+#: admin/partials/wpvivid-settings-page-display.php:693
 msgid "Backup compression method."
 msgstr "Metodă de comprimare a copiilor de siguranță."
 
-#: admin/class-wpvivid-admin.php:218
+#: admin/class-wpvivid-admin.php:219
 msgid " for higher task success rate."
 msgstr " pentru o rată mai mare de succes a sarcinii."
 
-#: admin/class-wpvivid-admin.php:217
+#: admin/class-wpvivid-admin.php:218
 msgid "Adjust Advanced Settings"
 msgstr "Ajustează setările avansate"
 
-#: admin/class-wpvivid-admin.php:216
+#: admin/class-wpvivid-admin.php:217
 msgid "Adjust"
 msgstr "Ajustează"
 
-#: admin/class-wpvivid-admin.php:211
+#: admin/class-wpvivid-admin.php:212
 msgid " for faster solutions."
 msgstr " pentru soluții mai rapide."
 
-#: admin/class-wpvivid-admin.php:210
+#: admin/class-wpvivid-admin.php:211
 msgid "Troubleshooting page"
 msgstr "Pagină depanare"
 
-#: admin/class-wpvivid-admin.php:209
+#: admin/class-wpvivid-admin.php:210
 msgid "Read"
 msgstr "Citește"
 
-#: admin/class-wpvivid-admin.php:198
+#: admin/class-wpvivid-admin.php:199
 msgid "review will motivate us a lot."
 msgstr "recenzie ne va motiva foarte mult."
 
-#: admin/class-wpvivid-admin.php:195
+#: admin/class-wpvivid-admin.php:196
 msgid "Like the plugin? A"
 msgstr "Îți place modulul? O"
 
@@ -60,7 +60,7 @@ msgstr "Îți place modulul? O"
 msgid "Exclude images by folder path"
 msgstr "Exclude imagini după calea dosarului"
 
-#: includes/class-wpvivid.php:5754
+#: includes/class-wpvivid.php:5804
 msgid "The value of 'Split a sql file every this size' can't be empty."
 msgstr "Valoarea „Împarte mereu un fișier sql de dimensiunea asta” nu poate fi goală."
 
@@ -68,31 +68,31 @@ msgstr "Valoarea „Împarte mereu un fișier sql de dimensiunea asta” nu poat
 #: includes/new_backup/class-wpvivid-backup2.php:351
 #: includes/new_backup/class-wpvivid-backup2.php:383
 #: includes/new_backup/class-wpvivid-backup2.php:467
-#: includes/new_backup/class-wpvivid-backup2.php:1714
+#: includes/new_backup/class-wpvivid-backup2.php:1722
 msgid "We detected that there is already a running backup task. Please wait until it completes then try again."
 msgstr "Am detectat că există deja o sarcină care rulează o copie de siguranță. Te rugăm să așteptați până când este finalizează și apoi să încerci din nou."
 
-#: admin/partials/wpvivid-settings-page-display.php:730
+#: admin/partials/wpvivid-settings-page-display.php:796
 msgid "Extract files by index for restoration"
 msgstr "Extrage fișierele după index pentru restaurare"
 
-#: admin/partials/wpvivid-settings-page-display.php:706
+#: admin/partials/wpvivid-settings-page-display.php:821
 msgid "Maximum rows of data to be processed per request."
 msgstr "Număr maxim de rânduri cu date care să fie procesate per cerere."
 
-#: admin/partials/wpvivid-settings-page-display.php:680
+#: admin/partials/wpvivid-settings-page-display.php:765
 msgid "MB"
 msgstr "Mo"
 
-#: admin/partials/wpvivid-settings-page-display.php:678
+#: admin/partials/wpvivid-settings-page-display.php:763
 msgid "Split a sql file every this size"
 msgstr "Împarte mereu un fișier sql de dimensiunea asta"
 
-#: admin/partials/wpvivid-settings-page-display.php:675
+#: admin/partials/wpvivid-settings-page-display.php:760
 msgid "Files"
 msgstr "Fișiere"
 
-#: admin/class-wpvivid-admin.php:1708
+#: admin/class-wpvivid-admin.php:1716
 msgid "Unlimited domains"
 msgstr "Număr nelimitat de domenii"
 
@@ -155,7 +155,7 @@ msgstr "Sigur vrei să restaurezi acest instantaneu?"
 msgid "Database Snapshots"
 msgstr "Instantanee baze de date"
 
-#: admin/class-wpvivid-admin.php:1720
+#: admin/class-wpvivid-admin.php:1727
 msgid "See Plans"
 msgstr "Vezi planurile"
 
@@ -322,35 +322,35 @@ msgstr "Avertizare: directorul rădăcină nu poate fi setat la „/”."
 msgid "Authentication is done, please continue to enter the storage information, then click 'Add Now' button to save it."
 msgstr "Autentificarea este finalizată; te rog continuă să introduci informațiile pentru stocare, apoi dă clic pe butonul „Adaugă acum” pentru a le salva."
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2472
+#: admin/partials/wpvivid-backup-restore-page-display.php:2473
 #: admin/partials/wpvivid-schedule-page-display.php:201
-#: includes/class-wpvivid.php:7035
+#: includes/class-wpvivid.php:7085
 msgid "Add a storage"
 msgstr "Adaugă un spațiu de stocare"
 
 #: admin/partials/wpvivid-remote-storage-page-display.php:72
-#: includes/class-wpvivid.php:6974
+#: includes/class-wpvivid.php:7024
 msgid "Remove the remote storage"
 msgstr "Înlătură stocarea la distanță"
 
 #: admin/partials/wpvivid-remote-storage-page-display.php:70
-#: includes/class-wpvivid.php:6972
+#: includes/class-wpvivid.php:7022
 msgid "Edit the remote storage"
 msgstr "Editează stocarea la distanță"
 
-#: includes/class-wpvivid.php:6795 includes/class-wpvivid.php:6931
+#: includes/class-wpvivid.php:6845 includes/class-wpvivid.php:6981
 msgid "Delete the backup"
 msgstr "Șterge copia de siguranță"
 
-#: includes/class-wpvivid.php:6752
+#: includes/class-wpvivid.php:6802
 msgid "Click the button to complete website restore or migration"
 msgstr "Dă clic pe buton pentru a finaliza restaurarea sau migrarea site-ului web"
 
-#: includes/class-wpvivid.php:6677 includes/class-wpvivid.php:6818
+#: includes/class-wpvivid.php:6727 includes/class-wpvivid.php:6868
 msgid "Uploaded Backup: "
 msgstr "Copii de siguranță încărcate: "
 
-#: includes/class-wpvivid.php:5382
+#: includes/class-wpvivid.php:5398
 msgid "You have successfully changed your default remote storage."
 msgstr "Ai schimbat cu succes spațiul implicit de stocare la distanță."
 
@@ -368,17 +368,17 @@ msgid "Save"
 msgstr "Salvează"
 
 #: includes/class-wpvivid-migrate.php:721
-#: includes/new_backup/class-wpvivid-backup2.php:1591
+#: includes/new_backup/class-wpvivid-backup2.php:1599
 msgid "The key has expired."
 msgstr "Cheia a expirat."
 
 #: includes/class-wpvivid-migrate.php:714
-#: includes/new_backup/class-wpvivid-backup2.php:1583
+#: includes/new_backup/class-wpvivid-backup2.php:1591
 msgid "The key is invalid."
 msgstr "Cheia nu este validă."
 
 #: includes/class-wpvivid-migrate.php:702
-#: includes/new_backup/class-wpvivid-backup2.php:1569
+#: includes/new_backup/class-wpvivid-backup2.php:1577
 msgid "A key is required."
 msgstr "Este necesară o cheie."
 
@@ -426,12 +426,12 @@ msgstr "Arată articole"
 msgid "You can not use word 'wpvivid' to comment the post."
 msgstr "Nu poți să folosești cuvântul „wpvivid” pentru a comenta la un articol."
 
-#: admin/partials/wpvivid-settings-page-display.php:665
-#: admin/partials/wpvivid-settings-page-display.php:690
+#: admin/partials/wpvivid-settings-page-display.php:750
+#: admin/partials/wpvivid-settings-page-display.php:805
 msgid "Seconds"
 msgstr "Secunde"
 
-#: admin/partials/wpvivid-settings-page-display.php:413
+#: admin/partials/wpvivid-settings-page-display.php:410
 msgid "The selected item(s) will be permanently deleted. Are you sure you want to continue?"
 msgstr "Elementele selectate vor fi șterse definitiv. Sigur vrei să continui?"
 
@@ -443,17 +443,17 @@ msgstr "Am eliminat toate copiile de siguranță învechite."
 msgid "Deleting a remote storage will make it unavailable until it is added again. Are you sure to continue?"
 msgstr "Ștergerea unei stocări la distanță o va face indisponibilă până când este adăugată din nou. Sigur continui?"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:1540
-#: admin/partials/wpvivid-backup-restore-page-display.php:1703
+#: admin/partials/wpvivid-backup-restore-page-display.php:1541
+#: admin/partials/wpvivid-backup-restore-page-display.php:1704
 msgid "Restore failed."
 msgstr "Restaurarea a eșuat."
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:1463
+#: admin/partials/wpvivid-backup-restore-page-display.php:1464
 msgid "Are you sure to continue?"
 msgstr "Sigur vrei să continui?"
 
 #: admin/partials/wpvivid-backup-restore-page-display.php:761
-#: includes/class-wpvivid.php:6780 includes/class-wpvivid.php:6916
+#: includes/class-wpvivid.php:6830 includes/class-wpvivid.php:6966
 msgid "Prepare to download the backup"
 msgstr "Pregătește-te să descarci copia de siguranță"
 
@@ -468,19 +468,19 @@ msgstr "Restabilesc (stocarea la distanță pe serverul web)"
 #: admin/partials/wpvivid-backup-restore-page-display.php:53
 #: admin/partials/wpvivid-backup-restore-page-display.php:70
 #: admin/partials/wpvivid-backup-restore-page-display.php:79
-#: includes/class-wpvivid.php:2800 includes/class-wpvivid.php:2814
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2830
 msgid "Prepare to Download"
 msgstr "Pregătește pentru descărcare"
 
-#: admin/class-wpvivid-admin.php:1454
+#: admin/class-wpvivid-admin.php:1466
 msgid "Send succeeded."
 msgstr "Trimis cu succes."
 
-#: admin/class-wpvivid-admin.php:1339
+#: admin/class-wpvivid-admin.php:1351
 msgid "VPS hosting"
 msgstr "găzduire VPS"
 
-#: admin/class-wpvivid-admin.php:1338
+#: admin/class-wpvivid-admin.php:1350
 msgid "share hosting"
 msgstr "găzduire partajată"
 
@@ -488,15 +488,15 @@ msgstr "găzduire partajată"
 msgid "Already Done"
 msgstr "Am făcut-o deja"
 
-#: admin/class-wpvivid-admin.php:696 admin/class-wpvivid-admin.php:714
+#: admin/class-wpvivid-admin.php:698 admin/class-wpvivid-admin.php:716
 msgid "Never"
 msgstr "Niciodată"
 
-#: admin/class-wpvivid-admin.php:695 admin/class-wpvivid-admin.php:713
+#: admin/class-wpvivid-admin.php:696 admin/class-wpvivid-admin.php:714
 msgid "Maybe Later"
 msgstr "Poate mai târziu"
 
-#: admin/class-wpvivid-admin.php:694 admin/class-wpvivid-admin.php:712
+#: admin/class-wpvivid-admin.php:695 admin/class-wpvivid-admin.php:713
 msgid "Rate Us"
 msgstr "Evaluează-ne"
 
@@ -506,7 +506,7 @@ msgid "Retrying"
 msgstr "Încerc din nou"
 
 #: admin/partials/wpvivid-schedule-page-display.php:163
-#: includes/class-wpvivid.php:7064
+#: includes/class-wpvivid.php:7114
 msgid "Send backups to remote storage (You can choose whether to keep the backup in localhost after it is uploaded to cloud storage in Settings.)"
 msgstr "Trimite copiile de siguranță către stocarea la distanță (poți alege în setări dacă păstrezi copia de siguranță pe localhost după ce este încărcată în stocarea pe cloud)."
 
@@ -554,67 +554,67 @@ msgstr "Dă clic pe buton pentru a adăuga stocarea."
 msgid "Add Now"
 msgstr "Adaugă acum"
 
-#: includes/class-wpvivid.php:5864 includes/class-wpvivid.php:5869
+#: includes/class-wpvivid.php:5914 includes/class-wpvivid.php:5919
 msgid "The value of 'Delay Between Requests' can't be empty."
 msgstr "Valoarea pentru „Întârziere între solicitări” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5853 includes/class-wpvivid.php:5858
+#: includes/class-wpvivid.php:5903 includes/class-wpvivid.php:5908
 msgid "The value of 'PHP Scripts Execution Timeout' can't be empty."
 msgstr "Valoarea pentru „Timpul de întrerupere al execuției scripturilor PHP” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5842 includes/class-wpvivid.php:5847
+#: includes/class-wpvivid.php:5892 includes/class-wpvivid.php:5897
 msgid "The value of 'Staging Memory Limit' can't be empty."
 msgstr "Valoarea pentru „Limită memorie pentru instanțiere” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5831 includes/class-wpvivid.php:5836
+#: includes/class-wpvivid.php:5881 includes/class-wpvivid.php:5886
 msgid "The value of 'Max File Size' can't be empty."
 msgstr "Valoarea pentru „Dimensiune maximă fișier” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5820 includes/class-wpvivid.php:5825
+#: includes/class-wpvivid.php:5870 includes/class-wpvivid.php:5875
 msgid "The value of 'File Copy Count' can't be empty."
 msgstr "Valoarea pentru „Număr de copii pentru fișiere” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5809 includes/class-wpvivid.php:5814
+#: includes/class-wpvivid.php:5859 includes/class-wpvivid.php:5864
 msgid "The value of 'DB Replace Count' can't be empty."
 msgstr "Valoarea pentru „Număr de înlocuiri în baza de date” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5798 includes/class-wpvivid.php:5803
+#: includes/class-wpvivid.php:5848 includes/class-wpvivid.php:5853
 msgid "The value of 'DB Copy Count' can't be empty."
 msgstr "Valoarea pentru „Număr de copii pentru baza de date” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5785 includes/class-wpvivid.php:5790
+#: includes/class-wpvivid.php:5835 includes/class-wpvivid.php:5840
 msgid "The value of 'Media Files Quantity Processed Per Request' can't be empty."
 msgstr "Valoarea pentru „Cantitatea de fișiere media procesate per solicitare” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5774 includes/class-wpvivid.php:5779
+#: includes/class-wpvivid.php:5824 includes/class-wpvivid.php:5829
 msgid "The value of 'Posts Quantity Processed Per Request' can't be empty."
 msgstr "Valoarea pentru „Cantitatea de articole procesate per solicitare” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5735 includes/class-wpvivid.php:5740
+#: includes/class-wpvivid.php:5785 includes/class-wpvivid.php:5790
 msgid "The value of 'Chunk Size' can't be empty."
 msgstr "Valoarea pentru „Dimensiunea fragmentelor” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5724 includes/class-wpvivid.php:5729
+#: includes/class-wpvivid.php:5774 includes/class-wpvivid.php:5779
 msgid "The value of 'PHP memory limit for restoration' can't be empty."
 msgstr "Valoarea pentru „Limită de memorie PHP pentru restaurare” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5713 includes/class-wpvivid.php:5718
+#: includes/class-wpvivid.php:5763 includes/class-wpvivid.php:5768
 msgid "The value of 'PHP memory limit for backup' can't be empty."
 msgstr "Valoarea pentru „Limită de memorie PHP pentru copii de siguranță” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5702 includes/class-wpvivid.php:5707
+#: includes/class-wpvivid.php:5752 includes/class-wpvivid.php:5757
 msgid "The value of 'PHP scripts execution timeout for restore' can't be empty."
 msgstr "Valoarea pentru „Timpul de întrerupere al execuției scriptului PHP pentru restaurare” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5688 includes/class-wpvivid.php:5695
+#: includes/class-wpvivid.php:5738 includes/class-wpvivid.php:5745
 msgid "The value of 'PHP scripts execution timeout for backup' can't be empty."
 msgstr "Valoarea pentru „Timpul de întrerupere al execuției scriptului PHP pentru realizarea copiei de siguranță” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5675 includes/class-wpvivid.php:5682
+#: includes/class-wpvivid.php:5725 includes/class-wpvivid.php:5732
 msgid "The value of 'Exclude files which are larger than' can't be empty."
 msgstr "Valoarea pentru „Exclude fișierele care sunt mai mari decât” nu poate fi goală."
 
-#: includes/class-wpvivid.php:5661 includes/class-wpvivid.php:5669
+#: includes/class-wpvivid.php:5711 includes/class-wpvivid.php:5719
 msgid "The value of 'Compress file every' can't be empty."
 msgstr "Valoarea pentru „Comprimă fișierele la fiecare” nu poate fi goală."
 
@@ -622,11 +622,11 @@ msgstr "Valoarea pentru „Comprimă fișierele la fiecare” nu poate fi goală
 msgid "Back"
 msgstr "Înapoi"
 
-#: admin/class-wpvivid-admin.php:824
+#: admin/class-wpvivid-admin.php:825
 msgid "Because Dropbox has upgraded their API on September 30, 2021, the new API is no longer compatible with the previous app's settings. Please re-add your Dropbox storage to ensure that it works properly."
 msgstr "Deoarece Dropbox și-a actualizat API-ul pe 30 septembrie 2021, noul API nu mai este compatibil cu setările aplicației anterioare. Te rog adaugă din nou spațiul de stocare Dropbox pentru a te asigura că funcționează corect."
 
-#: admin/class-wpvivid-admin.php:895
+#: admin/class-wpvivid-admin.php:896
 msgid "In order to execute the scheduled backups properly, please set the DISABLE_WP_CRON constant to false. If you are using an external cron system, simply click 'X' to dismiss this message."
 msgstr "Pentru a executa corect copiile de siguranță programate, setează constanta DISABLE_WP_CRON la false. Dacă utilizezi un sistem cron extern dă clic pe „X” pentru a închide acest mesaj."
 
@@ -802,59 +802,55 @@ msgstr "Acțiune\t"
 msgid "Log File Name\t"
 msgstr "Nume fișier jurnal\t"
 
-#: admin/class-wpvivid-admin.php:1090
+#: admin/class-wpvivid-admin.php:1102
 msgid "Backup Logs"
 msgstr "Jurnale copie de siguranță"
 
-#: admin/class-wpvivid-admin.php:1699
+#: admin/class-wpvivid-admin.php:1708
 msgid "Up to 50 domains"
 msgstr "Până la 50 de domenii"
 
-#: admin/class-wpvivid-admin.php:1690
+#: admin/class-wpvivid-admin.php:1700
 msgid "Up to 10 domains"
 msgstr "Până la 10 domenii"
 
-#: admin/class-wpvivid-admin.php:1681
+#: admin/class-wpvivid-admin.php:1692
 msgid "2 domains"
 msgstr "2 domenii"
 
-#: admin/class-wpvivid-admin.php:1678
+#: admin/class-wpvivid-admin.php:1689
 msgid "Roles & Capabilities"
 msgstr "Roluri și capabilități"
 
-#: admin/class-wpvivid-admin.php:1677
+#: admin/class-wpvivid-admin.php:1688
 msgid "White Label"
 msgstr "Etichetă albă"
 
-#: admin/class-wpvivid-admin.php:1676
+#: admin/class-wpvivid-admin.php:1687
 msgid "Staging Pro"
 msgstr "Staging Pro"
 
-#: admin/class-wpvivid-admin.php:1675
+#: admin/class-wpvivid-admin.php:1686
 msgid "Mulitsite Support"
 msgstr "Suport multi-site"
 
-#: admin/class-wpvivid-admin.php:1674
-msgid "Image Optimization Pro (Unlimited/domain)"
-msgstr "Image Optimization Pro (nelimitat/domeniu)"
-
-#: admin/class-wpvivid-admin.php:1673
+#: admin/class-wpvivid-admin.php:1685
 msgid "Backup & Migration Pro"
 msgstr "Backup & Migration Pro"
 
-#: admin/class-wpvivid-admin.php:1672
+#: admin/class-wpvivid-admin.php:1684
 msgid "Domains"
 msgstr "Domenii"
 
-#: admin/class-wpvivid-admin.php:1665
+#: admin/class-wpvivid-admin.php:1677
 msgid "Small Business"
 msgstr "Afaceri mici"
 
-#: admin/class-wpvivid-admin.php:1663
+#: admin/class-wpvivid-admin.php:1675
 msgid "Blogger"
 msgstr "Blogger"
 
-#: admin/class-wpvivid-admin.php:1662
+#: admin/class-wpvivid-admin.php:1674
 msgid "Features"
 msgstr "Funcționalități"
 
@@ -867,8 +863,8 @@ msgstr "Nu am găsit fișierul"
 #: admin/partials/wpvivid-backup-restore-page-display.php:58
 #: admin/partials/wpvivid-backup-restore-page-display.php:70
 #: admin/partials/wpvivid-backup-restore-page-display.php:79
-#: includes/class-wpvivid.php:2800 includes/class-wpvivid.php:2805
-#: includes/class-wpvivid.php:2814
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2821
+#: includes/class-wpvivid.php:2830
 msgid "File Size: "
 msgstr "Dimensiune fișier:"
 
@@ -971,122 +967,122 @@ msgstr "Tip de articol"
 msgid "File Regex"
 msgstr "Fișier regex"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2870
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
 msgid "Tip:"
 msgstr "Sfat:"
 
-#: includes/class-wpvivid.php:7249
+#: includes/class-wpvivid.php:7313
 msgid "Please enter a valid email address."
 msgstr "Te rog să introduci o adresă de email validă."
 
-#: includes/class-wpvivid.php:7244
+#: includes/class-wpvivid.php:7308
 msgid "User's email address is required."
 msgstr "Este obligatorie o adresă de email pentru utilizator."
 
 #: admin/partials/wpvivid-schedule-page-display.php:159
-#: includes/class-wpvivid.php:7060
+#: includes/class-wpvivid.php:7110
 msgid "Save backups on localhost (web server)"
 msgstr "Salvează copiile de siguranță pe localhost (server web)"
 
-#: includes/class-wpvivid.php:6769
+#: includes/class-wpvivid.php:6819
 msgid "Type:"
 msgstr "Tip:"
 
-#: includes/class-wpvivid.php:6069
+#: includes/class-wpvivid.php:6119
 msgid "Invalid email address"
 msgstr "Adresa de email nu este validă"
 
-#: includes/class-wpvivid.php:6041
+#: includes/class-wpvivid.php:6091
 msgid "The selected file is not the setting file for WPvivid. Please upload the right file."
 msgstr "Fișierul selectat nu este un fișier cu setări WPvivid. Te rog încarcă fișierul potrivit."
 
-#: includes/class-wpvivid.php:5904 includes/class-wpvivid.php:5908
+#: includes/class-wpvivid.php:5954 includes/class-wpvivid.php:5958
 msgid "The pdo_mysql extension is not detected. Please install the extension first or choose wpdb option for Database connection method."
 msgstr "Nu am detectat extensi pdo_mysql. Te rog instalează mai întâi extensia sau alege opțiunea wpdb pentru metoda de conectare la baza de date."
 
-#: includes/class-wpvivid.php:5895
+#: includes/class-wpvivid.php:5945
 msgid "An email address is required."
 msgstr "Este obligatorie o adresă de email."
 
-#: includes/class-wpvivid.php:5878 includes/class-wpvivid.php:5885
+#: includes/class-wpvivid.php:5928 includes/class-wpvivid.php:5935
 msgid "The local storage path is required."
 msgstr "Este necesară calea de stocare locală."
 
-#: includes/class-wpvivid.php:5353
+#: includes/class-wpvivid.php:5369
 msgid "Choose one storage from the list to be the default storage."
 msgstr "Alege un spațiu de stocare din listă pentru a fi stocarea implicită."
 
-#: includes/class-wpvivid.php:5159
+#: includes/class-wpvivid.php:5175
 msgid "The selected junk files have been deleted."
 msgstr "Fișierele nedorite selectate au fost șterse."
 
-#: includes/class-wpvivid.php:5085
+#: includes/class-wpvivid.php:5101
 msgid "Choose at least one type of junk files for deleting."
 msgstr "Alege cel puțin un tip de fișiere nedorite pentru ștergere."
 
-#: includes/class-wpvivid.php:4670
+#: includes/class-wpvivid.php:4686
 msgid "Getting backup directory failed. Please try again later."
 msgstr "Obținerea directorului pentru copiile de siguranță a eșuat. Te rog încearcă din nou mai târziu."
 
-#: includes/class-wpvivid.php:4422 includes/class-wpvivid.php:4431
-#: includes/class-wpvivid.php:4454 includes/class-wpvivid.php:4465
+#: includes/class-wpvivid.php:4438 includes/class-wpvivid.php:4447
+#: includes/class-wpvivid.php:4470 includes/class-wpvivid.php:4481
 msgid "Last Backup: "
 msgstr "Ultima copie de siguranță:"
 
-#: includes/class-wpvivid.php:4409 includes/class-wpvivid.php:4419
-#: includes/class-wpvivid.php:4431 includes/class-wpvivid.php:4465
+#: includes/class-wpvivid.php:4425 includes/class-wpvivid.php:4435
+#: includes/class-wpvivid.php:4447 includes/class-wpvivid.php:4481
 msgid "The last backup message not found."
 msgstr "Nu am găsit mesajul pentru ultima copie de siguranță."
 
-#: includes/class-wpvivid.php:4283
+#: includes/class-wpvivid.php:4299
 msgid "The restore file not found. Please verify the file exists."
 msgstr "Nu am găsit fișierul de restaurare. Te rog să verifici dacă fișierul există."
 
-#: includes/class-wpvivid.php:4229
+#: includes/class-wpvivid.php:4245
 msgid "restore failed error unknown"
 msgstr "eroare necunoscută pentru restaurare eșuată"
 
-#: includes/class-wpvivid.php:3323
+#: includes/class-wpvivid.php:3339
 msgid "Failed to get the remote storage information. Please try again later."
 msgstr "Am eșuat la obținerea informațiilor pentru stocarea la distanță. Te rog încearcă din nou mai târziu."
 
-#: includes/class-wpvivid.php:3289
+#: includes/class-wpvivid.php:3305
 msgid "Failed to delete the remote storage, can not retrieve the storage infomation. Please try again."
 msgstr "Am eșuat la ștergerea stocării la distanță, nu pot prelua informațiile de stocare. Te rog încearcă din nou."
 
-#: includes/class-wpvivid.php:3231
+#: includes/class-wpvivid.php:3247
 #: includes/customclass/class-wpvivid-dropbox.php:883
 #: includes/customclass/class-wpvivid-google-drive.php:1305
 #: includes/customclass/class-wpvivid-one-drive.php:1622
 msgid "You have successfully added a remote storage."
 msgstr "Ai adăugat cu succes un spațiu de stocare la distanță."
 
-#: includes/class-wpvivid.php:3115
+#: includes/class-wpvivid.php:3131
 msgid "Unable to delete the locked backup. Please unlock it first and try again."
 msgstr "Nu pot șterge copia de siguranță blocată. Mai întâi deblocheaz-o și apoi încearcă din nou."
 
-#: includes/class-wpvivid.php:3105
+#: includes/class-wpvivid.php:3121
 msgid "Retrieving the backup(s) information failed while deleting the selected backup(s). Please try again later."
 msgstr "Preluarea informațiilor copiei(copiilor) de siguranță a eșuat în timpul ștergerii copiei(copiilor) de siguranță selectată(e). Te rog să încerci din nou mai târziu."
 
-#: includes/class-wpvivid.php:1906 includes/class-wpvivid.php:2032
-#: includes/new_backup/class-wpvivid-backup2.php:911
-#: includes/new_backup/class-wpvivid-backup2.php:1317
+#: includes/class-wpvivid.php:1922 includes/class-wpvivid.php:2048
+#: includes/new_backup/class-wpvivid-backup2.php:919
+#: includes/new_backup/class-wpvivid-backup2.php:1325
 msgid "Task timed out."
 msgstr "Sarcina a fost întreruptă."
 
-#: includes/class-wpvivid.php:1725 includes/class-wpvivid.php:1747
-#: includes/class-wpvivid.php:1773 includes/class-wpvivid.php:1898
-#: includes/class-wpvivid.php:2024
-#: includes/new_backup/class-wpvivid-backup2.php:902
-#: includes/new_backup/class-wpvivid-backup2.php:1309
+#: includes/class-wpvivid.php:1741 includes/class-wpvivid.php:1763
+#: includes/class-wpvivid.php:1789 includes/class-wpvivid.php:1914
+#: includes/class-wpvivid.php:2040
+#: includes/new_backup/class-wpvivid-backup2.php:910
+#: includes/new_backup/class-wpvivid-backup2.php:1317
 msgid "Too many resumption attempts."
 msgstr "Prea multe încercări de reluare."
 
 #: admin/partials/wpvivid-remote-storage-page-display.php:267
 #: admin/partials/wpvivid-schedule-page-display.php:293
 #: includes/class-wpvivid-interface-mainwp.php:143
-#: includes/class-wpvivid.php:643 includes/class-wpvivid.php:5930
+#: includes/class-wpvivid.php:643 includes/class-wpvivid.php:5980
 #: includes/new_backup/class-wpvivid-backup2.php:114
 msgid "There is no default remote storage configured. Please set it up first."
 msgstr "Nu există configurată o stocare implicită la distanță. Te rog mai întâi să o configurezi."
@@ -1419,15 +1415,15 @@ msgstr "Alege conținutul pe care vrei să-l transferi"
 msgid "The feature can help you transfer a Wordpress site to a new domain(site). It would be a convenient way to migrate your WP site from dev environment to live server or from old server to the new."
 msgstr "Funcționalitatea te ajută să transferi un site WordPress pe un nou domeniu (site). Este o modalitate convenabilă de a migra site-ul tău WP din mediul de dezvoltare pe serverul live sau de la serverul vechi la cel nou."
 
-#: admin/class-wpvivid-admin.php:281
+#: admin/class-wpvivid-admin.php:282
 msgid "3. Go back to this page and paste the key in key box below. Lastly, click Save button."
 msgstr "3. Întoarce-te la a această pagină și plasează cheia în caseta de mai jos. La final dă clic pe butonul Salvează."
 
-#: admin/class-wpvivid-admin.php:280
+#: admin/class-wpvivid-admin.php:281
 msgid "2. Generate a key by clicking Generate button and copy it."
 msgstr "2. Dă clic pe butonul Generează, generează o cheie și copiaz-o."
 
-#: admin/class-wpvivid-admin.php:279
+#: admin/class-wpvivid-admin.php:280
 msgid "1. Visit Key tab page of WPvivid backup plugin of destination site."
 msgstr "1. Vizitează fila cu pagina Cheie a modulului WPvivid backup din site-ul de destinație."
 
@@ -1447,7 +1443,7 @@ msgstr "Te rog plasează cheia mai jos."
 #: includes/class-wpvivid-migrate.php:773 includes/class-wpvivid.php:707
 #: includes/class-wpvivid.php:1050 includes/class-wpvivid.php:1355
 #: includes/new_backup/class-wpvivid-backup2.php:129
-#: includes/new_backup/class-wpvivid-backup2.php:1648
+#: includes/new_backup/class-wpvivid-backup2.php:1656
 msgid "A task is already running. Please wait until the running task is complete, and try again."
 msgstr "O sarcină rulează deja. Te rog să aștepți până când sarcina care rulează se finalizează și apoi încearcă din nou."
 
@@ -1475,7 +1471,7 @@ msgstr "Cheie"
 msgid "Auto-Migration"
 msgstr "Migrare automată"
 
-#: includes/class-wpvivid-mail-report.php:1110 includes/class-wpvivid.php:6077
+#: includes/class-wpvivid-mail-report.php:1110 includes/class-wpvivid.php:6127
 msgid "Unable to send email. Please check the configuration of email server."
 msgstr "Nu pot trimite emailul. Te rog să verifici configurația serverului de email."
 
@@ -1488,7 +1484,7 @@ msgstr "Nu pot să creez directorul %s. Directorul lui părintele poate fi scris
 #: includes/class-wpvivid-function-realize.php:173
 #: includes/class-wpvivid-function-realize.php:190
 #: includes/class-wpvivid.php:758 includes/class-wpvivid.php:824
-#: includes/class-wpvivid.php:885 includes/class-wpvivid.php:6470
+#: includes/class-wpvivid.php:885 includes/class-wpvivid.php:6520
 #: includes/staging/class-wpvivid-staging-log-page.php:857
 #: includes/staging/class-wpvivid-staging-log-page.php:867
 #: includes/staging/class-wpvivid-staging-log-page.php:1068
@@ -1505,7 +1501,7 @@ msgstr "Preluarea informațiilor despre copia de siguranță a eșuat în timpul
 #: includes/class-wpvivid-interface-mainwp.php:333
 #: includes/class-wpvivid-public-interface.php:195
 #: includes/class-wpvivid.php:785 includes/class-wpvivid.php:815
-#: includes/class-wpvivid.php:910 includes/class-wpvivid.php:6495
+#: includes/class-wpvivid.php:910 includes/class-wpvivid.php:6545
 #: includes/staging/class-wpvivid-staging-log-page.php:892
 #: includes/staging/class-wpvivid-staging-log-page.php:1145
 msgid "Reading the log failed. Please try again."
@@ -1518,7 +1514,7 @@ msgstr "Am eșuat la citirea jurnalului. Te rog să încerci din nou."
 #: includes/class-wpvivid-public-interface.php:204
 #: includes/class-wpvivid-public-interface.php:233
 #: includes/class-wpvivid.php:768 includes/class-wpvivid.php:833
-#: includes/class-wpvivid.php:894 includes/class-wpvivid.php:6479
+#: includes/class-wpvivid.php:894 includes/class-wpvivid.php:6529
 #: includes/staging/class-wpvivid-staging-log-page.php:876
 msgid "Unable to open the log file."
 msgstr "Nu am putut deschide fișierul jurnal."
@@ -2139,7 +2135,7 @@ msgstr[0] "%s element"
 msgstr[1] "%s elemente"
 msgstr[2] "%s de elemente"
 
-#: includes/class-wpvivid-importer.php:130 includes/class-wpvivid.php:6875
+#: includes/class-wpvivid-importer.php:130 includes/class-wpvivid.php:6925
 msgid "Type: "
 msgstr "Tip: "
 
@@ -2159,24 +2155,24 @@ msgstr "Tipuri de articol"
 msgid "File Name"
 msgstr "Nume fișier"
 
-#: includes/class-wpvivid-backup-uploader.php:755
+#: includes/class-wpvivid-backup-uploader.php:761
 msgid "Select Files"
 msgstr "Selectează fișierele"
 
-#: includes/class-wpvivid-backup-uploader.php:754
+#: includes/class-wpvivid-backup-uploader.php:760
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "sau"
 
-#: includes/class-wpvivid-backup-uploader.php:753
+#: includes/class-wpvivid-backup-uploader.php:759
 msgid "Drop files here"
 msgstr "Trage fișiere aici"
 
-#: includes/class-wpvivid-backup-uploader.php:695
+#: includes/class-wpvivid-backup-uploader.php:701
 msgid "Scan uploaded backup or received backup"
 msgstr "Scanează copiile de siguranță, încărcate sau primite"
 
-#: includes/class-wpvivid-backup-uploader.php:692
+#: includes/class-wpvivid-backup-uploader.php:698
 msgid "Tips: Click the button below to scan all uploaded or received backups in directory"
 msgstr "Sfaturi: dă clic pe butonul de mai jos pentru a scana toate copiile de siguranță din director, încărcate sau primite"
 
@@ -2184,78 +2180,78 @@ msgstr "Sfaturi: dă clic pe butonul de mai jos pentru a scana toate copiile de 
 msgid "Warning: There is no default remote storage available for the scheduled backups, please set up it first."
 msgstr "Avertizare: nu există nicio stocare implicită la distanță disponibilă pentru copiile de siguranță programate. Te rog să configurezi una mai întâi."
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2893
+#: admin/partials/wpvivid-backup-restore-page-display.php:2894
 msgid "Next Backup: "
 msgstr "Următoarea copie de siguranță: "
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2891
+#: admin/partials/wpvivid-backup-restore-page-display.php:2892
 msgid "Server Time: "
 msgstr "Timpul serverului: "
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2889
+#: admin/partials/wpvivid-backup-restore-page-display.php:2890
 msgid "Schedule Status: "
 msgstr "Starea programului: "
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2887
+#: admin/partials/wpvivid-backup-restore-page-display.php:2888
 msgid "Backup Schedule"
 msgstr "Program pentru copiile de siguranță"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2870
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
 msgid "The settings are only for manual backup, which won't affect schedule settings."
 msgstr "Setările sunt doar pentru copiile de siguranță manuale care nu afectează setările pentru programare."
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2489
+#: admin/partials/wpvivid-backup-restore-page-display.php:2490
 msgid "This backup can only be deleted manually"
 msgstr "Această copie de siguranță poate fi ștearsă numai manual"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2484
+#: admin/partials/wpvivid-backup-restore-page-display.php:2485
 msgid "Backup Now"
 msgstr "Fă copia de siguranță acum"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2440
+#: admin/partials/wpvivid-backup-restore-page-display.php:2441
 msgid "Send Backup to Remote Storage:"
 msgstr "Trimite copiile de siguranță către stocarea la distanță:"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2436
+#: admin/partials/wpvivid-backup-restore-page-display.php:2437
 msgid "Save Backups to Local"
 msgstr "Salvează copiile de siguranță local"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2408
+#: admin/partials/wpvivid-backup-restore-page-display.php:2409
 msgid "rename directory"
 msgstr "redenumește directorul"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2406
+#: admin/partials/wpvivid-backup-restore-page-display.php:2407
 msgid "Local Storage Directory:"
 msgstr "Director de stocare locală:"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2401
+#: admin/partials/wpvivid-backup-restore-page-display.php:2402
 msgid "Back Up Manually"
 msgstr "Copie de siguranță manuală"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2310
+#: admin/partials/wpvivid-backup-restore-page-display.php:2311
 #: includes/class-wpvivid-migrate.php:405
 #: includes/class-wpvivid-migrate.php:1538
 msgid "Cancel"
 msgstr "Anulează"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2304
-#: includes/class-wpvivid-migrate.php:1532 includes/class-wpvivid.php:4552
-#: includes/new_backup/class-wpvivid-backup2.php:1014
-#: includes/new_backup/class-wpvivid-backup2.php:1108
+#: admin/partials/wpvivid-backup-restore-page-display.php:2305
+#: includes/class-wpvivid-migrate.php:1532 includes/class-wpvivid.php:4568
+#: includes/new_backup/class-wpvivid-backup2.php:1022
+#: includes/new_backup/class-wpvivid-backup2.php:1116
 msgid "Network Connection:"
 msgstr "Conexiune rețea:"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2301
-#: includes/class-wpvivid-migrate.php:1529 includes/class-wpvivid.php:4549
-#: includes/new_backup/class-wpvivid-backup2.php:1011
-#: includes/new_backup/class-wpvivid-backup2.php:1105
+#: admin/partials/wpvivid-backup-restore-page-display.php:2302
+#: includes/class-wpvivid-migrate.php:1529 includes/class-wpvivid.php:4565
+#: includes/new_backup/class-wpvivid-backup2.php:1019
+#: includes/new_backup/class-wpvivid-backup2.php:1113
 msgid "Speed:"
 msgstr "Viteză:"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2300
-#: includes/class-wpvivid-migrate.php:1528 includes/class-wpvivid.php:4548
-#: includes/new_backup/class-wpvivid-backup2.php:1010
-#: includes/new_backup/class-wpvivid-backup2.php:1104
+#: admin/partials/wpvivid-backup-restore-page-display.php:2301
+#: includes/class-wpvivid-migrate.php:1528 includes/class-wpvivid.php:4564
+#: includes/new_backup/class-wpvivid-backup2.php:1018
+#: includes/new_backup/class-wpvivid-backup2.php:1112
 msgid "Uploaded:"
 msgstr "Încărcat:"
 
@@ -2279,20 +2275,20 @@ msgstr "Te rog nu închide pagina și nu comuta la alte pagini în timpul rulăr
 msgid "Restore backup from:"
 msgstr "Restaurează copia de siguranță din:"
 
-#: admin/class-wpvivid-admin.php:278
+#: admin/class-wpvivid-admin.php:279
 msgid "Step Three: Click 'Restore' button"
 msgstr "Pasul trei: dă clic pe butonul „Restaurează”"
 
-#: admin/class-wpvivid-admin.php:277
+#: admin/class-wpvivid-admin.php:278
 msgid "Step Two: Choose an option to complete restore, if any"
 msgstr "Pasul doi: dacă există, alege o opțiune pentru a finaliza restaurarea"
 
-#: admin/class-wpvivid-admin.php:276
+#: admin/class-wpvivid-admin.php:277
 msgid "Step One: In the backup list, click the 'Restore' button on the backup you want to restore. This will bring up the restore tab"
 msgstr "Pasul unu: în lista de copii de siguranță, dă clic pe butonul „Restaurează” de pe copia de siguranță pe care dorești să o restaurezi. Asta va afișa fila de restaurare"
 
 #: admin/partials/wpvivid-backup-restore-page-display.php:1080
-#: admin/partials/wpvivid-backup-restore-page-display.php:2693
+#: admin/partials/wpvivid-backup-restore-page-display.php:2694
 msgid "This request might delete the backup being downloaded, are you sure you want to continue?"
 msgstr "Această solicitare ar putea șterge copia de siguranță care se descarcă. Sigur dorești să continui?"
 
@@ -2300,7 +2296,7 @@ msgstr "Această solicitare ar putea șterge copia de siguranță care se descar
 #: includes/class-wpvivid-export-import.php:395
 #: includes/snapshot/class-wpvivid-snapshot.php:1046
 msgid "Please select at least one item."
-msgstr "Te rog selectează cel puțin un element."
+msgstr "Te rog să selectezi cel puțin un element."
 
 #: admin/partials/wpvivid-backup-restore-page-display.php:1036
 msgid "This request will delete the backup being downloaded, are you sure you want to continue?"
@@ -2331,7 +2327,7 @@ msgstr "Copii de siguranță"
 #: admin/partials/wpvivid-backup-restore-page-display.php:444
 #: admin/partials/wpvivid-backup-restore-page-display.php:494
 #: admin/partials/wpvivid-backup-restore-page-display.php:1187
-#: includes/class-wpvivid.php:6789 includes/class-wpvivid.php:6925
+#: includes/class-wpvivid.php:6839 includes/class-wpvivid.php:6975
 msgid "Restore"
 msgstr "Restaurează"
 
@@ -2390,93 +2386,93 @@ msgstr "Editează stocare"
 msgid "Storages"
 msgstr "Stocări"
 
-#: admin/partials/wpvivid-settings-page-display.php:755
+#: admin/partials/wpvivid-settings-page-display.php:841
 msgid "Advanced Settings"
 msgstr "Setări avansate"
 
-#: admin/partials/wpvivid-settings-page-display.php:749
+#: admin/partials/wpvivid-settings-page-display.php:835
 msgid "General Settings"
 msgstr "Setări generale"
 
-#: admin/partials/wpvivid-settings-page-display.php:683
+#: admin/partials/wpvivid-settings-page-display.php:768
 msgid "Chunk Size"
 msgstr "Dimensiunea fragmentelor"
 
-#: admin/partials/wpvivid-settings-page-display.php:696
+#: admin/partials/wpvivid-settings-page-display.php:811
 msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin in restore process. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
 msgstr "Ajustează această valoare pentru a aplica o limită temporară de memorie PHP pentru modulul WPvivid backup când realizează o restaurare. Implicit această valoare este 256 M. Mărește valoarea dacă întâmpini o eroare de memorie epuizată. Notă: este posibil ca unii furnizori de găzduire web să nu accepte acest lucru."
 
-#: admin/partials/wpvivid-settings-page-display.php:693
+#: admin/partials/wpvivid-settings-page-display.php:808
 msgid "PHP Memory Limit for restoration"
 msgstr "Limită de memorie PHP pentru restaurare"
 
-#: admin/partials/wpvivid-settings-page-display.php:671
+#: admin/partials/wpvivid-settings-page-display.php:756
 msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin to run a backup. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
 msgstr "Ajustează această valoare pentru a aplica o limită temporară de memorie PHP pentru modulul WPvivid backup când realizează o copie de siguranță. Implicit această valoare este 256 M. Mărește valoarea dacă întâmpini o eroare de memorie epuizată. Notă: este posibil ca unii furnizori de găzduire web să nu accepte acest lucru."
 
-#: admin/partials/wpvivid-settings-page-display.php:668
+#: admin/partials/wpvivid-settings-page-display.php:753
 msgid "PHP Memory Limit for backup"
 msgstr "Limită de memorie PHP pentru copii de siguranță"
 
-#: admin/partials/wpvivid-settings-page-display.php:691
+#: admin/partials/wpvivid-settings-page-display.php:806
 msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of restore down. If the progress of restore encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
 msgstr "Timpul de întrerupere nu este timpul de întrerupere PHP de pe server. Când timpul de întrerupere expiră, modulul va opri restaurarea. Dacă progresul restaurării se întrerupe înseamnă că ai un site web de dimensiuni medii sau mari și te rugăm să încerci să mărești valoarea."
 
-#: admin/partials/wpvivid-settings-page-display.php:688
+#: admin/partials/wpvivid-settings-page-display.php:803
 msgid "PHP script execution timeout for restore"
 msgstr "Timpul de întrerupere al execuției scriptului PHP pentru restaurare"
 
-#: admin/partials/wpvivid-settings-page-display.php:666
+#: admin/partials/wpvivid-settings-page-display.php:751
 msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of backup down. If the progress of backup encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
 msgstr "Timpul de întrerupere nu este timpul de întrerupere PHP de pe server. Când timpul de întrerupere expiră, modulul va opri procesul de realizare al copiei de siguranță. Dacă progresul realizării copiei de siguranță se întrerupe înseamnă că ai un site web de dimensiuni medii sau mari și te rugăm să încerci să mărești valoarea."
 
-#: admin/partials/wpvivid-settings-page-display.php:663
+#: admin/partials/wpvivid-settings-page-display.php:748
 msgid "PHP script execution timeout for backup"
 msgstr "Timpul de întrerupere al execuției scriptului PHP pentru realizarea copiei de siguranță"
 
-#: admin/partials/wpvivid-settings-page-display.php:661
+#: admin/partials/wpvivid-settings-page-display.php:746
 msgid "Using the option will ignore the file larger than the certain size in MB when backing up, '0' (zero) means unlimited."
 msgstr "Folosind această opțiune fișierele mai mari decât dimensiunea specificată în MB vor fi ignorate la realizarea copiei de siguranță. „0” (zero) înseamnă nelimitat."
 
-#: admin/partials/wpvivid-settings-page-display.php:658
+#: admin/partials/wpvivid-settings-page-display.php:743
 msgid "Exclude the files which are larger than"
 msgstr "Exclude fișierele care sunt mai mari decât"
 
-#: admin/partials/wpvivid-settings-page-display.php:656
+#: admin/partials/wpvivid-settings-page-display.php:741
 msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website.  Please try to adjust the value if you are encountering backup errors. When you set a value of 0MB, backups will be split every 4GB."
 msgstr "Unii furnizori de găzduire pe web limitează fișierele zip mari (de exemplu, la 200 Mo) și, prin urmare, împărțirea copiei de siguranță în mai multe părți este o modalitate ideală de a evita atingerea limitării dacă ai un site web mare. Te rog să încerci să ajustezi valoarea dacă întâmpini erori la crearea copiei de siguranță. Dacă setezi valoarea la 0 Mo, copiile de siguranță vor fi împărțite la 4 Go."
 
-#: admin/partials/wpvivid-settings-page-display.php:653
+#: admin/partials/wpvivid-settings-page-display.php:738
 msgid "Compress Files Every"
 msgstr "Comprimă fișierele la fiecare"
 
-#: admin/partials/wpvivid-settings-page-display.php:630
+#: admin/partials/wpvivid-settings-page-display.php:687
 msgid "It is recommended to choose PDO option if pdo_mysql extension is installed on your server, which lets you backup and restore your site faster."
 msgstr "Este recomandat să alegi opțiunea PDO dacă extensia pdo_mysql este instalată pe server, ceea ce permite realizarea copiilor de siguranță și restaurarea site-ului mai rapid."
 
-#: admin/partials/wpvivid-settings-page-display.php:624
+#: admin/partials/wpvivid-settings-page-display.php:681
 msgid "WPDB option has a better compatibility, but the speed of backup and restore is slower."
 msgstr "Opțiunea WPDB are o compatibilitate mai bună, dar viteza de realizare a copiilor de siguranță și restaurare este mai mică."
 
-#: admin/partials/wpvivid-settings-page-display.php:619
+#: admin/partials/wpvivid-settings-page-display.php:676
 msgid "Database access method."
 msgstr "Metodă de acces la baza de date."
 
-#: admin/partials/wpvivid-settings-page-display.php:473
+#: admin/partials/wpvivid-settings-page-display.php:470
 msgid "Importing the json file can help you set WPvivid's configuration on another wordpress site quickly."
 msgstr "Importarea fișierului json te poate ajuta să setezi rapid configurația WPvivid pe alt site WordPress."
 
-#: admin/partials/wpvivid-settings-page-display.php:472
+#: admin/partials/wpvivid-settings-page-display.php:469
 #: includes/class-wpvivid-export-import.php:1621
 #: includes/class-wpvivid-importer.php:158
 msgid "Import"
 msgstr "Importă"
 
-#: admin/partials/wpvivid-settings-page-display.php:468
+#: admin/partials/wpvivid-settings-page-display.php:465
 msgid "Click 'Export' button to save WPvivid settings on your local computer."
 msgstr "Dă clic pe butonul „Exportă” pentru a salva setările WPvivid pe computerul local."
 
-#: admin/partials/wpvivid-settings-page-display.php:467
+#: admin/partials/wpvivid-settings-page-display.php:464
 msgid "Export"
 msgstr "Exportă"
 
@@ -2488,11 +2484,11 @@ msgstr "Golește"
 msgid "Calculate Sizes"
 msgstr "Calculează dimensiuni"
 
-#: admin/partials/wpvivid-backup-restore-page-display.php:2299
+#: admin/partials/wpvivid-backup-restore-page-display.php:2300
 #: admin/partials/wpvivid-settings-page-display.php:330
-#: includes/class-wpvivid-migrate.php:1527 includes/class-wpvivid.php:4547
-#: includes/new_backup/class-wpvivid-backup2.php:1009
-#: includes/new_backup/class-wpvivid-backup2.php:1103
+#: includes/class-wpvivid-migrate.php:1527 includes/class-wpvivid.php:4563
+#: includes/new_backup/class-wpvivid-backup2.php:1017
+#: includes/new_backup/class-wpvivid-backup2.php:1111
 msgid "Total Size:"
 msgstr "Dimensiune totală:"
 
@@ -2653,137 +2649,137 @@ msgstr "Setări pentru programare"
 msgid "Support"
 msgstr "Support"
 
-#: admin/class-wpvivid-admin.php:1666
+#: admin/class-wpvivid-admin.php:1678
 msgid "Ultimate"
 msgstr "Ultimate"
 
-#: admin/class-wpvivid-admin.php:1664
+#: admin/class-wpvivid-admin.php:1676
 msgid "Freelancer"
 msgstr "Liber-profesionist"
 
-#: admin/class-wpvivid-admin.php:1638
+#: admin/class-wpvivid-admin.php:1650
 msgid "5. Set up remote storage for child sites in bulk (for WPvivid Backup Pro only)"
 msgstr "5. Configurează stocarea la distanță în masă pentru site-uri copil (doar cu WPvivid Backup Pro)"
 
-#: admin/class-wpvivid-admin.php:1633
+#: admin/class-wpvivid-admin.php:1645
 msgid "4. Install, claim and update WPvivid Backup Pro for child sites in bulk"
 msgstr "4. Instalează, folosește și actualizează WPvivid Backup Pro în masă pentru site-uri copil"
 
-#: admin/class-wpvivid-admin.php:1628
+#: admin/class-wpvivid-admin.php:1640
 msgid "3. Set WPvivid Backup Free and Pro settings for all child sites"
 msgstr "3. Setează setările WPvivid Backup Free și Pro pentru toate site-urile copil"
 
-#: admin/class-wpvivid-admin.php:1624
+#: admin/class-wpvivid-admin.php:1636
 msgid "2. Set backup schedules for all child sites"
 msgstr "2. Programează copii de siguranță pentru toate site-uri copil"
 
-#: admin/class-wpvivid-admin.php:1621
+#: admin/class-wpvivid-admin.php:1633
 msgid "1. Create and download backups for a specific child site"
 msgstr "1. Creează și descarcă copii de siguranță pentru un anumit site copil"
 
-#: admin/class-wpvivid-admin.php:1618
+#: admin/class-wpvivid-admin.php:1630
 msgid "Download WPvivid Backup for MainWP"
 msgstr "Descarcă WPvivid Backup for MainWP"
 
-#: admin/class-wpvivid-admin.php:1615
+#: admin/class-wpvivid-admin.php:1627
 msgid "If you are a MainWP user, you can set up and control WPvivid Backup Free and Pro for every child site directly from your MainWP dashboard, using our WPvivid Backup for MainWP extension."
 msgstr "Dacă ești utilizator MainWP poți configura și controla WPvivid Backup Free și Pro pentru fiecare site copil direct din panoul de control MainWP folosind extensia WPvivid Backup for MainWP."
 
-#: admin/class-wpvivid-admin.php:1507
+#: admin/class-wpvivid-admin.php:1519
 #: includes/staging/class-wpvivid-staging-log-page.php:352
 msgid " Next page > "
 msgstr " Pagina următoare > "
 
-#: admin/class-wpvivid-admin.php:1496
+#: admin/class-wpvivid-admin.php:1508
 #: includes/staging/class-wpvivid-staging-log-page.php:341
 msgid " < Pre page "
 msgstr " < Pagina anterioară "
 
-#: admin/class-wpvivid-admin.php:1486 includes/class-wpvivid-importer.php:52
+#: admin/class-wpvivid-admin.php:1498 includes/class-wpvivid-importer.php:52
 #: includes/staging/class-wpvivid-staging-log-page.php:331
 msgid "Action"
 msgstr "Acțiune"
 
-#: admin/class-wpvivid-admin.php:1485
+#: admin/class-wpvivid-admin.php:1497
 #: includes/staging/class-wpvivid-staging-log-page.php:330
 msgid "Log File Name"
 msgstr "Nume fișier jurnal"
 
-#: admin/class-wpvivid-admin.php:1484
+#: admin/class-wpvivid-admin.php:1496
 #: includes/staging/class-wpvivid-staging-log-page.php:26
 #: includes/staging/class-wpvivid-staging-log-page.php:329
 msgid "Log Type"
 msgstr "Tip de jurnal"
 
-#: admin/class-wpvivid-admin.php:1483 includes/class-wpvivid-exporter.php:110
+#: admin/class-wpvivid-admin.php:1495 includes/class-wpvivid-exporter.php:110
 #: includes/staging/class-wpvivid-staging-log-page.php:25
 #: includes/staging/class-wpvivid-staging-log-page.php:328
 msgid "Date"
 msgstr "Dată"
 
-#: admin/class-wpvivid-admin.php:1370
+#: admin/class-wpvivid-admin.php:1382
 msgid "Website Info Value"
 msgstr "Valoare cu informațiile site-ului"
 
-#: admin/class-wpvivid-admin.php:1369
+#: admin/class-wpvivid-admin.php:1381
 msgid "Website Info Key"
 msgstr "Cheie cu informațiile site-ului"
 
-#: admin/class-wpvivid-admin.php:1365
+#: admin/class-wpvivid-admin.php:1377
 #: admin/partials/wpvivid-backup-restore-page-display.php:45
 #: admin/partials/wpvivid-backup-restore-page-display.php:455
 #: admin/partials/wpvivid-backup-restore-page-display.php:493
-#: includes/class-wpvivid.php:2805 includes/class-wpvivid.php:6781
-#: includes/class-wpvivid.php:6917
+#: includes/class-wpvivid.php:2821 includes/class-wpvivid.php:6831
+#: includes/class-wpvivid.php:6967
 #: includes/staging/class-wpvivid-staging-log-page.php:29
 msgid "Download"
 msgstr "Descarcă"
 
-#: admin/class-wpvivid-admin.php:1362
+#: admin/class-wpvivid-admin.php:1374
 msgid "If you didn’t configure SMTP on your site, click the button below to download the relevant information (website info and error logs) to your PC when you are encountering some errors. Sending the files to us will help us diagnose what happened."
 msgstr "Dacă nu ai configurat SMTP pe site, dă clic pe butonul de mai jos pentru a descărca pe computer informațiile relevante (informații despre site și jurnalele de erori) atunci când întâmpini erori. Trimiterea fișierelor către noi ne va ajuta să diagnosticăm ce s-a întâmplat."
 
-#: admin/class-wpvivid-admin.php:1362
+#: admin/class-wpvivid-admin.php:1374
 msgid "Method 2."
 msgstr "A doua metodă."
 
-#: admin/class-wpvivid-admin.php:1358
+#: admin/class-wpvivid-admin.php:1370
 msgid "Send Debug Information to Us"
 msgstr "Trimite-ne informațiile de depanare"
 
-#: admin/class-wpvivid-admin.php:1355
+#: admin/class-wpvivid-admin.php:1367
 msgid "Please describe your problem here."
 msgstr "Te rog descrie problema aici."
 
-#: admin/class-wpvivid-admin.php:1346
+#: admin/class-wpvivid-admin.php:1358
 msgid "My web hosting provider is:"
 msgstr "Furnizorul meu de găzduire web este:"
 
-#: admin/class-wpvivid-admin.php:1334
+#: admin/class-wpvivid-admin.php:1346
 msgid "I am using:"
 msgstr "Folosesc:"
 
-#: admin/class-wpvivid-admin.php:1329
+#: admin/class-wpvivid-admin.php:1341
 msgid "Your email:"
 msgstr "Adresa ta de email:"
 
-#: admin/class-wpvivid-admin.php:1328
+#: admin/class-wpvivid-admin.php:1340
 msgid "WPvivid support email:"
 msgstr "Email pentru suport WPvivid:"
 
-#: admin/class-wpvivid-admin.php:1325
+#: admin/class-wpvivid-admin.php:1337
 msgid "If you have configured SMTP on your site, enter your email address and click the button below to send us the relevant information (website info and errors logs) when you are encountering errors. This will help us figure out what happened. Once the issue is resolved, we will inform you by your email address."
 msgstr "Dacă ai configurat SMTP pe site, introdu adresa de email și dă clic pe butonul de mai jos pentru a ne trimite informațiile relevante (informații despre site și jurnalele de erori) atunci când întâmpini erori. Acest lucru ne va ajuta să ne dăm seama ce s-a întâmplat. Odată rezolvată problema, te vom informa pe adresa de email."
 
-#: admin/class-wpvivid-admin.php:1325
+#: admin/class-wpvivid-admin.php:1337
 msgid "Method 1."
 msgstr "Prima metodă."
 
-#: admin/class-wpvivid-admin.php:1323
+#: admin/class-wpvivid-admin.php:1335
 msgid "There are two ways available to send us the debug information. The first one is recommended."
 msgstr "Există două modalități de a trimite informațiile de depanare. Prima este recomandată."
 
-#: admin/class-wpvivid-admin.php:1160 admin/class-wpvivid-admin.php:1247
+#: admin/class-wpvivid-admin.php:1172 admin/class-wpvivid-admin.php:1259
 #: admin/partials/wpvivid-remote-storage-page-display.php:80
 #: admin/partials/wpvivid-remote-storage-page-display.php:377
 #: includes/customclass/class-wpvivid-amazons3-plus.php:297
@@ -2797,129 +2793,129 @@ msgstr "Există două modalități de a trimite informațiile de depanare. Prima
 msgid "Save Changes"
 msgstr "Salvează modificările"
 
-#: admin/class-wpvivid-admin.php:1118
+#: admin/class-wpvivid-admin.php:1130
 msgid "Premium"
 msgstr "Premium"
 
-#: admin/class-wpvivid-admin.php:1108
+#: admin/class-wpvivid-admin.php:1120
 msgid "MainWP"
 msgstr "MainWP"
 
-#: admin/class-wpvivid-admin.php:1097
+#: admin/class-wpvivid-admin.php:1109
 #: admin/partials/wpvivid-backup-restore-page-display.php:433
-#: admin/partials/wpvivid-backup-restore-page-display.php:2311
-#: includes/class-wpvivid.php:6770 includes/class-wpvivid.php:6876
+#: admin/partials/wpvivid-backup-restore-page-display.php:2312
+#: includes/class-wpvivid.php:6820 includes/class-wpvivid.php:6926
 msgid "Log"
 msgstr "Jurnal"
 
-#: admin/class-wpvivid-admin.php:1292
+#: admin/class-wpvivid-admin.php:1304
 msgid "Logs"
 msgstr "Jurnale"
 
-#: admin/class-wpvivid-admin.php:1084
+#: admin/class-wpvivid-admin.php:1096
 msgid "Debug"
 msgstr "Depanare"
 
-#: admin/class-wpvivid-admin.php:1072
+#: admin/class-wpvivid-admin.php:1084
 msgid "Remote Storage"
 msgstr "Stocare la distanță"
 
-#: admin/class-wpvivid-admin.php:1066
+#: admin/class-wpvivid-admin.php:1078
 msgid "Schedule"
 msgstr "Programează"
 
-#: admin/class-wpvivid-admin.php:888
+#: admin/class-wpvivid-admin.php:889
 msgid "Class PclZip is not detected. Please update or reinstall your WordPress."
 msgstr "Nu am detectat clasa PclZip. Te rog actualizează sau reinstalează WordPress."
 
-#: admin/class-wpvivid-admin.php:751
+#: admin/class-wpvivid-admin.php:752
 msgid "As Amazon S3 and DigitalOcean Space have upgraded their connection methods, please delete the previous connections and re-add your Amazon S3/DigitalOcean Space accounts to make sure the connections work."
 msgstr "Deoarece Amazon S3 și DigitalOcean Space și-au actualizat metodele de conectare, te rog să ștergi conexiunile anterioare și să adaugi din nou conturile Amazon S3/DigitalOcean Space pentru a te asigura că aceste conexiuni funcționează."
 
-#: admin/class-wpvivid-admin.php:607
-#: admin/partials/wpvivid-backup-restore-page-display.php:1641
-#: admin/partials/wpvivid-backup-restore-page-display.php:1654
-#: admin/partials/wpvivid-backup-restore-page-display.php:1665
+#: admin/class-wpvivid-admin.php:608
+#: admin/partials/wpvivid-backup-restore-page-display.php:1642
+#: admin/partials/wpvivid-backup-restore-page-display.php:1655
+#: admin/partials/wpvivid-backup-restore-page-display.php:1666
 msgid "Restore completed successfully."
 msgstr "Am finalizat cu succes restaurarea."
 
-#: admin/class-wpvivid-admin.php:601
+#: admin/class-wpvivid-admin.php:602
 msgid "Cheers! WPvivid Backup plugin has restored successfully your website. If you found WPvivid Backup plugin helpful, a 5-star rating would be highly appreciated, which motivates us to keep providing new features."
 msgstr "Aplauze! Modulul WPvivid Backup a restaurat cu succes site-ul. Dacă modulul WPvivid Backup ți se pare util am aprecia foarte mult o recenzie de 5 stele care ne motivează să oferim în continuare funcționalități noi."
 
-#: admin/class-wpvivid-admin.php:585
+#: admin/class-wpvivid-admin.php:586
 msgid "Migration is complete and htaccess file is replaced. In order to successfully complete the migration, you'd better reinstall 301 redirect plugin, firewall and security plugin, and caching plugin if they exist."
 msgstr "Migrarea este completă și fișierul htaccess a fost înlocuit. Pentru a finaliza cu succes migrarea, ar fi bine să reinstalezi modulul pentru redirecționare 301, cel de firewall, de securitate și modulul de cache, dacă acestea există."
 
-#: admin/class-wpvivid-admin.php:275
+#: admin/class-wpvivid-admin.php:276
 msgid "Calculating the size of files, folder and database timed out. If you continue to receive this error, please go to the plugin settings, uncheck 'Calculate the size of files, folder and database before backing up', save changes, then try again."
 msgstr "Calcularea dimensiunii fișierelor, dosarelor și a bazei de date a fost întreruptă. Dacă continui să primești această eroare, mergi la setările modulului, debifează „Calculează dimensiunea fișierelor, a dosarului și a bazei de date înainte de a face o copie de siguranță”, salvează modificările apoi încearcă din nou."
 
-#: admin/class-wpvivid-admin.php:274
+#: admin/class-wpvivid-admin.php:275
 msgid "Warning: The alias already exists in storage list."
 msgstr "Avertizare: aliasul există deja în lista de stocare."
 
-#: admin/class-wpvivid-admin.php:273
+#: admin/class-wpvivid-admin.php:274
 #: includes/customclass/class-wpvivid-ftpclass.php:302
 #: includes/customclass/class-wpvivid-ftpclass.php:310
 msgid "Warning: An alias for remote storage is required."
 msgstr "Avertizare: este necesar un alias pentru stocarea la distanță."
 
-#: admin/class-wpvivid-admin.php:272
+#: admin/class-wpvivid-admin.php:273
 msgid "Error:"
 msgstr "Eroare:"
 
-#: admin/class-wpvivid-admin.php:271
+#: admin/class-wpvivid-admin.php:272
 msgid "Warning:"
 msgstr "Avertizare:"
 
-#: admin/class-wpvivid-admin.php:233
+#: admin/class-wpvivid-admin.php:234
 msgid "Migrate WordPress"
 msgstr "Migrează WordPress"
 
-#: admin/class-wpvivid-admin.php:232
+#: admin/class-wpvivid-admin.php:233
 msgid "Restore Your Site from a Backup"
 msgstr "Îți restaurezi site-ul dintr-o copie de siguranță"
 
-#: admin/class-wpvivid-admin.php:231
+#: admin/class-wpvivid-admin.php:232
 msgid "Create a Manual Backup"
 msgstr "Creează manual o copie de siguranță"
 
-#: admin/class-wpvivid-admin.php:230
+#: admin/class-wpvivid-admin.php:231
 msgid "WPvivid Backup Settings"
 msgstr "Setări copii de siguranță WPvivid"
 
-#: admin/class-wpvivid-admin.php:226
+#: admin/class-wpvivid-admin.php:227
 #: includes/staging/class-wpvivid-staging.php:95
 msgid "How-to"
 msgstr "Sfaturi practice"
 
-#: admin/class-wpvivid-admin.php:203
+#: admin/class-wpvivid-admin.php:204
 #: includes/snapshot/class-wpvivid-snapshot.php:1543
 #: includes/staging/class-wpvivid-staging.php:83
 msgid "Troubleshooting"
 msgstr "Depanare"
 
-#: admin/class-wpvivid-admin.php:188
+#: admin/class-wpvivid-admin.php:189
 #: includes/snapshot/class-wpvivid-snapshot.php:1536
 #: includes/staging/class-wpvivid-staging.php:76
 msgid "ChangeLog"
 msgstr "Istoric modificări"
 
-#: admin/class-wpvivid-admin.php:185
+#: admin/class-wpvivid-admin.php:186
 #: includes/snapshot/class-wpvivid-snapshot.php:1533
 #: includes/staging/class-wpvivid-staging.php:73
 msgid "Current Version: "
 msgstr "Versiune curentă:"
 
-#: admin/class-wpvivid-admin.php:168 admin/class-wpvivid-admin.php:517
-#: admin/class-wpvivid-admin.php:523 admin/class-wpvivid-admin.php:532
-#: admin/class-wpvivid-admin.php:538 admin/class-wpvivid-admin.php:1078
+#: admin/class-wpvivid-admin.php:169 admin/class-wpvivid-admin.php:518
+#: admin/class-wpvivid-admin.php:524 admin/class-wpvivid-admin.php:533
+#: admin/class-wpvivid-admin.php:539 admin/class-wpvivid-admin.php:1090
 msgid "Settings"
 msgstr "Setări"
 
-#: admin/class-wpvivid-admin.php:145 admin/class-wpvivid-admin.php:159
-#: admin/class-wpvivid-admin.php:1060
+#: admin/class-wpvivid-admin.php:146 admin/class-wpvivid-admin.php:160
+#: admin/class-wpvivid-admin.php:1072
 msgid "Backup & Restore"
 msgstr "Copii de siguranță și restaurare"
 

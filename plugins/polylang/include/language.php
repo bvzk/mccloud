@@ -231,7 +231,7 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 *
 	 * @var array[] Array keys are language term names.
 	 *
-	 * @exemple array(
+	 * @example array(
 	 *     'language'       => array(
 	 *         'term_id'          => 7,
 	 *         'term_taxonomy_id' => 8,
@@ -314,7 +314,7 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 * @phpstan-return int<0, max>
 	 */
 	public function get_tax_prop( $taxonomy_name, $prop_name ) {
-		return isset( $this->term_props[ $taxonomy_name ][ $prop_name ] ) ? $this->term_props[ $taxonomy_name ][ $prop_name ] : 0;
+		return $this->term_props[ $taxonomy_name ][ $prop_name ] ?? 0;
 	}
 
 	/**
@@ -351,13 +351,13 @@ class PLL_Language extends PLL_Language_Deprecated {
 	}
 
 	/**
-	 * Returns the flag informations.
+	 * Returns the flag information.
 	 *
 	 * @since 2.6
 	 *
 	 * @param string $code Flag code.
 	 * @return array {
-	 *   Flag informations.
+	 *   Flag information.
 	 *
 	 *   @type string $url    Flag url.
 	 *   @type string $src    Optional, src attribute value if different of the url, for example if base64 encoded.
@@ -372,26 +372,29 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 *     height?: positive-int
 	 * }
 	 */
-	public static function get_flag_informations( $code ) {
-		$flag = array( 'url' => '' );
+	public static function get_flag_information( $code ) {
+		$default_flag = array(
+			'url' => '',
+			'src' => '',
+		);
 
 		// Polylang builtin flags.
 		if ( ! empty( $code ) && is_readable( POLYLANG_DIR . ( $file = '/flags/' . $code . '.png' ) ) ) {
-			$flag['url'] = plugins_url( $file, POLYLANG_FILE );
+			$default_flag['url'] = plugins_url( $file, POLYLANG_FILE );
 
 			// If base64 encoded flags are preferred.
-			if ( ! defined( 'PLL_ENCODED_FLAGS' ) || PLL_ENCODED_FLAGS ) {
+			if ( pll_get_constant( 'PLL_ENCODED_FLAGS', true ) ) {
 				$imagesize = getimagesize( POLYLANG_DIR . $file );
 				if ( is_array( $imagesize ) ) {
-					list( $flag['width'], $flag['height'] ) = $imagesize;
+					list( $default_flag['width'], $default_flag['height'] ) = $imagesize;
 				}
-				$file_contents = file_get_contents( POLYLANG_DIR . $file ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
-				$flag['src'] = 'data:image/png;base64,' . base64_encode( $file_contents ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_encode
+				$file_contents       = file_get_contents( POLYLANG_DIR . $file ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents
+				$default_flag['src'] = 'data:image/png;base64,' . base64_encode( $file_contents ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_encode
 			}
 		}
 
 		/**
-		 * Filters flag informations:
+		 * Filters flag information:
 		 *
 		 * @since 2.4
 		 *
@@ -405,11 +408,11 @@ class PLL_Language extends PLL_Language_Deprecated {
 		 * }
 		 * @param string $code Flag code.
 		 */
-		$flag = apply_filters( 'pll_flag', $flag, $code );
+		$flag = apply_filters( 'pll_flag', $default_flag, $code );
 
-		$flag['url'] = esc_url_raw( $flag['url'] );
+		$flag['url'] = sanitize_url( $flag['url'] );
 
-		if ( empty( $flag['src'] ) ) {
+		if ( empty( $flag['src'] ) || ( $flag['src'] === $default_flag['src'] && $flag['url'] !== $default_flag['url'] ) ) {
 			$flag['src'] = esc_url( set_url_scheme( $flag['url'], 'relative' ) );
 		}
 
@@ -468,11 +471,22 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 * Returns the html of the custom flag if any, or the default flag otherwise.
 	 *
 	 * @since 2.8
+	 * @since 3.5.3 Added the `$alt` parameter.
+	 *
+	 * @param string $alt Whether or not the alternative text should be set. Accepts 'alt' and 'no-alt'.
 	 *
 	 * @return string
+	 *
+	 * @phpstan-param 'alt'|'no-alt' $alt
 	 */
-	public function get_display_flag() {
-		return empty( $this->custom_flag ) ? $this->flag : $this->custom_flag;
+	public function get_display_flag( $alt = 'alt' ) {
+		$flag = empty( $this->custom_flag ) ? $this->flag : $this->custom_flag;
+
+		if ( 'alt' === $alt ) {
+			return $flag;
+		}
+
+		return (string) preg_replace( '/(?<=\salt=\")([^"]+)(?=\")/', '', $flag );
 	}
 
 	/**
@@ -569,7 +583,7 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 * @return string HTML code for the flag.
 	 */
 	public static function get_predefined_flag( $flag_code ) {
-		$flag = self::get_flag_informations( $flag_code );
+		$flag = self::get_flag_information( $flag_code );
 
 		return self::get_flag_html( $flag );
 	}
@@ -582,7 +596,7 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 * @return string Language home URL.
 	 */
 	public function get_home_url() {
-		if ( ( defined( 'PLL_CACHE_LANGUAGES' ) && ! PLL_CACHE_LANGUAGES ) || ( defined( 'PLL_CACHE_HOME_URL' ) && ! PLL_CACHE_HOME_URL ) ) {
+		if ( ! pll_get_constant( 'PLL_CACHE_LANGUAGES', true ) || ! pll_get_constant( 'PLL_CACHE_HOME_URL', true ) ) {
 			/**
 			 * Filters current `PLL_Language` instance `home_url` property.
 			 *
@@ -605,7 +619,7 @@ class PLL_Language extends PLL_Language_Deprecated {
 	 * @return string Language search URL.
 	 */
 	public function get_search_url() {
-		if ( ( defined( 'PLL_CACHE_LANGUAGES' ) && ! PLL_CACHE_LANGUAGES ) || ( defined( 'PLL_CACHE_HOME_URL' ) && ! PLL_CACHE_HOME_URL ) ) {
+		if ( ! pll_get_constant( 'PLL_CACHE_LANGUAGES', true ) || ! pll_get_constant( 'PLL_CACHE_HOME_URL', true ) ) {
 			/**
 			 * Filters current `PLL_Language` instance `search_url` property.
 			 *
@@ -651,11 +665,6 @@ class PLL_Language extends PLL_Language_Deprecated {
 			return $this->get_tax_prop( $matches['tax'], $matches['field'] );
 		}
 
-		// Any other public property.
-		if ( isset( $this->$property ) ) {
-			return $this->$property;
-		}
-
-		return false;
+		return $this->$property ?? false;
 	}
 }

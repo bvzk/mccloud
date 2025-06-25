@@ -5,14 +5,14 @@
  * @package Polylang
  *
  * @since 2.7
+ *
+ * @var PLL_Model $model   `PLL_Model` instance.
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Don't access directly.
-};
+defined( 'ABSPATH' ) || exit;
 
-$existing_languages = $this->model->get_languages_list();
-$default_language   = count( $existing_languages ) > 0 ? $this->options['default_lang'] : null;
+$existing_languages = $model->languages->get_list();
+$default_language = $model->languages->get_default();
 $languages_list = array_diff_key(
 	PLL_Settings::get_predefined_languages(),
 	wp_list_pluck( $existing_languages, 'locale', 'locale' )
@@ -67,7 +67,7 @@ $languages_list = array_diff_key(
 	</tbody>
 </table>
 <table id="defined-languages" class="striped<?php echo empty( $existing_languages ) ? ' hide' : ''; ?>">
-	<?php if ( ! is_null( $default_language ) ) : ?>
+	<?php if ( ! empty( $default_language ) ) : ?>
 		<caption><span class="icon-default-lang"></span> <?php esc_html_e( 'Default language', 'polylang' ); ?></caption>
 	<?php endif; ?>
 	<thead>
@@ -82,7 +82,7 @@ $languages_list = array_diff_key(
 			'<tr><td>%3$s<span>%2$s - %1$s</span> %4$s</td></tr>' . "\n",
 			esc_attr( $lg->locale ),
 			esc_html( $lg->name ),
-			$lg->flag,  // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			$lg->flag, // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			$lg->is_default ? ' <span class="icon-default-lang"><span class="screen-reader-text">' . esc_html__( 'Default language', 'polylang' ) . '</span></span>' : ''
 		);
 	}

@@ -1,0 +1,774 @@
+# Translation of WP-Syntex - Polylang Pro in English (UK)
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-04 18:19:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#. translators: %1$s is a machine translation service's name, %2$s is a list of
+#. language names (and their locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:23
+msgid "The following languages are not available in %1$s: %2$s."
+msgstr "The following languages are not available in %1$s: %2$s."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:71
+msgid "Note: informal tone will always be used for %s languages."
+msgstr "Note: informal tone will always be used for %s languages."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:54
+msgid "Note: formal tone will always be used for %s languages."
+msgstr "Note: formal tone will always be used for %s languages."
+
+#. translators: %s is a list of post IDs
+#: modules/import-export/import/import-posts.php:161
+msgid "Warning: matching sources weren't found for post IDs: %s"
+msgstr "Warning: matching sources weren't found for post IDs: %s"
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:90
+#: services/translation/translation-post-model.php:123
+msgid "The post with ID %d could not be translated."
+msgstr "The post with ID %d could not be translated."
+
+#. translators: %d is a term id.
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:55
+#: services/translation/translation-term-model.php:94
+msgid "The term with ID %d could not be translated."
+msgstr "The term with ID %d could not be translated."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:83
+msgid "The term with ID %d could not be updated."
+msgstr "The term with ID %d could not be updated."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:62
+msgid "The term with ID %d could not be translated as it doesn't exist."
+msgstr "The term with ID %d could not be translated as it doesn't exist."
+
+#: services/translation/translation-strings-model.php:81
+msgid "No strings have been translated."
+msgstr "No strings have been translated."
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:96
+msgid "The post with ID %d could not be translated as it doesn't exist."
+msgstr "The post with ID %d could not be translated as it doesn't exist."
+
+#: modules/Machine_Translation/Views/string-form.php:43
+msgid "Translate all groups"
+msgstr "Translate all groups"
+
+#: modules/Machine_Translation/Strings/Metabox.php:73
+msgid "Machine translations"
+msgstr "Machine translations"
+
+#: modules/import-export/import/import-terms.php:112
+msgid "No terms were translated. Please check that the original terms in your file match those on the site."
+msgstr "No terms were translated. Please check that the original terms in your file match those on the site."
+
+#: modules/import-export/import/import-strings.php:105
+msgid "No string translations updated. Please check that the original strings in your file match those on the site."
+msgstr "No string translations updated. Please check that the original strings in your file match those on the site."
+
+#: modules/import-export/import/import-posts.php:171
+msgid "No posts were translated. Please check that the original posts in your file match those on the site."
+msgstr "No posts were translated. Please check that the original posts in your file match those on the site."
+
+#: integrations/ACF/Labels/Field_Groups.php:298
+msgctxt "ACF field setting label"
+msgid "Instructions"
+msgstr "Instructions"
+
+#: integrations/ACF/Labels/Field_Groups.php:292
+msgctxt "ACF field setting label"
+msgid "Label"
+msgstr "Label"
+
+#: integrations/ACF/Labels/Field_Groups.php:291
+msgctxt "ACF field setting label"
+msgid "Choice"
+msgstr "Choice"
+
+#: integrations/ACF/Labels/Field_Groups.php:290
+msgctxt "ACF field setting label"
+msgid "OFF text"
+msgstr "OFF text"
+
+#: integrations/ACF/Labels/Field_Groups.php:289
+msgctxt "ACF field setting label"
+msgid "ON text"
+msgstr "ON text"
+
+#: integrations/ACF/Labels/Field_Groups.php:288
+msgctxt "ACF field setting label"
+msgid "Message"
+msgstr "Message"
+
+#: integrations/ACF/Labels/Field_Groups.php:287
+msgctxt "ACF field setting label"
+msgid "Suffix"
+msgstr "Suffix"
+
+#: integrations/ACF/Labels/Field_Groups.php:286
+msgctxt "ACF field setting label"
+msgid "Prefix"
+msgstr "Prefix"
+
+#: integrations/ACF/Labels/Field_Groups.php:285
+msgctxt "ACF field setting label"
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: integrations/ACF/Labels/Field_Groups.php:284
+msgctxt "ACF field setting label"
+msgid "Default value"
+msgstr "Default value"
+
+#: integrations/ACF/Field_Settings.php:55
+msgid "Translate once"
+msgstr "Translate once"
+
+#: integrations/ACF/Dispatcher.php:430
+msgid "This field is ignored."
+msgstr "This field is ignored."
+
+#: integrations/ACF/Dispatcher.php:426
+msgid "This field is translated once."
+msgstr "This field is translated once."
+
+#: integrations/ACF/Dispatcher.php:424
+msgid "This field is translated."
+msgstr "This field is translated."
+
+#: integrations/ACF/Dispatcher.php:420
+msgid "This field is copied once."
+msgstr "This field is copied once."
+
+#: integrations/ACF/Dispatcher.php:414 integrations/ACF/Dispatcher.php:422
+msgid "This field is synchronized."
+msgstr "This field is synchronised."
+
+#: integrations/ACF/Dispatcher.php:409
+msgid "This field is copied."
+msgstr "This field is copied."
+
+#: include/Options/Business/Machine_Translation_Services.php:95
+msgid "Settings for machine translation services: DeepL's API key and formality for now."
+msgstr "Settings for machine translation services: DeepL's API key and formality for now."
+
+#: include/Options/Business/Machine_Translation_Enabled.php:39
+msgid "Enable machine translation."
+msgstr "Enable machine translation."
+
+#: modules/rest/rest-filtered-object.php:101
+msgid "Limit results to a specific language. By default, results are not filtered by language."
+msgstr "Limit results to a specific language. By default, results are not filtered by language."
+
+#: modules/rest/rest-api.php:149
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Scope under which the request is made; determines fields present in response."
+
+#. translators: %1$s is a machine translation service's name, %2$s is a
+#. language name (and its locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:20
+msgid "The following language is not available in %1$s: %2$s."
+msgstr "The following language is not available in %1$s: %2$s."
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:68
+msgid "Note: informal tone will always be used for %s language."
+msgstr "Note: informal tone will always be used for %s language."
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:51
+msgid "Note: formal tone will always be used for %s language."
+msgstr "Note: formal tone will always be used for %s language."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:41
+msgid "Sets whether the translated text should lean on formal or informal language. Automatic fallback on the default formality if not available for the targeted language."
+msgstr "Sets whether the translated text should lean on formal or informal language. Automatic fallback on the default formality if not available for the targeted language."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:27
+msgid "Prefer informal"
+msgstr "Prefer informal"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:26
+msgid "Prefer formal"
+msgstr "Prefer formal"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:25
+msgctxt "Language formality"
+msgid "Default"
+msgstr "Default"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:20
+msgid "Formality"
+msgstr "Formality"
+
+#: modules/Machine_Translation/Views/characters-consumption-row.php:15
+msgid "Data used"
+msgstr "Data used"
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Settings/Deepl.php:426
+msgctxt "Language label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: modules/Machine_Translation/Settings/Deepl.php:326
+msgid "API key"
+msgstr "API key"
+
+#: modules/Machine_Translation/Settings/Deepl.php:324
+msgid "Your API key is valid."
+msgstr "Your API key is valid."
+
+#. translators: %1$s is an opening link tag leading to the service's status
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:319
+msgid "You can look at %1$sthe DeepL Pro/Free API's status%2$s."
+msgstr "You can look at %1$sthe DeepL Pro/Free API's status%2$s."
+
+#. translators: %1$s is an opening link tag leading to the service's account
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:313
+msgid "%1$sVerify your API key at the bottom of your DeepL account page%2$s."
+msgstr "%1$sVerify your API key at the bottom of your DeepL account page%2$s."
+
+#. translators: %1$s is an opening link tag leading to account creation, %2$s
+#. is an opening link tag leading to the account page, %3$s is a closing link
+#. tag.
+#: modules/Machine_Translation/Settings/Deepl.php:305
+msgid "%1$sCreate your account on DeepL%3$s, then %2$sfind your API key at the bottom of your account page%3$s."
+msgstr "%1$sCreate your account on DeepL%3$s, then %2$sfind your API key at the bottom of your account page%3$s."
+
+#. translators: %s is a service name.
+#: modules/Machine_Translation/Settings/Deepl.php:301
+msgid "Check connection to %s"
+msgstr "Check connection to %s"
+
+#. translators: %1$s is a formatted count number, %2$s is a formatted limit
+#. number.
+#: modules/Machine_Translation/Settings/Deepl.php:202
+msgid "%1$s / %2$s translated character."
+msgid_plural "%1$s / %2$s translated characters."
+msgstr[0] "%1$s / %2$s translated character."
+msgstr[1] "%1$s / %2$s translated characters."
+
+#. translators: %s is a formatted count number.
+#: modules/Machine_Translation/Settings/Deepl.php:178
+msgid "%s translated character."
+msgid_plural "%s translated characters."
+msgstr[0] "%s translated character."
+msgstr[1] "%s translated characters."
+
+#. translators: %s is an error message.
+#: modules/Machine_Translation/Settings/Deepl.php:163
+msgid "Error while retrieving the data: %s."
+msgstr "Error while retrieving the data: %s."
+
+#: modules/Machine_Translation/Settings/Deepl.php:112
+msgid "Please fill in the API key field."
+msgstr "Please fill in the API key field."
+
+#. translators: %s is an HTTP status code
+#: modules/Machine_Translation/Clients/Deepl.php:302
+msgid "The DeepL server sent an unexpected status code %d."
+msgstr "The DeepL server sent an unexpected status code %d."
+
+#: modules/Machine_Translation/Clients/Deepl.php:299
+msgid "DeepL service unavailable."
+msgstr "DeepL service unavailable."
+
+#: modules/Machine_Translation/Clients/Deepl.php:295
+msgid "Too many requests, DeepL servers are currently experiencing high load."
+msgstr "Too many requests, DeepL servers are currently experiencing high load."
+
+#: modules/Machine_Translation/Clients/Deepl.php:293
+msgid "Bad request."
+msgstr "Bad request."
+
+#: modules/Machine_Translation/Clients/Deepl.php:291
+msgid "The DeepL server cannot be reached."
+msgstr "The DeepL server cannot be reached."
+
+#: modules/Machine_Translation/Clients/Deepl.php:289
+msgid "The DeepL quota for this billing period has been exceeded."
+msgstr "The DeepL quota for this billing period has been exceeded."
+
+#: modules/Machine_Translation/Clients/Deepl.php:287
+msgid "Authentication failure. Please check your DeepL authentication key."
+msgstr "Authentication failure. Please check your DeepL authentication key."
+
+#: modules/Machine_Translation/Clients/Deepl.php:210
+#: modules/Machine_Translation/Clients/Deepl.php:264
+msgid "No translations have been returned by DeepL."
+msgstr "No translations have been returned by DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:177
+msgid "%1$s (%2$s) is not available as source language with DeepL."
+msgstr "%1$s (%2$s) is not available as source language with DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:151
+msgid "%1$s (%2$s) is not available as target language with DeepL."
+msgstr "%1$s (%2$s) is not available as target language with DeepL."
+
+#: modules/Machine_Translation/Clients/Deepl.php:79
+msgid "The DeepL response is incomplete."
+msgstr "The DeepL response is incomplete."
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:50
+#: js/build/editors/post.js:1144 js/build/editors/site.js:1742
+msgid "Deactivate %s machine translation"
+msgstr "Deactivate %s machine translation"
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:45
+#: js/build/editors/post.js:1146 js/build/editors/site.js:1744
+msgid "Activate %s machine translation"
+msgstr "Activate %s machine translation"
+
+#: modules/Machine_Translation/Posts/Action.php:165
+msgid "Unable to retrieve the translation."
+msgstr "Unable to retrieve the translation."
+
+#. translators: %s is a list of versions.
+#: modules/import-export/xliff/xliff-import.php:192
+msgid "The xliff version is not supported."
+msgstr "The xliff version is not supported."
+
+#: modules/import-export/import/import-action.php:292
+msgid "Upload failed."
+msgstr "Upload failed."
+
+#: modules/import-export/import/import-action.php:274
+msgid "Error: Please select a file to upload."
+msgstr "Error: Please select a file to upload."
+
+#. translators: placeholders are URLs
+#: modules/import-export/import/import-action.php:201
+msgid "Error: The site targeted in the imported file does not match the current site. Found: %1$s. Expected: %2$s."
+msgstr "Error: The site targeted in the imported file does not match the current site. Found: %1$s. Expected: %2$s."
+
+#: modules/import-export/export/view-export-file-format.php:17
+msgid "File format"
+msgstr "File format"
+
+#: modules/import-export/export/strings-form-trait.php:25
+msgid "Error: Please select a target language."
+msgstr "Error: Please select a target language."
+
+#: modules/import-export/export/export-strings-action.php:70
+#: modules/Machine_Translation/Strings/Action.php:101
+msgid "Sorry, some data is missing from the form submission."
+msgstr "Sorry, some data is missing from the form submission."
+
+#: modules/import-export/export/export-download.php:95
+msgid "Error: Upload directory must be writable. Please contact your host provider."
+msgstr "Error: Upload directory must be writable. Please contact your host provider."
+
+#: modules/import-export/export/export-download.php:88
+msgid "Error: ZipArchive is required to download multiple files. Please contact your host provider."
+msgstr "Error: ZipArchive is required to download multiple files. Please contact your host provider."
+
+#: services/exporter/export-data-from-strings.php:60
+msgid "Error: No strings found."
+msgstr "Error: No strings found."
+
+#: services/exporter/export-data-from-strings.php:45
+msgid "Error: Default language not defined."
+msgstr "Error: Default language not defined."
+
+#: modules/import-export/export/export-bulk-option.php:133
+#: modules/import-export/export/strings-form-trait.php:34
+msgid "Error: invalid target languages."
+msgstr "Error: invalid target languages."
+
+#: modules/import-export/export/export-bulk-option.php:166
+msgid "The posts are already in the target language. Please select a different language for the translation."
+msgstr "The posts are already in the target language. Please select a different language for the translation."
+
+#: modules/import-export/export/export-bulk-option.php:161
+msgid "The posts selected for translation have no language."
+msgstr "The posts selected for translation have no language."
+
+#: modules/import-export/export/export-bulk-option.php:150
+msgid "The posts selected for translation could not be found."
+msgstr "The posts selected for translation could not be found."
+
+#: modules/sync-post/sync-post.php:79
+msgid "Synchronize translations in selected languages with the original items"
+msgstr "Synchronise translations in selected languages with the original items"
+
+#: modules/import-export/import/view-tab-import-translations.php:29
+msgid "Publish"
+msgstr "Publish"
+
+#: modules/import-export/import/view-tab-import-translations.php:28
+msgid "Draft"
+msgstr "Draft"
+
+#: modules/import-export/import/view-tab-import-translations.php:26
+msgid "Select the status of the imported posts"
+msgstr "Select the status of the imported posts"
+
+#. translators: %d is a number of terms translations
+#: modules/import-export/import/import-terms.php:94
+msgid "%d term translation updated."
+msgid_plural "%d terms translations updated."
+msgstr[0] "%d term translation updated."
+msgstr[1] "%d terms translations updated."
+
+#. translators: %s is the post ID
+#: modules/import-export/import/import-posts.php:158
+msgid "Warning: a matching source wasn't found for post ID: %s"
+msgstr "Warning: a matching source wasn't found for post ID: %s"
+
+#. translators: %d is a number of posts translations
+#: modules/import-export/import/import-posts.php:140
+msgid "%d post translation updated."
+msgid_plural "%d posts translations updated."
+msgstr[0] "%d post translation updated."
+msgstr[1] "%d posts translations updated."
+
+#. translators: %s is the plugin's name.
+#: modules/import-export/import/import-action.php:223
+msgid "Error: The imported file has not been generated by %s."
+msgstr "Error: The imported file has not been generated by %s."
+
+#: modules/import-export/import-export.php:127
+msgid "Import translations"
+msgstr "Import translations"
+
+#. translators: %s is a list of post titles.
+#: modules/import-export/export/export-bulk-option.php:291
+msgctxt "ambiguous posts list"
+msgid "- %s."
+msgstr "- %s."
+
+#: modules/import-export/export/export-bulk-option.php:283
+msgid "Ambiguous choice of contents to export. Please do not select contents that are translations of each other."
+msgstr "Ambiguous choice of contents to export. Please do not select contents that are translations of each other."
+
+#. translators: %s is a post title.
+#: modules/import-export/export/export-bulk-option.php:278
+msgctxt "quoted post title"
+msgid "\"%s\""
+msgstr "\"%s\""
+
+#: modules/import-export/export/export-bulk-option.php:35
+msgid "Export selected content into a file"
+msgstr "Export selected content into a file"
+
+#: modules/import-export/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "Upload a translation file"
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format/file-format-factory.php:148
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "Error: Wrong file format. The supported file formats are: %s."
+
+#: modules/import-export/xliff/xliff-import.php:73
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "An error occurred during the import, please make sure your file is correctly formatted."
+
+#: modules/import-export/xliff/xliff-import.php:57
+msgid "Something went wrong during the file import."
+msgstr "Something went wrong during the file import."
+
+#: modules/import-export/xliff/xliff-format.php:45
+#: modules/import-export/xliff/xliff-import.php:49
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+
+#: modules/translate-slugs/settings-translate-slugs.php:31
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "The module is automatically deactivated when using plain permalinks."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+
+#: modules/locale-fallback/view-locale-fallback.php:13
+msgid "Locale fallback"
+msgstr "Locale fallback"
+
+#: modules/locale-fallback/view-locale-fallback.php:15
+msgid "WordPress locale to use if a translation file is not available in the main locale."
+msgstr "WordPress locale to use if a translation file is not available in the main locale."
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:165
+#: js/build/blocks.js:549
+msgid "Language switcher settings"
+msgstr "Language switcher Settings"
+
+#: modules/import-export/import-export.php:119
+msgid "Export string translations"
+msgstr "Export string translations"
+
+#: modules/import-export/export/view-tab-export-strings.php:65
+msgid "Download"
+msgstr "Download"
+
+#: modules/import-export/export/view-tab-export-strings.php:45
+msgid "Export all groups"
+msgstr "Export all groups"
+
+#: modules/import-export/export/view-tab-export-strings.php:42
+#: modules/Machine_Translation/Views/string-form.php:40
+msgid "Filter group"
+msgstr "Filter group:"
+
+#: modules/bulk-translate/view-bulk-translate.php:24
+#: modules/import-export/export/view-tab-export-strings.php:26
+#: modules/Machine_Translation/Views/string-form.php:24
+msgid "Target languages"
+msgstr "Target languages:"
+
+#: modules/import-export/export/export-download.php:103
+#: modules/import-export/export/export-download.php:121
+msgid "Error: Impossible to create a Zip file."
+msgstr "Error: Impossible to create a Zip file."
+
+#: modules/bulk-translate/bulk-translate.php:222
+msgid "Error: No target language has been selected. Please make sure to select at least one target language."
+msgstr "Error: No target language has been selected. Please make sure to select at least one target language."
+
+#: modules/bulk-translate/bulk-translate.php:212
+msgid "No item has been selected. Please make sure to select at least one item to be translated."
+msgstr "No item has been selected. Please make sure to select at least one item to be translated."
+
+#: integrations/ACF/Field_Settings.php:56
+#: integrations/ACF/Field_Settings.php:74
+msgid "Synchronize"
+msgstr "Synchronize"
+
+#: integrations/ACF/Field_Settings.php:53
+#: integrations/ACF/Field_Settings.php:73
+msgid "Copy once"
+msgstr "Copy once"
+
+#: integrations/ACF/Field_Settings.php:52
+#: integrations/ACF/Field_Settings.php:72
+msgid "Ignore"
+msgstr "Ignore"
+
+#: modules/import-export/po/po-import.php:54
+msgid "Error: Invalid file."
+msgstr "Error: Invalid file."
+
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format/file-format-factory.php:145
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "Error: Wrong file format. The only supported file format is %s."
+
+#: modules/import-export/import/view-tab-import-translations.php:33
+msgid "Upload"
+msgstr "Upload"
+
+#: modules/import-export/import/import-action.php:255
+msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
+msgstr "Error: You are trying to import a file in a language which doesn't exist on your site."
+
+#: modules/import-export/import/import-action.php:248
+msgid "Error: No target languages have been provided in the imported file."
+msgstr "Error: No target languages have been provided in the imported file."
+
+#. translators: %d is a number of strings translations
+#: modules/import-export/import/import-strings.php:87
+msgid "%d string translation updated."
+msgid_plural "%d string translations updated."
+msgstr[0] "%d string translation updated."
+msgstr[1] "%d string translations updated."
+
+#: modules/active-languages/active-languages.php:111
+msgid "Activate"
+msgstr "Activate"
+
+#: modules/blocks/language-switcher/language-switcher-block.php:54
+msgid "Choose a language"
+msgstr "Choose a language"
+
+#: modules/active-languages/active-languages.php:119
+msgid "Deactivate"
+msgstr "Deactivate"
+
+#: integrations/ACF/Field_Settings.php:94
+#: modules/rest/rest-translated-object.php:83 js/build/editors/post.js:3109
+#: js/build/editors/site.js:3126
+msgid "Translations"
+msgstr "Translations"
+
+#: services/metabox-button/metabox-button.php:199 js/build/editors/post.js:2048
+#: js/build/editors/site.js:2065
+msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+msgstr "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+
+#: integrations/ACF/Location_Language.php:27
+#: modules/rest/rest-translated-object.php:68 js/build/editors/post.js:786
+#: js/build/editors/post.js:3760 js/build/editors/post.js:3765
+#: js/build/editors/site.js:1384 js/build/editors/site.js:3799
+#: js/build/editors/site.js:3804
+msgid "Language"
+msgstr "Language"
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:254
+#: js/build/editors/post.js:599 js/build/editors/site.js:1225
+#: js/build/editors/widget.js:1381
+msgid "Languages"
+msgstr "Languages"
+
+#: modules/xdata/xdata-session-manager.php:63
+msgid "An error has occurred."
+msgstr "An error has occurred."
+
+#: modules/translate-slugs/translate-slugs-model.php:516
+msgid "URL slugs"
+msgstr "URL slugs"
+
+#: modules/sync-post/sync-post-rest.php:53
+msgid "Synchronizations"
+msgstr "Synchronizations"
+
+#: modules/sync-post/sync-post-button.php:41 js/build/editors/post.js:2029
+#: js/build/editors/site.js:2046
+msgid "Don't synchronize this post"
+msgstr "Don't synchronize this post"
+
+#: modules/sync-post/sync-post-button.php:40 js/build/editors/post.js:2029
+#: js/build/editors/post.js:2045 js/build/editors/site.js:2046
+#: js/build/editors/site.js:2062
+msgid "Synchronize this post"
+msgstr "Synchronize this post"
+
+#: modules/rest/rest-post.php:187
+msgid "Translations table"
+msgstr "Translations table"
+
+#: modules/rest/rest-api.php:159
+msgid "Add this post's translation to results."
+msgstr "Add this post's translation to results."
+
+#: modules/rest/rest-api.php:155
+msgid "Limit results to those matching a string."
+msgstr "Limit results to those matching a string."
+
+#: modules/rest/rest-api.php:143
+msgid "Limit results to items in a language."
+msgstr "Limit results to items in a language."
+
+#: modules/rest/rest-api.php:137
+msgid "Limit results to untranslated items in a language."
+msgstr "Limit results to untranslated items in a language."
+
+#: modules/rest/rest-api.php:131
+msgid "Limit results to items of an object type."
+msgstr "Limit results to items of an object type."
+
+#: include/Options/Business/Media.php:81
+#: modules/media/settings-advanced-media.php:50
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "Automatically duplicate media in all languages when uploading a new file."
+
+#: modules/media/settings-advanced-media.php:33
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "Activate languages and translations for media. Provides options for multilingual media management."
+
+#: modules/media/settings-advanced-media.php:32
+msgid "Media"
+msgstr "Media"
+
+#: modules/duplicate/duplicate.php:33
+msgid "Deactivate content duplication"
+msgstr "Deactivate content duplication"
+
+#: modules/duplicate/duplicate.php:32
+msgid "Activate content duplication"
+msgstr "Activate content duplication"
+
+#: modules/bulk-translate/view-bulk-translate.php:55
+msgid "Submit"
+msgstr "Submit"
+
+#: modules/bulk-translate/view-bulk-translate.php:54
+#: js/build/editors/post.js:1857 js/build/editors/post.js:3339
+#: js/build/editors/post.js:3784 js/build/editors/site.js:1874
+#: js/build/editors/site.js:3358 js/build/editors/site.js:3823
+msgid "Cancel"
+msgstr "Cancel"
+
+#: modules/media/admin-advanced-media.php:58 modules/sync-post/sync-post.php:89
+msgid "Copy original items to selected languages"
+msgstr "Copy original items to selected languages"
+
+#: modules/bulk-translate/view-bulk-translate.php:39
+msgid "Action"
+msgstr "Action"
+
+#: modules/bulk-translate/view-bulk-translate.php:20
+msgid "Bulk translate"
+msgstr "Bulk translate"
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:204
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "To avoid overwriting content, %d translation was not created."
+msgstr[1] "To avoid overwriting content, %d translations were not created."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:192
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "%d translation created."
+msgstr[1] "%d translations created."
+
+#: integrations/ACF/Field_Settings.php:54
+#: modules/bulk-translate/bulk-translate.php:268
+#: modules/Machine_Translation/Views/string-form.php:57
+msgid "Translate"
+msgstr "Translate"
+
+#: modules/active-languages/active-languages.php:117
+msgid "Deactivate this language"
+msgstr "Deactivate this language"
+
+#: modules/active-languages/active-languages.php:109
+msgid "Activate this language"
+msgstr "Activate this language"
+
+#. Author of the plugin
+#: polylang.php
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+#: polylang.php
+msgid "Adds multilingual capability to WordPress"
+msgstr "Adds multilingual capability to WordPress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+#: polylang.php
+msgid "Polylang Pro"
+msgstr "Polylang Pro"

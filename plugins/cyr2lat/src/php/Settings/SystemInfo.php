@@ -20,17 +20,17 @@ class SystemInfo extends PluginSettingsBase {
 	/**
 	 * Admin script handle.
 	 */
-	const HANDLE = 'cyr-to-lat-system-info';
+	public const HANDLE = 'cyr-to-lat-system-info';
 
 	/**
 	 * Script localization object.
 	 */
-	const OBJECT = 'Cyr2LatSystemInfoObject';
+	public const OBJECT = 'Cyr2LatSystemInfoObject';
 
 	/**
 	 * Data key length.
 	 */
-	const DATA_KEY_LENGTH = 36;
+	public const DATA_KEY_LENGTH = 36;
 
 	/**
 	 * Get page title.
@@ -53,7 +53,7 @@ class SystemInfo extends PluginSettingsBase {
 	/**
 	 * Enqueue class scripts.
 	 */
-	public function admin_enqueue_scripts() {
+	public function admin_enqueue_scripts(): void {
 		wp_enqueue_script(
 			self::HANDLE,
 			constant( 'CYR_TO_LAT_URL' ) . "/assets/js/system-info$this->min_prefix.js",
@@ -83,7 +83,7 @@ class SystemInfo extends PluginSettingsBase {
 	 *
 	 * @param array $arguments Section arguments.
 	 */
-	public function section_callback( array $arguments ) {
+	public function section_callback( array $arguments ): void {
 		?>
 		<h2>
 			<?php echo esc_html__( 'System Information', 'cyr2lat' ); ?>
@@ -150,7 +150,6 @@ class SystemInfo extends PluginSettingsBase {
 		)[0];
 		$locales        = $tables->get_locales();
 		$current_locale = $tables->get_current_locale();
-		$current_locale = 'iso9' === $current_locale ? 'ISO9' : $current_locale;
 
 		$data .= $this->data( 'Version', CYR_TO_LAT_VERSION );
 		$data .= $this->data( 'Site locale', get_locale() );
@@ -166,7 +165,7 @@ class SystemInfo extends PluginSettingsBase {
 				continue;
 			}
 
-			$table_name = 'iso9' === $key ? 'ISO9' : $key;
+			$table_name = $key;
 
 			$data .= $this->header( "--- $table_name table customization ---" );
 
@@ -467,6 +466,7 @@ class SystemInfo extends PluginSettingsBase {
 	 * @param string $key Key.
 	 *
 	 * @return int
+	 * @noinspection PhpSameParameterValueInspection
 	 */
 	private function get_max_key_length( array $arr, string $key ): int {
 		return array_reduce(

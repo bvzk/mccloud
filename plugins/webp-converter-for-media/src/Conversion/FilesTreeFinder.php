@@ -52,9 +52,9 @@ class FilesTreeFinder {
 	public function __construct(
 		PluginData $plugin_data,
 		FormatFactory $format_factory,
-		ServerConfigurator $server_configurator = null,
-		StatsManager $stats_manager = null,
-		OutputPathGenerator $output_path = null
+		?ServerConfigurator $server_configurator = null,
+		?StatsManager $stats_manager = null,
+		?OutputPathGenerator $output_path = null
 	) {
 		$this->plugin_data         = $plugin_data;
 		$this->server_configurator = $server_configurator ?: new ServerConfigurator();
@@ -99,10 +99,10 @@ class FilesTreeFinder {
 			);
 		}
 
-		$this->stats_manager->set_images_webp_all( $this->files_converted[ WebpFormat::FORMAT_EXTENSION ] + $this->files_unconverted[ WebpFormat::FORMAT_EXTENSION ] );
-		$this->stats_manager->set_images_webp_unconverted( $this->files_unconverted[ WebpFormat::FORMAT_EXTENSION ] );
-		$this->stats_manager->set_images_avif_all( $this->files_converted[ AvifFormat::FORMAT_EXTENSION ] + $this->files_unconverted[ AvifFormat::FORMAT_EXTENSION ] );
-		$this->stats_manager->set_images_avif_unconverted( $this->files_unconverted[ AvifFormat::FORMAT_EXTENSION ] );
+		$this->stats_manager->set_images_webp_all( ( $this->files_converted[ WebpFormat::FORMAT_EXTENSION ] ?? 0 ) + ( $this->files_unconverted[ WebpFormat::FORMAT_EXTENSION ] ?? 0 ) );
+		$this->stats_manager->set_images_webp_unconverted( $this->files_unconverted[ WebpFormat::FORMAT_EXTENSION ] ?? 0 );
+		$this->stats_manager->set_images_avif_all( ( $this->files_converted[ AvifFormat::FORMAT_EXTENSION ] ?? 0 ) + ( $this->files_unconverted[ AvifFormat::FORMAT_EXTENSION ] ?? 0 ) );
+		$this->stats_manager->set_images_avif_unconverted( $this->files_unconverted[ AvifFormat::FORMAT_EXTENSION ] ?? 0 );
 
 		return [
 			'files_converted'   => $this->files_converted,
@@ -160,7 +160,7 @@ class FilesTreeFinder {
 			} else {
 				$filename = basename( $current_path );
 				$parts    = array_reverse( explode( '.', $filename ) );
-				if ( in_array( strtolower( $parts[0] ?? '' ), $source_formats ) && ! in_array( strtolower( $parts[1] ?? '' ), ExcludedPathsOperator::EXCLUDED_SUB_EXTENSIONS ) ) {
+				if ( in_array( strtolower( $parts[0] ), $source_formats ) && ! in_array( strtolower( $parts[1] ?? '' ), ExcludedPathsOperator::EXCLUDED_SUB_EXTENSIONS ) ) {
 					if ( apply_filters( 'webpc_supported_source_file', true, $filename, $current_path )
 						&& ! $this->is_converted_file( $current_path, $output_formats, $force_convert_deleted, $force_convert_crashed ) ) {
 						$list['files'][] = $path;

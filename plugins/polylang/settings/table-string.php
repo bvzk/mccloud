@@ -74,12 +74,12 @@ class PLL_Table_String extends WP_List_Table {
 	}
 
 	/**
-	 * Displays the item information in a column ( default case )
+	 * Displays the item information in a column (default case).
 	 *
 	 * @since 0.6
 	 *
-	 * @param array  $item
-	 * @param string $column_name
+	 * @param array  $item        Data related to the current string.
+	 * @param string $column_name The current column name.
 	 * @return string
 	 */
 	public function column_default( $item, $column_name ) {
@@ -87,11 +87,11 @@ class PLL_Table_String extends WP_List_Table {
 	}
 
 	/**
-	 * Displays the checkbox in first column
+	 * Displays the checkbox in first column.
 	 *
 	 * @since 1.1
 	 *
-	 * @param array $item
+	 * @param array $item Data related to the current string.
 	 * @return string
 	 */
 	public function column_cb( $item ) {
@@ -100,28 +100,28 @@ class PLL_Table_String extends WP_List_Table {
 			esc_attr( $item['row'] ),
 			/* translators:  accessibility text, %s is a string potentially in any language */
 			sprintf( __( 'Select %s', 'polylang' ), format_to_edit( $item['string'] ) ),
-			empty( $item['icl'] ) ? 'disabled' : '' // Only strings registered with WPML API can be removed
+			empty( $item['icl'] ) ? 'disabled' : '' // Only strings registered with WPML API can be removed.
 		);
 	}
 
 	/**
-	 * Displays the string to translate
+	 * Displays the string to translate.
 	 *
 	 * @since 1.0
 	 *
-	 * @param array $item
+	 * @param array $item Data related to the current string.
 	 * @return string
 	 */
 	public function column_string( $item ) {
-		return format_to_edit( $item['string'] ); // Don't interpret special chars for the string column
+		return format_to_edit( $item['string'] ); // Don't interpret special chars for the string column.
 	}
 
 	/**
-	 * Displays the translations to edit
+	 * Displays the translations to edit.
 	 *
 	 * @since 0.6
 	 *
-	 * @param array $item
+	 * @param array $item Data related to the current string.
 	 * @return string
 	 */
 	public function column_translations( $item ) {
@@ -141,7 +141,7 @@ class PLL_Table_String extends WP_List_Table {
 				esc_attr( $key ),
 				esc_attr( $item['row'] ),
 				esc_html( $languages[ $key ] ),
-				format_to_edit( $translation ) // Don't interpret special chars
+				format_to_edit( $translation ) // Don't interpret special chars.
 			);
 		}
 
@@ -196,14 +196,16 @@ class PLL_Table_String extends WP_List_Table {
 	 *
 	 * @since 2.6
 	 *
-	 * @param PLL_MO[] $mos An array of PLL_MO objects.
-	 * @param string   $s   Searched string.
+	 * @param PLL_Language[] $languages An array of language objects.
+	 * @param string         $s         Searched string.
 	 * @return string[] Found strings.
 	 */
-	protected function search_in_translations( $mos, $s ) {
+	protected function search_in_translations( $languages, $s ) {
 		$founds = array();
 
-		foreach ( $mos as $mo ) {
+		foreach ( $languages as $language ) {
+			$mo = new PLL_MO();
+			$mo->import_from_db( $language );
 			foreach ( wp_list_pluck( $mo->entries, 'translations' ) as $string => $translation ) {
 				if ( false !== stripos( $translation[0], $s ) ) {
 					$founds[] = $string;
@@ -250,13 +252,6 @@ class PLL_Table_String extends WP_List_Table {
 			$languages = $this->languages;
 		}
 
-		// Load translations
-		$mo = array();
-		foreach ( $languages as $language ) {
-			$mo[ $language->slug ] = new PLL_MO();
-			$mo[ $language->slug ]->import_from_db( $language );
-		}
-
 		$data = $this->strings;
 
 		// Filter by selected group
@@ -269,7 +264,7 @@ class PLL_Table_String extends WP_List_Table {
 
 		if ( ! empty( $s ) ) {
 			// Search in translations
-			$in_translations = $this->search_in_translations( $mo, $s );
+			$in_translations = $this->search_in_translations( $languages, $s );
 
 			foreach ( $data as $key => $row ) {
 				if ( stripos( $row['name'], $s ) === false && stripos( $row['string'], $s ) === false && ! in_array( $row['string'], $in_translations ) ) {
@@ -299,9 +294,11 @@ class PLL_Table_String extends WP_List_Table {
 		// Translate strings
 		// Kept for the end as it is a slow process
 		foreach ( $languages as $language ) {
+			$mo = new PLL_MO();
+			$mo->import_from_db( $language );
 			foreach ( $this->items as $key => $row ) {
-				$this->items[ $key ]['translations'][ $language->slug ] = $mo[ $language->slug ]->translate( $row['string'] );
-				$this->items[ $key ]['row'] = $key; // Store the row number for convenience
+				$this->items[ $key ]['translations'][ $language->slug ] = $mo->translate_if_any( $row['string'] );
+				$this->items[ $key ]['row']                             = $key; // Store the row number for convenience
 			}
 		}
 	}
@@ -371,7 +368,7 @@ class PLL_Table_String extends WP_List_Table {
 
 	/**
 	 * Saves the strings translations in DB
-	 * Optionaly clean the DB
+	 * Optionally clean the DB
 	 *
 	 * @since 1.9
 	 *
@@ -393,18 +390,25 @@ class PLL_Table_String extends WP_List_Table {
 
 				foreach ( $translations as $key => $translation ) {
 					/**
-					 * Filter the string translation before it is saved in DB
-					 * Allows to sanitize strings registered with pll_register_string
+					 * Filters the string translation before it is saved in DB.
+					 * Allows to sanitize strings registered with pll_register_string().
 					 *
 					 * @since 1.6
 					 * @since 2.7 The translation passed to the filter is unslashed.
+					 * @since 3.7 Add original string as 4th parameter.
 					 *
 					 * @param string $translation The string translation.
 					 * @param string $name        The name as defined in pll_register_string.
 					 * @param string $context     The context as defined in pll_register_string.
+					 * @param string $original    The original string to translate.
 					 */
-					$translation = apply_filters( 'pll_sanitize_string_translation', $translation, $this->strings[ $key ]['name'], $this->strings[ $key ]['context'] );
-					$mo->add_entry( $mo->make_entry( $this->strings[ $key ]['string'], $translation ) );
+					$translation = apply_filters( 'pll_sanitize_string_translation', $translation, $this->strings[ $key ]['name'], $this->strings[ $key ]['context'], $this->strings[ $key ]['string'] );
+					$mo->add_entry(
+						$mo->make_entry(
+							$this->strings[ $key ]['string'],
+							$translation
+						)
+					);
 				}
 
 				// Clean database ( removes all strings which were registered some day but are no more )
@@ -419,7 +423,7 @@ class PLL_Table_String extends WP_List_Table {
 				isset( $new_mo ) ? $new_mo->export_to_db( $language ) : $mo->export_to_db( $language );
 			}
 
-			add_settings_error( 'general', 'pll_strings_translations_updated', __( 'Translations updated.', 'polylang' ), 'updated' );
+			pll_add_notice( new WP_Error( 'pll_strings_translations_updated', __( 'Translations updated.', 'polylang' ), 'success' ) );
 
 			/**
 			 * Fires after the strings translations are saved in DB

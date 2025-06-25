@@ -1,0 +1,781 @@
+# Translation of WP-Syntex - Polylang Pro in Ukrainian
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-19 12:48:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#. translators: %1$s is a machine translation service's name, %2$s is a list of
+#. language names (and their locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:23
+msgid "The following languages are not available in %1$s: %2$s."
+msgstr "Мови, недоступні в %1$s: %2$s."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:71
+msgid "Note: informal tone will always be used for %s languages."
+msgstr "Примітка: для %s мов завжди використовуватиметься неформальний стиль."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:54
+msgid "Note: formal tone will always be used for %s languages."
+msgstr "Примітка: для %s мов завжди використовуватиметься формальний стиль."
+
+#. translators: %s is a list of post IDs
+#: modules/import-export/import/import-posts.php:161
+msgid "Warning: matching sources weren't found for post IDs: %s"
+msgstr "Застереження: не знайдено відповідних джерел для ідентифікаторів запису: %s"
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:90
+#: services/translation/translation-post-model.php:123
+msgid "The post with ID %d could not be translated."
+msgstr "Запис з ID %d неможливо перекласти."
+
+#. translators: %d is a term id.
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:55
+#: services/translation/translation-term-model.php:94
+msgid "The term with ID %d could not be translated."
+msgstr "Групу таксономії з ID %d неможливо перекласти."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:83
+msgid "The term with ID %d could not be updated."
+msgstr "Групу таксономії з ID %d неможливо оновити."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:62
+msgid "The term with ID %d could not be translated as it doesn't exist."
+msgstr "Група таксономії з ID %d неможливо перекласти, оскільки її не існує."
+
+#: services/translation/translation-strings-model.php:81
+msgid "No strings have been translated."
+msgstr "Не перекладений жоден рядок."
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:96
+msgid "The post with ID %d could not be translated as it doesn't exist."
+msgstr "Запис з ID %d неможливо перекласти, оскільки він не існує."
+
+#: modules/Machine_Translation/Views/string-form.php:43
+msgid "Translate all groups"
+msgstr "Перекласти всі групи"
+
+#: modules/Machine_Translation/Strings/Metabox.php:73
+msgid "Machine translations"
+msgstr "Машинні переклади"
+
+#: modules/import-export/import/import-terms.php:112
+msgid "No terms were translated. Please check that the original terms in your file match those on the site."
+msgstr "Не перекладено жодної групи таксономій. Будь ласка, перевірте, щоб оригінальні групи таксономій у вашому файлі відповідали тим, що на сайті."
+
+#: modules/import-export/import/import-strings.php:105
+msgid "No string translations updated. Please check that the original strings in your file match those on the site."
+msgstr "Не оновлено жодного рядка перекладу.  Будь ласка, перевірте, щоб оригінальні рядки у вашому файлі відповідали тим, що є на сайті."
+
+#: modules/import-export/import/import-posts.php:171
+msgid "No posts were translated. Please check that the original posts in your file match those on the site."
+msgstr "Не перекладено жодного запису. Будь ласка, перевірте, щоб оригінальні записи у вашому файлі відповідали тим, що є на сайті."
+
+#: integrations/ACF/Labels/Field_Groups.php:298
+msgctxt "ACF field setting label"
+msgid "Instructions"
+msgstr "Інструкції"
+
+#: integrations/ACF/Labels/Field_Groups.php:292
+msgctxt "ACF field setting label"
+msgid "Label"
+msgstr "Мітка"
+
+#: integrations/ACF/Labels/Field_Groups.php:291
+msgctxt "ACF field setting label"
+msgid "Choice"
+msgstr "Вибір"
+
+#: integrations/ACF/Labels/Field_Groups.php:290
+msgctxt "ACF field setting label"
+msgid "OFF text"
+msgstr "ВИМКНЕНИЙ текст"
+
+#: integrations/ACF/Labels/Field_Groups.php:289
+msgctxt "ACF field setting label"
+msgid "ON text"
+msgstr "УВІМКНЕНИЙ текст"
+
+#: integrations/ACF/Labels/Field_Groups.php:288
+msgctxt "ACF field setting label"
+msgid "Message"
+msgstr "Повідомлення"
+
+#: integrations/ACF/Labels/Field_Groups.php:287
+msgctxt "ACF field setting label"
+msgid "Suffix"
+msgstr "Суфікс"
+
+#: integrations/ACF/Labels/Field_Groups.php:286
+msgctxt "ACF field setting label"
+msgid "Prefix"
+msgstr "Префікс"
+
+#: integrations/ACF/Labels/Field_Groups.php:285
+msgctxt "ACF field setting label"
+msgid "Placeholder"
+msgstr "Заповнювач"
+
+#: integrations/ACF/Labels/Field_Groups.php:284
+msgctxt "ACF field setting label"
+msgid "Default value"
+msgstr "Значення за замовчуванням"
+
+#: integrations/ACF/Field_Settings.php:55
+msgid "Translate once"
+msgstr "Перекласти один раз"
+
+#: integrations/ACF/Dispatcher.php:430
+msgid "This field is ignored."
+msgstr "Поле проігнороване."
+
+#: integrations/ACF/Dispatcher.php:426
+msgid "This field is translated once."
+msgstr "Поле перекладене один раз."
+
+#: integrations/ACF/Dispatcher.php:424
+msgid "This field is translated."
+msgstr "Поле перекладене."
+
+#: integrations/ACF/Dispatcher.php:420
+msgid "This field is copied once."
+msgstr "Поле скопійоване один раз."
+
+#: integrations/ACF/Dispatcher.php:414 integrations/ACF/Dispatcher.php:422
+msgid "This field is synchronized."
+msgstr "Поле синхронізоване."
+
+#: integrations/ACF/Dispatcher.php:409
+msgid "This field is copied."
+msgstr "Поле скопійоване."
+
+#: include/Options/Business/Machine_Translation_Services.php:95
+msgid "Settings for machine translation services: DeepL's API key and formality for now."
+msgstr "Налаштування послуги машинного перекладу: наразі ключ API та формальності DeepL."
+
+#: include/Options/Business/Machine_Translation_Enabled.php:39
+msgid "Enable machine translation."
+msgstr "Увімкнути машинний переклад."
+
+#: modules/rest/rest-filtered-object.php:101
+msgid "Limit results to a specific language. By default, results are not filtered by language."
+msgstr "Обмежити результати конкретною мовою. За замовчуванням результати не відфільтровуються за мовою."
+
+#: modules/rest/rest-api.php:149
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Область запиту; визначає поля відповіді."
+
+#. translators: %1$s is a machine translation service's name, %2$s is a
+#. language name (and its locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:20
+msgid "The following language is not available in %1$s: %2$s."
+msgstr "Ця мова недоступна в %1$s: %2$s."
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:68
+msgid "Note: informal tone will always be used for %s language."
+msgstr "Примітка: для %s мови завжди використовуватиметься неформальний стиль."
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:51
+msgid "Note: formal tone will always be used for %s language."
+msgstr "Примітка: для %s мови завжди використовуватиметься формальний стиль."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:41
+msgid "Sets whether the translated text should lean on formal or informal language. Automatic fallback on the default formality if not available for the targeted language."
+msgstr "Встановлюється, якщо необхідно зазначити, чи перекладений текст має відповідати формальному, чи неформальному стилю мови. Автоматичний перехід до формального стилю за замовчуванням, якщо це недоступно для цільової мови."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:27
+msgid "Prefer informal"
+msgstr "Віддавати перевагу неформальному"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:26
+msgid "Prefer formal"
+msgstr "Віддавати перевагу формальному"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:25
+msgctxt "Language formality"
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:20
+msgid "Formality"
+msgstr "Формальність"
+
+#: modules/Machine_Translation/Views/characters-consumption-row.php:15
+msgid "Data used"
+msgstr "Використано дані"
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Settings/Deepl.php:426
+msgctxt "Language label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: modules/Machine_Translation/Settings/Deepl.php:326
+msgid "API key"
+msgstr "Ключі API"
+
+#: modules/Machine_Translation/Settings/Deepl.php:324
+msgid "Your API key is valid."
+msgstr "Ваш ключ API недійсний."
+
+#. translators: %1$s is an opening link tag leading to the service's status
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:319
+msgid "You can look at %1$sthe DeepL Pro/Free API's status%2$s."
+msgstr "Ви можете подивитися %1$sстатус API DeepL Pro/Безкоштовної версії%2$s."
+
+#. translators: %1$s is an opening link tag leading to the service's account
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:313
+msgid "%1$sVerify your API key at the bottom of your DeepL account page%2$s."
+msgstr "%1$sВерифікуйте ключ API внизу на сторінці облікового запису DeepL%2$s."
+
+#. translators: %1$s is an opening link tag leading to account creation, %2$s
+#. is an opening link tag leading to the account page, %3$s is a closing link
+#. tag.
+#: modules/Machine_Translation/Settings/Deepl.php:305
+msgid "%1$sCreate your account on DeepL%3$s, then %2$sfind your API key at the bottom of your account page%3$s."
+msgstr "%1$sСтворіть обліковий запис DeepL%3$s, потім%2$sзнайдіть ключ API внизу на сторінці облікового запису%3$s."
+
+#. translators: %s is a service name.
+#: modules/Machine_Translation/Settings/Deepl.php:301
+msgid "Check connection to %s"
+msgstr "Перевірте підключення до %s"
+
+#. translators: %1$s is a formatted count number, %2$s is a formatted limit
+#. number.
+#: modules/Machine_Translation/Settings/Deepl.php:202
+msgid "%1$s / %2$s translated character."
+msgid_plural "%1$s / %2$s translated characters."
+msgstr[0] "%1$s / %2$s перекладений символ."
+msgstr[1] "%1$s / %2$s перекладні символи."
+msgstr[2] "%1$s / %2$s перекладених символів."
+
+#. translators: %s is a formatted count number.
+#: modules/Machine_Translation/Settings/Deepl.php:178
+msgid "%s translated character."
+msgid_plural "%s translated characters."
+msgstr[0] "%s перекладений символ."
+msgstr[1] "%s перекладені символи."
+msgstr[2] "%s перекладених символів."
+
+#. translators: %s is an error message.
+#: modules/Machine_Translation/Settings/Deepl.php:163
+msgid "Error while retrieving the data: %s."
+msgstr "Помилка під час отримання даних: %s."
+
+#: modules/Machine_Translation/Settings/Deepl.php:112
+msgid "Please fill in the API key field."
+msgstr "Будь ласка, заповніть поле \"Ключ API\"."
+
+#. translators: %s is an HTTP status code
+#: modules/Machine_Translation/Clients/Deepl.php:302
+msgid "The DeepL server sent an unexpected status code %d."
+msgstr "Сервер DeepL надіслав неочікуваний код статусу %d."
+
+#: modules/Machine_Translation/Clients/Deepl.php:299
+msgid "DeepL service unavailable."
+msgstr "Сервіс DeepL недоступний."
+
+#: modules/Machine_Translation/Clients/Deepl.php:295
+msgid "Too many requests, DeepL servers are currently experiencing high load."
+msgstr "Забагато запитів, сервери DeepL наразі перенавантажені."
+
+#: modules/Machine_Translation/Clients/Deepl.php:293
+msgid "Bad request."
+msgstr "Поганий запит."
+
+#: modules/Machine_Translation/Clients/Deepl.php:291
+msgid "The DeepL server cannot be reached."
+msgstr "Сервер DeepL не відповідає."
+
+#: modules/Machine_Translation/Clients/Deepl.php:289
+msgid "The DeepL quota for this billing period has been exceeded."
+msgstr "Перевищена квота DeepL на цей розрахунковий період."
+
+#: modules/Machine_Translation/Clients/Deepl.php:287
+msgid "Authentication failure. Please check your DeepL authentication key."
+msgstr "Помилка автентифікації. Будь ласка, перевірте ключ автентифікації DeepL."
+
+#: modules/Machine_Translation/Clients/Deepl.php:210
+#: modules/Machine_Translation/Clients/Deepl.php:264
+msgid "No translations have been returned by DeepL."
+msgstr "DeepL не повернув жодного перекладу."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:177
+msgid "%1$s (%2$s) is not available as source language with DeepL."
+msgstr "%1$s (%2$s) недоступна як вихідна мова на DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:151
+msgid "%1$s (%2$s) is not available as target language with DeepL."
+msgstr "%1$s (%2$s) недоступна як цільова мова на DeepL."
+
+#: modules/Machine_Translation/Clients/Deepl.php:79
+msgid "The DeepL response is incomplete."
+msgstr "Відповідь DeepL неповна."
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:50
+#: js/build/editors/post.js:1144 js/build/editors/site.js:1742
+msgid "Deactivate %s machine translation"
+msgstr "Деактивувати машинний переклад %s"
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:45
+#: js/build/editors/post.js:1146 js/build/editors/site.js:1744
+msgid "Activate %s machine translation"
+msgstr "Активувати машинний переклад %s"
+
+#: modules/Machine_Translation/Posts/Action.php:165
+msgid "Unable to retrieve the translation."
+msgstr "Неможливо отримати переклад."
+
+#. translators: %s is a list of versions.
+#: modules/import-export/xliff/xliff-import.php:192
+msgid "The xliff version is not supported."
+msgstr "Версія xliff не підтримується."
+
+#: modules/import-export/import/import-action.php:292
+msgid "Upload failed."
+msgstr "Завантаження на сервер невдале."
+
+#: modules/import-export/import/import-action.php:274
+msgid "Error: Please select a file to upload."
+msgstr "Помилка: будь ласка, виберіть файл для завантаження."
+
+#. translators: placeholders are URLs
+#: modules/import-export/import/import-action.php:201
+msgid "Error: The site targeted in the imported file does not match the current site. Found: %1$s. Expected: %2$s."
+msgstr "Помилка: Сайт, на який спрямовано імпортований файл, не відповідає поточному сайту. Знайдено: %1$s. Очікується: %2$s."
+
+#: modules/import-export/export/view-export-file-format.php:17
+msgid "File format"
+msgstr "Формат файла"
+
+#: modules/import-export/export/strings-form-trait.php:25
+msgid "Error: Please select a target language."
+msgstr "Помилка: буль ласка, виберіть цільову мову."
+
+#: modules/import-export/export/export-strings-action.php:70
+#: modules/Machine_Translation/Strings/Action.php:101
+msgid "Sorry, some data is missing from the form submission."
+msgstr "Вибачте, не вистачає деяких даних для заповнення форми."
+
+#: modules/import-export/export/export-download.php:95
+msgid "Error: Upload directory must be writable. Please contact your host provider."
+msgstr "Помилка: Каталог для завантаження має бути доступним для запису. Будь ласка, зверніться до вашого хостинг-провайдера."
+
+#: modules/import-export/export/export-download.php:88
+msgid "Error: ZipArchive is required to download multiple files. Please contact your host provider."
+msgstr "Помилка: Для завантаження кількох файлів потрібен ZipArchive. Будь ласка, зверніться до вашого хостинг-провайдера."
+
+#: services/exporter/export-data-from-strings.php:60
+msgid "Error: No strings found."
+msgstr "Помилка: не знайдено жодного рядка."
+
+#: services/exporter/export-data-from-strings.php:45
+msgid "Error: Default language not defined."
+msgstr "Помилка: мова за замовчуванням не вказана."
+
+#: modules/import-export/export/export-bulk-option.php:133
+#: modules/import-export/export/strings-form-trait.php:34
+msgid "Error: invalid target languages."
+msgstr "Помилка: недійсні цільові мови."
+
+#: modules/import-export/export/export-bulk-option.php:166
+msgid "The posts are already in the target language. Please select a different language for the translation."
+msgstr "Записи вже перекладені цільовою мовою. Будь ласка, оберіть іншу мову для перекладу."
+
+#: modules/import-export/export/export-bulk-option.php:161
+msgid "The posts selected for translation have no language."
+msgstr "Записи, відібрані для перекладу, не мають мови."
+
+#: modules/import-export/export/export-bulk-option.php:150
+msgid "The posts selected for translation could not be found."
+msgstr "Не вдалося знайти записи, відібрані для перекладу."
+
+#: modules/sync-post/sync-post.php:79
+msgid "Synchronize translations in selected languages with the original items"
+msgstr "Синхронізувати переклади обраними мовами з оригінальними елементами"
+
+#: modules/import-export/import/view-tab-import-translations.php:29
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: modules/import-export/import/view-tab-import-translations.php:28
+msgid "Draft"
+msgstr "Чернетка"
+
+#: modules/import-export/import/view-tab-import-translations.php:26
+msgid "Select the status of the imported posts"
+msgstr "Обрати статус імпортованих записів"
+
+#. translators: %d is a number of terms translations
+#: modules/import-export/import/import-terms.php:94
+msgid "%d term translation updated."
+msgid_plural "%d terms translations updated."
+msgstr[0] "Оновлено переклад %d групи."
+msgstr[1] "Оновлено переклад %d груп."
+msgstr[2] "Оновлено переклад %d груп."
+
+#. translators: %s is the post ID
+#: modules/import-export/import/import-posts.php:158
+msgid "Warning: a matching source wasn't found for post ID: %s"
+msgstr "Увага: Для ідентифікатора не знайдено відповідних джерел запису: %s"
+
+#. translators: %d is a number of posts translations
+#: modules/import-export/import/import-posts.php:140
+msgid "%d post translation updated."
+msgid_plural "%d posts translations updated."
+msgstr[0] "Оновлено переклад %d запису."
+msgstr[1] "Оновлено переклад %d записів."
+msgstr[2] "Оновлено переклад %d записів."
+
+#. translators: %s is the plugin's name.
+#: modules/import-export/import/import-action.php:223
+msgid "Error: The imported file has not been generated by %s."
+msgstr "Помилка: Імпортований файл не був згенерований %s."
+
+#: modules/import-export/import-export.php:127
+msgid "Import translations"
+msgstr "Імпортувати переклади"
+
+#. translators: %s is a list of post titles.
+#: modules/import-export/export/export-bulk-option.php:291
+msgctxt "ambiguous posts list"
+msgid "- %s."
+msgstr "- %s."
+
+#: modules/import-export/export/export-bulk-option.php:283
+msgid "Ambiguous choice of contents to export. Please do not select contents that are translations of each other."
+msgstr "Неоднозначний вибір контенту для експорту. Будь ласка, не обирайте матеріали, які є перекладами один одного."
+
+#. translators: %s is a post title.
+#: modules/import-export/export/export-bulk-option.php:278
+msgctxt "quoted post title"
+msgid "\"%s\""
+msgstr "\"%s\""
+
+#: modules/import-export/export/export-bulk-option.php:35
+msgid "Export selected content into a file"
+msgstr "Експортувати обраний матеріал у файл"
+
+#: modules/import-export/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "Завантажити файл перекладу"
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format/file-format-factory.php:148
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "Помилка: Невірний формат файла. Файлові формати, що підтримуються: %s."
+
+#: modules/import-export/xliff/xliff-import.php:73
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "Під час імпорту сталася помилка, будь ласка, переконайтеся в правильності форматування файла."
+
+#: modules/import-export/xliff/xliff-import.php:57
+msgid "Something went wrong during the file import."
+msgstr "Під час імпорту файла щось пішло не так."
+
+#: modules/import-export/xliff/xliff-format.php:45
+#: modules/import-export/xliff/xliff-import.php:49
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "Схоже,  у вашій установці PHP  відсутнє потрібне імпортету розширення libxml."
+
+#: modules/translate-slugs/settings-translate-slugs.php:31
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "Модуль автоматично деактивується при використанні звичайних постійних посилань."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "Модуль автоматично деактивується при використанні звичайних постійних посилань або коли мова встановлюється із вмісту в модифікаціях URL."
+
+#: modules/locale-fallback/view-locale-fallback.php:13
+msgid "Locale fallback"
+msgstr "Запасний варіант локалі"
+
+#: modules/locale-fallback/view-locale-fallback.php:15
+msgid "WordPress locale to use if a translation file is not available in the main locale."
+msgstr "Локаль WordPress для використання, якщо файл недоступний головною локаллю."
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:165
+#: js/build/blocks.js:549
+msgid "Language switcher settings"
+msgstr "Налаштування перемикача мови"
+
+#: modules/import-export/import-export.php:119
+msgid "Export string translations"
+msgstr "Експортувати переклади рядків"
+
+#: modules/import-export/export/view-tab-export-strings.php:65
+msgid "Download"
+msgstr "Завантажити"
+
+#: modules/import-export/export/view-tab-export-strings.php:45
+msgid "Export all groups"
+msgstr "Еспортувати всі групи"
+
+#: modules/import-export/export/view-tab-export-strings.php:42
+#: modules/Machine_Translation/Views/string-form.php:40
+msgid "Filter group"
+msgstr "Фільтрувати групи:"
+
+#: modules/bulk-translate/view-bulk-translate.php:24
+#: modules/import-export/export/view-tab-export-strings.php:26
+#: modules/Machine_Translation/Views/string-form.php:24
+msgid "Target languages"
+msgstr "Цільові мови:"
+
+#: modules/import-export/export/export-download.php:103
+#: modules/import-export/export/export-download.php:121
+msgid "Error: Impossible to create a Zip file."
+msgstr "Помилка: неможливо створити файл zip."
+
+#: modules/bulk-translate/bulk-translate.php:222
+msgid "Error: No target language has been selected. Please make sure to select at least one target language."
+msgstr "Помилка: не обрано цільової мови. Будь ласка, переконайтеся, що ви обрали принаймні одну цільову мову."
+
+#: modules/bulk-translate/bulk-translate.php:212
+msgid "No item has been selected. Please make sure to select at least one item to be translated."
+msgstr "Не обрано жодного елемента. Будь ласка, переконайтеся, що обрано принаймні один елемент для перекладу."
+
+#: integrations/ACF/Field_Settings.php:56
+#: integrations/ACF/Field_Settings.php:74
+msgid "Synchronize"
+msgstr "Синхронізувати"
+
+#: integrations/ACF/Field_Settings.php:53
+#: integrations/ACF/Field_Settings.php:73
+msgid "Copy once"
+msgstr "Скопіювати один раз"
+
+#: integrations/ACF/Field_Settings.php:52
+#: integrations/ACF/Field_Settings.php:72
+msgid "Ignore"
+msgstr "Ігнорувати"
+
+#: modules/import-export/po/po-import.php:54
+msgid "Error: Invalid file."
+msgstr "Помилка: Невірний файл."
+
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format/file-format-factory.php:145
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "Помилка: Невірний формат файлу. Файлові формати, що підтримуються: %s."
+
+#: modules/import-export/import/view-tab-import-translations.php:33
+msgid "Upload"
+msgstr "Завантажити"
+
+#: modules/import-export/import/import-action.php:255
+msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
+msgstr "Помилка: Ви намагаєтеся імпортувати файл мовою, що не існує на вашому сайті."
+
+#: modules/import-export/import/import-action.php:248
+msgid "Error: No target languages have been provided in the imported file."
+msgstr "Помилка: В імпортованому файлі відсутні цільві мови."
+
+#. translators: %d is a number of strings translations
+#: modules/import-export/import/import-strings.php:87
+msgid "%d string translation updated."
+msgid_plural "%d string translations updated."
+msgstr[0] "Оновлено переклад %d рядка."
+msgstr[1] "Оновлено переклад %d рядків."
+msgstr[2] "Оновлено переклад %d рядків."
+
+#: modules/active-languages/active-languages.php:111
+msgid "Activate"
+msgstr "Активувати"
+
+#: modules/blocks/language-switcher/language-switcher-block.php:54
+msgid "Choose a language"
+msgstr "Вибрати мову"
+
+#: modules/active-languages/active-languages.php:119
+msgid "Deactivate"
+msgstr "Вимкнути"
+
+#: integrations/ACF/Field_Settings.php:94
+#: modules/rest/rest-translated-object.php:83 js/build/editors/post.js:3109
+#: js/build/editors/site.js:3126
+msgid "Translations"
+msgstr "Переклади"
+
+#: services/metabox-button/metabox-button.php:199 js/build/editors/post.js:2048
+#: js/build/editors/site.js:2065
+msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+msgstr "Ви збираєтеся перезаписати існуючий переклад. Ви точно хочете продовжити?"
+
+#: integrations/ACF/Location_Language.php:27
+#: modules/rest/rest-translated-object.php:68 js/build/editors/post.js:786
+#: js/build/editors/post.js:3760 js/build/editors/post.js:3765
+#: js/build/editors/site.js:1384 js/build/editors/site.js:3799
+#: js/build/editors/site.js:3804
+msgid "Language"
+msgstr "Мова"
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:254
+#: js/build/editors/post.js:599 js/build/editors/site.js:1225
+#: js/build/editors/widget.js:1381
+msgid "Languages"
+msgstr "Мови"
+
+#: modules/xdata/xdata-session-manager.php:63
+msgid "An error has occurred."
+msgstr "Сталася помилка."
+
+#: modules/translate-slugs/translate-slugs-model.php:516
+msgid "URL slugs"
+msgstr "Частини посилання URL"
+
+#: modules/sync-post/sync-post-rest.php:53
+msgid "Synchronizations"
+msgstr "Синхронізації"
+
+#: modules/sync-post/sync-post-button.php:41 js/build/editors/post.js:2029
+#: js/build/editors/site.js:2046
+msgid "Don't synchronize this post"
+msgstr "Не синхронізувати цей допис"
+
+#: modules/sync-post/sync-post-button.php:40 js/build/editors/post.js:2029
+#: js/build/editors/post.js:2045 js/build/editors/site.js:2046
+#: js/build/editors/site.js:2062
+msgid "Synchronize this post"
+msgstr "Синхронізувати цей допис"
+
+#: modules/rest/rest-post.php:187
+msgid "Translations table"
+msgstr "Таблиця перекладів"
+
+#: modules/rest/rest-api.php:159
+msgid "Add this post's translation to results."
+msgstr "Додати переклад цього допису до результатів."
+
+#: modules/rest/rest-api.php:155
+msgid "Limit results to those matching a string."
+msgstr "Обмежити результати по запиту."
+
+#: modules/rest/rest-api.php:143
+msgid "Limit results to items in a language."
+msgstr "Обмежити результати елемантами певної мови."
+
+#: modules/rest/rest-api.php:137
+msgid "Limit results to untranslated items in a language."
+msgstr "Обмежити результати елементами, не перекладеними певною мовою."
+
+#: modules/rest/rest-api.php:131
+msgid "Limit results to items of an object type."
+msgstr "Обмежити результати елементами типу об'єкта."
+
+#: include/Options/Business/Media.php:81
+#: modules/media/settings-advanced-media.php:50
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "Автоматичне дублювати медіа усіма мовами під час завантаження нового файлу."
+
+#: modules/media/settings-advanced-media.php:33
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "Активувати мови і переклади для медіа. Надає налаштування для багатомовного керування медіа."
+
+#: modules/media/settings-advanced-media.php:32
+msgid "Media"
+msgstr "Медіа"
+
+#: modules/duplicate/duplicate.php:33
+msgid "Deactivate content duplication"
+msgstr "Вимкнути дублювання вмісту"
+
+#: modules/duplicate/duplicate.php:32
+msgid "Activate content duplication"
+msgstr "Активувати дублювання вмісту"
+
+#: modules/bulk-translate/view-bulk-translate.php:55
+msgid "Submit"
+msgstr "Відправити"
+
+#: modules/bulk-translate/view-bulk-translate.php:54
+#: js/build/editors/post.js:1857 js/build/editors/post.js:3339
+#: js/build/editors/post.js:3784 js/build/editors/site.js:1874
+#: js/build/editors/site.js:3358 js/build/editors/site.js:3823
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: modules/media/admin-advanced-media.php:58 modules/sync-post/sync-post.php:89
+msgid "Copy original items to selected languages"
+msgstr "Копіювати оригінальні елементи обраними мовами"
+
+#: modules/bulk-translate/view-bulk-translate.php:39
+msgid "Action"
+msgstr "Дія"
+
+#: modules/bulk-translate/view-bulk-translate.php:20
+msgid "Bulk translate"
+msgstr "Масовий переклад"
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:204
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "Щоб запобігти перезапису вмісту, не створено %d переклад."
+msgstr[1] "Щоб запобігти перезапису вмісту, не створено %d переклади."
+msgstr[2] "Щоб запобігти перезапису вмісту, не створено %d переклади."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:192
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "Створено %d переклад."
+msgstr[1] "Створено %d переклади."
+msgstr[2] "Створено %d перекладів."
+
+#: integrations/ACF/Field_Settings.php:54
+#: modules/bulk-translate/bulk-translate.php:268
+#: modules/Machine_Translation/Views/string-form.php:57
+msgid "Translate"
+msgstr "Перекласти"
+
+#: modules/active-languages/active-languages.php:117
+msgid "Deactivate this language"
+msgstr "Вимкнути цю мову"
+
+#: modules/active-languages/active-languages.php:109
+msgid "Activate this language"
+msgstr "Активувати цю мову"
+
+#. Author of the plugin
+#: polylang.php
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+#: polylang.php
+msgid "Adds multilingual capability to WordPress"
+msgstr "Додає магатомовні властивості до WordPress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+#: polylang.php
+msgid "Polylang Pro"
+msgstr "Polylang Pro"

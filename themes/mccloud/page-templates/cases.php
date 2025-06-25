@@ -97,7 +97,10 @@ $categories = get_categories(array('parent' => 36, 'hide_empty' => false));
                             <h2 class="font-bold"><?php the_title(); ?></h2>
                         </a>
                         <div class="text-3 leading-4 text-gray min-h-10">
-                            <?php echo get_post_meta(get_the_ID(), 'post_subtitle', true); ?>
+                            <?php 
+                                $lang  = pll_current_language();
+                                echo get_post_meta(get_the_ID(), 'post_subtitle_'.$lang, true); 
+                            ?>
                         </div>
                         <?php /*<div>svg picture</div>*/ ?>
                     </div>

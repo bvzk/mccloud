@@ -52,3 +52,10 @@
 </IfModule>
 # ! --- DO NOT EDIT NEXT LINE --- !
 # END Converter for Media
+
+# BEGIN ShortPixelWebp
+# Директиви (рядки) між `BEGIN ShortPixelWebp` і `END ShortPixelWebp`
+# створені автоматично і підлягають змінам тільки через фільтри WordPress.
+# Зміни зроблені вручну між цими маркерами будуть перезаписані.
+
+# END ShortPixelWebp

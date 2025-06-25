@@ -14,8 +14,10 @@
   <!-- End Google Tag Manager -->
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?php if (is_404()) : ?>
-                    <link rel="canonical" href="<?php echo esc_url( home_url( add_query_arg( array(), $_SERVER['REQUEST_URI'] ) ) ); ?>" />
+  <meta name="robots" content="noindex, nofollow">
+  
+<?php if (is_404()) : ?>
+
 					
 					<?php $current_url = $_SERVER['REQUEST_URI']; 
 						if (strpos($current_url, '/ro') !== false): ?>
@@ -30,8 +32,9 @@
 					 
 					<?php endif; ?>
 				<?php endif; ?>
+
   <link rel="profile" href="https://gmpg.org/xfn/11">
-  <!--<link rel="alternate" href="https://mccloud.ua" hreflang="uk-UA">-->
+  <!--<link rel="alternate" href="https://mccloud-ro.test-ocean.com.ua" hreflang="uk-UA">-->
   <?= mccloud_get_preload_banner(); ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,17 +42,15 @@
 
 
   <?php /*<script src="https://www.google.com/recaptcha/api.js" async defer></script>*/ ?>
-  <?php if (is_paged()): ?>
-    <link rel="canonical" href="<?php echo get_pagenum_link(get_query_var('paged')); ?>" />
-  <?php endif; ?>
+
   <?php if (is_page('contacts')): ?>
     <script type="application/ld+json">
                             {
                               "@context": "https://schema.org",
                               "@type": "LocalBusiness",
                               "name": "McCloud",
-                              "image": "http://mccloud.global/wp-content/themes/mccloud/image/logo.png", 
-                              "url": "https://mccloud.global/kontakti/",
+                              "image": "<?= home_url(); ?>/wp-content/themes/mccloud/image/logo.png",
+                              "url": "<?= home_url(); ?>/kontakti/",
                               "telephone": "+380 44 123 4567",
                               "address": {
                                 "@type": "PostalAddress",
@@ -150,16 +151,16 @@
   "@context": "https://schema.org",
   "@type": "SiteNavigationElement",
   "name": "Обладнання",
-  "url": "https://mccloud.global/obladnannya",
+  "url": "<?= home_url(); ?>/obladnannya/",
   "potentialAction": [
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/chromebook",
+      "target": "<?= home_url(); ?>/chromebook/",
       "name": "Chromebook"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/monoblok",
+      "target": "<?= home_url(); ?>/monoblok/",
       "name": "Моноблоки"
     }
   ]
@@ -171,41 +172,41 @@
   "@context": "https://schema.org",
   "@type": "SiteNavigationElement",
   "name": "Продукти",
-  "url": "https://mccloud.global/products",
+  "url": "<?= home_url(); ?>/products/",
   "potentialAction": [
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/workspace",
+      "target": "<?= home_url(); ?>/workspace/",
       "name": "Google Workspace"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-vault-safe",
+      "target": "<?= home_url(); ?>/google-vault-safe/",
       "name": "Google Vault (сейф)"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/cloud-identity",
+      "target": "<?= home_url(); ?>/cloud-identity/",
       "name": "Cloud Identity"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/appsheet",
+      "target": "<?= home_url(); ?>/appsheet/",
       "name": "AppSheet"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/gemini",
+      "target": "<?= home_url(); ?>/gemini/",
       "name": "Gemini"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/chrome-enterprise",
+      "target": "<?= home_url(); ?>/chrome-enterprise/",
       "name": "Chrome Enterprise"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/spinbackup",
+      "target": "<?= home_url(); ?>/spinbackup/",
       "name": "Spinbackup"
     }
   ]
@@ -217,46 +218,46 @@
   "@context": "https://schema.org",
   "@type": "SiteNavigationElement",
   "name": "Рішення",
-  "url": "https://mccloud.global/solutions",
+  "url": "<?= home_url(); ?>/solutions/",
   "potentialAction": [
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-human-resourses",
+      "target": "<?= home_url(); ?>/google-workspace-for-human-resourses/",
       "name": "For human resources"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-legal",
+      "target": "<?= home_url(); ?>/google-workspace-for-legal/",
       "name": "For legal services"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-healthcare",
+      "target": "<?= home_url(); ?>/google-workspace-for-healthcare/",
       "name": "For healthcare"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-entrepreneurs",
+      "target": "<?= home_url(); ?>/google-workspace-for-entrepreneurs/",
       "name": "For entrepreneurs"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-education",
+      "target": "<?= home_url(); ?>/google-workspace-for-education/",
       "name": "For education"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-it-industry",
+      "target": "<?= home_url(); ?>/google-workspace-for-it-industry/",
       "name": "For IT-industry"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-finance",
+      "target": "<?= home_url(); ?>/google-workspace-for-finance/",
       "name": "For finance"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/google-workspace-for-marketing",
+      "target": "<?= home_url(); ?>/google-workspace-for-marketing/",
       "name": "For marketing"
     }
   ]
@@ -268,16 +269,16 @@
   "@context": "https://schema.org",
   "@type": "SiteNavigationElement",
   "name": "Прайс",
-  "url": "https://mccloud.global/price",
+  "url": "<?= home_url(); ?>/price/",
   "potentialAction": [
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/paketi-business",
+      "target": "<?= home_url(); ?>/paketi-business/",
       "name": "Пакети Google Workspace Business"
     },
     {
       "@type": "ViewAction",
-      "target": "https://mccloud.global/paketi-enterprise",
+      "target": "<?= home_url(); ?>/paketi-enterprise/",
       "name": "Пакети Google Workspace Enterprise"
     }
   ]
@@ -300,21 +301,25 @@
   </div>
 
   <div class="hidden md:flex justify-center leading-6 py-3">
-    Як обрати тарифний план Google Workspace - <a href="<?php echo get_permalink(1107); ?>">Дізнатися більше</a>
+    <?php echo pll__('Як обрати тарифний план Google Workspace') ?> - <a href="<?php echo get_permalink(1107); ?>"><?php echo pll__('Дізнатися більше')?></a>
   </div>
 
   <div class="max-w-[1920px] xl:px-4 md:px-2 mx-auto">
-    <div
-      class="header-wrapper <?= (1 == 1 ? 'is-home' : ''); ?> bg-lightgreen relative md:rounded-5 mb-5 <?php if (!is_404()) { ?> 2xl:mb-[120px] <?php }  ?>">
-      <div class="md:p-3 !pb-0 z-20 relative">
-        <?php require get_template_directory() . '/template-parts/common/header.php'; ?>
-      </div>
-      <?php
-      if (mccloud_get_page_banner() && file_exists(mccloud_get_page_banner())) { ?>
-        <div class="relative <?= (1 == 1 ? 'overflow-x-hidden' : ''); ?>">
-          <div class="z-10 relative">
-            <?php require mccloud_get_page_banner(); ?>
+
+        <div
+          class="header-wrapper <?= (1 == 1 ? 'is-home' : ''); ?> bg-lightgreen relative md:rounded-5 mb-5 <?php if (!is_404()) { ?> 2xl:mb-[120px] <?php }  ?> ">
+          <div class="md:p-3 !pb-0 z-20 relative">
+              <?php
+                 require get_template_directory() . '/template-parts/common/header.php';
+              ?>
           </div>
-        </div>
-      <?php } ?>
+          <?php
+          if (mccloud_get_page_banner() && file_exists(mccloud_get_page_banner())) { ?>
+            <div class="relative <?= (1 == 1 ? 'overflow-x-hidden' : ''); ?>">
+              <div class="z-10 relative">
+                <?php require mccloud_get_page_banner(); ?>
+              </div>
+            </div>
+          <?php } ?>
+
     </div>

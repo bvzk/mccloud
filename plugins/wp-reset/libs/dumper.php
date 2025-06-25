@@ -1,4 +1,6 @@
 <?php
+//phpcs:ignoreFile 
+//this class is used to dump the complete database to a file when creating snapshots and uses multiple non-WordPress functions in order to imporove performance and compatibility with various servers even when dumping large databases
 /**
  * Abstract dump file: provides common interface for writing
  * data to dump files.
@@ -275,7 +277,7 @@ class WPR_Shuttle_Dumper_ShellCommand extends WPR_Shuttle_Dumper {
 		if ($return_val !== 0) {
 			$error_text = file_get_contents($error_file);
 			unlink($error_file);
-			throw new WPR_Shuttle_Exception('Couldn\'t export database: ' . $error_text);
+			throw new WPR_Shuttle_Exception('Couldn\'t export database: ' . esc_html($error_text));
 		}
 
 		unlink($error_file);
@@ -397,12 +399,12 @@ class WPR_Shuttle_DBConn_Mysql extends WPR_Shuttle_DBConn {
 	function connect() {
 		$this->connection = @mysql_connect($this->host, $this->username, $this->password);
 		if (!$this->connection) {
-			throw new WPR_Shuttle_Exception("Couldn't connect to the database: " . mysql_error());
+			throw new WPR_Shuttle_Exception("Couldn't connect to the database: " . esc_html(mysql_error()));
 		}
 
 		$select_db_res = mysql_select_db($this->name, $this->connection);
 		if (!$select_db_res) {
-			throw new WPR_Shuttle_Exception("Couldn't select database: " . mysql_error($this->connection));
+			throw new WPR_Shuttle_Exception("Couldn't select database: " . esc_html(mysql_error($this->connection)));
 		}
 
 		return true;
@@ -414,7 +416,7 @@ class WPR_Shuttle_DBConn_Mysql extends WPR_Shuttle_DBConn {
 		}
 		$res = mysql_query($q);
 		if (!$res) {
-			throw new WPR_Shuttle_Exception("SQL error: " . mysql_error($this->connection));
+			throw new WPR_Shuttle_Exception("SQL error: " . esc_html(mysql_error($this->connection)));
 		}
 		return $res;
 	}
@@ -460,7 +462,7 @@ class WPR_Shuttle_DBConn_Mysqli extends WPR_Shuttle_DBConn {
 		$this->connection = @new MySQLi($this->host, $this->username, $this->password, $this->name);
 
 		if ($this->connection->connect_error) {
-			throw new WPR_Shuttle_Exception("Couldn't connect to the database: " . $this->connection->connect_error);
+			throw new WPR_Shuttle_Exception("Couldn't connect to the database: " . esc_html($this->connection->connect_error));
 		}
 
 		return true;
@@ -473,7 +475,7 @@ class WPR_Shuttle_DBConn_Mysqli extends WPR_Shuttle_DBConn {
 		$res = $this->connection->query($q);
 
 		if (!$res) {
-			throw new WPR_Shuttle_Exception("SQL error: " . $this->connection->error);
+			throw new WPR_Shuttle_Exception("SQL error: " . esc_html($this->connection->error));
 		}
 
 		return $res;

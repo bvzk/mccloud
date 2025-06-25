@@ -9,7 +9,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');
 $request_uri = $_SERVER['REQUEST_URI'];
 $language_prefix = '';
 
-if (preg_match('#/(ua|kz|ro)/#', $request_uri, $matches)) {
+if (preg_match('#/(ua|kz|ro)/sitemap\.xml$#', $request_uri, $matches)) {
     $language_prefix = $matches[1];
 }
 
@@ -28,73 +28,53 @@ $posts = get_posts($args);
 
 if (!empty($posts)) {
     
-        foreach ($posts as $post) {
-            $permalink = get_permalink($post->ID);
-            $parsed_url = parse_url($permalink);
-        
-            if (isset($parsed_url['path'])) {
-                $path = ltrim($parsed_url['path'], '/');
-        
-                $path_parts = explode('/', $path);
-                if (in_array($path_parts[0], ['ua', 'kz', 'ro'])) {
-                    array_shift($path_parts);
-                }
-        
-                $path = implode('/', $path_parts);
-        		
-                    // Якщо перша частина — мовний префікс, видаляємо її
-                    if (in_array($path_parts[0], ['ua', 'kz', 'ro'])) {
-                        array_shift($path_parts); // Видаляємо перший елемент
-                    }
-                    
-                    // Склеюємо назад шлях без мовного префіксу
-                    $path = implode('/', $path_parts);
-        
-                    // Формуємо правильний URL
-                    $final_url = home_url('/' . $path);
-        
-                // Визначаємо базові значення
-                $changefreq = 'weekly';
-                $priority = '0.8';
-        
-                // Головна сторінка
-                if (untrailingslashit($final_url) === untrailingslashit(home_url('/'))) {
-                    $changefreq = 'weekly';
-                    $priority = '1.0';
-                }
-                // Технічні сторінки (політики, умови)
-                elseif (strpos($path, 'privacy') !== false || strpos($path, 'cookie') !== false || strpos($path, 'terms') !== false) {
-                    $changefreq = 'yearly';
-                    $priority = '0.6';
-                }
-                // Блог (пости)
-                elseif ($post->post_type === 'post') {
-                    $changefreq = 'weekly';
-                    $priority = '0.7';
-                }
-                // Категорії та послуги
-                else {
-                    $depth = substr_count($path, '/');
-                    if ($depth == 1) {
-                        // Категорії (2 рівень)
-                        $changefreq = 'monthly';
-                        $priority = '0.9';
-                    } elseif ($depth >= 2) {
-                        // Товари/послуги (3 рівень+)
-                        $changefreq = 'monthly';
-                        $priority = '0.8';
-                    }
-                }
-                ?>
-                <url>
-                    <loc><?php echo esc_url($final_url); ?></loc>
-                    <lastmod><?php echo get_post_modified_time('Y-m-d', false, $post->ID); ?></lastmod>
-                    <changefreq><?php echo $changefreq; ?></changefreq>
-                    <priority><?php echo $priority; ?></priority>
-                </url>
-                <?php
-            }
-        }
+       foreach ($posts as $post) {
+    // Отримуємо ID перекладу поста потрібною мовою
+    $translated_id = pll_get_post($post->ID, $language_prefix);
+    
+    if (!$translated_id) {
+        continue; // Пропускаємо, якщо немає перекладу на цю мову
+    }
+
+    $permalink = get_permalink($translated_id);
+
+    // Переконуємося, що URL починається з потрібного префікса
+    if (strpos($permalink, '/' . $language_prefix . '/') === false) {
+        continue;
+    }
+
+// Значення для sitemap
+$changefreq = 'weekly';
+$priority = '0.8';
+
+// Отримаємо URL без слеша в кінці
+$normalized_permalink = untrailingslashit($permalink);
+
+// Визначаємо головну сторінку
+if ($normalized_permalink === untrailingslashit(home_url('/' . $language_prefix))) {
+    $priority = '1.0';
+}
+// Якщо це запис блогу (тип post)
+elseif ($post->post_type === 'post') {
+    $priority = '0.7';
+}
+// Якщо це технічна сторінка (можна визначити по slug або ID)
+elseif (in_array($post->post_name, ['privacy-policy', 'terms-of-service', '404', 'sitemap'])) {
+    $priority = '0.6';
+}
+// Можна також використовувати масив ID:
+elseif (in_array($post->ID, [3177, 2905, 3178, 2903])) { // приклад для ID технічних сторінок
+    $priority = '0.6';
+}
+    ?>
+    <url>
+        <loc><?php echo esc_url($permalink); ?></loc>
+        <lastmod><?php echo get_post_modified_time('Y-m-d', false, $translated_id); ?></lastmod>
+        <changefreq><?php echo $changefreq; ?></changefreq>
+        <priority><?php echo $priority; ?></priority>
+    </url>
+    <?php
+}
     
     
 }

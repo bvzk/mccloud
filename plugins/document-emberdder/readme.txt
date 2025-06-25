@@ -1,9 +1,9 @@
 === Document Embedder - Document Embedder Plugin ===
 Contributors: abuhayat,bplugins, shehabulislam 
 Tags:  Embed pdf, google docs, google drive, document, powerpoint
-Requires at least: 4.3
-Tested up to: 6.7
-Stable tag: 1.8.7
+Requires at least: 4.0
+Tested up to: 6.8
+Stable tag: 1.8.9
 Requires PHP: 7.1
 Donate link: https://www.buymeacoffee.com/abuhayat/
 License: GPLv2 or later
@@ -19,7 +19,7 @@ You can easily customize your document layout in WordPress with this plugin. Adj
 
 The download button is conveniently placed at the top for quick access to PDF downloads.
 
-Integration with the Gutenberg block editor makes embedding documents seamless and hassle-free.
+Integration with the Gutenberg block editor makes embedding documents seamless and hassle-free. 
 
 Upgrade to the pro version for additional features. Disable popout options and enable a lightbox for a smoother user experience. Keep users engaged with a loading indicator until the document fully loads. 
 
@@ -170,6 +170,13 @@ There is no Limit, you can embed thousands of doc if you want.
 4. Full Screen preview 
 
 == Changelog ==
+
+= 1.8.9 - 14 May, 2025 =
+* Improved: Security
+* Fixed: Function _load_textdomain_just_in_time was called incorrectly
+
+= 1.8.8 - 25 Jan, 2025 =
+* Fixed: Redirect to rest_no_route
 
 = 1.8.7 - 1 July, 2024 =
 * Added: Loader until PDF load

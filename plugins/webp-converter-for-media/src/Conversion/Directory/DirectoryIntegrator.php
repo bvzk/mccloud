@@ -24,7 +24,7 @@ class DirectoryIntegrator implements HookableInterface {
 	 */
 	private $output_path;
 
-	public function __construct( FormatFactory $format_factory, OutputPathGenerator $output_path = null ) {
+	public function __construct( FormatFactory $format_factory, ?OutputPathGenerator $output_path = null ) {
 		$this->output_path = $output_path ?: new OutputPathGenerator( $format_factory );
 	}
 
@@ -142,7 +142,7 @@ class DirectoryIntegrator implements HookableInterface {
 			}
 		}
 
-		$source_url = apply_filters( 'webpc_site_url', ( defined( 'WP_HOME' ) ) ? WP_HOME : get_site_url() );
+		$source_url = PathsGenerator::get_site_url();
 		return sprintf( '%1$s/%2$s', $source_url, $directory_name );
 	}
 }

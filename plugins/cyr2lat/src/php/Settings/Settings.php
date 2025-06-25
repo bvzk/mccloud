@@ -5,6 +5,9 @@
  * @package cyr-to-lat
  */
 
+// phpcs:ignore Generic.Commenting.DocComment.MissingShort
+/** @noinspection PhpInternalEntityUsedInspection */
+
 namespace CyrToLat\Settings;
 
 use CyrToLat\Settings\Abstracts\SettingsBase;
@@ -54,7 +57,7 @@ class Settings implements SettingsInterface {
 	/**
 	 * Init class.
 	 */
-	protected function init() {
+	protected function init(): void {
 		foreach ( $this->menu_pages_classes as $menu_page_classes ) {
 			$tab_classes = (array) $menu_page_classes;
 
@@ -168,7 +171,7 @@ class Settings implements SettingsInterface {
 	 * @return void
 	 * @noinspection PhpUnused
 	 */
-	public function set_field( string $key, string $field_key, $value ) {
+	public function set_field( string $key, string $field_key, $value ): void {
 		foreach ( $this->tabs as $tab ) {
 			/**
 			 * Page / Tab.
@@ -200,7 +203,7 @@ class Settings implements SettingsInterface {
 		$locale = (string) apply_filters( 'ctl_locale', get_locale() );
 		$table  = $this->get( $locale );
 		if ( empty( $table ) ) {
-			$table = $this->get( 'iso9' );
+			$table = $this->get( 'ISO9' );
 		}
 
 		return $this->transpose_chinese_table( $table );

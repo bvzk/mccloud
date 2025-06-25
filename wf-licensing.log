@@ -1,0 +1,4620 @@
+[Wed, 28 May 2025 08:52:54 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:52:54 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:52:54 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:52:54 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:52:54 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:00 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:05 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:08 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:09 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:10 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:19 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:21 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:21 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:21 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:53:23 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:54:22 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:56:23 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 08:58:24 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:00:25 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:02:26 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:25:01 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:25:28 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:25:40 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:25:55 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:26:05 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:26:16 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:26:30 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:03 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:13 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:30 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:37 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:47 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:27:57 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:28:08 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:28:29 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:28:30 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:28:40 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:28:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:29:38 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:29:48 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:30:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:31:49 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:32:32 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:33:50 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:34:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:35:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:36:34 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:37:52 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:38:43 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:38:53 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:39:24 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:39:35 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:40:15 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:40:25 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:40:55 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:40:58 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:41:06 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:41:59 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:43:07 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:43:49 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:43:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:44:53 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:44:55 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:45:08 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:45:49 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:45:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:46:27 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:46:29 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:47:09 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:47:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:48:46 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:49:10 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:49:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:49:36 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:49:45 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:51:46 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:53:47 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:55:48 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:57:02 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:57:03 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:57:41 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:57:45 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 09:58:46 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:09:28 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:09:36 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:09:39 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:09:49 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:09:59 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:09 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:14 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:17 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:19 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:28 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:35 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:39 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:10:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:01 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:11 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:17 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:21 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:41 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:11:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:01 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:11 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:21 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:41 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:12:51 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:13:17 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:14:52 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:15:18 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:15:26 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:15:36 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:15:47 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:15:58 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:08 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:10 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:11 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:13 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:18 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:19 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:30 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:17:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:18:31 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:18:32 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:18:36 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:18:48 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:18:52 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:19:20 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:19:30 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:19:32 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:19:43 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:20:01 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:20:27 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:20:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:20:33 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+
+[Wed, 28 May 2025 10:20:57 +0000] wpr: __construct
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'skip_hooks' => false,
+  'debug' => true,
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+)
+array (
+  'prefix' => 'wpr',
+  'licensing_servers' => 
+  array (
+    0 => 'https://dashboard.wpreset.com/api/',
+  ),
+  'version' => '2.04',
+  'slug' => 'wp-reset',
+  'basename' => 'wp-reset/wp-reset.php',
+  'plugin_page' => 'tools_page_wp-reset',
+  'plugin_file' => '/var/www/mccloud/data/www/mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset/wp-reset.php',
+  'js_folder' => 'https://mccloud-ro.test-ocean.com.ua/wp-content/plugins/wp-reset//js/',
+  'api_ver' => 'v1/',
+  'valid_forever' => '2035-01-01',
+  'unlimited_installs' => 99999,
+  'debug' => true,
+  'filesystem_initialized' => false,
+)
+

@@ -4,11 +4,11 @@ $subtitle = get_query_var('consultFormSubTitle', "");
 $show_contacts = get_query_var('showContacts', '');
 
 if (empty($title)) {
-    $title = __("Отримати <br> консультацію", "");
+    $title = pll__("Отримати <br> консультацію", "");
 }
 
 if (empty($subtitle)) {
-    $subtitle = __("Якщо вам потрібна консультація, скористайтеся формою зворотного зв'язку.", "");
+    $subtitle = pll__("Якщо вам потрібна консультація, скористайтеся формою зворотного зв'язку.", "");
 }
 
 ?>
@@ -75,23 +75,40 @@ if (empty($subtitle)) {
             <div class='flex flex-col adv-list gap-3 mb-4'>
                 <div class='adv-item flex flex-row gap-2'>
                     <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
-                    <p class='text-3 leading-4'>Індивідуальний підхід</p>
+                    <p class='text-3 leading-4'><?php echo pll__('Індивідуальний підхід'); ?></p>
                 </div>
                 <div class='adv-item flex flex-row gap-2'>
                     <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
-                    <p class='text-3 leading-4'>Технічна підтримка</p>
+                    <p class='text-3 leading-4'><?php echo pll__('Технічна підтримка'); ?></p>
                 </div>
                 <div class='adv-item flex flex-row gap-2'>
                     <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
-                    <p class='text-3 leading-4'>Швидка інтеграція</p>
+                    <p class='text-3 leading-4'><?php echo pll__('Швидка інтеграція'); ?></p>
                 </div>
             </div>
             <?php endif;?>
         </div>
 
         <div class="bg-white w-full max-w-[1144px] rounded-4 2xl:p-11 xl:p-6 lg:p-5 md:p-4 p-3">
-            <div class="text-4 font-bold mb-6">Потрібна допомога? Залиште нам повідомлення!</div>
-            <?php echo do_shortcode('[contact-form-7 id="2179689" title="Отримати консультацію"]'); ?>
+            <div class="text-4 font-bold mb-6"><?php echo pll__('Потрібна допомога? Залиште нам повідомлення!'); ?></div>
+            <?php 
+            $lang = function_exists('pll_current_language') ? pll_current_language() : 'ua';
+
+            switch ($lang) {
+                case 'ua':
+                    echo do_shortcode('[contact-form-7 id="2179689" title="Отримати консультацію"]');
+                    break;
+                case 'kz':
+                    echo do_shortcode('[contact-form-7 id="d0f2988" title="Отримати консультацію"]'); 
+                    break;
+                case 'ro':
+                    echo do_shortcode('[contact-form-7 id="a57ac38" title="Отримати консультацію"]');
+                    break;
+                default:
+                    echo do_shortcode('[contact-form-7 id="2179689" title="Отримати консультацію"]');
+                    break;
+            }
+            ?>
         </div>
     </div>
     <?php require get_template_directory() . '/template-parts/common/footer-form-success.php'; ?>

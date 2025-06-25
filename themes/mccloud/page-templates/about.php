@@ -11,16 +11,16 @@ get_header();
 
 <div class="container flex flex-col gap-3 lg:flex-row items-center lg:items-center lg:justify-between 2xl:mt-[120px]">
     <div class="lg:w-full max-w-[391px]  text-center md:text-left md:block">
-        <div class="md:title-text-2 mb-4 text-4 leading-5 font-semibold">Хмарні рішення <br> для захмарних ідей</div>
-        <div class="leading-4 text-3">За роки нашої роботи ми здобули довіру у багатьох клієнтів, а наші послуги стали
-            невід'ємною частиною їх успішних бізнесів</div>
+        <div class="md:title-text-2 mb-4 text-4 leading-5 font-semibold"><?php echo pll__('Хмарні рішення <br> для захмарних ідей'); ?></div>
+        <div class="leading-4 text-3"><?php echo pll__('За роки нашої роботи ми здобули довіру у багатьох клієнтів, а наші послуги стали
+            невід\'ємною частиною їх успішних бізнесів'); ?></div>
     </div>
 	 <div class="w-full max-w-[952px] mb-4 lg:mb-0 flex flex-col md:hidden gap-2">
-        <img src='https://mccloud.global/wp-content/uploads/2024/10/rectangle-25993.png'>
-		 <img src='https://mccloud.global/wp-content/uploads/2024/10/rectangle-26227.png'>
-		 <img src='https://mccloud.global/wp-content/uploads/2024/10/rectangle-26228.png'>
-		 <img src='https://mccloud.global/wp-content/uploads/2024/10/rectangle-26229.png'>
-		 <img src='https://mccloud.global/wp-content/uploads/2024/10/rectangle-26230.png'>
+        <img src='https://mccloud-ro.test-ocean.com.ua/wp-content/uploads/2024/10/rectangle-25993.png'>
+		 <img src='https://mccloud-ro.test-ocean.com.ua/wp-content/uploads/2024/10/rectangle-26227.png'>
+		 <img src='https://mccloud-ro.test-ocean.com.ua/wp-content/uploads/2024/10/rectangle-26228.png'>
+		 <img src='https://mccloud-ro.test-ocean.com.ua/wp-content/uploads/2024/10/rectangle-26229.png'>
+		 <img src='https://mccloud-ro.test-ocean.com.ua/wp-content/uploads/2024/10/rectangle-26230.png'>
     </div>
     <div class="w-full max-w-[952px] mb-4 lg:mb-0 hidden md:block">
         <picture>
@@ -44,7 +44,7 @@ get_header();
 </div>
 
 <div class="container 2xl:mb-6 mt-4 md:mt-8 2xl:mt-[160px]">
-    <h2 class="title-text-2 2xl:mb-11 lg:mb-8 mb-6 font-bold text-center">Наш підхід</h2>
+    <h2 class="title-text-2 2xl:mb-11 lg:mb-8 mb-6 font-bold text-center"><?php echo pll__('Наш підхід'); ?></h2>
 
     <?php
     set_query_var('data', get_three_cards_data_about());
@@ -53,7 +53,7 @@ get_header();
 </div>
 
 <?php
-set_query_var('title', 'Нам довіряють');
+set_query_var('title', pll__('Нам довіряють'));
 require get_template_directory() . '/template-parts/common/ourClients.php'; ?>
 
 <div class="mb-8 ">
@@ -61,9 +61,9 @@ require get_template_directory() . '/template-parts/common/ourClients.php'; ?>
     <?php require get_template_directory() . '/template-parts/common/ourSuccessCases.php'; ?>
 </div>
 
-<?php set_query_var('consultFormTitle', "Контакти компанії");?>
+<?php set_query_var('consultFormTitle', pll__("Контакти компанії"));?>
 <?php set_query_var('showContacts', 'true');?>
-<?php set_query_var('consultFormSubTitle', "<p class='text-3 leading-4'>Маєте питання щодо хмарних сервісів?  Наша команда доступна з 9:00 до 18:00 у робочі дні.<br>Звертайтеся до нас, адже ми спеціалізуємося на наданні високоякісних послуг у сфері хмарних технологій.</p>") ?>
+<?php set_query_var('consultFormSubTitle', "<p class='text-3 leading-4'>".pll__('Маєте питання щодо хмарних сервісів? Наша команда доступна з 9:00 до 18:00 у робочі дні.<br>Звертайтеся до нас, адже ми спеціалізуємося на наданні високоякісних послуг у сфері хмарних технологій.')."</p>") ?>
 
 <?php require get_template_directory() . '/template-parts/common/consultFormBlock.php'; ?>
 

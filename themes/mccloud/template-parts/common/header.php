@@ -12,42 +12,101 @@
                 <rect width="22" height="2" rx="1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 20.4863 18.5566)" fill="#1C1C1E"/>
             </svg>
         </a>
-        <a href="<?= home_url();?>/" class="header__logo">
-            <img src="/wp-content/themes/mccloud/image/logo.svg" alt="mcCloud.ua" width="166" height="38" class="max-w-full">
+        <a href="<?=home_url();?>/" class="header__logo">
+            <img src="/wp-content/themes/mccloud/image/logo.svg?v=2" alt="mccloud.global" width="166" height="38" class="max-w-full">
         </a>
         <nav class="header__nav items-center">
+         <div class='menu-item'>
+             <a href="#" class="menu-toggle" data-target="headerProductssearch">
+                <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.7603 14.6033L12.1815 11.0246C13.0928 9.86515 13.637 8.40415 13.637 6.81851C13.637 3.05875 10.5782 0 6.81845 0C3.05875 0 0 3.05875 0 6.81851C0 10.5782 3.05875 13.6369 6.81845 13.6369C8.40409 13.6369 9.86509 13.0928 11.0245 12.1816L14.6033 15.7603C14.763 15.9201 14.9724 16 15.1818 16C15.3912 16 15.6006 15.9201 15.7603 15.7603C16.0799 15.4409 16.0799 14.9228 15.7603 14.6033ZM1.63636 6.81851C1.63636 3.96104 3.96104 1.63636 6.81845 1.63636C9.67593 1.63636 12.0006 3.96104 12.0006 6.81845C12.0006 9.67587 9.67593 12.0005 6.81845 12.0005C3.96104 12.0005 1.63636 9.67587 1.63636 6.81851Z" fill="#170C37"/>
+                </svg>
+             </a>
+        	<div id="headerProductssearch" class="header-drops absolute z-10 left-0 right-0 top-[100%] bg-white border-t border-[#F2F2F7]  md:rounded-b-[22px]" style="border-radius: 50px;">
+                <div style="border-radius: 50px;">
+                    
+                        <form action="<?=home_url();?>/blog/" method="get" style="border-radius: 50px;">
+                        <div class=" bg-white rounded-lg flex px-5" style="border-radius: 50px;">
+                            <input type="search" class="text-3 text-[#848484] grow border-0 p-3 px-5 rounded-2 focus:border-transparent focus:ring-0"
+                                   name="search" value="<?=htmlspecialchars(get_query_var('search'));?>" placeholder="<?=pll__('Пошуковий запит');?>" style="border-radius: 50px;">
+                            <button class="border-0 bg-none py-0 px-[14px]">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.7603 14.6033L12.1815 11.0246C13.0928 9.86515 13.637 8.40415 13.637 6.81851C13.637 3.05875 10.5782 0 6.81845 0C3.05875 0 0 3.05875 0 6.81851C0 10.5782 3.05875 13.6369 6.81845 13.6369C8.40409 13.6369 9.86509 13.0928 11.0245 12.1816L14.6033 15.7603C14.763 15.9201 14.9724 16 15.1818 16C15.3912 16 15.6006 15.9201 15.7603 15.7603C16.0799 15.4409 16.0799 14.9228 15.7603 14.6033ZM1.63636 6.81851C1.63636 3.96104 3.96104 1.63636 6.81845 1.63636C9.67593 1.63636 12.0006 3.96104 12.0006 6.81845C12.0006 9.67587 9.67593 12.0005 6.81845 12.0005C3.96104 12.0005 1.63636 9.67587 1.63636 6.81851Z" fill="#170C37"/>
+                                    <path d="M15.7603 14.6033L12.1815 11.0246C13.0928 9.86515 13.637 8.40415 13.637 6.81851C13.637 3.05875 10.5782 0 6.81845 0C3.05875 0 0 3.05875 0 6.81851C0 10.5782 3.05875 13.6369 6.81845 13.6369C8.40409 13.6369 9.86509 13.0928 11.0245 12.1816L14.6033 15.7603C14.763 15.9201 14.9724 16 15.1818 16C15.3912 16 15.6006 15.9201 15.7603 15.7603C16.0799 15.4409 16.0799 14.9228 15.7603 14.6033ZM1.63636 6.81851C1.63636 3.96104 3.96104 1.63636 6.81845 1.63636C9.67593 1.63636 12.0006 3.96104 12.0006 6.81845C12.0006 9.67587 9.67593 12.0005 6.81845 12.0005C3.96104 12.0005 1.63636 9.67587 1.63636 6.81851Z" fill="black" fill-opacity="0.2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                   
+                </div>
+            </div>
+         </div>
+         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const toggler = document.querySelector('.menu-toggle');
+                const drop = document.getElementById('headerProductssearch');
+            
+                toggler.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    drop.classList.toggle('active'); // Додаємо або забираємо клас 'active'
+                });
+            
+                // Додатково: можна закривати форму, якщо клік поза нею
+                document.addEventListener('click', function(e) {
+                    if (!drop.contains(e.target) && !toggler.contains(e.target)) {
+                        drop.classList.remove('active');
+                    }
+                });
+            });
+
+        </script>
+        
+        <style>
+            #headerProductssearch {
+                    display: none;
+                    opacity: 0;
+                    transition: opacity 0.4s ease;
+            }
+            
+            #headerProductssearch.active {
+                    display: block;
+                    opacity: 1;
+            }
+        </style>
+
+ 
         <div class='menu-item'>
-            <a href="#" class="menu-toggle" data-target="headerProducts">Обладнання</a>
+            <a href="#" class="menu-toggle" data-target="headerProducts"><?php echo pll__('Обладнання');?></a>
 			<div id="headerProducts" class="header-drop absolute z-10 left-0 right-0 top-[100%] bg-white border-t border-[#F2F2F7] pt-[57px] md:rounded-b-[22px]">
-        <div class="container mx-auto 2xl:px-0 xl:px-[50px] md:px-[44px]">
-            <div class="flex px-3">
-                <div class="w-3/12 title-text-2 font-semibold">Обладнання</div>
-                <div class="w-9/12">
-                    <div class="grid grid-cols-2 gap-x-[71px] gap-y-5 mb-6">
-                        <?php while(have_rows('header_device_list', 'options')) : the_row(); ?>
-                        <a href="<?php echo get_sub_field('page_link');?>" class="flex items-center">
-                            <img src='<?php echo get_sub_field('item_icon') ?>'>
-                            <span class="ml-[15px]">
-                                <strong class="text-black font-bold text-3 leading-4"><?php echo get_sub_field('item_title') ?></strong>
-                                <?php if(get_sub_field('item_subtitle')) : ?>
-                                    <span class="hidden lg:block text-gray text-[14px] leading-5"><?php echo get_sub_field('item_subtitle') ?></span>
-                                <?php endif; ?>
-                            </span>
-                        </a>
-                        <?php endwhile; ?>
+                <div class="container mx-auto 2xl:px-0 xl:px-[50px] md:px-[44px]">
+                    <div class="flex px-3">
+                        <div class="w-3/12 title-text-2 font-semibold"><?php echo pll__('Обладнання');?></div>
+                        <div class="w-9/12">
+                            <div class="grid grid-cols-2 gap-x-[71px] gap-y-5 mb-6">
+                                <?php while(have_rows('header_device_list', 'options')) : the_row(); ?>
+                                <a href="<?php echo get_sub_field('page_link');?>" class="flex items-center">
+                                    <img src='<?php echo get_sub_field('item_icon') ?>'>
+                                    <span class="ml-[15px]">
+                                        <strong class="text-black font-bold text-3 leading-4"><?php echo get_sub_field('item_title') ?></strong>
+                                        <?php if(get_sub_field('item_subtitle')) : ?>
+                                            <span class="hidden lg:block text-gray text-[14px] leading-5"><?php echo get_sub_field('item_subtitle') ?></span>
+                                        <?php endif; ?>
+                                    </span>
+                                </a>
+                                <?php endwhile; ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 								
 			</div>
 			<div class='menu-item'>
-            <a href="#" class="menu-toggle" data-target="headerProducts">Продукти</a>
+            <a href="#" class="menu-toggle" data-target="headerProducts"><?php echo pll__('Продукти');?></a>
 			<div id="headerProducts" class="header-drop absolute z-10 left-0 right-0 top-[100%] bg-white border-t border-[#F2F2F7] pt-[57px] md:rounded-b-[22px]">
         <div class="container mx-auto 2xl:px-0 xl:px-[50px] md:px-[44px]">
             <div class="flex px-3">
-                <div class="w-3/12 title-text-2 font-semibold">Продукти</div>
+                <div class="w-3/12 title-text-2 font-semibold"><?php echo pll__('Продукти');?></div>
                 <div class="w-9/12">
                     <div class="grid grid-cols-2 gap-x-[71px] gap-y-5 mb-6">
                         <?php while(have_rows('header_products_list', 'options')) : the_row(); ?>
@@ -69,11 +128,11 @@
 								
 			</div>
 			<div class='menu-item'>
- 			 <a href="#" class="menu-toggle" data-target="headerDecisions">Рішення</a>
+ 			 <a href="#" class="menu-toggle" data-target="headerDecisions"><?php echo pll__('Рішення');?></a>
 				<div id="headerDecisions" class="header-drop absolute z-10 left-0 right-0 top-[100%] bg-white border-t border-[#F2F2F7] pt-[57px] md:rounded-b-[22px]">
         <div class="container mx-auto 2xl:px-0 xl:px-[50px] md:px-[44px]">
             <div class="flex px-3">
-                <div class="w-3/12 title-text-2 font-semibold">Рішення</div>
+                <div class="w-3/12 title-text-2 font-semibold"><?php echo pll__('Рішення');?></div>
                 <div class="w-9/12">
                     <div class="grid grid-cols-2 gap-x-[71px] gap-y-[39px] mb-[48px]">
                         <?php while(have_rows('header_solutions_list', 'options')) : the_row();?>
@@ -90,11 +149,11 @@
 			</div>
 			<div class='menu-item'>
 			
-  				<a href="#" class="menu-toggle" data-target="headerPrice">Прайс</a>
+  				<a href="#" class="menu-toggle" data-target="headerPrice"><?php echo pll__('Прайс');?></a>
 			<div id="headerPrice" class="header-drop absolute z-10 left-0 right-0 top-[100%] bg-white border-t border-[#F2F2F7] pt-[57px] md:rounded-b-[22px]">
         <div class="container mx-auto 2xl:px-0 xl:px-[50px] md:px-[44px]">
             <div class="flex px-3">
-                <div class="w-3/12 title-text-2 font-semibold">Прайс</div>
+                <div class="w-3/12 title-text-2 font-semibold"><?php echo pll__('Прайс');?></div>
                 <div class="w-9/12">
                     <div class="grid grid-cols-2 gap-x-[71px] gap-y-[39px] mb-[48px]">
                         <?php while(have_rows('header_price_list', 'options')) : the_row(); ?>
@@ -105,7 +164,12 @@
                                 <path d="M41.7773 34.4363C40.3051 34.4363 39.0612 35.429 38.6775 36.78H35.5664V33.3491H38.743C42.1931 33.3491 45 30.5422 45 27.092C45 24.3258 43.1653 21.8956 40.5607 21.1042C39.7734 17.9516 36.9276 15.6905 33.6318 15.6905C32.3541 15.6905 31.1302 16.02 30.0501 16.6495C28.9062 15.6033 27.4062 15.0156 25.8302 15.0156C22.4498 15.0156 19.6869 17.7104 19.5766 21.0644C16.9011 21.8123 15 24.2619 15 27.092C15 30.5422 17.8069 33.3491 21.2571 33.3491H24.4336V36.78H21.3225C20.9389 35.429 19.6949 34.4363 18.2227 34.4363C16.4457 34.4363 15 35.882 15 37.6589C15 39.4359 16.4457 40.8816 18.2227 40.8816C19.6949 40.8816 20.9388 39.8888 21.3225 38.5378H25.3125C25.7979 38.5378 26.1914 38.1443 26.1914 37.6589V33.3491H29.1211V38.6607C27.7701 39.0443 26.7773 40.2882 26.7773 41.7605C26.7773 43.5375 28.223 44.9832 30 44.9832C31.777 44.9832 33.2227 43.5375 33.2227 41.7605C33.2227 40.2882 32.2299 39.0443 30.8789 38.6607V33.3491H33.8086V37.6589C33.8086 38.1443 34.2021 38.5378 34.6875 38.5378H38.6775C39.0611 39.8888 40.3051 40.8816 41.7773 40.8816C43.5543 40.8816 45 39.4359 45 37.6589C45 35.882 43.5543 34.4363 41.7773 34.4363ZM18.2227 39.1238C17.4149 39.1238 16.7578 38.4667 16.7578 37.6589C16.7578 36.8512 17.4149 36.1941 18.2227 36.1941C19.0304 36.1941 19.6875 36.8512 19.6875 37.6589C19.6875 38.4667 19.0304 39.1238 18.2227 39.1238ZM31.4648 41.7605C31.4648 42.5682 30.8077 43.2253 30 43.2253C29.1923 43.2253 28.5352 42.5682 28.5352 41.7605C28.5352 40.9528 29.1923 40.2957 30 40.2957C30.8077 40.2957 31.4648 40.9528 31.4648 41.7605ZM21.2571 31.5913C18.7762 31.5913 16.7578 29.5729 16.7578 27.092C16.7578 24.8747 18.4106 22.9608 20.6021 22.6403C21.0646 22.5727 21.3932 22.1549 21.3501 21.6896C21.3374 21.5523 21.3309 21.412 21.3309 21.2726C21.3309 18.7918 23.3493 16.7735 25.8302 16.7735C27.1538 16.7735 28.402 17.3489 29.2547 18.3521C29.554 18.7043 30.075 18.7645 30.4468 18.4898C31.3686 17.8084 32.4699 17.4483 33.6317 17.4483C36.3052 17.4483 38.5286 19.41 38.9442 21.9618C39.0029 22.3226 39.279 22.6094 39.6373 22.6819C41.7261 23.1048 43.2421 24.9595 43.2421 27.092C43.2421 29.5729 41.2238 31.5913 38.7429 31.5913H21.2571ZM41.7773 39.1238C40.9696 39.1238 40.3125 38.4667 40.3125 37.6589C40.3125 36.8512 40.9696 36.1941 41.7773 36.1941C42.5851 36.1941 43.2422 36.8512 43.2422 37.6589C43.2422 38.4667 42.5851 39.1238 41.7773 39.1238Z" fill="#5092FF"/>
                             </svg>*/ ?>
 													<img src='<?php echo get_sub_field('item_icon') ?>'>
-                            <span class="ml-[15px] text-black font-bold text-3 leading-4"><?php echo get_sub_field('item_title')?></span>
+                            <span class="ml-[15px] text-black font-bold text-3 leading-4">
+    <?php 
+    echo get_the_title(url_to_postid(get_sub_field('page_link'))) 
+        ?: get_sub_field('item_title'); 
+    ?>
+</span>
                         </a>
                         <?php endwhile; ?>
                     </div>
@@ -150,13 +214,15 @@
             #menu-language-switcher .menu-item-has-children:hover > .sub-menu {
                 display: block;
             }
+            
+            
         </style>
      
 
         <div class="hidden md:flex md:ml-auto">
            
             <button id="dropdownPhonesButton" data-dropdown-toggle="dropdownPhones" class="btn btn-header btn-light" type="button">
-                Отримати допомогу <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1.5">
+                <?php echo pll__('Отримати допомогу'); ?> <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1.5">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29408 6.74306L1.22301 2.67196C0.832483 2.28143 0.832483 1.64827 1.22301 1.25774C1.61353 0.867214 2.2467 0.867214 2.63722 1.25774L6.00119 4.62173L9.36516 1.25774C9.75568 0.867212 10.3888 0.867212 10.7794 1.25774C11.1699 1.64826 11.1699 2.28143 10.7794 2.67196L6.7083 6.74306C6.31777 7.13358 5.68461 7.13358 5.29408 6.74306Z" fill="#E5E5EA"/>
                 </svg>
             </button>
@@ -329,7 +395,7 @@
                 </ul>
             </div>
             <button id="consultingButton" onclick="consult.open(); return false" class="btn btn-header btn-primary ml-3" type="button">
-                Отримати консультацію
+                <?php echo pll__('Отримати консультацію'); ?>
             </button>
         </div>
         <a href="#" class="header__menu-toggler ml-auto md:hidden" onclick="header.toggleMenuMobile(); return false">
@@ -353,18 +419,30 @@
     <div class="header-drop-mobile overflow-y-auto hidden absolute z-100 left-0 right-0 top-[100%] bottom-0 bg-white border-t border-[#F2F2F7] h-[calc(100vh-60px)] md:h-fit md:rounded-b-[22px] flex flex-col justify-between items-between pb-5">
         <div>
             <div class="header-drop-mobile__menu">
+                 <form action="<?=get_nopaging_url();?>" method="get" style="margin: auto 5%;">
+                        <div class="border border-customlightGray bg-white rounded-lg flex mt-3">
+                            <input type="search" class="text-3 text-[#848484] grow border-0 p-3 rounded-2 focus:border-transparent focus:ring-0"
+                                   name="search" value="<?=htmlspecialchars(get_query_var('search'));?>" placeholder="<?=pll__('Пошуковий запит');?>">
+                            <button class="border-0 bg-none py-0 px-[14px]">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.7603 14.6033L12.1815 11.0246C13.0928 9.86515 13.637 8.40415 13.637 6.81851C13.637 3.05875 10.5782 0 6.81845 0C3.05875 0 0 3.05875 0 6.81851C0 10.5782 3.05875 13.6369 6.81845 13.6369C8.40409 13.6369 9.86509 13.0928 11.0245 12.1816L14.6033 15.7603C14.763 15.9201 14.9724 16 15.1818 16C15.3912 16 15.6006 15.9201 15.7603 15.7603C16.0799 15.4409 16.0799 14.9228 15.7603 14.6033ZM1.63636 6.81851C1.63636 3.96104 3.96104 1.63636 6.81845 1.63636C9.67593 1.63636 12.0006 3.96104 12.0006 6.81845C12.0006 9.67587 9.67593 12.0005 6.81845 12.0005C3.96104 12.0005 1.63636 9.67587 1.63636 6.81851Z" fill="#170C37"/>
+                                    <path d="M15.7603 14.6033L12.1815 11.0246C13.0928 9.86515 13.637 8.40415 13.637 6.81851C13.637 3.05875 10.5782 0 6.81845 0C3.05875 0 0 3.05875 0 6.81851C0 10.5782 3.05875 13.6369 6.81845 13.6369C8.40409 13.6369 9.86509 13.0928 11.0245 12.1816L14.6033 15.7603C14.763 15.9201 14.9724 16 15.1818 16C15.3912 16 15.6006 15.9201 15.7603 15.7603C16.0799 15.4409 16.0799 14.9228 15.7603 14.6033ZM1.63636 6.81851C1.63636 3.96104 3.96104 1.63636 6.81845 1.63636C9.67593 1.63636 12.0006 3.96104 12.0006 6.81845C12.0006 9.67587 9.67593 12.0005 6.81845 12.0005C3.96104 12.0005 1.63636 9.67587 1.63636 6.81851Z" fill="black" fill-opacity="0.2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
             <a href="#" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"
-            onclick="header.openMobileSubMenu('#mobileMenuDevices'); return false">Обладнання</a>
+            onclick="header.openMobileSubMenu('#mobileMenuDevices'); return false"><?php echo pll__('Обладнання');?></a>
                 <a href="#" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"
-                   onclick="header.openMobileSubMenu('#mobileMenuProducts'); return false">Продукти</a>
+                   onclick="header.openMobileSubMenu('#mobileMenuProducts'); return false"><?php echo pll__('Продукти');?></a>
                 <a href="#" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"
-                   onclick="header.openMobileSubMenu('#mobileMenuDecisions'); return false">Рішення</a>
-                <a href="/cases/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]">Кейси</a>
+                   onclick="header.openMobileSubMenu('#mobileMenuDecisions'); return false"><?php echo pll__('Рішення');?></a>
+                <a href="<?= home_url(); ?>/cases/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"><?php echo pll__('Кейси'); ?></a>
                 <a href="#" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"
-                   onclick="header.openMobileSubMenu('#mobileMenuPrice'); return false">Прайс</a>
-                <a href="/blog/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]">Блог</a>
-                <a href="/about-us/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]">Про нас</a>
-                <a href="/contacts/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]">Контакти</a>
+                   onclick="header.openMobileSubMenu('#mobileMenuPrice'); return false"><?php echo pll__('Прайс');?></a>
+                <a href="<?= home_url(); ?>/blog/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"><?php echo pll__('Блог'); ?></a>
+                <a href="<?= home_url(); ?>/about-us/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"><?php echo pll__('Про нас'); ?></a>
+                <a href="<?= home_url(); ?>/contacts/" class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]"><?php echo pll__('Контакти'); ?></a>
                  <div class="border-b border-[#F2F2F7] py-[14px] px-[18px] text-[14px] leading-[22px] font-semibold block text-black hover:bg-[#F8F8F8]">
                                 <?php
                                    class DisableFirstItemWalker extends Walker_Nav_Menu {
@@ -381,7 +459,7 @@
             }
         }
     }
-    
+
             wp_nav_menu([
                 'menu' => 'language-switcher',
                 'container' => false,
@@ -390,8 +468,8 @@
                 'walker' => new DisableFirstItemWalker(),
             ]);
                                             ?>
-                                
-                           <style>
+
+             <style>
                     .trp-ls-language-name {
                         color: #120a2c;
                     }
@@ -425,7 +503,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="#170C37"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="black" fill-opacity="0.2"/>
                     </svg>
-                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]">Продукти</span>
+                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]"><?php echo pll__('Продукти'); ?></span>
                 </a>
                 <div class="py-[29px] px-[17px]">
                 <?php while(have_rows('header_device_list', 'options')) : the_row(); ?>
@@ -446,7 +524,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="#170C37"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="black" fill-opacity="0.2"/>
                     </svg>
-                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]">Продукти</span>
+                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]"><?php echo pll__('Продукти'); ?></span>
                 </a>
                 <div class="py-[29px] px-[17px]">
                 <?php while(have_rows('header_products_list', 'options')) : the_row(); ?>
@@ -467,7 +545,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="#170C37"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="black" fill-opacity="0.2"/>
                     </svg>
-                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]">Рішення</span>
+                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]"><?php echo pll__('Рішення'); ?></span>
                 </a>
                 <div class="py-[29px] px-[17px]">
                     <?php while(have_rows('header_solutions_list', 'options')) : the_row(); ?>
@@ -488,7 +566,7 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="#170C37"/>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292102 7.3644L7.3632 0.293321C7.75372 -0.0972043 8.38689 -0.0972043 8.77742 0.293321C9.16794 0.683846 9.16794 1.31701 8.77742 1.70754L2.41343 8.0715L8.77742 14.4355C9.16794 14.826 9.16794 15.4592 8.77742 15.8497C8.38689 16.2402 7.75372 16.2402 7.3632 15.8497L0.292102 8.77861C-0.0984242 8.38809 -0.0984242 7.75492 0.292102 7.3644Z" fill="black" fill-opacity="0.2"/>
                     </svg>
-                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]">Прайс</span>
+                    <span class="font-semibold text-black text-[14px] leading-[22px] ml-[12px]"><?php echo pll__('Прайс'); ?></span>
                 </a>
                 <div class="py-[29px] px-[17px]">
                     <?php while(have_rows('header_price_list', 'options')) : the_row(); ?>
@@ -506,7 +584,7 @@
         </div>
         <div class="md:hidden flex flex-col px-3 mb-[50px]">
             <button id="dropdownPhonesMobileButton" data-dropdown-toggle="dropdownPhonesMobile" class="btn btn-header btn-light mb-[21px]" type="button">
-                Отримати допомогу <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1.5">
+                <?php echo pll__('Отримати допомогу'); ?> <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-1.5">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29408 6.74306L1.22301 2.67196C0.832483 2.28143 0.832483 1.64827 1.22301 1.25774C1.61353 0.867214 2.2467 0.867214 2.63722 1.25774L6.00119 4.62173L9.36516 1.25774C9.75568 0.867212 10.3888 0.867212 10.7794 1.25774C11.1699 1.64826 11.1699 2.28143 10.7794 2.67196L6.7083 6.74306C6.31777 7.13358 5.68461 7.13358 5.29408 6.74306Z" fill="#E5E5EA"/>
                 </svg>
             </button>
@@ -556,23 +634,23 @@
                 </ul>
             </div>
             <button id="consultingButtonMob" onclick="consult.open(); return false" class="btn btn-header btn-primary" type="button">
-                Отримати консультацію
+                <?php echo pll__('Отримати консультацію'); ?>
             </button>
             <div class='flex flex-row py-2'>
             <div class="md:ml-auto socials flex order-1 md:order-3 mb-[21px] md:mb-0 justify-around w-full">
-                <a href="https://www.linkedin.com/company/5310980/admin/dashboard/" class="md:ml-5">
+                <a href="https://www.linkedin.com/company/5310980/admin/dashboard/" class="md:ml-5" rel="nofollow">
                     <svg width="50" height="50" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="15" cy="15" r="15" fill="#fff"/>
                         <path d="M10.74 7.76C10.74 8.24889 10.5628 8.66444 10.2083 9.00667C9.8539 9.3489 9.39556 9.52 8.83333 9.52C8.29556 9.52 7.85556 9.3489 7.51333 9.00667C7.17111 8.66444 7 8.24889 7 7.76C7 7.24667 7.17111 6.825 7.51333 6.495C7.85556 6.165 8.30777 6 8.87 6C9.43223 6 9.87833 6.165 10.2083 6.495C10.5383 6.825 10.7156 7.24667 10.74 7.76ZM7.11 22.2433V10.9133H10.63V22.2433H7.11ZM12.72 14.5433C12.72 13.4922 12.6956 12.2822 12.6467 10.9133H15.69L15.8733 12.49H15.9467C16.68 11.2678 17.8411 10.6567 19.43 10.6567C20.6522 10.6567 21.6361 11.0661 22.3817 11.885C23.1272 12.7039 23.5 13.92 23.5 15.5333V22.2433H19.98V15.9733C19.98 14.3356 19.3811 13.5167 18.1833 13.5167C17.3278 13.5167 16.7289 13.9567 16.3867 14.8367C16.3133 14.9833 16.2767 15.2767 16.2767 15.7167V22.2433H12.72V14.5433Z" fill="#2C2C2E"/>
                         </svg>
                     </a>
-                    <a href="https://www.youtube.com/@McCloud-ua/featured" class="md:ml-5">
+                    <a href="https://www.youtube.com/@McCloud-ua/featured" class="md:ml-5" rel="nofollow">
                         <svg width="50" height="50" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="15" cy="15" r="15" fill="#fff"/>
                             <path d="M15 9C7.629 9 7.5 9.6555 7.5 14.775C7.5 19.8945 7.629 20.55 15 20.55C22.371 20.55 22.5 19.8945 22.5 14.775C22.5 9.6555 22.371 9 15 9ZM17.4037 15.0255L14.0363 16.5975C13.7415 16.734 13.5 16.581 13.5 16.2555V13.2945C13.5 12.9697 13.7415 12.816 14.0363 12.9525L17.4037 14.5245C17.6985 14.6625 17.6985 14.8875 17.4037 15.0255Z" fill="#2C2C2E"/>
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/mccloud.ua?igsh=MTZxd3B3OHhjaWRqdA==" class="md:ml-5">
+                    <a href="https://www.instagram.com/mccloud.ua?igsh=MTZxd3B3OHhjaWRqdA==" class="md:ml-5" rel="nofollow">
                         <svg width="50" height="50" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="15" cy="15" r="15" fill="#fff"/>
                             <path d="M18.2083 6.75H11.7917C10.4545 6.75 9.17217 7.28117 8.22667 8.22667C7.28117 9.17217 6.75 10.4545 6.75 11.7917V18.2083C6.75 19.5455 7.28117 20.8278 8.22667 21.7733C9.17217 22.7188 10.4545 23.25 11.7917 23.25H18.2083C19.5455 23.25 20.8278 22.7188 21.7733 21.7733C22.7188 20.8278 23.25 19.5455 23.25 18.2083V11.7917C23.25 10.4545 22.7188 9.17217 21.7733 8.22667C20.8278 7.28117 19.5455 6.75 18.2083 6.75ZM21.875 18.2083C21.8739 19.1805 21.4872 20.1124 20.7998 20.7998C20.1124 21.4872 19.1805 21.8739 18.2083 21.875H11.7917C10.8195 21.8739 9.88755 21.4872 9.20016 20.7998C8.51276 20.1124 8.1261 19.1805 8.125 18.2083V11.7917C8.12609 10.8195 8.51275 9.88754 9.20015 9.20015C9.88754 8.51275 10.8195 8.12609 11.7917 8.125H18.2083C19.1805 8.12609 20.1125 8.51275 20.7999 9.20015C21.4873 9.88754 21.8739 10.8195 21.875 11.7917V18.2083Z" fill="#2C2C2E"/>
@@ -580,7 +658,7 @@
                             <path d="M19.3073 11.6087C19.8136 11.6087 20.224 11.1983 20.224 10.6921C20.224 10.1858 19.8136 9.77539 19.3073 9.77539C18.801 9.77539 18.3906 10.1858 18.3906 10.6921C18.3906 11.1983 18.801 11.6087 19.3073 11.6087Z" fill="#2C2C2E"/>
                         </svg>
                     </a>
-                    <a href="https://www.facebook.com/mcCloud.com.ua/" class="md:ml-5">
+                    <a href="https://www.facebook.com/mcCloud.com.ua/" class="md:ml-5" rel="nofollow">
                         <svg width="50" height="50" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="15" cy="15" r="15" fill="#fff"/>
                             <path d="M19.6663 9.61854H17.0481C16.7379 9.61854 16.3931 10.0268 16.3931 10.5693V12.4599H19.6681L19.1728 15.156H16.3931V23.25H13.3032V15.156H10.5V12.4599H13.3032V10.8741C13.3032 8.59886 14.8817 6.75 17.0481 6.75H19.6663V9.61854Z" fill="#2C2C2E"/>

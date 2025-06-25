@@ -3,7 +3,7 @@
 </div>
 
 <div class="px-[16px] md:px-0 max-w-[806px] mx-auto mt-[50px] relative z-10 publication">
-    <h2>Зміст</h2>
+    <h2><?php echo pll__('Зміст'); ?></h2>
     <ul>
         <li><a href="#">Google Meet vs Zoom: що спільного</a></li>
         <li><a href="#">Що обрати: Google Meet чи Zoom – які є відмінності</a></li>
@@ -132,11 +132,11 @@
             lg:top-[36px] lg:left-[43px] lg:max-w-[335px]
             md:absolute md:max-w-[235px] md:py-0 md:px-0 md:top-[34px] md:left-[20px]
             py-[34px] px-[20px]">
-                <div class="text-[32px] leading-[40px] text-[#170C37] font-semibold mb-[18px]">Вперше підключаєте Google Workspace?</div>
+                <div class="text-[32px] leading-[40px] text-[#170C37] font-semibold mb-[18px]"><?php echo pll__('Вперше підключаєте Google Workspace?'); ?></div>
                 <div class="lg:text-[22px] text-[18px] leading-[30px] lg:mb-[35px] mb-[16px]">
-                    mcCloud допоможе отримати знижку <strong>до 50%</strong> на обраний пакет!
+                    <?php echo pll__('mcCloud допоможе отримати знижку <strong>до 50%</strong> на обраний пакет!'); ?>
                 </div>
-                <a href="#" class="btn btn-success min-w-[235px] w-full md:w-auto !text-center">Замовити</a>
+                <a href="#" class="btn btn-success min-w-[235px] w-full md:w-auto !text-center"><?php echo pll__('Замовити'); ?></a>
             </div>
         </div>
     </div>

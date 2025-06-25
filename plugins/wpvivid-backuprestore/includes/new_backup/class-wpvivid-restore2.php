@@ -74,7 +74,7 @@ class WPvivid_Restore_2
 
         $this->write_litespeed_rule();
         $this->deactivate_plugins();
-
+        $this->deactivate_theme();
         if(!file_exists(WPMU_PLUGIN_DIR.'/a-wpvivid-restore-mu-plugin-check.php'))
         {
             if(file_exists(WPMU_PLUGIN_DIR))
@@ -83,6 +83,35 @@ class WPvivid_Restore_2
 
         echo wp_json_encode($ret);
         die();
+    }
+
+    public function deactivate_theme()
+    {
+        $current_template = get_option( 'template', '' );
+        update_option( 'wpvivid_save_theme_template', $current_template, 'no' );
+        $current_stylesheet = get_option( 'stylesheet', '' );
+        update_option( 'wpvivid_save_theme_stylesheet', $current_stylesheet, 'no' );
+        $current_theme = get_option( 'current_theme', '' );
+        update_option( 'wpvivid_save_current_theme', $current_theme, 'no' );
+
+        update_option('template', '');
+        update_option('stylesheet', '');
+        update_option('current_theme', '');
+    }
+
+    public function check_active_theme()
+    {
+        $save_template = get_option( 'wpvivid_save_theme_template', '' );
+        $save_stylesheet = get_option( 'wpvivid_save_theme_stylesheet', '' );
+        $save_theme = get_option( 'wpvivid_save_current_theme', '' );
+
+        $themes_path = get_theme_root();
+        if(file_exists($themes_path . DIRECTORY_SEPARATOR . $save_stylesheet))
+        {
+            update_option('template', $save_template);
+            update_option('stylesheet', $save_stylesheet);
+            update_option('current_theme', $save_theme);
+        }
     }
 
     public function create_restore_task($backup_id,$restore_options,$restore_version)
@@ -1325,6 +1354,19 @@ class WPvivid_Restore_2
                 }
 
             }
+            //Migration notice
+            $need_review=WPvivid_Setting::get_option('wpvivid_need_review');
+            if($need_review=='not')
+            {
+                $review_time=WPvivid_Setting::get_option('wpvivid_review_time', false);
+                if($review_time === false || time() >= $review_time)
+                {
+                    WPvivid_Setting::update_option('wpvivid_need_review','show');
+                    $msg = 'Migration complete! We\'d love it if you could leave WPvivid Backup Plugin a 5-star rating. It really motivates us to keep improving!';
+                    WPvivid_Setting::update_option('wpvivid_review_msg',$msg);
+                    WPvivid_Setting::update_option('wpvivid_review_type', 'migration');
+                }
+            }
         }
 
         if($ret['has_db'])
@@ -1334,6 +1376,7 @@ class WPvivid_Restore_2
         else
         {
             $this->active_plugins($plugins);
+            $this->check_active_theme();
         }
 
 

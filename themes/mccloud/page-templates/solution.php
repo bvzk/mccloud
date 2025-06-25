@@ -123,7 +123,7 @@ get_header();
                             <div class="text-[20px] leading-4 font-bold">
                                 від <span class="text-6 leading-7">€<?php echo $plan['price']; ?></span>
                             </div>
-                            <div class="text-grayText text-[12px] leading-3 mb-4">*за користувача на місяць</div>
+                            <div class="text-grayText text-[12px] leading-3 mb-4"><?php echo pll__('*за користувача на місяць'); ?></div>
 
                             <a href="#consultForm"
                                 class="btn <?php echo $plan['highlight'] ? 'btn-light-success' : 'btn-success'; ?> w-full"><?php echo $plan['button_text']; ?></a>
@@ -164,7 +164,7 @@ get_header();
                             <div class="text-[20px] leading-4 font-bold">
                                 від <span class="text-6 leading-7">€<?php echo $plan['price']; ?></span>
                             </div>
-                            <div class="text-grayText text-[12px] leading-3 mb-4">*за користувача на місяць</div>
+                            <div class="text-grayText text-[12px] leading-3 mb-4"><?php echo pll__('*за користувача на місяць'); ?></div>
 
                             <a href="#consultForm"
                                 class="btn <?php echo $plan['highlight'] ? 'btn-light-success' : 'btn-success'; ?> w-full"><?php echo $plan['button_text']; ?></a>
@@ -220,7 +220,7 @@ get_header();
                             <div class="text-[20px] leading-4 font-bold">
                                 від <span class="text-6 leading-7">€<?php echo $plan['price']; ?></span>
                             </div>
-                            <div class="text-grayText text-[12px] leading-3 mb-4">*за користувача на місяць</div>
+                            <div class="text-grayText text-[12px] leading-3 mb-4"><?php echo pll__('*за користувача на місяць'); ?></div>
 
                             <a href="#consultForm"
                                 class="btn <?php echo $plan['highlight'] ? 'btn-light-success' : 'btn-success'; ?> w-full"><?php echo $plan['button_text']; ?></a>
@@ -276,7 +276,7 @@ get_header();
                             <div class="text-[20px] leading-4 font-bold">
                                 від <span class="text-6 leading-7">€<?php echo $plan['price']; ?></span>
                             </div>
-                            <div class="text-grayText text-[12px] leading-3 mb-4">*за користувача на місяць</div>
+                            <div class="text-grayText text-[12px] leading-3 mb-4"><?php echo pll__('*за користувача на місяць'); ?></div>
 
                             <a href="#consultForm"
                                 class="btn <?php echo $plan['highlight'] ? 'btn-light-success' : 'btn-success'; ?> w-full"><?php echo $plan['button_text']; ?></a>
@@ -411,11 +411,11 @@ get_header();
     </div>
 </div>
 
-<?php set_query_var('consultFormTitle', "Користуєтеся послугою вперше?");?>
+<?php set_query_var('consultFormTitle', pll__("Користуєтеся послугою вперше?"));?>
 <?php 
 // set_query_var('showContacts', 'true');
 ?>
-<?php set_query_var('consultFormSubTitle', "<p class='text-3 leading-4'>Для всіх нових клієнтів діють спеціальні ціни зі знижками. Повідомте менеджера на консультації, що це ваш перший досвід підключення та отримайте унікальну пропозицію.</p>") ?>
+<?php set_query_var('consultFormSubTitle', "<p class='text-3 leading-4'>".pll__('Для всіх нових клієнтів діють спеціальні ціни зі знижками. Повідомте менеджера на консультації, що це ваш перший досвід підключення та отримайте унікальну пропозицію.')."</p>") ?>
 
 <?php require get_template_directory() . '/template-parts/common/consultFormBlock.php'; ?>
 

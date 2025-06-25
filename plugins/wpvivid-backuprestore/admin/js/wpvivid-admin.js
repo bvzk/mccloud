@@ -64,6 +64,11 @@ var wpvivid_resotre_is_migrate=0;
             wpvivid_add_review_info(name);
         });
 
+        $(document).on('click', '.notice-rate .notice-dismiss', function(){
+            var name = 'dismiss';
+            wpvivid_add_review_info(name);
+        });
+
         $(document).on('click', '.notice-wp-cron .notice-dismiss', function(){
             var ajax_data = {
                 'action': 'wpvivid_hide_wp_cron_notice'
@@ -463,6 +468,22 @@ function wpvivid_interface_flow_control(){
                 jQuery('#wpvivid_restore_btn').css({'pointer-events': 'auto', 'opacity': '1'});
             }
         });
+    });
+
+    jQuery('input:radio[option=setting][name=backup_params]').click(function()
+    {
+        if(jQuery(this).prop('checked'))
+        {
+            var value = jQuery(this).prop('value');
+            if(value=='custom')
+            {
+                jQuery('#wpvivid_custom_backup_params').show();
+            }
+            else
+            {
+                jQuery('#wpvivid_custom_backup_params').hide();
+            }
+        }
     });
 }
 

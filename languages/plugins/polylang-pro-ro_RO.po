@@ -1,0 +1,781 @@
+# Translation of WP-Syntex - Polylang Pro in Romanian
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-05 06:16:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: ro\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#. translators: %1$s is a machine translation service's name, %2$s is a list of
+#. language names (and their locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:23
+msgid "The following languages are not available in %1$s: %2$s."
+msgstr "Următoarele limbi nu sunt disponibile în %1$s: %2$s."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:71
+msgid "Note: informal tone will always be used for %s languages."
+msgstr "Notă: tonul informal va fi întotdeauna folosit pentru limbile %s."
+
+#. translators: %s is a list of language names.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:54
+msgid "Note: formal tone will always be used for %s languages."
+msgstr "Notă: tonul formal va fi întotdeauna folosit pentru limbile %s."
+
+#. translators: %s is a list of post IDs
+#: modules/import-export/import/import-posts.php:161
+msgid "Warning: matching sources weren't found for post IDs: %s"
+msgstr "Avertizare: nu au fost găsite surse potrivite pentru ID-urile articolelor: %s"
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:90
+#: services/translation/translation-post-model.php:123
+msgid "The post with ID %d could not be translated."
+msgstr "Articolul cu ID %d nu a putut fi tradus."
+
+#. translators: %d is a term id.
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:55
+#: services/translation/translation-term-model.php:94
+msgid "The term with ID %d could not be translated."
+msgstr "Termenul cu ID %d nu a putut fi tradus."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:83
+msgid "The term with ID %d could not be updated."
+msgstr "Termenul cu ID %d nu a putut fi actualizat."
+
+#. translators: %d is a term ID.
+#: services/translation/translation-term-model.php:62
+msgid "The term with ID %d could not be translated as it doesn't exist."
+msgstr "Termenul cu ID %d nu a putut fi tradus pentru că nu există."
+
+#: services/translation/translation-strings-model.php:81
+msgid "No strings have been translated."
+msgstr "Nu a fost tradus niciun șir."
+
+#. translators: %d is a post ID.
+#: services/translation/translation-post-model.php:96
+msgid "The post with ID %d could not be translated as it doesn't exist."
+msgstr "Articolul cu ID %d nu a putut fi tradus pentru că nu există."
+
+#: modules/Machine_Translation/Views/string-form.php:43
+msgid "Translate all groups"
+msgstr "Tradu toate grupurile"
+
+#: modules/Machine_Translation/Strings/Metabox.php:73
+msgid "Machine translations"
+msgstr "Traduceri automate"
+
+#: modules/import-export/import/import-terms.php:112
+msgid "No terms were translated. Please check that the original terms in your file match those on the site."
+msgstr "Niciun termen nu a fost tradus. Te rugăm să verifici dacă termenii originali din fișierul tău corespund cu cei de pe site."
+
+#: modules/import-export/import/import-strings.php:105
+msgid "No string translations updated. Please check that the original strings in your file match those on the site."
+msgstr "Nu s-au actualizat traducerile șirurilor. Te rugăm să verifici dacă șirurile originale din fișierul tău corespund cu cele de pe site."
+
+#: modules/import-export/import/import-posts.php:171
+msgid "No posts were translated. Please check that the original posts in your file match those on the site."
+msgstr "Nu a fost tradus niciun articol. Te rugăm să verifici dacă articolele originale din fișierul tău corespund cu cele de pe site."
+
+#: integrations/ACF/Labels/Field_Groups.php:298
+msgctxt "ACF field setting label"
+msgid "Instructions"
+msgstr "Instrucțiuni"
+
+#: integrations/ACF/Labels/Field_Groups.php:292
+msgctxt "ACF field setting label"
+msgid "Label"
+msgstr "Etichetă"
+
+#: integrations/ACF/Labels/Field_Groups.php:291
+msgctxt "ACF field setting label"
+msgid "Choice"
+msgstr "Alegere"
+
+#: integrations/ACF/Labels/Field_Groups.php:290
+msgctxt "ACF field setting label"
+msgid "OFF text"
+msgstr "Text dezactivat"
+
+#: integrations/ACF/Labels/Field_Groups.php:289
+msgctxt "ACF field setting label"
+msgid "ON text"
+msgstr "Text activat"
+
+#: integrations/ACF/Labels/Field_Groups.php:288
+msgctxt "ACF field setting label"
+msgid "Message"
+msgstr "Mesaj"
+
+#: integrations/ACF/Labels/Field_Groups.php:287
+msgctxt "ACF field setting label"
+msgid "Suffix"
+msgstr "Sufix"
+
+#: integrations/ACF/Labels/Field_Groups.php:286
+msgctxt "ACF field setting label"
+msgid "Prefix"
+msgstr "Prefix"
+
+#: integrations/ACF/Labels/Field_Groups.php:285
+msgctxt "ACF field setting label"
+msgid "Placeholder"
+msgstr "Substituent"
+
+#: integrations/ACF/Labels/Field_Groups.php:284
+msgctxt "ACF field setting label"
+msgid "Default value"
+msgstr "Valoare implicită"
+
+#: integrations/ACF/Field_Settings.php:55
+msgid "Translate once"
+msgstr "Tradu o dată"
+
+#: integrations/ACF/Dispatcher.php:430
+msgid "This field is ignored."
+msgstr "Acest câmp este ignorat."
+
+#: integrations/ACF/Dispatcher.php:426
+msgid "This field is translated once."
+msgstr "Acest câmp este tradus o singură dată."
+
+#: integrations/ACF/Dispatcher.php:424
+msgid "This field is translated."
+msgstr "Acest câmp este tradus."
+
+#: integrations/ACF/Dispatcher.php:420
+msgid "This field is copied once."
+msgstr "Acest câmp este copiat o singură dată."
+
+#: integrations/ACF/Dispatcher.php:414 integrations/ACF/Dispatcher.php:422
+msgid "This field is synchronized."
+msgstr "Acest câmp este sincronizat."
+
+#: integrations/ACF/Dispatcher.php:409
+msgid "This field is copied."
+msgstr "Acest câmp este copiat."
+
+#: include/Options/Business/Machine_Translation_Services.php:95
+msgid "Settings for machine translation services: DeepL's API key and formality for now."
+msgstr "Setări pentru serviciile de traducere automată: cheie API și formalitatea DeepL pentru moment."
+
+#: include/Options/Business/Machine_Translation_Enabled.php:39
+msgid "Enable machine translation."
+msgstr "Activează traducere automată."
+
+#: modules/rest/rest-filtered-object.php:101
+msgid "Limit results to a specific language. By default, results are not filtered by language."
+msgstr "Limitează rezultatele la o anumită limbă. În mod implicit, rezultatele nu sunt filtrate în funcție de limbă."
+
+#: modules/rest/rest-api.php:149
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Domeniul în care se formulează cererea; determină câmpurile prezente în răspuns."
+
+#. translators: %1$s is a machine translation service's name, %2$s is a
+#. language name (and its locale).
+#: modules/Machine_Translation/Views/inner-notices-row.php:20
+msgid "The following language is not available in %1$s: %2$s."
+msgstr "Următoarea limbă nu este disponibilă în %1$s: %2$s"
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:68
+msgid "Note: informal tone will always be used for %s language."
+msgstr "Notă: tonul informal va fi folosit întotdeauna pentru limba %s."
+
+#. translators: %s is a language name.
+#: modules/Machine_Translation/Views/deepl-formality-row.php:51
+msgid "Note: formal tone will always be used for %s language."
+msgstr "Notă: tonul formal va fi folosit întotdeauna pentru limba %s."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:41
+msgid "Sets whether the translated text should lean on formal or informal language. Automatic fallback on the default formality if not available for the targeted language."
+msgstr "Stabilește dacă textul tradus trebuie să se bazeze pe limbajul formal sau informal. Alternativă automată la formalitatea implicită dacă nu este disponibilă pentru limba vizată."
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:27
+msgid "Prefer informal"
+msgstr "Prefer informal"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:26
+msgid "Prefer formal"
+msgstr "Prefer formal"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:25
+msgctxt "Language formality"
+msgid "Default"
+msgstr "Implicit"
+
+#: modules/Machine_Translation/Views/deepl-formality-row.php:20
+msgid "Formality"
+msgstr "Formalitate"
+
+#: modules/Machine_Translation/Views/characters-consumption-row.php:15
+msgid "Data used"
+msgstr "Date folosite"
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Settings/Deepl.php:426
+msgctxt "Language label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: modules/Machine_Translation/Settings/Deepl.php:326
+msgid "API key"
+msgstr "Cheie API"
+
+#: modules/Machine_Translation/Settings/Deepl.php:324
+msgid "Your API key is valid."
+msgstr "Cheia ta API este validă."
+
+#. translators: %1$s is an opening link tag leading to the service's status
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:319
+msgid "You can look at %1$sthe DeepL Pro/Free API's status%2$s."
+msgstr "Te poți uita la %1$sstarea API-ului DeepL Pro sau gratuit%2$s."
+
+#. translators: %1$s is an opening link tag leading to the service's account
+#. page, %2$s is a closing link tag.
+#: modules/Machine_Translation/Settings/Deepl.php:313
+msgid "%1$sVerify your API key at the bottom of your DeepL account page%2$s."
+msgstr "%1$sVerifică-ți cheia API în partea de jos a paginii contului tău DeepL%2$s."
+
+#. translators: %1$s is an opening link tag leading to account creation, %2$s
+#. is an opening link tag leading to the account page, %3$s is a closing link
+#. tag.
+#: modules/Machine_Translation/Settings/Deepl.php:305
+msgid "%1$sCreate your account on DeepL%3$s, then %2$sfind your API key at the bottom of your account page%3$s."
+msgstr "%1$sCreează-ți contul pe DeepL%3$s, apoi %2$sgăsești cheia ta API în partea de jos a paginii contului tău%3$s."
+
+#. translators: %s is a service name.
+#: modules/Machine_Translation/Settings/Deepl.php:301
+msgid "Check connection to %s"
+msgstr "Verifică conexiunea la %s"
+
+#. translators: %1$s is a formatted count number, %2$s is a formatted limit
+#. number.
+#: modules/Machine_Translation/Settings/Deepl.php:202
+msgid "%1$s / %2$s translated character."
+msgid_plural "%1$s / %2$s translated characters."
+msgstr[0] "%1$s/%2$s caracter tradus."
+msgstr[1] "%1$s/%2$s caractere traduse."
+msgstr[2] "%1$s/%2$s de caractere traduse."
+
+#. translators: %s is a formatted count number.
+#: modules/Machine_Translation/Settings/Deepl.php:178
+msgid "%s translated character."
+msgid_plural "%s translated characters."
+msgstr[0] "%s caracter tradus."
+msgstr[1] "%s caractere traduse."
+msgstr[2] "%s de caractere traduse."
+
+#. translators: %s is an error message.
+#: modules/Machine_Translation/Settings/Deepl.php:163
+msgid "Error while retrieving the data: %s."
+msgstr "Eroare la preluarea datelor: %s."
+
+#: modules/Machine_Translation/Settings/Deepl.php:112
+msgid "Please fill in the API key field."
+msgstr "Te rugăm completează câmpul cheie API."
+
+#. translators: %s is an HTTP status code
+#: modules/Machine_Translation/Clients/Deepl.php:302
+msgid "The DeepL server sent an unexpected status code %d."
+msgstr "Serverul DeepL a trimis un cod de stare %d neașteptat."
+
+#: modules/Machine_Translation/Clients/Deepl.php:299
+msgid "DeepL service unavailable."
+msgstr "Serviciul DeepL nu este disponibil."
+
+#: modules/Machine_Translation/Clients/Deepl.php:295
+msgid "Too many requests, DeepL servers are currently experiencing high load."
+msgstr "Prea multe cereri, serverele DeepL se confruntă momentan cu o sarcină mare."
+
+#: modules/Machine_Translation/Clients/Deepl.php:293
+msgid "Bad request."
+msgstr "Cerere greșită."
+
+#: modules/Machine_Translation/Clients/Deepl.php:291
+msgid "The DeepL server cannot be reached."
+msgstr "Serverul DeepL nu poate fi accesat."
+
+#: modules/Machine_Translation/Clients/Deepl.php:289
+msgid "The DeepL quota for this billing period has been exceeded."
+msgstr "Cota DeepL pentru această perioadă de facturare a fost depășită."
+
+#: modules/Machine_Translation/Clients/Deepl.php:287
+msgid "Authentication failure. Please check your DeepL authentication key."
+msgstr "Autentificare eșuată. Te rugăm să verifici cheia de autentificare DeepL."
+
+#: modules/Machine_Translation/Clients/Deepl.php:210
+#: modules/Machine_Translation/Clients/Deepl.php:264
+msgid "No translations have been returned by DeepL."
+msgstr "Nicio traducere nu a fost returnată de DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:177
+msgid "%1$s (%2$s) is not available as source language with DeepL."
+msgstr "%1$s (%2$s) nu este disponibilă ca limbă sursă cu DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/Machine_Translation/Clients/Deepl.php:151
+msgid "%1$s (%2$s) is not available as target language with DeepL."
+msgstr "%1$s (%2$s) nu este disponibilă ca limbă țintă cu DeepL."
+
+#: modules/Machine_Translation/Clients/Deepl.php:79
+msgid "The DeepL response is incomplete."
+msgstr "Răspunsul DeepL este incomplet."
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:50
+#: js/build/editors/post.js:1144 js/build/editors/site.js:1742
+msgid "Deactivate %s machine translation"
+msgstr "Dezactivează traducerea automată %s"
+
+#. translators: %s is the name of the machine translation service.
+#: modules/Machine_Translation/Posts/Button.php:45
+#: js/build/editors/post.js:1146 js/build/editors/site.js:1744
+msgid "Activate %s machine translation"
+msgstr "Activează traducerea automată %s"
+
+#: modules/Machine_Translation/Posts/Action.php:165
+msgid "Unable to retrieve the translation."
+msgstr "Imposibil de preluat traducerea."
+
+#. translators: %s is a list of versions.
+#: modules/import-export/xliff/xliff-import.php:192
+msgid "The xliff version is not supported."
+msgstr "Versiunea xliff nu este acceptată."
+
+#: modules/import-export/import/import-action.php:292
+msgid "Upload failed."
+msgstr "Încărcarea a eșuat."
+
+#: modules/import-export/import/import-action.php:274
+msgid "Error: Please select a file to upload."
+msgstr "Eroare: te rugăm să selectezi un fișier pentru încărcare."
+
+#. translators: placeholders are URLs
+#: modules/import-export/import/import-action.php:201
+msgid "Error: The site targeted in the imported file does not match the current site. Found: %1$s. Expected: %2$s."
+msgstr "Eroare: site-ul vizat în fișierul importat nu se potrivește cu site-ul curent. Am găsit: %1$s. Am așteptat: %2$s."
+
+#: modules/import-export/export/view-export-file-format.php:17
+msgid "File format"
+msgstr "Format fișier"
+
+#: modules/import-export/export/strings-form-trait.php:25
+msgid "Error: Please select a target language."
+msgstr "Eroare: te rugăm să selectezi o limbă țintă."
+
+#: modules/import-export/export/export-strings-action.php:70
+#: modules/Machine_Translation/Strings/Action.php:101
+msgid "Sorry, some data is missing from the form submission."
+msgstr "Ne pare rău, lipsesc unele date din trimiterea formularului."
+
+#: modules/import-export/export/export-download.php:95
+msgid "Error: Upload directory must be writable. Please contact your host provider."
+msgstr "Eroare: directorul de încărcare trebuie să poată fi scris. Te rugăm să-ți contactezi furnizorul de găzduire."
+
+#: modules/import-export/export/export-download.php:88
+msgid "Error: ZipArchive is required to download multiple files. Please contact your host provider."
+msgstr "Eroare: ZipArchive necesită descărcarea mai multor fișiere. Te rugăm să-ți contactezi furnizorul de găzduire."
+
+#: services/exporter/export-data-from-strings.php:60
+msgid "Error: No strings found."
+msgstr "Eroare: nu au fost găsite șiruri."
+
+#: services/exporter/export-data-from-strings.php:45
+msgid "Error: Default language not defined."
+msgstr "Eroare: limba implicită nu este definită."
+
+#: modules/import-export/export/export-bulk-option.php:133
+#: modules/import-export/export/strings-form-trait.php:34
+msgid "Error: invalid target languages."
+msgstr "Eroare: limba țintă nu este validă."
+
+#: modules/import-export/export/export-bulk-option.php:166
+msgid "The posts are already in the target language. Please select a different language for the translation."
+msgstr "Articolele sunt deja în limba țintă. Te rog selectează o altă limbă pentru traducere."
+
+#: modules/import-export/export/export-bulk-option.php:161
+msgid "The posts selected for translation have no language."
+msgstr "Articolele selectate pentru traducere nu au o limbă."
+
+#: modules/import-export/export/export-bulk-option.php:150
+msgid "The posts selected for translation could not be found."
+msgstr "Articolele selectate pentru traducere nu au putut fi găsite."
+
+#: modules/sync-post/sync-post.php:79
+msgid "Synchronize translations in selected languages with the original items"
+msgstr "Sincronizează traducerile din limbile selectate cu elementele originale"
+
+#: modules/import-export/import/view-tab-import-translations.php:29
+msgid "Publish"
+msgstr "Publică"
+
+#: modules/import-export/import/view-tab-import-translations.php:28
+msgid "Draft"
+msgstr "Ciornă"
+
+#: modules/import-export/import/view-tab-import-translations.php:26
+msgid "Select the status of the imported posts"
+msgstr "Selectează statusul articolelor importate"
+
+#. translators: %d is a number of terms translations
+#: modules/import-export/import/import-terms.php:94
+msgid "%d term translation updated."
+msgid_plural "%d terms translations updated."
+msgstr[0] "Traducerea unui termen a fost actualizată."
+msgstr[1] "Traducerile a %d termeni au fost actualizate."
+msgstr[2] "Traducerile a %d de termeni au fost actualizate."
+
+#. translators: %s is the post ID
+#: modules/import-export/import/import-posts.php:158
+msgid "Warning: a matching source wasn't found for post ID: %s"
+msgstr "Avertizare: nu a fost găsită o sursă potrivită pentru articolul cu ID: %s"
+
+#. translators: %d is a number of posts translations
+#: modules/import-export/import/import-posts.php:140
+msgid "%d post translation updated."
+msgid_plural "%d posts translations updated."
+msgstr[0] "Traducerea unui articol a fost actualizată."
+msgstr[1] "Traducerile a %d articole au fost actualizate."
+msgstr[2] "Traducerile a %d de articole au fost actualizate."
+
+#. translators: %s is the plugin's name.
+#: modules/import-export/import/import-action.php:223
+msgid "Error: The imported file has not been generated by %s."
+msgstr "Eroare: fișierul importat nu a fost generat de %s."
+
+#: modules/import-export/import-export.php:127
+msgid "Import translations"
+msgstr "Importă traduceri"
+
+#. translators: %s is a list of post titles.
+#: modules/import-export/export/export-bulk-option.php:291
+msgctxt "ambiguous posts list"
+msgid "- %s."
+msgstr "- %s."
+
+#: modules/import-export/export/export-bulk-option.php:283
+msgid "Ambiguous choice of contents to export. Please do not select contents that are translations of each other."
+msgstr "Alegerea ambiguă a conținutului de exportat. Te rugăm să nu selectezi conținuturi care sunt traduceri pentru altele."
+
+#. translators: %s is a post title.
+#: modules/import-export/export/export-bulk-option.php:278
+msgctxt "quoted post title"
+msgid "\"%s\""
+msgstr "„%s”"
+
+#: modules/import-export/export/export-bulk-option.php:35
+msgid "Export selected content into a file"
+msgstr "Exportă conținutul selectat într-un fișier"
+
+#: modules/import-export/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "Încarcă un fișier de traducere"
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format/file-format-factory.php:148
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "Eroare: format de fișier greșit. Formatele de fișiere acceptate sunt: %s"
+
+#: modules/import-export/xliff/xliff-import.php:73
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "A apărut o eroare în timpul importului, te rog asigură-te că fișierul tău este formatat corect."
+
+#: modules/import-export/xliff/xliff-import.php:57
+msgid "Something went wrong during the file import."
+msgstr "Ceva nu a mers bine în timpul importului fișierului."
+
+#: modules/import-export/xliff/xliff-format.php:45
+#: modules/import-export/xliff/xliff-import.php:49
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "Extensia libxml cerută de importator pare să lipsească din instalarea ta PHP."
+
+#: modules/translate-slugs/settings-translate-slugs.php:31
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "Extensia este automat dezactivată când se folosesc legături permanente simple."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "Extensia este dezactivată automat când se folosesc legături permanente simple sau când limba este setată din conținutul modificărilor URL."
+
+#: modules/locale-fallback/view-locale-fallback.php:13
+msgid "Locale fallback"
+msgstr "Impresii locală"
+
+#: modules/locale-fallback/view-locale-fallback.php:15
+msgid "WordPress locale to use if a translation file is not available in the main locale."
+msgstr "Locală WordPress de utilizat dacă un fișier de traducere nu este disponibil în locala principală."
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:165
+#: js/build/blocks.js:549
+msgid "Language switcher settings"
+msgstr "Setări comutator limbă"
+
+#: modules/import-export/import-export.php:119
+msgid "Export string translations"
+msgstr "Exportă șiruri traduceri"
+
+#: modules/import-export/export/view-tab-export-strings.php:65
+msgid "Download"
+msgstr "Descarcă"
+
+#: modules/import-export/export/view-tab-export-strings.php:45
+msgid "Export all groups"
+msgstr "Exportă toate grupurile"
+
+#: modules/import-export/export/view-tab-export-strings.php:42
+#: modules/Machine_Translation/Views/string-form.php:40
+msgid "Filter group"
+msgstr "Filtru grup"
+
+#: modules/bulk-translate/view-bulk-translate.php:24
+#: modules/import-export/export/view-tab-export-strings.php:26
+#: modules/Machine_Translation/Views/string-form.php:24
+msgid "Target languages"
+msgstr "Limbi țintă"
+
+#: modules/import-export/export/export-download.php:103
+#: modules/import-export/export/export-download.php:121
+msgid "Error: Impossible to create a Zip file."
+msgstr "Eroare: imposibil de creat un fișier zip."
+
+#: modules/bulk-translate/bulk-translate.php:222
+msgid "Error: No target language has been selected. Please make sure to select at least one target language."
+msgstr "Eroare: nicio limbă țintă nu a fost aleasă. Te rog asigură-te că alegi cel puțin o limbă țintă."
+
+#: modules/bulk-translate/bulk-translate.php:212
+msgid "No item has been selected. Please make sure to select at least one item to be translated."
+msgstr "Niciun element nu a fost ales. Te rog asigură-te că alegi cel puțin un element pentru a fie tradus."
+
+#: integrations/ACF/Field_Settings.php:56
+#: integrations/ACF/Field_Settings.php:74
+msgid "Synchronize"
+msgstr "Sincronizează"
+
+#: integrations/ACF/Field_Settings.php:53
+#: integrations/ACF/Field_Settings.php:73
+msgid "Copy once"
+msgstr "Copiază o dată"
+
+#: integrations/ACF/Field_Settings.php:52
+#: integrations/ACF/Field_Settings.php:72
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: modules/import-export/po/po-import.php:54
+msgid "Error: Invalid file."
+msgstr "Eroare: fișier invalid."
+
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format/file-format-factory.php:145
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "Eroare: format fișier greșit. Singurul format de fișier acceptat este %s."
+
+#: modules/import-export/import/view-tab-import-translations.php:33
+msgid "Upload"
+msgstr "Încarcă de pe calculator"
+
+#: modules/import-export/import/import-action.php:255
+msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
+msgstr "Eroare: încerci să imporți un fișier într-o limbă care nu există pe site-ul tău."
+
+#: modules/import-export/import/import-action.php:248
+msgid "Error: No target languages have been provided in the imported file."
+msgstr "Eroare: nu au fost furnizate limbi țintă în fișierul importat."
+
+#. translators: %d is a number of strings translations
+#: modules/import-export/import/import-strings.php:87
+msgid "%d string translation updated."
+msgid_plural "%d string translations updated."
+msgstr[0] "Un șir de traducere a fost actualizat."
+msgstr[1] "%d șiruri de traduceri au fost actualizate."
+msgstr[2] "%d de șiruri de traduceri au fost actualizate."
+
+#: modules/active-languages/active-languages.php:111
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: modules/blocks/language-switcher/language-switcher-block.php:54
+msgid "Choose a language"
+msgstr "Wybierz język"
+
+#: modules/active-languages/active-languages.php:119
+msgid "Deactivate"
+msgstr "Deaktywuj"
+
+#: integrations/ACF/Field_Settings.php:94
+#: modules/rest/rest-translated-object.php:83 js/build/editors/post.js:3109
+#: js/build/editors/site.js:3126
+msgid "Translations"
+msgstr "Traduceri"
+
+#: services/metabox-button/metabox-button.php:199 js/build/editors/post.js:2048
+#: js/build/editors/site.js:2065
+msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+msgstr "Ești pe cale să suprascrii o traducere existentă. Sigur vrei să continui?"
+
+#: integrations/ACF/Location_Language.php:27
+#: modules/rest/rest-translated-object.php:68 js/build/editors/post.js:786
+#: js/build/editors/post.js:3760 js/build/editors/post.js:3765
+#: js/build/editors/site.js:1384 js/build/editors/site.js:3799
+#: js/build/editors/site.js:3804
+msgid "Language"
+msgstr "Limbă"
+
+#: modules/blocks/language-switcher/navigation-language-switcher-block.php:254
+#: js/build/editors/post.js:599 js/build/editors/site.js:1225
+#: js/build/editors/widget.js:1381
+msgid "Languages"
+msgstr "Limbi"
+
+#: modules/xdata/xdata-session-manager.php:63
+msgid "An error has occurred."
+msgstr "S-a produs o eroare."
+
+#: modules/translate-slugs/translate-slugs-model.php:516
+msgid "URL slugs"
+msgstr "Descriptoare URL"
+
+#: modules/sync-post/sync-post-rest.php:53
+msgid "Synchronizations"
+msgstr "Sincronizări"
+
+#: modules/sync-post/sync-post-button.php:41 js/build/editors/post.js:2029
+#: js/build/editors/site.js:2046
+msgid "Don't synchronize this post"
+msgstr "Nu sincroniza acest articol"
+
+#: modules/sync-post/sync-post-button.php:40 js/build/editors/post.js:2029
+#: js/build/editors/post.js:2045 js/build/editors/site.js:2046
+#: js/build/editors/site.js:2062
+msgid "Synchronize this post"
+msgstr "Sincronizează acest articol"
+
+#: modules/rest/rest-post.php:187
+msgid "Translations table"
+msgstr "Tabel de traduceri"
+
+#: modules/rest/rest-api.php:159
+msgid "Add this post's translation to results."
+msgstr "Adaugă această traducere de articol la rezultate."
+
+#: modules/rest/rest-api.php:155
+msgid "Limit results to those matching a string."
+msgstr "Limitează rezultatele la cele care se potrivesc cu un șir."
+
+#: modules/rest/rest-api.php:143
+msgid "Limit results to items in a language."
+msgstr "Limitează rezultatele la elementele dintr-o limbă."
+
+#: modules/rest/rest-api.php:137
+msgid "Limit results to untranslated items in a language."
+msgstr "Limitează rezultatele la elementele netraduse dintr-o limbă."
+
+#: modules/rest/rest-api.php:131
+msgid "Limit results to items of an object type."
+msgstr "Limitează rezultatele la elementele unui tip de obiect."
+
+#: include/Options/Business/Media.php:81
+#: modules/media/settings-advanced-media.php:50
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "Duplică automat elementele media în toate limbile atunci când încarci un fișier nou."
+
+#: modules/media/settings-advanced-media.php:33
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "Activează limbi și traduceri pentru media. Oferă opțiuni pentru gestiunea media multilingv."
+
+#: modules/media/settings-advanced-media.php:32
+msgid "Media"
+msgstr "Media"
+
+#: modules/duplicate/duplicate.php:33
+msgid "Deactivate content duplication"
+msgstr "Dezactivează duplicarea conținutului"
+
+#: modules/duplicate/duplicate.php:32
+msgid "Activate content duplication"
+msgstr "Activează duplicarea conținutului"
+
+#: modules/bulk-translate/view-bulk-translate.php:55
+msgid "Submit"
+msgstr "Trimite"
+
+#: modules/bulk-translate/view-bulk-translate.php:54
+#: js/build/editors/post.js:1857 js/build/editors/post.js:3339
+#: js/build/editors/post.js:3784 js/build/editors/site.js:1874
+#: js/build/editors/site.js:3358 js/build/editors/site.js:3823
+msgid "Cancel"
+msgstr "Anulează"
+
+#: modules/media/admin-advanced-media.php:58 modules/sync-post/sync-post.php:89
+msgid "Copy original items to selected languages"
+msgstr "Copiază elementele originale în limbile selectate"
+
+#: modules/bulk-translate/view-bulk-translate.php:39
+msgid "Action"
+msgstr "Acțiune"
+
+#: modules/bulk-translate/view-bulk-translate.php:20
+msgid "Bulk translate"
+msgstr "Traducere în bloc"
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:204
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "Pentru a evita suprascrierea conținutului, o traducere nu a fost creată."
+msgstr[1] "Pentru a evita suprascrierea conținutului, %d traduceri nu au fost create."
+msgstr[2] "Pentru a evita suprascrierea conținutului, %d de traduceri nu au fost create."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:192
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "O traducere creată."
+msgstr[1] "%d traduceri create."
+msgstr[2] "%d de traduceri create."
+
+#: integrations/ACF/Field_Settings.php:54
+#: modules/bulk-translate/bulk-translate.php:268
+#: modules/Machine_Translation/Views/string-form.php:57
+msgid "Translate"
+msgstr "Tradu"
+
+#: modules/active-languages/active-languages.php:117
+msgid "Deactivate this language"
+msgstr "Dezactivează această limbă"
+
+#: modules/active-languages/active-languages.php:109
+msgid "Activate this language"
+msgstr "Activează această limbă"
+
+#. Author of the plugin
+#: polylang.php
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+#: polylang.php
+msgid "Adds multilingual capability to WordPress"
+msgstr "Dodaje wsparcie wielojęzykowe do WordPressa"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+#: polylang.php
+msgid "Polylang Pro"
+msgstr "Polylang Pro"

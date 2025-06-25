@@ -26,7 +26,7 @@
                             <h5 class='font-bold text-4 leading-5 text-center pb-4'><?php echo get_sub_field('title') ?></h5>
 
                             <div
-                                class="!p-0 btn btn-light-success w-full box-border flex"><a href='<?php echo get_permalink(get_sub_field('page_link')) ?>' class='p-3 color-green text-center box-border w-full h-full'>Дізнатися більше</a></div>
+                                class="!p-0 btn btn-light-success w-full box-border flex"><a href='<?php echo get_permalink(get_sub_field('page_link')) ?>' class='p-3 color-green text-center box-border w-full h-full'><?php echo pll__('Дізнатися більше'); ?></a></div>
                         </div>
                     </div>
                 </div>

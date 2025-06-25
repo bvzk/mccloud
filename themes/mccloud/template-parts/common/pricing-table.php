@@ -31,7 +31,7 @@ $render_wrapper = get_query_var("plans_should_render_wrapper", true);
                             <div class="text-[20px] leading-4 font-bold">
                                 від <span class="text-6 leading-7">€<?php echo $plan['price']; ?></span>
                             </div>
-                            <div class="text-grayText text-[12px] leading-3 mb-4">**за користувача на місяць</div>
+                            <div class="text-grayText text-[12px] leading-3 mb-4"><?php echo pll__('*за користувача на місяць'); ?></div>
 
                             <a href="#consultForm"
                                 class="btn <?php echo $plan['highlight'] ? 'btn-light-success' : 'btn-success'; ?> w-full"><?php echo $plan['button_text']; ?></a>

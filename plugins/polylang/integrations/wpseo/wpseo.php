@@ -78,6 +78,8 @@ class PLL_WPSEO {
 			'company_name',
 			'rssbefore',
 			'rssafter',
+			'social-title-*',
+			'social-description-*',
 		);
 
 		new PLL_Translate_Option( 'wpseo_titles', array_fill_keys( $keys, 1 ), array( 'context' => 'wordpress-seo' ) );
@@ -91,13 +93,13 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Fixes the home url as well as the stylesheet url
-	 * Only when using multiple domains or subdomains
+	 * Fixes the home url as well as the stylesheet url,
+	 * only when using multiple domains or subdomains.
 	 *
 	 * @since 1.6.4
 	 *
-	 * @param string $url
-	 * @param string $path
+	 * @param string $url  The complete URL including scheme and path.
+	 * @param string $path Path relative to the home URL.
 	 * @return $url
 	 */
 	public function wpseo_home_url( $url, $path ) {
@@ -200,7 +202,7 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Add filters before the sitemap is evaluated and outputed.
+	 * Add filters before the sitemap is evaluated and outputted.
 	 *
 	 * @since 2.6
 	 *
@@ -280,11 +282,11 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Filters home url
+	 * Filters the home url.
 	 *
 	 * @since 1.1.2
 	 *
-	 * @param array $arr
+	 * @param array $arr The list of files or functions for which `home_url()` must be filtered.
 	 * @return array
 	 */
 	public function wpseo_home_url_white_list( $arr ) {
@@ -334,11 +336,11 @@ class PLL_WPSEO {
 	}
 
 	/**
-	 * Fixes the canonical front page url as unlike WP, WPSEO does not add a trailing slash to the canonical front page url
+	 * Fixes the canonical front page url as unlike WP, WPSEO does not add a trailing slash to the canonical front page url.
 	 *
 	 * @since 1.7.10
 	 *
-	 * @param string $url
+	 * @param string $url The canonical URL evaluated by Yoast SEO.
 	 * @return $url
 	 */
 	public function wpseo_canonical( $url ) {
@@ -405,7 +407,7 @@ class PLL_WPSEO {
 			} elseif ( 'post-type-archive' === $indexable->object_type && pll_is_translated_post_type( $indexable->object_sub_type ) ) {
 				$indexable->permalink = get_post_type_archive_link( $indexable->object_sub_type );
 				$breadcrumb_title = WPSEO_Options::get( 'bctitle-ptarchive-' . $indexable->object_sub_type );
-				$breadcrumb_title = $breadcrumb_title ? $breadcrumb_title : $indexable->breadcrumb_title; // The option may be empty.
+				$breadcrumb_title = $breadcrumb_title ?: $indexable->breadcrumb_title; // The option may be empty.
 				$indexable->breadcrumb_title = pll__( $breadcrumb_title );
 			} elseif ( 'term' === $indexable->object_type && pll_is_translated_taxonomy( $indexable->object_sub_type ) ) {
 				$indexable->permalink = get_term_link( $indexable->object_id );
@@ -422,8 +424,8 @@ class PLL_WPSEO {
 	 *
 	 * @param string[] $keys List of custom fields names.
 	 * @param bool     $sync True if it is synchronization, false if it is a copy.
-	 * @param int      $from Id of the post from which we copy informations.
-	 * @param int      $to   Id of the post to which we paste informations.
+	 * @param int      $from Id of the post from which we copy information.
+	 * @param int      $to   Id of the post to which we paste information.
 	 * @return array
 	 */
 	public function copy_post_metas( $keys, $sync, $from, $to ) {

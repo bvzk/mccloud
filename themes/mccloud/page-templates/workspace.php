@@ -13,8 +13,8 @@ get_header();
         <img src="/wp-content/themes/mccloud/img/image6554.png" alt="image" class="mb-4 lg:max-w-[48%]">
 
         <div class="flex flex-col lg:w-[48%] text-3 leading-4">
-            <h2 class=" text-left text-4 font-bold mb-3 lg:text-6">Головні переваги</h2>
-            <p>Платформа Google Workspace надає бізнесу інструменти для дистанційної роботи:</p>
+            <h2 class=" text-left text-4 font-bold mb-3 lg:text-6"><?php echo pll__('Головні переваги'); ?></h2>
+            <p><?php echo pll__('Платформа Google Workspace надає бізнесу інструменти для дистанційної роботи:'); ?></p>
 
             <ul class="list-disc list-inside mb-4 pl-2">
                 <li>Gmail;
@@ -25,10 +25,10 @@ get_header();
                 </li>
                 <li>Sheets;
                 </li>
-                <li>Meet тощо.</li>
+                <li>Meet <?=pll__('тощо.');?></li>
             </ul>
-            <p>Отже, впровадження Воркспейс дає змогу планувати справи, працювати з документами разом із колегами. Тобто
-                можете проводити обговорення й редагування проєктів у реальному часі.</p>
+            <p><?php echo pll__('Отже, впровадження Воркспейс дає змогу планувати справи, працювати з документами разом із колегами. Тобто
+                можете проводити обговорення й редагування проєктів у реальному часі.'); ?></p>
         </div>
     </div>
 
@@ -37,14 +37,9 @@ get_header();
 
 <div class="container md:mt-[120px] mt-8">
     <h2 class="title-text-2 font-bold mx-auto max-w-[935px] mb-3 text-center">
-        Детальніше про інструменти
+        <?php echo pll__('Детальніше про інструменти'); ?>
     </h2>
-    <p class="text-center mx-auto lg:max-w-[50%]  mb-4 lg:mb-11 ">Раніше за бізнес-процеси відповідала платформа
-        Google-Suite. Багато
-        користувачів змогли оцінити ті переваги, які
-        дає дистанційна корпоративна робота. Отже, Google Workspace є вдосконаленою версією G-Suite. Сучасна платформа
-        має такі інструменти:
-    </p>
+    <p class="text-center mx-auto lg:max-w-[50%]  mb-4 lg:mb-11 "><?php echo pll__('Раніше за бізнес-процеси відповідала платформа Google-Suite. Багато користувачів змогли оцінити ті переваги, які дає дистанційна корпоративна робота. Отже, Google Workspace є вдосконаленою версією G-Suite. Сучасна платформа має такі інструменти:') ?></p>
 
     <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='default-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
@@ -80,7 +75,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Gmail</div>
             <div class=" text-gray leading-4">
-                Пошта Google зі своїм доменом, робота у зручному інтерфейсі з будь-якого місця.
+                <?php echo pll__('Пошта Google зі своїм доменом, робота у зручному інтерфейсі з будь-якого місця.'); ?>
             </div>
         </div>
 
@@ -116,10 +111,9 @@ get_header();
                     </defs>
                 </svg>
             </div>
-            <div class="text-4 leading-5 font-bold mb-3">Календар</div>
+            <div class="text-4 leading-5 font-bold mb-3"><?php echo pll__('Календар'); ?></div>
             <div class=" text-gray leading-4">
-                Зручний інструмент для планування, який можна використовувати спільно з іншими програмами та
-                сервісами.
+                <?php echo pll__('Зручний інструмент для планування, який можна використовувати спільно з іншими програмами та сервісами.'); ?>
             </div>
         </div>
 
@@ -156,8 +150,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Drive</div>
             <div class=" text-gray leading-4">
-                Безпечне зберігання файлів, можливість використання загальних дисків з доступом для всіх
-                співробітників.
+                <?php echo pll__('Безпечне зберігання файлів, можливість використання загальних дисків з доступом для всіх співробітників.'); ?>
             </div>
         </div>
 
@@ -175,10 +168,9 @@ get_header();
                         fill="#00832D" />
                 </svg>
             </div>
-            <div class="text-4 leading-5 font-bold mb-3">Чат</div>
+            <div class="text-4 leading-5 font-bold mb-3"><?php echo pll__('Чат'); ?></div>
             <div class="text-gray leading-4">
-                безпечне спілкування через приватні повідомлення або групові бесіди, колективне обговорення
-                нагальних задач, робота над спільними проєктами.
+                <?php echo pll__('безпечне спілкування через приватні повідомлення або групові бесіди, колективне обговорення нагальних задач, робота над спільними проєктами.'); ?>
             </div>
         </div>
 
@@ -212,8 +204,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Google Meet</div>
             <div class=" text-gray leading-4">
-                Високоякісний сервіс для проведення онлайн-конференцій інтегруваний з Календарем, Чатом та
-                Gmail.
+                <?php echo pll__('Високоякісний сервіс для проведення онлайн-конференцій інтегруваний з Календарем, Чатом та Gmail.'); ?>
             </div>
         </div>
 
@@ -240,8 +231,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Docs</div>
             <div class=" text-gray leading-4">
-                Зручне створення, редагування, коментування та спільне використання документів у режимі
-                реального часу.
+                <?php echo pll__('Зручне створення, редагування, коментування та спільне використання документів у режимі реального часу.'); ?>
             </div>
         </div>
 
@@ -270,8 +260,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Sheets</div>
             <div class=" text-gray leading-4">
-                Розширені можливості для аналізу та візуалізації даних, більш швидка й зручна робота завдяки
-                формулам та іншим корисним опціям.
+                <?php echo pll__('Розширені можливості для аналізу та візуалізації даних, більш швидка й зручна робота завдяки формулам та іншимvкорисним опціям.'); ?>
             </div>
         </div>
 
@@ -297,8 +286,7 @@ get_header();
             </div>
             <div class="text-4 leading-5 font-bold mb-3">Slides</div>
             <div class=" text-gray leading-4">
-                Багатофункціональний інструмент для інформативних презентацій шляхом використання вбудованого
-                інструментарію та можливості додавати фото, відео, графіки тощо.
+                <?php echo pll__('Багатофункціональний інструмент для інформативних презентацій шляхом використання вбудованого інструментарію та можливості додавати фото, відео, графіки тощо.'); ?>
             </div>
         </div>
 
@@ -309,34 +297,30 @@ get_header();
 
 <div class="container text-center">
     <div class="flex py-2 flex-col gap-3 lg:max-w-[50%] lg:mx-auto">
-        <h3 class="title-text-2 mb-2">Організаційні питання</h3>
-        <p>Якщо плануєте налагодити автоматизацію бізнес-процесів, здійснювати комфортне й ефективне управління
-            проєктами й документами, переконатися в перевагах командної роботи, не зволікайте! Впровадження Воркспейс
-            від mcCloud відкриває шлях до нових успіхів!
-
-        </p>
+        <h3 class="title-text-2 mb-2"><?php echo pll__('Організаційні питання'); ?></h3>
+        <p><?php echo pll__('Якщо плануєте налагодити автоматизацію бізнес-процесів, здійснювати комфортне й ефективне управління проєктами й документами, переконатися в перевагах командної роботи, не зволікайте! Впровадження Воркспейс від mcCloud відкриває шлях до нових успіхів!'); ?></p>
     </div>
 </div>
 
 <div class="container mt-6 mb-9 2xl:mt-9 2xl:mb-[120px]">
     <div class="bg-customLightGreen rounded-4 p-3 lg:p-4 2xl:p-6">
-        <h3 class="text-[20px] lg:font-bold lg:text-5 mb-4">Початок співпраці передбачає три етапи:
+        <h3 class="text-[20px] lg:font-bold lg:text-5 mb-4"><?php echo pll__('Початок співпраці передбачає три етапи:'); ?>
         </h3>
         <ul class="flex flex-col gap-3">
             <li class="flex items-center gap-3">
                 <span
                     class="rounded-full bg-green w-[44px] h-[44px] text-white flex justify-center items-center">1</span>
-                <span>Консультація</span>
+                <span><?php echo pll__('Консультація'); ?></span>
             </li>
             <li class="flex items-center gap-3">
                 <span
                     class="rounded-full bg-green w-[44px] h-[44px] text-white flex justify-center items-center">2</span>
-                <span>Налаштування та реалізація</span>
+                <span><?php echo pll__('Налаштування та реалізація'); ?></span>
             </li>
             <li class="flex items-center gap-3">
                 <span
                     class="rounded-full bg-green w-[44px] h-[44px] text-white flex justify-center items-center">3</span>
-                <span>Підтримка</span>
+                <span><?php echo pll__('Підтримка'); ?></span>
             </li>
         </ul>
     </div>
@@ -347,46 +331,37 @@ get_header();
         <li class="flex flex-col gap-3 lg:flex-row lg:justify-between">
             <img src="/wp-content/themes/mccloud/img/image6556-2.png" alt="image" class="mb-4 lg:max-w-[48%] rounded-4 object-cover">
             <div class="flex flex-col lg:max-w-[48%]">
-                <h3 class="title-text-2 mb-2">Консультація – початковий етап</h3>
-                <p>Першим кроком у впровадженні Google Workspace є заповнення заявки в режимі онлайн. З вами зв’яжеться
-                    фахівець mcCloud, запропонує тарифні пакети:
+                <h3 class="title-text-2 mb-2"><?php echo pll__('Консультація – початковий етап'); ?></h3>
+                <p><?php echo pll__('Першим кроком у впровадженні Google Workspace є заповнення заявки в режимі онлайн. З вами зв’яжеться фахівець mcCloud, запропонує тарифні пакети:'); ?>
                 </p>
                 <ul class="list-disc list-inside pl-3 mb-3">
-                    <li>Business Starter;
-                    </li>
-                    <li>Business Standard;
-                    </li>
+                    <li>Business Starter;</li>
+                    <li>Business Standard;</li>
                     <li>Business Plus.</li>
                 </ul>
 
-                <p>Пакет Starter передбачає:
+                <p><?php echo pll__('Пакет Starter передбачає:'); ?>
                 </p>
 
                 <ul class="list-disc list-inside pl-3">
-                    <li>професійні бізнес-додатки та 30 Гб на кожну ліцензію;
+                    <li><?php echo pll__('професійні бізнес-додатки та 30 Гб на кожну ліцензію;'); ?>
 
                     </li>
-                    <li>календарі, документи, таблиці, презентації;
+                    <li><?php echo pll__('календарі, документи, таблиці, презентації;'); ?>
 
                     </li>
-                    <li>корпоративну пошту з функціями безпеки;
+                    <li><?php echo pll__('корпоративну пошту з функціями безпеки;'); ?>
                     </li>
 
-                    <li>стандартну підтримку;
+                    <li><?php echo pll__('стандартну підтримку;'); ?>
                     </li>
-                    <li>безпеку й управління доменом.
+                    <li><?php echo pll__('безпеку й управління доменом.'); ?>
                     </li>
                 </ul>
-                <p class="mb-3">У рамках цього тарифу компанія передбачає залучення до відеоконференції до 100
-                    учасників. </p>
+                <p class="mb-3"><?php echo pll__('У рамках цього тарифу компанія передбачає залучення до відеоконференції до 100 учасників.') ?> </p>
 
-                <p class="mb-3">Пакет Standard включає увесь функціонал Start. До професійних додатків дається по 2 ТБ
-                    на кожну ліцензію. Покращено відеочат, надаються загальні диски з розширеними функціями аудиту та
-                    звітності. До відеоконференції з можливістю її запису долучається до 150 людей. </p>
-                <p class="mb-3">Business Plus включає функціонал Standard. Надаються професійні додатки та 5 ТБ на кожну
-                    ліцензію. Стає доступним Google Сейф із розширеним керуванням кінцевими точками. Вдосконалений
-                    контроль за управлінням і безпекою. Відеоконференції можна не лише записувати, але й контролювати
-                    відвідування. До них залучається до 500 учасників.</p>
+                <p class="mb-3"><?php echo pll__('Пакет Standard включає увесь функціонал Start. До професійних додатків дається по 2 ТБ на кожну ліцензію. Покращено відеочат, надаються загальні диски з розширеними функціями аудиту та звітності. До відеоконференції з можливістю її запису долучається до 150 людей.'); ?></p>
+                <p class="mb-3"><?php echo pll__('Business Plus включає функціонал Standard. Надаються професійні додатки та 5 ТБ на кожну ліцензію. Стає доступним Google Сейф із розширеним керуванням кінцевими точками. Вдосконалений контроль за управлінням і безпекою. Відеоконференції можна не лише записувати, але й контролювати відвідування. До них залучається до 500 учасників.'); ?></p>
 
             </div>
         </li>
@@ -394,22 +369,21 @@ get_header();
         <li class="flex flex-col gap-3 lg:flex-row-reverse lg:justify-between">
             <img src="/wp-content/themes/mccloud/img/image6554-3.png" alt="image" class="mb-4 lg:max-w-[48%]">
             <div class="flex flex-col lg:max-w-[48%]">
-                <h3 class="title-text-2 mb-4">Налаштування та реалізація
-                </h3>
-                <p>На цьому етапі фахівці mcCloud запускають у дію головні сервіси:
+                <h3 class="title-text-2 mb-4"><?php echo pll__('Налаштування та реалізація'); ?></h3>
+                <p><?php echo pll__('На цьому етапі фахівці mcCloud запускають у дію головні сервіси:'); ?>
 
                 </p>
                 <ul class="list-disc list-inside pl-3 mb-3">
-                    <li>пошта;
+                    <li><?php echo pll__('пошта;'); ?>
 
                     </li>
-                    <li>Meet;
+                    <li><?php echo pll__('Meet;'); ?>
 
                     </li>
-                    <li>Google Диск тощо.</li>
+                    <li><?php echo pll__('Google Диск тощо.'); ?></li>
                 </ul>
 
-                <p>Вони створюють необхідну кількість облікових записів, допомагають здійснити міграцію в хмару.
+                <p><?php echo pll__('Вони створюють необхідну кількість облікових записів, допомагають здійснити міграцію в хмару.'); ?>
                 </p>
 
 
@@ -420,13 +394,11 @@ get_header();
         <li class="flex flex-col gap-3 lg:flex-row lg:justify-between">
             <img src="/wp-content/themes/mccloud/img/image6554-4.png" alt="image" class="mb-4 lg:max-w-[48%]">
             <div class="flex flex-col lg:max-w-[48%]">
-                <h3 class="title-text-2 mb-2">Постійна підтримка</h3>
-                <p class="mb-3">Налаштовуються функції безпеки. Це передбачає двофакторну автентифікацію, шифрування,
-                    захист паролів. Фахівці з безпеки постійно моніторять систему щодо наявності загроз.
+                <h3 class="title-text-2 mb-2"><?php echo pll__('Постійна підтримка'); ?></h3>
+                <p class="mb-3"><?php echo pll__('Налаштовуються функції безпеки. Це передбачає двофакторну автентифікацію, шифрування, захист паролів. Фахівці з безпеки постійно моніторять систему щодо наявності загроз.'); ?>
                 </p>
 
-                <p>Проводиться безкоштовне онлайн-навчання на тренінгах, розроблених професіоналами, отже, гарантується
-                    швидке і якісне засвоєння інформації.
+                <p><?php echo pll__('Проводиться безкоштовне онлайн-навчання на тренінгах, розроблених професіоналами, отже, гарантується швидке і якісне засвоєння інформації.'); ?>
                 </p>
 
 
@@ -584,10 +556,10 @@ get_header();
 
 
 <?php
-set_query_var('title', 'Стежте за новинами');
-set_query_var('subtitle', "Стежте за новинами та отримуйте важливу й корисну інформацію <br class='hidden lg:block'> щодо захисту файлів, постановки завдань, удосконалення пошуку <br class='hidden lg:block'> на Google Диску тощо.");
+set_query_var('title', pll__('Стежте за новинами'));
+set_query_var('subtitle', pll__("Стежте за новинами та отримуйте важливу й корисну інформацію <br class='hidden lg:block'> щодо захисту файлів, постановки завдань, удосконалення пошуку <br class='hidden lg:block'> на Google Диску тощо."));
 set_query_var('bgClass', 'workspace-page-banner');
-set_query_var('CallToACtionBtnText', 'Перейти у розділ');
+set_query_var('CallToACtionBtnText', pll__('Перейти у розділ'));
 set_query_var('callToActionBackgroundColor', '[#304455]');
 set_query_var('callToActionSlideTop', false);
 set_query_var('callToActionBtnLink', get_permalink(1157));
@@ -743,13 +715,8 @@ require get_template_directory() . '/template-parts/common/callToActionBlock.php
 <?php require get_template_directory() . '/template-parts/common/latests-posts.php'; ?> -->
 
 <?php
-set_query_var('consultFormTitle', 'Замовити послугу');
-set_query_var('consultFormSubTitle', "
-Замовляйте пакети послуг у mcCloud та отримайте зручні корпоративні рішення. Підключайтеся до хмарних рішень швидко завдяки нашим менеджерам та техпідтримці з 9:00 до 18:00 у робочі дні.
-<br>
-<br>
-Сплачуйте за хмарні сервіси Google у гривні по безготівковому розрахунку та працюйте у новому онлайн-середовищі — функціональному, комфортному та безпечному.
-");
+set_query_var('consultFormTitle', pll__('Замовити послугу'));
+set_query_var('consultFormSubTitle', pll__("Замовляйте пакети послуг у mcCloud та отримайте зручні корпоративні рішення. Підключайтеся до хмарних рішень швидко завдяки нашим менеджерам та техпідтримці з 9:00 до 18:00 у робочі дні.<br><br>Сплачуйте за хмарні сервіси Google у гривні по безготівковому розрахунку та працюйте у новому онлайн-середовищі — функціональному, комфортному та безпечному."));
 require get_template_directory() . '/template-parts/common/consultFormBlock.php'; ?>
 
 <?php get_footer() ?>
