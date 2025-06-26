@@ -41,9 +41,9 @@
         <div class="2xl:w-1/2 xl:w-5/12 lg:w-7/12 md:w-1/2">
             <div id="homeServicesSlider" class="slick-home-header">
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/11_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/image/video/11_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/11_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/image/video/11_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -55,9 +55,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/44_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/image/video/44_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/44_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/image/video/44_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -69,9 +69,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/22_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/image/video/22_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/22_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/image/video/22_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -83,9 +83,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/33_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/image/video/33_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/33_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/image/video/33_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -97,9 +97,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/55_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/image/video/55_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/55_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/image/video/55_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">

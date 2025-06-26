@@ -39,7 +39,7 @@ function mccloud_get_page_banner()
 function mccloud_get_preload_banner()
 {
 	if (is_front_page()) {
-		return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/video/11_VP9.webp">';
+		return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/image/video/11_VP9.webp">';
 	} else {
 		$type = get_page_template();
 		$page_template = basename($type, '.php');
