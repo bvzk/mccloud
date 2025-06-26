@@ -68,3 +68,84 @@ function show_svg_in_media_library($response) {
 	return $response;
 }
 add_filter('wp_prepare_attachment_for_js', 'show_svg_in_media_library');
+
+
+/**
+ * Register navigation menu locations for the theme.
+ *
+ * This function sets up various menu locations used across the site,
+ * including mobile, header, footer, and language switcher areas.
+ *
+ * @return void
+ */
+function mccloud_register_menus(): void
+{
+	register_nav_menus([
+//		'mobile'               => __('Mobile Menu', 'twentytwenty'),
+		'header_left'          => __('Меню до лого', 'twentytwenty'),
+		'header_right'         => __('Меню после лого', 'twentytwenty'),
+		'language-switcher'    => __('Language Switcher', 'twentytwenty'),
+		'footer_decisions_1'   => __('Підвал. Рішення, 1 колонка', 'twentytwenty'),
+		'footer_decisions_2'   => __('Підвал. Рішення, 2 колонка', 'twentytwenty'),
+		'footer_menu'          => __('Підвал. Меню', 'twentytwenty'),
+		'footer_products'      => __('Підвал. Продукти', 'twentytwenty'),
+	]);
+}
+add_action('init', 'mccloud_register_menus');
+
+/**
+ * Filter the custom logo HTML to support retina logos by adjusting the dimensions.
+ *
+ * If the 'retina_logo' theme setting is enabled, this function reduces the logo's
+ * width and height by half and adjusts the output HTML accordingly.
+ *
+ * @param string $html The HTML output for the custom logo.
+ * @return string Modified logo HTML.
+ */
+function mccloud_get_custom_logo(string $html): string
+{
+	$logo_id = get_theme_mod('custom_logo');
+	
+	if (!$logo_id) {
+		return $html;
+	}
+	
+	$logo = wp_get_attachment_image_src($logo_id, 'full');
+	
+	if (!$logo) {
+		return $html;
+	}
+	
+	$logo_width = (int) $logo[1];
+	$logo_height = (int) $logo[2];
+	
+	if (get_theme_mod('retina_logo', false)) {
+		$logo_width = floor($logo_width / 2);
+		$logo_height = floor($logo_height / 2);
+		
+		$search = [
+			'/width="\d+"/i',
+			'/height="\d+"/i',
+		];
+		
+		$replace = [
+			"width=\"{$logo_width}\"",
+			"height=\"{$logo_height}\"",
+		];
+		
+		if (strpos($html, ' style=') === false) {
+			$search[]  = '/(src=)/';
+			$replace[] = "style=\"height: {$logo_height}px;\" src=";
+		} else {
+			$search[]  = '/(style="[^"]*)/';
+			$replace[] = "$1 height: {$logo_height}px;";
+		}
+		
+		$html = preg_replace($search, $replace, $html);
+	}
+	
+	return $html;
+}
+
+add_filter('get_custom_logo', 'mccloud_get_custom_logo');
+
