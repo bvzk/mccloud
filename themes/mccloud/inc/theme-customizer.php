@@ -322,6 +322,22 @@ function mccloud_defer_cf7_script(string $tag, string $handle): string
 }
 add_filter('script_loader_tag', 'mccloud_defer_cf7_script', 10, 2);
 
+/*
+ * Set post views count using post meta
+ */
+function setPostViews($postID)
+{
+	$countKey = 'post_views_count';
+	$count = get_post_meta($postID, $countKey, true);
+	if ($count == '') {
+		delete_post_meta($postID, $countKey);
+		add_post_meta($postID, $countKey, '0');
+	} else {
+		$count++;
+		update_post_meta($postID, $countKey, $count);
+	}
+}
+
 /**
  * Get current URL without pagination segment (`/page/X/`).
  *
@@ -345,7 +361,7 @@ function mccloud_get_nopaging_url(): string
  * @param int $post_id The ID of the post.
  * @return int Number of views.
  */
-function mccloud_get_post_views(int $post_id): int
+function getPostViews(int $post_id): int
 {
 	$count_key = 'post_views_count';
 	$count = get_post_meta($post_id, $count_key, true);
