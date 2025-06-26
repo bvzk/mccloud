@@ -28,7 +28,7 @@ function mccloud_register_styles(): void
 {
 	wp_register_style(
 		'slick',
-		get_template_directory_uri() . '/slick/slick.css',
+		get_template_directory_uri() . '/assets/slick/slick.css',
 		[],
 		'1.8.1'
 	);
@@ -66,7 +66,7 @@ function mccloud_register_scripts(): void
 {
 	wp_register_script(
 		'slick',
-		get_template_directory_uri() . '/slick/slick.min.js',
+		get_template_directory_uri() . '/assets/slick/slick.min.js',
 		['jquery'],
 		'1.8.1',
 		true
@@ -95,7 +95,7 @@ function mccloud_register_scripts(): void
 	wp_enqueue_script('zoho-crm');
 	
 	// Optional scripts (uncomment to use)
-	// wp_register_script('maskedinput', get_template_directory_uri() . '/slick/jquery.maskedinput.min.js', ['jquery'], '1.0.0', true);
+	// wp_register_script('maskedinput', get_template_directory_uri() . '/assets/slick/jquery.maskedinput.min.js', ['jquery'], '1.0.0', true);
 	// wp_enqueue_script('maskedinput');
 }
 
