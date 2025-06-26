@@ -179,8 +179,8 @@
         <div class="hidden lg:block max-w-[435px] min-w-[435px] ml-[13px]">
             <div class="relative">
                 <picture>
-                    <source type="image/webp" srcset="/wp-content/themes/mccloud/image/consult-banner.webp">
-                    <img loading="lazy" src="/wp-content/themes/mccloud/image/consult-banner.jpg" class="rounded-[12px]"
+                    <source type="image/webp" srcset="/wp-content/themes/mccloud/assets/image/consult-banner.webp">
+                    <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/consult-banner.jpg" class="rounded-[12px]"
                          alt="Отримати консультацію">
                 </picture>
                 <div class="absolute text-white left-[43px] bottom-[41px] right-[51px]">
@@ -332,7 +332,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <span itemprop="addressRegion"><?= esc_html($region) ?></span>.
         </div>
 
-        <img itemprop="logo" src="<?= home_url(); ?>/wp-content/themes/mccloud/image/logo.svg?v=2" alt="mcCloud logo" />
+        <img itemprop="logo" src="<?= home_url(); ?>/wp-content/themes/mccloud/assets/image/logo.svg?v=2" alt="mcCloud logo" />
         <span itemprop="telephone">+38 (067) 911-58-68</span>
         <span itemprop="email">saas@mccloud.ua</span>
         <a itemprop="url" href="<?= home_url(); ?>/">mcCloud</a>

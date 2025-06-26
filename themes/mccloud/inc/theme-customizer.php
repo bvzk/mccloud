@@ -39,16 +39,16 @@ function mccloud_get_page_banner()
 function mccloud_get_preload_banner()
 {
 	if (is_front_page()) {
-		return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/image/video/11_VP9.webp">';
+		return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/assets/image/video/11_VP9.webp">';
 	} else {
 		$type = get_page_template();
 		$page_template = basename($type, '.php');
 		
 		switch ($page_template) {
 			case 'workspace':
-				return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/image/workspace-header-banner-m-2x.webp">';
+				return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/assets/image/workspace-header-banner-m-2x.webp">';
 			case 'enterprise':
-				return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/image/enterprise-header-banner-m-2x.webp">';
+				return '<link rel="preload" as="image" href="/wp-content/themes/mccloud/assets/image/enterprise-header-banner-m-2x.webp">';
 		}
 	}
 	
@@ -573,23 +573,23 @@ function get_three_cards_data_about()
 		[
 			'title' => pll__('Найкращі рішення'),
 			'subtitle' => pll__('Ми підбираємо рішення індивідуально під ваш запит так, щоб досягти співвідношення функціонала/ціни та щоб наші клієнти не платили за зайві опції.'),
-			'srcset' => '/wp-content/themes/mccloud/image/setting-1.jpg, /wp-content/themes/mccloud/image/setting-1-2x.jpg 2x',
-			'src' => '/wp-content/themes/mccloud/image/setting-1.jpg',
+			'srcset' => '/wp-content/themes/mccloud/assets/image/setting-1.jpg, /wp-content/themes/mccloud/assets/image/setting-1-2x.jpg 2x',
+			'src' => '/wp-content/themes/mccloud/assets/image/setting-1.jpg',
 		
 		],
 		
 		[
 			'title' => pll__('Повний супровід'),
 			'subtitle' => pll__('Як прямий партнер Google ми надаємо допомогу в налаштуваннях хмарної платформи Google Wokrspace та інших продуктів.'),
-			'srcset' => '/wp-content/themes/mccloud/image/setting-2.jpg, /wp-content/themes/mccloud/image/setting-2-2x.jpg 2x',
-			'src' => '/wp-content/themes/mccloud/image/setting-2.jpg',
+			'srcset' => '/wp-content/themes/mccloud/assets/image/setting-2.jpg, /wp-content/themes/mccloud/assets/image/setting-2-2x.jpg 2x',
+			'src' => '/wp-content/themes/mccloud/assets/image/setting-2.jpg',
 		],
 		
 		[
 			'title' => pll__('Навчання та консалтинг'),
 			'subtitle' => pll__('За необхідності проводимо консалтинг та тренінги для ІТ-персоналу та співробітників вашої компанії.'),
-			'srcset' => '/wp-content/themes/mccloud/image/setting-3.jpg, /wp-content/themes/mccloud/image/setting-3-2x.jpg 2x',
-			'src' => '/wp-content/themes/mccloud/image/setting-3.jpg',
+			'srcset' => '/wp-content/themes/mccloud/assets/image/setting-3.jpg, /wp-content/themes/mccloud/assets/image/setting-3-2x.jpg 2x',
+			'src' => '/wp-content/themes/mccloud/assets/image/setting-3.jpg',
 		],
 	
 	];
@@ -601,20 +601,20 @@ function get_three_cards_data_acordion()
 		[
 			'title'    => pll__('Обраний план'),
 			'subtitle' => pll__('Google Workspace пропонує кілька різних планів, таких як Enterprise Essentials, Enterprise Standard, Enterprise Plus, кожен план має свої функціональні можливості та обмеження, які впливають на ціну.'),
-			'srcset'   => '/wp-content/themes/mccloud/image/price-package-1.jpg, /wp-content/themes/mccloud/image/price-package-1-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/price-package-1.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/price-package-1.jpg, /wp-content/themes/mccloud/assets/image/price-package-1-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/price-package-1.jpg',
 		],
 		[
 			'title'    => pll__('Кількість користувачів'),
 			'subtitle' => pll__('Ціна плану залежить від кількості користувачів, яким будуть надані доступи до сервісів Google Workspace. Зазвичай чим більше користувачів, тим нижча вартість на одного користувача.'),
-			'srcset'   => '/wp-content/themes/mccloud/image/price-package-2.jpg, /wp-content/themes/mccloud/image/price-package-2-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/price-package-2.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/price-package-2.jpg, /wp-content/themes/mccloud/assets/image/price-package-2-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/price-package-2.jpg',
 		],
 		[
 			'title'    => pll__('Додаткові функції та сервіси'),
 			'subtitle' => pll__('Деякі плани можуть містити додаткові функції або сервіси, такі як розширена безпека, архівація даних, підтримка користувачів тощо. Додаткові можливості можуть впливати на ціну тарифу.'),
-			'srcset'   => '/wp-content/themes/mccloud/image/price-package-3.jpg, /wp-content/themes/mccloud/image/price-package-3-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/price-package-3.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/price-package-3.jpg, /wp-content/themes/mccloud/assets/image/price-package-3-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/price-package-3.jpg',
 		],
 	];
 }
@@ -626,20 +626,20 @@ function get_three_cards_data_implementation()
 		[
 			'title'    => pll__('Консультація'),
 			'subtitle' => pll__("Заповніть онлайн-заявку щоб з вами оперативно зв'язався наш фахівець. Разом ви зможете вибрати оптимальний пакет Google Workspace, який якнайкраще підходить саме для ваших цілей та задач."),
-			'srcset'   => '/wp-content/themes/mccloud/image/setting-1.jpg, /wp-content/themes/mccloud/image/setting-1-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/setting-1.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/setting-1.jpg, /wp-content/themes/mccloud/assets/image/setting-1-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/setting-1.jpg',
 		],
 		[
 			'title'    => pll__('Налаштування та реалізація'),
 			'subtitle' => pll__('Команда mcCloud допоможе налаштувати такі сервіси, як корпоративна пошта Гугл, Meet, Google Диск та інші, а також надасть необхідну кількість кількість облікових записів для співробітників.'),
-			'srcset'   => '/wp-content/themes/mccloud/image/setting-2.jpg, /wp-content/themes/mccloud/image/setting-2-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/setting-2.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/setting-2.jpg, /wp-content/themes/mccloud/assets/image/setting-2-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/setting-2.jpg',
 		],
 		[
 			'title'    => pll__('Підтримка'),
 			'subtitle' => pll__('Після перенесення (міграції) даних і налаштувань ви отримаєте постійну техпідтримку та безплатне навчання, яке необхідне, щоб скористатися в повному обсязі всіма доступними опціями Google Workspace.'),
-			'srcset'   => '/wp-content/themes/mccloud/image/setting-3.jpg, /wp-content/themes/mccloud/image/setting-3-2x.jpg 2x',
-			'src'      => '/wp-content/themes/mccloud/image/setting-3.jpg',
+			'srcset'   => '/wp-content/themes/mccloud/assets/image/setting-3.jpg, /wp-content/themes/mccloud/assets/image/setting-3-2x.jpg 2x',
+			'src'      => '/wp-content/themes/mccloud/assets/image/setting-3.jpg',
 		],
 	];
 }

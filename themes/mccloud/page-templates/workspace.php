@@ -10,7 +10,7 @@ get_header();
 <div class="container md:mt-[120px] mt-8 md:mb-[120px] mb-6">
     <div class="flex flex-col lg:flex-row lg:justify-between">
 
-        <img src="/wp-content/themes/mccloud/image/image6554.png" alt="image" class="mb-4 lg:max-w-[48%]">
+        <img src="/wp-content/themes/mccloud/assets/image/image6554.png" alt="image" class="mb-4 lg:max-w-[48%]">
 
         <div class="flex flex-col lg:w-[48%] text-3 leading-4">
             <h2 class=" text-left text-4 font-bold mb-3 lg:text-6"><?php echo pll__('Головні переваги'); ?></h2>
@@ -43,10 +43,10 @@ get_header();
 
     <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='default-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='default-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
 
@@ -329,7 +329,7 @@ get_header();
 <div class="container">
     <ul class="flex flex-col gap-6 2xl:gap-11">
         <li class="flex flex-col gap-3 lg:flex-row lg:justify-between">
-            <img src="/wp-content/themes/mccloud/image/image6556-2.png" alt="image" class="mb-4 lg:max-w-[48%] rounded-4 object-cover">
+            <img src="/wp-content/themes/mccloud/assets/image/image6556-2.png" alt="image" class="mb-4 lg:max-w-[48%] rounded-4 object-cover">
             <div class="flex flex-col lg:max-w-[48%]">
                 <h3 class="title-text-2 mb-2"><?php echo pll__('Консультація – початковий етап'); ?></h3>
                 <p><?php echo pll__('Першим кроком у впровадженні Google Workspace є заповнення заявки в режимі онлайн. З вами зв’яжеться фахівець mcCloud, запропонує тарифні пакети:'); ?>
@@ -367,7 +367,7 @@ get_header();
         </li>
 
         <li class="flex flex-col gap-3 lg:flex-row-reverse lg:justify-between">
-            <img src="/wp-content/themes/mccloud/image/image6554-3.png" alt="image" class="mb-4 lg:max-w-[48%]">
+            <img src="/wp-content/themes/mccloud/assets/image/image6554-3.png" alt="image" class="mb-4 lg:max-w-[48%]">
             <div class="flex flex-col lg:max-w-[48%]">
                 <h3 class="title-text-2 mb-4"><?php echo pll__('Налаштування та реалізація'); ?></h3>
                 <p><?php echo pll__('На цьому етапі фахівці mcCloud запускають у дію головні сервіси:'); ?>
@@ -392,7 +392,7 @@ get_header();
         </li>
 
         <li class="flex flex-col gap-3 lg:flex-row lg:justify-between">
-            <img src="/wp-content/themes/mccloud/image/image6554-4.png" alt="image" class="mb-4 lg:max-w-[48%]">
+            <img src="/wp-content/themes/mccloud/assets/image/image6554-4.png" alt="image" class="mb-4 lg:max-w-[48%]">
             <div class="flex flex-col lg:max-w-[48%]">
                 <h3 class="title-text-2 mb-2"><?php echo pll__('Постійна підтримка'); ?></h3>
                 <p class="mb-3"><?php echo pll__('Налаштовуються функції безпеки. Це передбачає двофакторну автентифікацію, шифрування, захист паролів. Фахівці з безпеки постійно моніторять систему щодо наявності загроз.'); ?>

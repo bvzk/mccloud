@@ -520,14 +520,14 @@ h1 {
 }
 
 .workspace-banner {
-  background-image: url("/wp-content/themes/mccloud/image/workspace-banner.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/workspace-banner.jpg");
 
   @media (max-width: 991px) {
-    background-image: url("/wp-content/themes/mccloud/image/workspace-banner-md.jpg");
+    background-image: url("/wp-content/themes/mccloud/assets/image/workspace-banner-md.jpg");
   }
 
   @media (max-width: 767px) {
-    background-image: url("/wp-content/themes/mccloud/image/workspace-banner-sm.png");
+    background-image: url("/wp-content/themes/mccloud/assets/image/workspace-banner-sm.png");
     // background-size: cover;
   }
 
@@ -551,14 +551,14 @@ h1 {
 }
 
 .how-can-i-help-banner {
-  background-image: url("/wp-content/themes/mccloud/image/how-can-i-help-banner.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner.jpg");
   background-image: image-set(
-    url("/wp-content/themes/mccloud/image/how-can-i-help-banner@2x.webp")
+    url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner@2x.webp")
       type("image/webp") 2x,
-    url("/wp-content/themes/mccloud/image/how-can-i-help-banner.webp")
+    url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner.webp")
       type("image/webp") 1x,
-    url("/wp-content/themes/mccloud/image/how-can-i-help-banner@2x.jpg") 2x,
-    url("/wp-content/themes/mccloud/image/how-can-i-help-banner.jpg") 1x
+    url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner@2x.jpg") 2x,
+    url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner.jpg") 1x
   );
   background-repeat: no-repeat;
   background-position: right;
@@ -567,7 +567,7 @@ h1 {
   @media (max-width: 991px) {
     background-size: auto 260px;
     background-position: bottom center;
-    background-image: url("/wp-content/themes/mccloud/image/how-can-i-help-banner-sm.jpg");
+    background-image: url("/wp-content/themes/mccloud/assets/image/how-can-i-help-banner-sm.jpg");
   }
 
   @media (min-width: 768px) {
@@ -581,12 +581,12 @@ h1 {
 }
 
 .workspace-page-banner {
-  background-image: url("/wp-content/themes/mccloud/image/workspace-page-banner-sm.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/workspace-page-banner-sm.jpg");
   background-size: 100% 270px;
   background-position: bottom center;
 
   @media (min-width: 768px) {
-    background-image: url("/wp-content/themes/mccloud/image/workspace-page-banner.jpg");
+    background-image: url("/wp-content/themes/mccloud/assets/image/workspace-page-banner.jpg");
     background-position: 70% center;
     background-size: cover;
   }
@@ -597,12 +597,12 @@ h1 {
 }
 
 .spinbackup-page-banner {
-  background-image: url("/wp-content/themes/mccloud/image/spinbackup-page-banner-sm.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/spinbackup-page-banner-sm.jpg");
   background-size: auto 260px;
   background-position: bottom center;
 
   @media (min-width: 768px) {
-    background-image: url("/wp-content/themes/mccloud/image/spinbackup-page-banner.jpg");
+    background-image: url("/wp-content/themes/mccloud/assets/image/spinbackup-page-banner.jpg");
     background-position: 70% center;
     background-size: cover;
   }
@@ -613,7 +613,7 @@ h1 {
 }
 
 .workspace-banner-business {
-  background-image: url("/wp-content/themes/mccloud/image/google-workspace-banner-business.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/google-workspace-banner-business.jpg");
   background-size: auto 260px;
   background-position: bottom center;
 
@@ -628,20 +628,20 @@ h1 {
 }
 
 .workspace-banner-enterprise {
-  background-image: url("/wp-content/themes/mccloud/image/google-workspace-banner-sm.jpg");
+  background-image: url("/wp-content/themes/mccloud/assets/image/google-workspace-banner-sm.jpg");
   background-size: auto 260px;
   background-position: bottom center;
 
   @media (min-width: 768px) {
-    background-image: url("/wp-content/themes/mccloud/image/google-workspace-banner.jpg");
+    background-image: url("/wp-content/themes/mccloud/assets/image/google-workspace-banner.jpg");
 
     background-image: image-set(
-      url("/wp-content/themes/mccloud/image/google-workspace-banner@2x.webp")
+      url("/wp-content/themes/mccloud/assets/image/google-workspace-banner@2x.webp")
         type("image/webp") 2x,
-      url("/wp-content/themes/mccloud/image/google-workspace-banner.webp")
+      url("/wp-content/themes/mccloud/assets/image/google-workspace-banner.webp")
         type("image/webp") 1x,
-      url("/wp-content/themes/mccloud/image/google-workspace-banner@2x.jpg") 2x,
-      url("/wp-content/themes/mccloud/image/google-workspace-banner.jpg") 1x
+      url("/wp-content/themes/mccloud/assets/image/google-workspace-banner@2x.jpg") 2x,
+      url("/wp-content/themes/mccloud/assets/image/google-workspace-banner.jpg") 1x
     );
 
     background-position: right center;

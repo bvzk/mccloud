@@ -49,7 +49,7 @@
                               "@context": "https://schema.org",
                               "@type": "LocalBusiness",
                               "name": "McCloud",
-                              "image": "<?= home_url(); ?>/wp-content/themes/mccloud/image/logo.png",
+                              "image": "<?= home_url(); ?>/wp-content/themes/mccloud/assets/image/logo.png",
                               "url": "<?= home_url(); ?>/kontakti/",
                               "telephone": "+380 44 123 4567",
                               "address": {
