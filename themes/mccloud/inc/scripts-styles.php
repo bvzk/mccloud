@@ -14,6 +14,8 @@
  */
 
 
+# TODO: review structure
+
 /**
  * Dequeue unnecessary scripts.
  */
@@ -51,10 +53,6 @@ function mccloud_register_styles(): void
 	wp_enqueue_style('slick');
 	wp_enqueue_style('twentytwenty-style');
 	wp_enqueue_style('mccloud-style');
-	
-	// Optional styles (uncomment to use)
-	// wp_enqueue_style('custom-style', get_template_directory_uri() . '/custom.css', [], '1.0');
-	// wp_enqueue_style('media-style', get_template_directory_uri() . '/media.css', [], '1.0');
 }
 
 add_action('wp_enqueue_scripts', 'mccloud_register_styles');
@@ -93,6 +91,8 @@ function mccloud_register_scripts(): void
 	wp_enqueue_script('slick');
 	wp_enqueue_script('mccloud-app-js');
 	wp_enqueue_script('zoho-crm');
+	
+	# TODO: review
 	
 	// Optional scripts (uncomment to use)
 	// wp_register_script('maskedinput', get_template_directory_uri() . '/assets/slick/jquery.maskedinput.min.js', ['jquery'], '1.0.0', true);
@@ -136,6 +136,8 @@ add_action('wp_footer', 'add_zoho_salesiq');
  * @return void
  */
 function enqueue_cookie_banner_script() {
+	# TODO: review
+	
 	wp_enqueue_script('cookie-banner', get_template_directory_uri() . '/js/cookie-banner.js', [], null, true);
 	
 	// If needed, uncomment to pass translation strings to the JS
