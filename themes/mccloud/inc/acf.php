@@ -1,5 +1,9 @@
 <?php
 
+add_action('init', function () {
+	error_log('ACF Blocks init');
+});
+
 /**
  * Register a custom ACF options page for header settings.
  *
@@ -44,17 +48,31 @@ if (function_exists('acf_add_options_page')) {
  * @return void
  */
 function mccloud_register_acf_blocks() {
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-list' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-notice' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-paragraph' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-title' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-page-links' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-icon-boxes' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-image-boxes' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-services-list' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-pricing' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-steps' );
-	register_block_type( __DIR__ . '/template-parts/blocks/mccloud-custom-cta' );
+	$blocks = [
+		'mccloud-custom-list',
+		'mccloud-custom-notice',
+		'mccloud-custom-paragraph',
+		'mccloud-custom-title',
+		'mccloud-custom-page-links',
+		'mccloud-custom-icon-boxes',
+		'mccloud-custom-image-boxes',
+		'mccloud-custom-services-list',
+		'mccloud-custom-pricing',
+		'mccloud-custom-steps',
+		'mccloud-custom-cta',
+	];
+	
+	foreach ($blocks as $block) {
+		$path = get_template_directory() . "/template-parts/blocks/{$block}";
+		$block_json = $path . '/block.json';
+		
+		if (file_exists($block_json)) {
+			error_log("✅ Registering block: $block");
+			register_block_type($path);
+		} else {
+			error_log("❌ Missing block.json for: $block");
+		}
+	}
 }
 
-// add_action( 'init', 'mccloud_register_acf_blocks' );
+add_action('init', 'mccloud_register_acf_blocks');

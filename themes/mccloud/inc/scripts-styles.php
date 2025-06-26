@@ -42,9 +42,9 @@ function mccloud_register_styles(): void
 	
 	wp_register_style(
 		'mccloud-style',
-		get_template_directory_uri() . '/dist/app.css',
+		get_template_directory_uri() . '/assets/dist/app.css',
 		[],
-		'1.0.15'
+		filemtime(get_template_directory() . '/assets/dist/app.css'),
 	);
 	
 	// Enqueue registered styles
@@ -74,9 +74,9 @@ function mccloud_register_scripts(): void
 	
 	wp_register_script(
 		'mccloud-app-js',
-		get_template_directory_uri() . '/dist/app.js',
+		get_template_directory_uri() . '/assets/dist/app.js',
 		['jquery'],
-		'1.0.15',
+		filemtime(get_template_directory() . '/assets/dist/app.css'),
 		true
 	);
 	

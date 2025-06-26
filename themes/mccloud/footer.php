@@ -245,50 +245,50 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
-// document.addEventListener("DOMContentLoaded", async function () {
-//     console.log("Скрипт запустився");
-//
-//     // Перевіряємо, чи користувач вже сам обрав мову (через localStorage)
-//     if (localStorage.getItem("userSelectedLanguage")) {
-//         console.log("Користувач сам вибрав мову, редирект не потрібен.");
-//         return;
-//     }
-//
-//     try {
-//         let response = await fetch("https://ipinfo.io/json?token=b366382ce8af64");
-//         let data = await response.json();
-//
-//         console.log("Отримані геодані:", data);
-//
-//         let countryCode = data.country;
-//         let langRedirects = {
-//             "UA": "https://mccloud-dev.local/ua/",
-//             "KZ": "https://mccloud-dev.local/kz/",
-//             "RO": "https://mccloud-dev.local/ro/"
-//         };
-//
-//         let currentUrl = window.location.href;
-//
-//         if (langRedirects[countryCode] && !currentUrl.startsWith(langRedirects[countryCode])) {
-//             console.log("Редирект на:", langRedirects[countryCode]);
-//             window.location.href = langRedirects[countryCode];
-//         } else {
-//             console.log("Редірект не потрібен.");
-//         }
-//     } catch (error) {
-//         console.error("Помилка отримання геоданих:", error);
-//     }
-//
-//     // 👇 Додаємо обробник кліку на мовні посилання Polylang
-//     document.querySelectorAll('.lang-item a').forEach(link => {
-//         link.addEventListener('click', function () {
-//             const url = new URL(link.href);
-//             const langCode = url.pathname.split('/')[1]; // "ua", "kz", "ro"
-//             localStorage.setItem('userSelectedLanguage', langCode);
-//             console.log("Користувач обрав мову:", langCode);
-//         });
-//     });
-// });
+document.addEventListener("DOMContentLoaded", async function () {
+    console.log("Скрипт запустився");
+
+    // Перевіряємо, чи користувач вже сам обрав мову (через localStorage)
+    if (localStorage.getItem("userSelectedLanguage")) {
+        console.log("Користувач сам вибрав мову, редирект не потрібен.");
+        return;
+    }
+
+    try {
+        let response = await fetch("https://ipinfo.io/json?token=b366382ce8af64");
+        let data = await response.json();
+
+        console.log("Отримані геодані:", data);
+
+        let countryCode = data.country;
+        let langRedirects = {
+            "UA": "https://mccloud-dev.local/ua/",
+            "KZ": "https://mccloud-dev.local/kz/",
+            "RO": "https://mccloud-dev.local/ro/"
+        };
+
+        let currentUrl = window.location.href;
+
+        if (langRedirects[countryCode] && !currentUrl.startsWith(langRedirects[countryCode])) {
+            console.log("Редирект на:", langRedirects[countryCode]);
+            window.location.href = langRedirects[countryCode];
+        } else {
+            console.log("Редірект не потрібен.");
+        }
+    } catch (error) {
+        console.error("Помилка отримання геоданих:", error);
+    }
+
+    // 👇 Додаємо обробник кліку на мовні посилання Polylang
+    document.querySelectorAll('.lang-item a').forEach(link => {
+        link.addEventListener('click', function () {
+            const url = new URL(link.href);
+            const langCode = url.pathname.split('/')[1]; // "ua", "kz", "ro"
+            localStorage.setItem('userSelectedLanguage', langCode);
+            console.log("Користувач обрав мову:", langCode);
+        });
+    });
+});
 
 </script>
 
