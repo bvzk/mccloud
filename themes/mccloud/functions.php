@@ -16,4 +16,4 @@ require_once MCCLD_DIR . '/inc/classes/class-twentytwenty-walker-page.php';
 require_once MCCLD_DIR . '/inc/classes/class-twentytwenty-script-loader.php';
 require_once MCCLD_DIR . '/inc/classes/_class-twentytwenty-svg-icons.php';
 require_once MCCLD_DIR . '/inc/template-tags.php'; // Tags customizer additions
-require_once MCCLD_DIR . '/inc/telegram.php'; // telegram
+require_once MCCLD_DIR . '/inc/integrations/telegram-hook.php'; // telegram

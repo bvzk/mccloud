@@ -1,5 +1,7 @@
 <?php
 
+use telegram\Telegram;
+
 /**
  * Send Contact Form 7 submission data to Telegram.
  *
