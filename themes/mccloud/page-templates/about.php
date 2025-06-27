@@ -25,20 +25,20 @@ get_header();
     <div class="w-full max-w-[952px] mb-4 lg:mb-0 hidden md:block">
         <picture>
             <source type="image/webp"
-                srcset="/wp-content/themes/mccloud/image/about-cloud-banner-m.webp, /wp-content/themes/mccloud/image/about-cloud-banner-m-2x.webp 2x"
+                srcset="/wp-content/themes/mccloud/assets/image/about-cloud-banner-m.webp, /wp-content/themes/mccloud/assets/image/about-cloud-banner-m-2x.webp 2x"
                 media="(max-width: 768px)">
             <source type="image/webp"
-                srcset="/wp-content/themes/mccloud/image/about-cloud-banner.webp, /wp-content/themes/mccloud/image/about-cloud-banner-2x.webp 2x"
+                srcset="/wp-content/themes/mccloud/assets/image/about-cloud-banner.webp, /wp-content/themes/mccloud/assets/image/about-cloud-banner-2x.webp 2x"
                 media="(min-width: 769px)">
             <source type="image/webp"
-                srcset="/wp-content/themes/mccloud/image/about-cloud-banner.webp, /wp-content/themes/mccloud/image/about-cloud-banner-2x.webp 2x">
+                srcset="/wp-content/themes/mccloud/assets/image/about-cloud-banner.webp, /wp-content/themes/mccloud/assets/image/about-cloud-banner-2x.webp 2x">
             <source
-                srcset="/wp-content/themes/mccloud/image/about-cloud-banner-m.jpg, /wp-content/themes/mccloud/image/about-cloud-banner-m-2x.jpg 2x"
+                srcset="/wp-content/themes/mccloud/assets/image/about-cloud-banner-m.jpg, /wp-content/themes/mccloud/assets/image/about-cloud-banner-m-2x.jpg 2x"
                 media="(max-width: 768px)">
             <source
-                srcset="/wp-content/themes/mccloud/image/about-cloud-banner.jpg, /wp-content/themes/mccloud/image/about-cloud-banner-2x.jpg 2x"
+                srcset="/wp-content/themes/mccloud/assets/image/about-cloud-banner.jpg, /wp-content/themes/mccloud/assets/image/about-cloud-banner-2x.jpg 2x"
                 media="(min-width: 769px)">
-            <img width="926" height="440" src="/wp-content/themes/mccloud/image/about-cloud-banner.jpg" alt="About us">
+            <img width="926" height="440" src="/wp-content/themes/mccloud/assets/image/about-cloud-banner.jpg" alt="About us">
         </picture>
     </div>
 </div>

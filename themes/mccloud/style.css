@@ -1,14 +1,11 @@
 /*
 Theme Name: mcCloud
 Text Domain: mccloud
-Version: 1.0
+Version: 2.0
 Requires at least: 4.7
 Requires PHP: 5.2.4
 Description:
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
-Author: SEOPORT
+Author: BVZK
 */
 
-.publication img {
-	width: 100%
-}

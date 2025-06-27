@@ -9,10 +9,10 @@
 <div class="flex flex-col items-center">
   <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden max-w-[830px]'>
     <div class='adv-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-      <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+      <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
     </div>
     <div class='adv-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-      <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+      <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
     </div>
   </div>
   <div class="advantages-slider lg:grid lg:grid-cols-<?php echo get_field('kilkist_kolonok') ?> lg:gap-4 w-full">

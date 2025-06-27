@@ -5,20 +5,20 @@ set_query_var('heroSubtitle', pll__('Google Workspace забезпечує на�
 // set_query_var('heroPicture', "
 //      <picture>
 //                 <source type='image/webp'
-//                     srcset='/wp-content/themes/mccloud/image/business-header-banner-m.webp, /wp-content/themes/mccloud/image/business-header-banner-m-2x.webp 2x'
+//                     srcset='/wp-content/themes/mccloud/assets/image/business-header-banner-m.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-m-2x.webp 2x'
 //                     media='(max-width: 768px)'>
 //                 <source type='image/webp'
-//                     srcset='/wp-content/themes/mccloud/image/business-header-banner.webp, /wp-content/themes/mccloud/image/business-header-banner-2x.webp 2x'
+//                     srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.webp 2x'
 //                     media='(min-width: 769px)'>
 //                 <source type='image/webp'
-//                     srcset='/wp-content/themes/mccloud/image/business-header-banner.webp, /wp-content/themes/mccloud/image/business-header-banner-2x.webp 2x'>
+//                     srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.webp 2x'>
 //                 <source
-//                     srcset='/wp-content/themes/mccloud/image/business-header-banner-m.png, /wp-content/themes/mccloud/image/business-header-banner-m-2x.png 2x'
+//                     srcset='/wp-content/themes/mccloud/assets/image/business-header-banner-m.png, /wp-content/themes/mccloud/assets/image/business-header-banner-m-2x.png 2x'
 //                     media='(max-width: 768px)'>
 //                 <source
-//                     srcset='/wp-content/themes/mccloud/image/business-header-banner.png, /wp-content/themes/mccloud/image/business-header-banner-2x.png 2x'
+//                     srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.png, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.png 2x'
 //                     media='(min-width: 769px)'>
-//                 <img width='566' height='540' src='/wp-content/themes/mccloud/image/business-header-banner.png'
+//                 <img width='566' height='540' src='/wp-content/themes/mccloud/assets/image/business-header-banner.png'
 //                     alt='Business'>
 //             </picture>
 //             ");
@@ -43,20 +43,20 @@ set_query_var('heroSubtitle', pll__('Google Workspace забезпечує на�
                     set_query_var('heroPicture', "
                          <picture>
                                     <source type='image/webp'
-                                        srcset='/wp-content/themes/mccloud/image/business-header-banner-m.webp, /wp-content/themes/mccloud/image/business-header-banner-m-2x.webp 2x'
+                                        srcset='/wp-content/themes/mccloud/assets/image/business-header-banner-m.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-m-2x.webp 2x'
                                         media='(max-width: 768px)'>
                                     <source type='image/webp'
-                                        srcset='/wp-content/themes/mccloud/image/business-header-banner.webp, /wp-content/themes/mccloud/image/business-header-banner-2x.webp 2x'
+                                        srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.webp 2x'
                                         media='(min-width: 769px)'>
                                     <source type='image/webp'
-                                        srcset='/wp-content/themes/mccloud/image/business-header-banner.webp, /wp-content/themes/mccloud/image/business-header-banner-2x.webp 2x'>
+                                        srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.webp, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.webp 2x'>
                                     <source
-                                        srcset='/wp-content/themes/mccloud/image/business-header-banner-m.png, /wp-content/themes/mccloud/image/business-header-banner-m-2x.png 2x'
+                                        srcset='/wp-content/themes/mccloud/assets/image/business-header-banner-m.png, /wp-content/themes/mccloud/assets/image/business-header-banner-m-2x.png 2x'
                                         media='(max-width: 768px)'>
                                     <source
-                                        srcset='/wp-content/themes/mccloud/image/business-header-banner.png, /wp-content/themes/mccloud/image/business-header-banner-2x.png 2x'
+                                        srcset='/wp-content/themes/mccloud/assets/image/business-header-banner.png, /wp-content/themes/mccloud/assets/image/business-header-banner-2x.png 2x'
                                         media='(min-width: 769px)'>
-                                    <img width='566' height='540' src='/wp-content/themes/mccloud/image/business-header-banner.png'
+                                    <img width='566' height='540' src='/wp-content/themes/mccloud/assets/image/business-header-banner.png'
                                         alt='Business'>
                                 </picture>
                                 "); 

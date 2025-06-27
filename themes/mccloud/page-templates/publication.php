@@ -126,7 +126,7 @@
     <div class="relative">
         <div class="workspace-banner-business relative rounded-[22px] md:h-[300px] bg-[#F2EFE8] bg-no-repeat">
             <div class="md:hidden w-full">
-                <img src="/image/google-workspace-banner-business.jpg" alt="" class="w-full rounded-t-[22px]">
+                <img src="/assets/image/google-workspace-banner-business.jpg" alt="" class="w-full rounded-t-[22px]">
             </div>
             <div class="md:max-w-[355px]
             lg:top-[36px] lg:left-[43px] lg:max-w-[335px]
@@ -156,7 +156,7 @@
             </div>
         </div>
         <div class="flex items-center pb-[54px] md:px-[54px] px-[30px]">
-            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/image/user.jpg');"></div>
+            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/assets/image/user.jpg');"></div>
             <div class="ml-[9px]">
                 <div class="text-[18px] leading-7 mb-[1px]">Ірина Онен</div>
                 <div class="text-[14px] leading-5 text-[#8E8E93]">Google Cloud Certified</div>
@@ -174,7 +174,7 @@
 
     <div class="bg-white border border-[#F2F2F7] mt-[63px] p-[38px] rounded-[22px] flex flex-col md:flex-row md:items-center justify-between">
         <div class="flex items-center">
-            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/image/user.jpg');"></div>
+            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/assets/image/user.jpg');"></div>
             <div class="ml-[9px]">
                 <div class="text-[18px] leading-7 mb-[1px]">Ірина Онен</div>
                 <div class="text-[14px] leading-5 text-[#8E8E93]">Google Cloud Certified</div>

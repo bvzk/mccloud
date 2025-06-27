@@ -46,7 +46,7 @@
                 <path d="M154.58 39.4144H158.852V32.3631C159.403 32.8876 160.058 33.2858 160.818 33.5577C161.595 33.8102 162.421 33.9365 163.295 33.9365C164.815 33.9365 166.172 33.5675 167.369 32.8293C168.565 32.0911 169.504 31.0907 170.188 29.8281C170.891 28.5655 171.242 27.1669 171.242 25.6324C171.242 24.0783 170.891 22.6798 170.188 21.4365C169.485 20.1739 168.536 19.1735 167.34 18.4353C166.144 17.6972 164.805 17.3281 163.323 17.3281C161.254 17.3281 159.669 17.9983 158.568 19.3386V17.6777H154.58V39.4144ZM162.783 30.0029C161.624 30.0029 160.675 29.6048 159.935 28.8083C159.213 27.9925 158.852 26.9338 158.852 25.6324C158.852 24.3502 159.213 23.3013 159.935 22.4854C160.675 21.6697 161.624 21.2617 162.783 21.2617C163.96 21.2617 164.928 21.6794 165.688 22.5146C166.447 23.3304 166.827 24.3697 166.827 25.6324C166.827 26.9144 166.447 27.9633 165.688 28.7792C164.928 29.5951 163.96 30.0029 162.783 30.0029Z" fill="black" fill-opacity="0.2"/>
             </svg>
             <div class="hidden md:flex items-center">
-                <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/image/user.jpg');"></div>
+                <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/assets/image/user.jpg');"></div>
                 <div class="ml-[9px]">
                     <div class="text-[18px] leading-7 mb-[1px]">Сергій Брін</div>
                     <div class="text-[14px] leading-5 text-[#8E8E93]">Оwner Dropship</div>
@@ -66,7 +66,7 @@
             </div>
         </div>
         <div class="flex md:hidden items-center border-t border-[#F2F2F7] py-[23px] px-[30px]">
-            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/image/user.jpg');"></div>
+            <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center" style="background-image: url('/assets/image/user.jpg');"></div>
             <div class="ml-[9px]">
                 <div class="text-[18px] leading-7 mb-[1px]">Сергій Брін</div>
                 <div class="text-[14px] leading-5 text-[#8E8E93]">Оwner Dropship</div>

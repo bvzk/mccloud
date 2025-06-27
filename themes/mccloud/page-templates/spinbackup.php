@@ -13,10 +13,10 @@ get_header();
         <div class="w-full lg:w-6/12 xl:w-7/12 lg:pr-[18px]">
         <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='default-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='default-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
             <div class="default-slider slick-force-height lg:grid lg:grid-cols-1 lg:gap-[13px] w-full">

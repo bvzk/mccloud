@@ -13,7 +13,7 @@ get_header();
         "name": "mcCloud",
         "url" : "https://mccloud-ro.test-ocean.com.ua/",
         "image": [
-            "https://mccloud-ro.test-ocean.com.ua/wp-content/themes/mccloud/image/logo.png"
+            "https://mccloud-ro.test-ocean.com.ua/wp-content/themes/mccloud/assets/image/logo.png"
         ],
         "address": {
             "@type": "PostalAddress",
@@ -31,11 +31,11 @@ get_header();
 <div class="container flex flex-col md:flex-row md:items-center mb-6 xl:gap-11">
     <div class="2xl:min-w-[566px] lg:min-w-[485px] md:min-w-[340px] xl:mr-[66px] lg:mr-4 mb-6 md:mb-0 relative z-10">
         <div class="h-[349px] lg:h-[440px] rounded-4 relative z-20 bg-cover bg-no-repeat bg-center"
-            style="background-image: url('/wp-content/themes/mccloud/image/cloud-partner.jpg');"></div>
+            style="background-image: url('/wp-content/themes/mccloud/assets/image/cloud-partner.jpg');"></div>
         <div class="absolute bottom-[26px] left-[28px] z-30 w-full flex flex-row gap-2">
-            <img loading="lazy" src="/wp-content/themes/mccloud/image/partner.png" alt="Google premier partner"
+            <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/partner.png" alt="Google premier partner"
                 class="w-[121px] max-w-[121px]">
-            <img loading="lazy" src="/wp-content/themes/mccloud/image/cloud-2.png" alt="Google premier partner"
+            <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/cloud-2.png" alt="Google premier partner"
                 class="max-w-[121px] w-[121px] rounded-3">
         </div>
     </div>
@@ -108,7 +108,7 @@ get_header();
             <div
                 class="md:w-7/12 max-w-[778px] min-h-[334px] bg-lightgreen rounded-3 px-4 flex items-center
                 justify-center">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/49ca9044a38b6ee2189828498f983b52.png"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/49ca9044a38b6ee2189828498f983b52.png"
                     alt="Workspace">
             </div>
         </div>
@@ -125,7 +125,7 @@ get_header();
     <div class="hidden md:grid grid-cols-3 xl:gap-4 lg:gap-3 md:gap-2 mb-10 2xl:mb-[160px]">
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
             <div class="h-[60px] flex items-center mb-5">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/chrome.svg" alt="Google chrome">
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/chrome.svg" alt="Google chrome">
             </div>
             <h3 class="title-text-4 font-bold mb-3">Chrome Enterprise</h3>
             <div class="h-[170px] overflow-hidden leading-4 mb-5">
@@ -135,7 +135,7 @@ get_header();
         </div>
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
             <div class="h-[60px] flex items-center mb-5">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/gemini.svg" alt="Gemini">
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/gemini.svg" alt="Gemini">
             </div>
             <h3 class="title-text-4 font-bold mb-3">Gemini</h3>
             <div class="h-[170px] overflow-hidden leading-4 mb-5">
@@ -145,7 +145,7 @@ get_header();
         </div>
         <div class="rounded-4 border border-customlightGray p-4 transition-shadow hover:shadow-lg">
             <div class="h-[60px] flex items-center mb-5">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/spin.svg" alt="Spin">
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/spin.svg" alt="Spin">
             </div>
             <h3 class="title-text-4 font-bold mb-3">Spinbackup</h3>
             <div class="h-[170px] overflow-hidden  leading-4 mb-5" style="letter-spacing: -0.2px">

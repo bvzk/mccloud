@@ -74,15 +74,15 @@ if (empty($subtitle)) {
             <?php else : ?>
             <div class='flex flex-col adv-list gap-3 mb-4'>
                 <div class='adv-item flex flex-row gap-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/tick.svg' ?>' class='h-[24px]'>
                     <p class='text-3 leading-4'><?php echo pll__('Індивідуальний підхід'); ?></p>
                 </div>
                 <div class='adv-item flex flex-row gap-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/tick.svg' ?>' class='h-[24px]'>
                     <p class='text-3 leading-4'><?php echo pll__('Технічна підтримка'); ?></p>
                 </div>
                 <div class='adv-item flex flex-row gap-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/tick.svg' ?>' class='h-[24px]'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/tick.svg' ?>' class='h-[24px]'>
                     <p class='text-3 leading-4'><?php echo pll__('Швидка інтеграція'); ?></p>
                 </div>
             </div>

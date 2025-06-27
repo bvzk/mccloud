@@ -44,20 +44,20 @@ if (empty($picture)) {
     $picture = "
       <picture>
           <source type='image/webp'
-              srcset='/wp-content/themes/mccloud/image/about-banner-m.webp, /wp-content/themes/mccloud/image/about-banner-m-2x.webp 2x'
+              srcset='/wp-content/themes/mccloud/assets/image/about-banner-m.webp, /wp-content/themes/mccloud/assets/image/about-banner-m-2x.webp 2x'
               media='(max-width: 768px)'>
           <source type='image/webp'
-              srcset='/wp-content/themes/mccloud/image/about-banner.webp, /wp-content/themes/mccloud/image/about-banner-2x.webp 2x'
+              srcset='/wp-content/themes/mccloud/assets/image/about-banner.webp, /wp-content/themes/mccloud/assets/image/about-banner-2x.webp 2x'
               media='(min-width: 769px)'>
           <source type='image/webp'
-              srcset='/wp-content/themes/mccloud/image/about-banner.webp, /wp-content/themes/mccloud/image/about-banner-2x.webp 2x'>
+              srcset='/wp-content/themes/mccloud/assets/image/about-banner.webp, /wp-content/themes/mccloud/assets/image/about-banner-2x.webp 2x'>
           <source
-              srcset='/wp-content/themes/mccloud/image/about-banner-m.png, /wp-content/themes/mccloud/image/about-banner-m-2x.png 2x'
+              srcset='/wp-content/themes/mccloud/assets/image/about-banner-m.png, /wp-content/themes/mccloud/assets/image/about-banner-m-2x.png 2x'
               media='(max-width: 768px)'>
           <source
-              srcset='/wp-content/themes/mccloud/image/about-banner.png, /wp-content/themes/mccloud/image/about-banner-2x.png 2x'
+              srcset='/wp-content/themes/mccloud/assets/image/about-banner.png, /wp-content/themes/mccloud/assets/image/about-banner-2x.png 2x'
               media='(min-width: 769px)'>
-          <img width='566' height='540' src='/wp-content/themes/mccloud/image/about-banner.png' alt='About us'>
+          <img width='566' height='540' src='/wp-content/themes/mccloud/assets/image/about-banner.png' alt='About us'>
       </picture>
     ";
 }

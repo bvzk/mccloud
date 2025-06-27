@@ -13,7 +13,7 @@
                 class="bg-white border border-customlightGray mt-0 2xl:mt-11 p-4 rounded-4 flex flex-col md:flex-row md:items-center justify-between">
                 <div class="flex items-center">
                     <div class="w-[68px] h-[68px] rounded-[50%] bg-cover bg-center"
-                        style="background-image: url('/wp-content/themes/mccloud/image/user.jpg');"></div>
+                        style="background-image: url('/wp-content/themes/mccloud/assets/image/user.jpg');"></div>
                     <div class="ml-[9px]">
                         <div class="text-3 leading-4 mb-1">Ірина Онен</div>
                         <div class="text-[12px] leading-3 text-[#8E8E93]">Google Cloud Certified</div>
@@ -147,7 +147,7 @@
                     <?php echo do_shortcode('[contact-form-7 id="35a07df" title="Підписатись на новини"]'); ?>
                 </div>
                 <div class="basis-full max-w-[690px]">
-                    <img src="/wp-content/themes/mccloud/image/arch-solutions-international-llc-image5.png" alt=""
+                    <img src="/wp-content/themes/mccloud/assets/image/arch-solutions-international-llc-image5.png" alt=""
                         class="w-full h-full object-cover rounded-4">
                 </div>
             </div>
