@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", async function () {
-    console.log("Скрипт запустився");
+    // console.log("Скрипт запустився");
 
     // Перевіряємо, чи користувач вже сам обрав мову (через localStorage)
     if (localStorage.getItem("userSelectedLanguage")) {

@@ -2,6 +2,7 @@
 import { Header } from "./header";
 import { Accordion, Collapse, Dropdown } from "flowbite";
 
+
 window.header = new Header();
 
 // Set header position when wpadminbar exists

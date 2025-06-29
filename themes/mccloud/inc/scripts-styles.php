@@ -136,14 +136,14 @@ add_action('wp_footer', 'add_zoho_salesiq');
  * @return void
  */
 function enqueue_cookie_banner_script() {
-	# TODO: review
-	
+	# TODO: review ( we dont have this file )
+
 	wp_enqueue_script('cookie-banner', get_template_directory_uri() . '/js/cookie-banner.js', [], null, true);
-	
+
 	// If needed, uncomment to pass translation strings to the JS
-	// wp_localize_script('cookie-banner', 'cookieBannerLang', [
-	//     'message' => pll__('Ми використовуємо cookies для покращення роботи сайту.'),
-	//     'accept'  => pll__('Прийняти'),
-	// ]);
+	 wp_localize_script('cookie-banner', 'cookieBannerLang', [
+	     'message' => pll__('Ми використовуємо cookies для покращення роботи сайту.'),
+	     'accept'  => pll__('Прийняти'),
+	 ]);
 }
 add_action('wp_enqueue_scripts', 'enqueue_cookie_banner_script');
