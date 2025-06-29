@@ -120,7 +120,7 @@ function mccloud_theme_support()
 	add_filter('script_loader_tag', array($loader, 'filter_script_loader_tag'), 10, 2);
 	
 }
-add_filter('upload_mimes', 'svg_upload_allow');
+add_action('after_setup_theme', 'mccloud_theme_support');
 
 add_image_size('mccloud-post-thumbnail', 420, 235, true);
 add_image_size('mccloud-post-thumbnail-2x', 840, 470, true);
