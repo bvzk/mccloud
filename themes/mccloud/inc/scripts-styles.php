@@ -73,7 +73,7 @@ function mccloud_register_scripts(): void
 	wp_register_script(
 		'mccloud-app-js',
 		get_template_directory_uri() . '/assets/dist/app.js',
-		['jquery'],
+		['jquery', 'slick'],
 		filemtime(get_template_directory() . '/assets/dist/app.css'),
 		true
 	);
