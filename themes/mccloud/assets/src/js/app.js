@@ -154,7 +154,9 @@ jQuery(document).ready(function ($) {
       },
     ],
   });
-  $(".clients-slider").resize();
+  $(".clients-slider").slick("setPosition");
+	console.log('clients-slider count:', $('.clients-slider').length);
+	console.log('clients-slider offset:');
 
   $(".google-tab-slider").slick({
     mobileFirst: true,
