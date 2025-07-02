@@ -35,15 +35,15 @@
             </div>
             <div class="flex flex-col md:flex-row gap-3">
                 <a href="#consultForm" class="btn btn-lg btn-header-banner px-3 btn-success xl:mr-4 md:mr-2 mr-0 w-full md:w-auto text-center"><?php echo pll__('Зв\'язатися з нами'); ?></a>
-                    <a href="#consultForm" class="btn btn-lg btn-header-banner px-3 btn-light-success xl:mr-4 md:mr-2 mr-0 w-full md:w-auto flex flex-row gap-2"><p><?php echo pll__('Дивитися презентацію'); ?></p><img src='<?php echo get_template_directory_uri() . '/image/play.svg' ?>'></a>
+                    <a href="#consultForm" class="btn btn-lg btn-header-banner px-3 btn-light-success xl:mr-4 md:mr-2 mr-0 w-full md:w-auto flex flex-row gap-2"><p><?php echo pll__('Дивитися презентацію'); ?></p><img src='<?php echo get_template_directory_uri() . '/assets/image/play.svg' ?>'></a>
             </div>
         </div>
         <div class="2xl:w-1/2 xl:w-5/12 lg:w-7/12 md:w-1/2">
             <div id="homeServicesSlider" class="slick-home-header">
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/11_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/assets/image/video/11_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/11_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/assets/image/video/11_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -55,9 +55,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/44_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/assets/image/video/44_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/44_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/assets/image/video/44_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -69,9 +69,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/22_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/assets/image/video/22_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/22_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/assets/image/video/22_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -83,9 +83,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/33_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/assets/image/video/33_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/33_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/assets/image/video/33_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">
@@ -97,9 +97,9 @@
                     </div>
                 </div>
                 <div class="animated-banner mr-3 md:mr-6">
-                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/video/55_VP9.webp"
+                    <video class="lazy" width="480" height="640" poster="/wp-content/themes/mccloud/assets/image/video/55_VP9.webp"
                         preload="auto" muted loop playsinline autoplay>
-                        <source data-src="/wp-content/themes/mccloud/video/55_VP9.webm" type="video/webm">
+                        <source data-src="/wp-content/themes/mccloud/assets/image/video/55_VP9.webm" type="video/webm">
                         Your browser doesn't support HTML5 video tag.
                     </video>
                     <div class="animated-banner__layer">

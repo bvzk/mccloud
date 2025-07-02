@@ -52,7 +52,7 @@
     <div class="error404-wrapper" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 5px 20px; text-align: center;">
 
         <div class="error404-image" style="flex: 1 1 300px; max-width: 400px; ">
-             <img src="/wp-content/themes/mccloud/image/404.png" alt="404"/>
+             <img src="/wp-content/themes/mccloud/assets/image/404.png" alt="404"/>
         </div>
 
 

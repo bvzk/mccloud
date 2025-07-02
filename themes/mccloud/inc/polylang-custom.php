@@ -287,6 +287,16 @@ add_action('init', function () {
     pll_register_string('about_card_title_4', 'Зміст');
     pll_register_string('about_card_title_5', 'Зареєструвати');
     pll_register_string('about_card_title_6', 'Реєстрація пробної версії');
+	
+	pll_register_string('cookie_accept', 'Прийняти');
+	pll_register_string('cookie_text', 'Ми використовуємо cookies для покращення роботи сайту.');
+	pll_register_string('about_mc', 'Про mcCloud');
+	pll_register_string('about_mc_it', "mcCloud – це ІТ-команда, що надає послуги хмарної інтеграції для бізнесу. Компанія оснащує підприємства надійними інструментами та персоналізованими програмами, а також проводить ІТ-тренінги та консультації.");
+	pll_register_string('about_cases', 'Подібні кейси');
+	pll_register_string('cases', 'Кейси');
+	pll_register_string('blog', 'Блог');
+	pll_register_string('about', 'Про нас');
+	pll_register_string('contact', 'Контакти');
 
     
 });

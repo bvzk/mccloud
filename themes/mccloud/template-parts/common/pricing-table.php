@@ -14,10 +14,10 @@ $render_wrapper = get_query_var("plans_should_render_wrapper", true);
 
         <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='pricing-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='pricing-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
 

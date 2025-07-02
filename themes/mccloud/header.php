@@ -49,7 +49,7 @@
                               "@context": "https://schema.org",
                               "@type": "LocalBusiness",
                               "name": "McCloud",
-                              "image": "<?= home_url(); ?>/wp-content/themes/mccloud/image/logo.png",
+                              "image": "<?= home_url(); ?>/wp-content/themes/mccloud/assets/image/logo.png",
                               "url": "<?= home_url(); ?>/kontakti/",
                               "telephone": "+380 44 123 4567",
                               "address": {
@@ -301,7 +301,7 @@
   </div>
 
   <div class="hidden md:flex justify-center leading-6 py-3">
-    <?php echo pll__('Як обрати тарифний план Google Workspace') ?> - <a href="<?php echo get_permalink(1107); ?>"><?php echo pll__('Дізнатися більше')?></a>
+    <?php echo __('Як обрати тарифний план Google Workspace') ?> - <a href="<?php echo get_permalink(1107); ?>"><?php echo __('Дізнатися більше')?></a>
   </div>
 
   <div class="max-w-[1920px] xl:px-4 md:px-2 mx-auto">

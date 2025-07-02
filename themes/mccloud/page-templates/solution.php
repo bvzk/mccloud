@@ -13,28 +13,28 @@ get_header();
         <div class="w-full lg:w-6/12 xl:w-7/12 lg:pr-[18px]">
             <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='default-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='default-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
             <div class="default-slider slick-force-height lg:grid lg:grid-cols-1 lg:gap-[13px] w-full">
                 <?php while(have_rows('first_section_repeater')) : the_row(); ?>
                 <div class="lg:cursor-pointer border border-customlightGray hover:border-customlightGray p-2.5 xl:py-[20px] xl:pr-[20px] rounded-[22px] flex flex-col lg:flex-row lg:items-center"
-                    data-spinback-usage-image="/wp-content/themes/mccloud/image/spinbackup-usage-1.jpg">
+                    data-spinback-usage-image="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.jpg">
                     <picture>
-                        <source type="image/webp" srcset="/wp-content/themes/mccloud/image/spinbackup-usage-1.webp"
+                        <source type="image/webp" srcset="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.webp"
                             media="(max-width: 768px)">
                         <source type="image/webp"
-                            srcset="/wp-content/themes/mccloud/image/spinbackup-usage-1.webp, /wp-content/themes/mccloud/image/spinbackup-usage-1-2x.webp 2x"
+                            srcset="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.webp, /wp-content/themes/mccloud/assets/image/spinbackup-usage-1-2x.webp 2x"
                             media="(min-width: 768px)">
-                        <source srcset="/wp-content/themes/mccloud/image/spinbackup-usage-1.jpg"
+                        <source srcset="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.jpg"
                             media="(max-width: 768px)">
                         <source
-                            srcset="/wp-content/themes/mccloud/image/spinbackup-usage-1.jpg, /wp-content/themes/mccloud/image/spinbackup-usage-1-2x.jpg 2x"
+                            srcset="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.jpg, /wp-content/themes/mccloud/assets/image/spinbackup-usage-1-2x.jpg 2x"
                             media="(min-width: 768px)">
-                        <img width="566" height="478" src="/wp-content/themes/mccloud/image/spinbackup-usage-1.jpg"
+                        <img width="566" height="478" src="/wp-content/themes/mccloud/assets/image/spinbackup-usage-1.jpg"
                             alt="Моніторинг шкідливих програм"
                             class="aspect-[1/0.87] lg:hidden rounded-[12px] mb-[40px] w-full">
                     </picture>
@@ -71,10 +71,10 @@ get_header();
     <div class="">
     <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
         <div class="advantages-slider lg:grid lg:grid-cols-3 lg:gap-4">
@@ -317,10 +317,10 @@ get_header();
 
     <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='default-second-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='default-second-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
 
@@ -363,10 +363,10 @@ get_header();
     <div class="h-auto">
     <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
                 <div class='arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
                 </div>
                 <div class='arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-                    <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+                    <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
                 </div>
             </div>
         <div class="advantages-slider lg:grid lg:grid-cols-3 lg:gap-4">

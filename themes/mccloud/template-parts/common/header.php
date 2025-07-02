@@ -13,7 +13,7 @@
             </svg>
         </a>
         <a href="<?=home_url();?>/" class="header__logo">
-            <img src="/wp-content/themes/mccloud/image/logo.svg?v=2" alt="mccloud.global" width="166" height="38" class="max-w-full">
+            <img src="/wp-content/themes/mccloud/assets/image/logo.svg" alt="mccloud.global" width="166" height="38" class="max-w-full">
         </a>
         <nav class="header__nav items-center">
          <div class='menu-item'>

@@ -15,71 +15,71 @@ if (empty($title)) {
         </div>
         <div class="clients-slider slick-img-center slick-arrows-top">
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client1.jpeg" alt="ABK"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client1.jpeg" alt="ABK"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client2.jpeg" alt="Galvapno"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client2.jpeg" alt="Galvapno"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client3.jpeg" alt="Хлібодар"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client3.jpeg" alt="Хлібодар"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client4.jpeg" alt="Olymp"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client4.jpeg" alt="Olymp"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client5.jpeg" alt="Fomich"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client5.jpeg" alt="Fomich"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client6.jpeg" alt="ChickenHUT"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client6.jpeg" alt="ChickenHUT"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client7.jpeg"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client7.jpeg"
                     alt="Національний медичний університет" class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client8.jpeg" alt="aromateque"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client8.jpeg" alt="aromateque"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client9.jpeg" alt="tickets.ua"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client9.jpeg" alt="tickets.ua"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client10.jpeg" alt="ГалПідшипник"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client10.jpeg" alt="ГалПідшипник"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client11.jpeg" alt="Klopotenko"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client11.jpeg" alt="Klopotenko"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client12.jpeg" alt="Collar"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client12.jpeg" alt="Collar"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client13.jpeg" alt="DK"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client13.jpeg" alt="DK"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client14.jpeg" alt="MagneticOne Group"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client14.jpeg" alt="MagneticOne Group"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client15.jpeg" alt="Solvve"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client15.jpeg" alt="Solvve"
                     class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client16.jpeg"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client16.jpeg"
                     alt="Український ветеранський фонд" class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
             <div class="md:h-[64px] h-[57px]">
-                <img loading="lazy" src="/wp-content/themes/mccloud/image/clients/client17.jpeg"
+                <img loading="lazy" src="/wp-content/themes/mccloud/assets/image/clients/client17.jpeg"
                     alt="Західна Консалтингова Група" class="max-w-[90px] md:max-w-[130px] max-h-[64px]">
             </div>
         </div>

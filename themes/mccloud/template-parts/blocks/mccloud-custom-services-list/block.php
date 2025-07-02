@@ -12,10 +12,10 @@
   </h2>
   <div class='arrows-container my-4 flex flex-row justify-end rounded-2 w-full gap-2 lg:hidden'>
     <div class='default-second-arrow-prev arrow-button-container bg-white py-2 px-3 rounded-2'>
-      <img src='<?php echo get_template_directory_uri() . '/image/chevron-left.svg' ?>' class='arrow-img'>
+      <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-left.svg' ?>' class='arrow-img'>
     </div>
     <div class='default-second-arrow-next arrow-button-container bg-white py-2 px-3 rounded-2'>
-      <img src='<?php echo get_template_directory_uri() . '/image/chevron-right.svg' ?>' class='arrows-img'>
+      <img src='<?php echo get_template_directory_uri() . '/assets/image/chevron-right.svg' ?>' class='arrows-img'>
     </div>
   </div>
   <div class="default-second-slider slick-force-height lg:grid lg:grid-cols-3 gap-4 max-x-[830px] w-full">
