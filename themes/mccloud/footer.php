@@ -261,11 +261,13 @@ document.addEventListener("DOMContentLoaded", async function () {
         console.log("Отримані геодані:", data);
 
         let countryCode = data.country;
-        let langRedirects = {
-            "UA": "https://mccloud-dev.local/ua/",
-            "KZ": "https://mccloud-dev.local/kz/",
-            "RO": "https://mccloud-dev.local/ro/"
-        };
+		let origin = window.location.origin;
+
+		let langRedirects = {
+			"UA": `${origin}/ua/`,
+			"KZ": `${origin}/kz/`,
+			"RO": `${origin}/ro/`
+		};
 
         let currentUrl = window.location.href;
 
